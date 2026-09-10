@@ -9,6 +9,8 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.core.content.ContextCompat
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.consumeWindowInsets
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Icon
 import androidx.compose.material3.NavigationBar
@@ -220,11 +222,17 @@ fun QuireApp(container: AppContainer, openRequests: OpenRequests, volumeKeys: Vo
                         }
                     }
                 },
+                // Every screen has its own top bar, which already leaves room for the status
+                // bar. Letting this outer layout leave room as well pushed every title a
+                // status bar's height too far down. It hands over the bottom bar's height only.
+                contentWindowInsets = WindowInsets(0, 0, 0, 0),
             ) { padding ->
                 NavHost(
                     navController = navController,
                     startDestination = LibraryRoute,
-                    modifier = Modifier.padding(padding),
+                    modifier = Modifier
+                        .padding(padding)
+                        .consumeWindowInsets(padding),
                 ) {
                     composable<LibraryRoute> {
                         LibraryScreen(

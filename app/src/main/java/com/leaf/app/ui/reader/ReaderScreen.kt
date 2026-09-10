@@ -277,7 +277,11 @@ fun ReaderScreen(
     Box(
         Modifier
             .fillMaxSize()
-            .background(MaterialTheme.colorScheme.background),
+            .background(MaterialTheme.colorScheme.background)
+            // This screen has no top bar of its own to hold the page clear of the clock,
+            // so the page itself keeps that distance. The bars above it are drawn on top
+            // and apply their own inset.
+            .statusBarsPadding(),
     ) {
         when {
             state.loadError -> Column(Modifier.fillMaxSize(), horizontalAlignment = Alignment.CenterHorizontally) {
