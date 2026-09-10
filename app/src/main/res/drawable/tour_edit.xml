@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="220dp"
+    android:height="220dp"
+    android:viewportWidth="220"
+    android:viewportHeight="220">
+    <!-- A page with a highlighted line, a filled form field and a pen stroke -->
+    <path
+        android:fillColor="#FAFAF8"
+        android:strokeColor="#D6D6D0"
+        android:strokeWidth="2"
+        android:pathData="M54,30 h112 a8,8 0 0 1 8,8 v144 a8,8 0 0 1 -8,8 h-112 a8,8 0 0 1 -8,-8 v-144 a8,8 0 0 1 8,-8 z" />
+    <path
+        android:fillColor="#F5D861"
+        android:pathData="M68,58 h84 v14 h-84 z" />
+    <path
+        android:fillColor="#2B2B2B"
+        android:pathData="M70,62 h80 v6 h-80 z M70,84 h80 v6 h-80 z M70,102 h52 v6 h-52 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#3A6E5F"
+        android:strokeWidth="2"
+        android:pathData="M70,124 h80 v20 h-80 z" />
+    <path
+        android:fillColor="#3A6E5F"
+        android:pathData="M78,130 h36 v8 h-36 z" />
+    <path
+        android:strokeColor="#C0392B"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M74,168 c14,-16 30,-16 40,-4 c8,10 22,4 30,-8" />
+    <path
+        android:fillColor="#2B2B2B"
+        android:pathData="M150,150 l14,-14 l8,8 l-14,14 l-10,2 z" />
+</vector>

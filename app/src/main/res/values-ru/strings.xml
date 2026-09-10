@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plain PDF</string>
+
+    <!-- Navigation -->
+    <string name="nav_library">Библиотека</string>
+    <string name="nav_tools">Инструменты</string>
+    <string name="action_back">Назад</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_done">Готово</string>
+
+    <!-- Library -->
+    <string name="library_tab_recent">Недавние</string>
+    <string name="library_tab_folders">Папки</string>
+    <string name="library_tab_favourites">Избранное</string>
+    <string name="library_open_pdf">Открыть PDF</string>
+    <string name="library_add_folder">Добавить папку</string>
+    <string name="library_empty_recent">Документов пока нет. Откройте PDF, чтобы начать.</string>
+    <string name="library_empty_folders">Папок пока нет. Добавьте папку, чтобы просматривать PDF-файлы в ней.</string>
+    <string name="library_empty_favourites">Здесь пока пусто. Откройте меню документа, три точки, и выберите «В избранное».</string>
+    <string name="library_search">Поиск</string>
+    <string name="library_more">Ещё</string>
+    <string name="library_sort">Сортировка</string>
+    <string name="library_view_grid">Сетка</string>
+    <string name="library_view_list">Список</string>
+
+    <!-- Tools -->
+    <string name="tools_title">Инструменты</string>
+    <string name="tools_empty">Здесь находятся инструменты для объединения, разделения и упорядочивания страниц. Всё выполняется на этом устройстве.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Настройки</string>
+    <string name="settings_group_appearance">Внешний вид</string>
+    <string name="settings_group_reading">Чтение</string>
+    <string name="settings_group_tools">Инструменты</string>
+    <string name="settings_group_library">Библиотека</string>
+    <string name="settings_group_about">О приложении</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_accent">Цвет акцента</string>
+    <string name="settings_dynamic_colour">Использовать системные цвета</string>
+    <string name="settings_dynamic_colour_summary">Цвета взяты из ваших обоев</string>
+    <string name="settings_app_icon">Значок приложения</string>
+    <string name="settings_reading_mode">Режим чтения по умолчанию</string>
+    <string name="settings_page_display">Вид страницы по умолчанию</string>
+    <string name="settings_keep_screen_on">Не гасить экран во время чтения</string>
+    <string name="settings_edge_brightness">Яркость движением по краю</string>
+    <string name="settings_edge_brightness_summary">Проведите пальцем по левому краю, чтобы изменить яркость</string>
+    <string name="settings_double_tap_zoom">Двойное нажатие для увеличения</string>
+    <string name="settings_volume_keys">Кнопки громкости листают страницы</string>
+    <string name="settings_save_location">Куда сохраняются новые файлы</string>
+    <string name="settings_save_location_ask">Спрашивать каждый раз</string>
+    <string name="settings_save_location_choose">Выбрать папку</string>
+    <string name="settings_output_naming">Как называются новые файлы</string>
+    <string name="settings_output_naming_help">{name} обозначает имя исходного файла, {op} обозначает операцию, например merged или pages_1-4.</string>
+    <string name="settings_language_summary">Язык меню и кнопок приложения.</string>
+    <string name="settings_theme_summary">Светлое или тёмное оформление самого приложения. Страницы сохраняют свои цвета.</string>
+    <string name="settings_accent_summary">Цвет кнопок и других элементов управления в приложении.</string>
+    <string name="settings_app_icon_summary">Как Plain PDF выглядит на главном экране.</string>
+    <string name="settings_highlight_summary">Цвет, которым отмечаются совпадения при поиске в документе.</string>
+    <string name="settings_reading_mode_summary">Листать страницы непрерывной прокруткой или по одной.</string>
+    <string name="settings_page_display_summary">Показывать страницы как есть, затемнёнными для ночи, в сепии или в сером.</string>
+    <string name="settings_keep_screen_on_summary">Экран не гаснет, пока открыт документ.</string>
+    <string name="settings_double_tap_zoom_summary">Дважды коснитесь страницы, чтобы увеличить, и ещё дважды, чтобы вернуться.</string>
+    <string name="settings_volume_keys_summary">Кнопки громкости переключают на следующую или предыдущую страницу.</string>
+    <string name="settings_save_location_summary">Объединённые, разделённые, отсканированные и другие новые файлы попадают сюда. Ваши оригиналы остаются на месте.</string>
+    <string name="settings_save_location_ask_summary">Каждый инструмент спрашивает папку перед сохранением.</string>
+    <string name="settings_save_location_folder">Всегда в %1$s</string>
+    <string name="settings_save_location_choose_summary">Выберите папку на этом телефоне. Новые файлы всегда будут попадать туда.</string>
+    <string name="settings_output_naming_summary">При объединении %1$s получается %2$s. Оригинал сохраняет своё имя.</string>
+    <string name="naming_sample_name">Договор</string>
+    <string name="naming_style_name_op">Сначала исходное имя, потом что сделано</string>
+    <string name="naming_style_op_name">Сначала что сделано, потом исходное имя</string>
+    <string name="naming_style_custom">Свой шаблон</string>
+    <string name="naming_style_custom_summary">Напишите свой, используя {name} и {op}.</string>
+    <string name="settings_confirm_overwrite_summary">Спрашивает, прежде чем инструмент заменит исходный файл изменённой версией.</string>
+    <string name="settings_default_sort_summary">Порядок документов в Библиотеке.</string>
+    <string name="settings_source_summary">Plain PDF имеет открытый исходный код: любой может прочитать, как он работает, и развивать его.</string>
+    <string name="settings_licence_summary">Свободно использовать, делиться и улучшать при одном условии: приложение остаётся бесплатным для всех.</string>
+    <string name="settings_confirm_overwrite">Спрашивать перед заменой оригинала</string>
+    <string name="settings_default_sort">Сортировка по умолчанию</string>
+    <string name="settings_clear_recents">Очистить недавние</string>
+    <string name="settings_clear_thumbnails">Очистить сохранённые миниатюры</string>
+    <string name="settings_version">Версия</string>
+    <string name="settings_source">Исходный код</string>
+    <string name="settings_licence">Лицензия</string>
+    <string name="settings_licence_value">GNU GPL v3</string>
+    <string name="settings_feedback">Предложить функцию или сообщить о проблеме</string>
+    <string name="settings_feedback_summary">Открывает ваше почтовое приложение с письмом разработчику. Каждое письмо будет прочитано.</string>
+    <string name="feedback_subject">Plain PDF: предложение</string>
+    <string name="settings_supporter">Поддержка</string>
+    <string name="settings_supporter_summary">Бесплатно, без рекламы. Если приложение вам помогает, здесь можно сказать спасибо.</string>
+    <string name="settings_supporter_active">Вы поддержали приложение. Спасибо, что помогаете Plain PDF оставаться бесплатным.</string>
+    <string name="settings_supporter_active_gift">Спасибо за подарок. Набор Поддержки ваш.</string>
+    <string name="settings_donate">Пожертвовать</string>
+    <string name="settings_locked">Поддержка</string>
+
+    <string name="theme_system">Системная</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="theme_black">Чёрная</string>
+    <string name="theme_sepia">Сепия</string>
+
+    <string name="accent_teal">Бирюзовый</string>
+    <string name="accent_amber">Янтарный</string>
+    <string name="accent_crimson">Малиновый</string>
+    <string name="accent_indigo">Индиго</string>
+    <string name="accent_violet">Фиолетовый</string>
+    <string name="accent_forest">Лесной зелёный</string>
+    <string name="accent_slate">Серо-синий</string>
+
+    <string name="reading_mode_continuous">Непрерывная прокрутка</string>
+    <string name="reading_mode_paged">Постранично</string>
+
+    <string name="page_display_normal">Обычный</string>
+    <string name="page_display_night">Ночной</string>
+    <string name="page_display_sepia">Сепия</string>
+    <string name="page_display_grayscale">Оттенки серого</string>
+
+    <string name="sort_recently_opened">Недавно открытые</string>
+    <string name="sort_recently_added">Недавно добавленные</string>
+    <string name="sort_name">Имя</string>
+    <string name="sort_size">Размер</string>
+
+    <!-- Supporter -->
+    <string name="supporter_title">Поддержка</string>
+    <string name="supporter_intro">Plain PDF бесплатен и без рекламы, и все функции работают без оплаты. Если он вам помогает, здесь можно сказать спасибо. Взамен вы получаете несколько цветов и значков, и нашу благодарность.</string>
+    <string name="supporter_grants_title">Что вы получите</string>
+    <string name="supporter_grant_accents">Шесть цветов акцента</string>
+    <string name="supporter_grant_icons">Три дополнительных значка приложения</string>
+    <string name="supporter_grant_highlights">Дополнительные наборы цветов подсветки</string>
+    <string name="supporter_grant_about">Строка «Поддержка» в разделе «О приложении»</string>
+    <string name="supporter_unlock">Поддержать приложение</string>
+    <string name="supporter_tips_title">Поддержать ещё раз</string>
+    <string name="supporter_tips_summary">Необязательно. Если позже захотите поддержать ещё раз, это можно сделать здесь. Ничего нового не открывает; это просто способ сказать спасибо.</string>
+    <string name="supporter_restore">Восстановить покупки</string>
+    <string name="supporter_restore_found">Ваша покупка восстановлена. Спасибо.</string>
+    <string name="supporter_restore_none">Для этого аккаунта Google набор Поддержки не найден. Подарки не оставляют записи, поэтому восстановить их нельзя.</string>
+    <string name="supporter_unavailable">Google Play сейчас не может принимать платежи на этом телефоне. Ничего не потеряно; приложение остаётся бесплатным.</string>
+    <string name="supporter_thanks">Вы поддержали приложение. Спасибо, что помогаете Plain PDF оставаться бесплатным.</string>
+    <string name="supporter_donate_intro">Plain PDF бесплатен и без рекламы, и все функции работают без оплаты. Если он вам помогает, вы можете поддержать работу над ним.</string>
+    <string name="supporter_donate_button">Открыть страницу пожертвований</string>
+    <string name="supporter_grant_future">Новые цвета и значки, добавленные позже, без доплаты</string>
+    <string name="supporter_tips_title_first">Или оставьте чаевые</string>
+    <string name="supporter_tips_summary_first">Любая сумма говорит спасибо.</string>
+    <string name="supporter_tip_unlocks_note">Также открывает набор Поддержки</string>
+    <string name="supporter_gift_title">Спасибо за подарок</string>
+    <string name="supporter_gift_body">Вы оставили чаевые, и набор Поддержки тоже ваш: все цвета, значки и наборы цветов выделения открыты. Покупать набор не нужно.</string>
+    <string name="supporter_gift_note">Подарки не оставляют записи в Google Play, поэтому набор запоминается на этом телефоне.</string>
+    <string name="supporter_snack_gift">Спасибо за подарок.</string>
+    <string name="supporter_snack_unlock">Спасибо. Теперь вы поддерживаете приложение.</string>
+    <string name="supporter_problem_connection">Google Play не ответил. Проверьте, выполнен ли вход в приложение Play Маркет, и возвращайтесь. Ничего не потеряно; приложение остаётся бесплатным.</string>
+    <string name="supporter_problem_listing">Google Play ещё не опубликовал товары Поддержки. Попробуйте позже. Ничего не потеряно; приложение остаётся бесплатным.</string>
+    <string name="supporter_problem_region">Google Play пока не предлагает эти товары в вашей стране. Ничего не потеряно; приложение остаётся бесплатным.</string>
+
+    <!-- Reader -->
+    <string name="reader_page_of">%1$d / %2$d</string>
+    <string name="reader_error_open">Не удалось открыть этот файл. Возможно, он перемещён или удалён.</string>
+    <string name="reader_locate_again">Найти файл заново</string>
+    <string name="reader_not_saved">Не сохранено</string>
+
+    <!-- Library, M2 -->
+    <string name="library_search_hint">Поиск документов</string>
+    <string name="library_no_matches">По этому запросу ничего не найдено.</string>
+    <string name="library_page_of">Страница %1$d из %2$d</string>
+    <string name="library_file_unavailable">Файл недоступен</string>
+    <string name="library_deleted">Файл удалён</string>
+    <string name="library_delete_failed">Не удалось удалить этот файл. Приложение, которому он принадлежит, не разрешило это.</string>
+    <string name="library_delete_title">Удалить файл?</string>
+    <string name="library_delete_body">%1$s будет удалён из памяти устройства. Это нельзя отменить.</string>
+    <string name="library_rename_help">Меняет только имя, показанное в Plain PDF. Сам файл сохраняет своё имя.</string>
+    <string name="library_folder_failed">Не удалось добавить эту папку. Выберите её снова и разрешите доступ.</string>
+    <string name="library_folder_unavailable">Эту папку больше нельзя прочитать. Возможно, она перемещена или её носитель извлечён.</string>
+    <string name="library_folder_empty">В этой папке пока нет PDF-файлов.</string>
+    <string name="library_remove_folder_body">Перестать отслеживать эту папку? Файлы, которые вы открывали или добавляли в избранное, останутся в библиотеке.</string>
+    <string name="action_favourite">В избранное</string>
+    <string name="action_unfavourite">Убрать из избранного</string>
+    <string name="action_rename_label">Переименовать подпись</string>
+    <string name="action_share">Поделиться</string>
+    <string name="action_organise_pages">Упорядочить страницы</string>
+    <string name="action_remove_from_recents">Убрать из недавних</string>
+    <string name="action_delete_file">Удалить файл</string>
+    <string name="action_remove_folder">Убрать папку</string>
+    <string name="action_refresh">Обновить</string>
+    <string name="action_clear">Очистить</string>
+
+    <!-- Reader, M3 -->
+    <string name="reader_search">Поиск в документе</string>
+    <string name="reader_search_hint">Найти в документе</string>
+    <string name="reader_search_count">%1$d из %2$d</string>
+    <string name="reader_search_none">Совпадений нет</string>
+    <string name="reader_search_previous">Предыдущее совпадение</string>
+    <string name="reader_search_next">Следующее совпадение</string>
+    <string name="reader_outline">Страницы</string>
+    <string name="reader_pages_title">Страниц: %1$d</string>
+    <string name="reader_jump_to_page">Перейти к странице</string>
+    <string name="reader_jump_hint">от 1 до %1$d</string>
+    <string name="reader_go">Перейти</string>
+    <string name="reader_add_bookmark">Добавить закладку</string>
+    <string name="reader_add_bookmark_title">Закладка на страницу %1$d</string>
+    <string name="reader_bookmark_label">Название закладки</string>
+    <string name="reader_bookmark_label_help">Необязательно. Оставьте пустым, чтобы показывался номер страницы.</string>
+    <string name="reader_bookmark_added">Закладка добавлена</string>
+    <string name="reader_bookmarks">Закладки</string>
+    <string name="reader_bookmarks_empty">Закладок пока нет. Выберите «Добавить закладку» в меню, чтобы отметить страницу.</string>
+    <string name="reader_page_n">Страница %1$d</string>
+    <string name="reader_page_display">Вид страницы</string>
+    <string name="reader_reading_mode">Режим чтения</string>
+    <string name="reader_keep_screen_on">Не гасить экран</string>
+    <string name="reader_document_info">Сведения о документе</string>
+    <string name="reader_info_name">Имя</string>
+    <string name="reader_info_pages">Страницы</string>
+    <string name="reader_info_size">Размер</string>
+    <string name="reader_info_location">Расположение</string>
+    <string name="action_delete">Удалить</string>
+
+    <!-- Tools, M4 -->
+    <string name="tools_recent_output">Недавние результаты</string>
+    <string name="tool_organise">Упорядочить страницы</string>
+    <string name="tool_organise_desc">Поворачивайте, удаляйте, переставляйте, извлекайте или дублируйте страницы</string>
+    <string name="tool_merge">Объединить</string>
+    <string name="tool_merge_desc">Соберите несколько PDF в один в нужном вам порядке</string>
+    <string name="tool_split">Разделить</string>
+    <string name="tool_split_desc">Разделить один PDF на несколько, по диапазонам страниц или с одинаковым числом страниц в каждом</string>
+    <string name="tool_images_to_pdf">Картинки в PDF</string>
+    <string name="tool_images_to_pdf_desc">Соберите фотографии и сканы в один PDF</string>
+    <string name="tool_pdf_to_images">PDF в картинки</string>
+    <string name="tool_pdf_to_images_desc">Сохраните страницы как файлы PNG или JPEG</string>
+    <string name="tool_password">Пароль</string>
+    <string name="tool_password_desc">Добавьте, измените или уберите пароль</string>
+    <string name="action_open">Открыть</string>
+    <string name="action_continue">Продолжить</string>
+    <string name="action_undo">Отменить</string>
+    <string name="action_redo">Вернуть</string>
+    <string name="action_select_all">Выбрать все</string>
+    <string name="organise_pages_count">Страниц: %1$d</string>
+    <string name="organise_changes">Изменений: %1$d</string>
+    <string name="organise_selected">Выбрано: %1$d</string>
+    <string name="organise_rotate_left">Повернуть влево</string>
+    <string name="organise_rotate_right">Повернуть вправо</string>
+    <string name="organise_restore">Вернуть</string>
+    <string name="organise_extract">Извлечь в новый файл</string>
+    <string name="organise_duplicate">Дублировать</string>
+    <string name="organise_page_desc">Страница %1$d</string>
+    <string name="organise_page_selected">Страница %1$d, выбрана</string>
+    <string name="organise_page_deleted">Страница %1$d, помечена на удаление</string>
+    <string name="ops_save_as_new">Сохранить как новый файл</string>
+    <string name="ops_overwrite">Заменить оригинал</string>
+    <string name="ops_overwrite_title">Заменить оригинал?</string>
+    <string name="ops_overwrite_body">%1$s будет заменён упорядоченной версией. После записи изменение нельзя отменить.</string>
+    <string name="ops_saved_one">Сохранено: %1$s</string>
+    <string name="ops_saved_many">Сохранено файлов: %1$d</string>
+    <string name="ops_and_more">и ещё %1$d</string>
+    <string name="ops_failed_title">Не получилось</string>
+    <string name="ops_try_other_location">Попробовать другое место</string>
+    <string name="ops_password_title">Нужен пароль</string>
+    <string name="ops_password_body">%1$s защищён паролем. Введите его, чтобы продолжить. Пароль используется один раз и не сохраняется.</string>
+    <string name="ops_password_wrong">Этот пароль не открыл документ.</string>
+    <string name="ops_password_needed">Чтобы показать страницы, этому документу нужен пароль.</string>
+    <string name="ops_error_password">Этот документ защищён паролем. Введите пароль и попробуйте снова.</string>
+    <string name="ops_error_assembly">Владелец этого документа запретил пересборку его страниц. Plain PDF не станет обходить этот запрет.</string>
+    <string name="ops_error_corrupt">Не удалось прочитать этот файл. Возможно, он повреждён.</string>
+    <string name="ops_error_oom">Этот документ слишком велик для памяти телефона. Обычно помогает сначала разделить его на части поменьше.</string>
+    <string name="ops_error_destination">Не удалось записать файл в это место. Ничего не удалено. Попробуйте другое место.</string>
+    <string name="ops_error_cancelled">Отменено. Ваш исходный файл не тронут.</string>
+    <string name="ops_error_unknown">Что-то пошло не так. Ваш исходный файл не тронут.</string>
+    <string name="ops_notification_working">Обрабатываем ваш документ</string>
+    <string name="ops_channel_name">Операции с документами</string>
+    <plurals name="ops_pages">
+        <item quantity="one">%1$d страница</item>
+        <item quantity="few">%1$d страницы</item>
+        <item quantity="many">%1$d страниц</item>
+        <item quantity="other">%1$d страницы</item>
+    </plurals>
+
+    <!-- Tools, M5 -->
+    <string name="tool_input_document">Документ</string>
+    <string name="tool_choose_pdf">Выберите PDF</string>
+    <string name="action_change">Изменить</string>
+    <string name="action_remove">Убрать</string>
+    <string name="action_move_up">Выше</string>
+    <string name="action_move_down">Ниже</string>
+    <string name="merge_documents">Документы в порядке результата</string>
+    <string name="merge_empty">Добавьте два или больше PDF. Они объединяются сверху вниз.</string>
+    <string name="merge_add_file">Добавить файл</string>
+    <string name="merge_reading">Чтение…</string>
+    <string name="merge_total">Страниц в результате: %1$d</string>
+    <string name="merge_selected_pages">Выбрано страниц: %1$d</string>
+    <string name="merge_choose_pages">Выбрать страницы</string>
+    <string name="merge_pages_chosen">Страницы: %1$s</string>
+    <string name="merge_range_label">Какие страницы включить</string>
+    <string name="split_mode">Как разделить</string>
+    <string name="split_by_ranges">По диапазонам страниц</string>
+    <string name="split_every_n">Одинаковое число страниц в каждом</string>
+    <string name="split_extract">Извлечь выбранное</string>
+    <string name="split_extract_help">Выберите страницы наглядно в редакторе страниц и сохраните их как новый файл.</string>
+    <string name="split_open_organiser">Открыть редактор страниц</string>
+    <string name="split_ranges_hint">1-4, 8, 12-20</string>
+    <string name="split_ranges_help">Один файл на каждый диапазон. Диапазоны разделяются запятыми.</string>
+    <string name="split_pages_per_file">Страниц в файле</string>
+    <string name="split_preview">Файлов: %1$d: %2$s</string>
+    <string name="split_save_to_folder">Сохранить файлы в папку</string>
+    <string name="ranges_error_empty">Укажите хотя бы одну страницу.</string>
+    <string name="ranges_error_bad">%1$s не является ни номером страницы, ни диапазоном вроде 3-5.</string>
+    <string name="ranges_error_out_of_range">%1$s выходит за пределы от 1 до %2$d.</string>
+    <string name="ranges_error_reversed">%1$s идёт в обратном порядке.</string>
+    <string name="images_count">Картинок: %1$d</string>
+    <string name="images_add">Добавить картинки</string>
+    <string name="images_camera">Сделать фото</string>
+    <string name="images_empty">Добавьте фотографии или сканы. Стрелками на картинке меняется порядок.</string>
+    <string name="images_page">Страница</string>
+    <string name="images_fit_image">По размеру картинки</string>
+    <string name="images_a4">A4</string>
+    <string name="images_letter">Letter</string>
+    <string name="images_fit">Вписать</string>
+    <string name="images_fill">Заполнить</string>
+    <string name="images_margin_none">Без полей</string>
+    <string name="images_margin_small">Узкие поля</string>
+    <string name="images_margin_medium">Средние поля</string>
+    <string name="pdf_to_images_pages">Страницы</string>
+    <string name="pdf_to_images_all_pages">Все страницы</string>
+    <string name="pdf_to_images_range_help">Будет сохранено страниц: %1$d.</string>
+    <string name="pdf_to_images_format">Формат</string>
+    <string name="pdf_to_images_quality">Качество JPEG %1$d</string>
+    <string name="pdf_to_images_dpi">Разрешение</string>
+    <string name="pdf_to_images_encrypted">Этот документ защищён паролем. Сначала уберите пароль с помощью инструмента «Пароль».</string>
+    <string name="pdf_to_images_many_title">Сохранить %1$d страниц?</string>
+    <string name="pdf_to_images_many_body">Это %1$d файлов с картинками. Это может занять время и много места.</string>
+    <string name="password_what">Что сделать</string>
+    <string name="password_explain">Пароль не даст никому открыть документ без него. Храните его в надёжном месте: если его забыть, восстановить его нельзя.</string>
+    <string name="password_add">Добавить пароль</string>
+    <string name="password_change">Изменить пароль</string>
+    <string name="password_remove">Убрать пароль</string>
+    <string name="password_new">Новый пароль</string>
+    <string name="password_confirm">Повторите пароль</string>
+    <string name="password_mismatch">Пароли не совпадают.</string>
+
+    <!-- Supporter cosmetics, M6 -->
+    <string name="settings_highlight">Подсветка при поиске</string>
+    <string name="highlight_accent">Цвет акцента</string>
+    <string name="highlight_amber">Янтарный</string>
+    <string name="highlight_rose">Розовый</string>
+    <string name="highlight_sky">Небесный</string>
+    <string name="app_icon_default">Обычный</string>
+    <string name="app_icon_mono">Одноцветный</string>
+    <string name="app_icon_paper">Бумага</string>
+    <string name="app_icon_night">Ночь</string>
+
+    <!-- Reader tools entry -->
+    <string name="reader_tools_section">Инструменты для этого документа</string>
+    <string name="reader_tool_merge">Объединить с другими PDF</string>
+
+    <!-- Reader tools button, form filling, sign -->
+    <string name="reader_tools_button">Инструменты</string>
+    <string name="reader_fill_form">Заполнить форму</string>
+    <string name="reader_fill_active">Заполнение формы</string>
+    <string name="reader_fill_desc">Нажимайте на поля на странице, чтобы ввести текст, поставить галочку или выбрать вариант. Затем сохраните копию.</string>
+    <string name="reader_save_filled">Сохранить заполненную форму</string>
+    <string name="reader_fill_saved">Заполненная форма сохранена</string>
+    <string name="tool_sign">Подписать</string>
+    <string name="tool_sign_desc">Нарисуйте подпись и поставьте её на страницу</string>
+    <string name="sign_draw_title">Нарисуйте свою подпись</string>
+    <string name="sign_draw_help">Пальцем или стилусом. Подпись сохраняется в документ как картинка и никуда не отправляется.</string>
+    <string name="sign_clear">Очистить</string>
+    <string name="sign_next">Поставить на страницу</string>
+    <string name="sign_back">Нарисовать заново</string>
+    <string name="sign_place_title">Нажмите там, где должна быть подпись, или перетащите её. Выберите страницу ниже.</string>
+    <string name="sign_size">Размер</string>
+    <string name="sign_ink_black">Чёрные чернила</string>
+    <string name="sign_ink_blue">Синие чернила</string>
+
+    <!-- Scan -->
+    <string name="library_scan">Сканировать документ</string>
+    <string name="scan_title">Сканирование</string>
+    <string name="scan_share">Поделиться PDF</string>
+    <string name="scan_add_page">Добавить ещё страницу</string>
+    <string name="scan_save_to_folder">Сохранить копию в папку</string>
+
+    <!-- Crop and cleanup -->
+    <string name="crop_title">Подправить скан</string>
+    <string name="crop_help">Перетащите уголки на края страницы. Поверните, если страница лежит боком.</string>
+    <string name="crop_rotate">Повернуть</string>
+    <string name="crop_look_color">Цветной</string>
+    <string name="crop_look_gray">Оттенки серого</string>
+    <string name="crop_look_bw">Чёрно-белый</string>
+    <string name="crop_use">Использовать</string>
+    <string name="crop_working">Обработка…</string>
+    <string name="crop_adjust">Подправить</string>
+
+    <!-- Compress -->
+    <string name="tool_compress">Сжать</string>
+    <string name="tool_compress_desc">Уменьшите PDF, сжав картинки внутри него</string>
+    <string name="compress_current_size">Текущий размер: %1$s</string>
+    <string name="compress_how_much">Насколько</string>
+    <string name="compress_explain">Меняются только картинки. Текст и чертежи остаются в точности прежними, так что документ читается так же.</string>
+    <string name="compress_level_light">Слегка. Картинки сохраняют почти все детали.</string>
+    <string name="compress_level_balanced">Средне. Подходит для отправки по почте.</string>
+    <string name="compress_level_strong">Сильно. Самый маленький файл, картинки выглядят мягче.</string>
+
+    <!-- Accessibility affordances: visible buttons for long-press and swipe actions -->
+    <string name="library_more_options_for">Ещё действия для %1$s</string>
+    <string name="action_rename">Переименовать</string>
+    <string name="action_discard">Отменить изменения</string>
+    <string name="action_keep_editing">Продолжить</string>
+    <string name="action_move_earlier">Переместить раньше</string>
+    <string name="action_move_later">Переместить позже</string>
+    <string name="reader_bookmark_delete_title">Удалить эту закладку?</string>
+    <string name="reader_bookmark_delete_body">%1$s будет убрана из ваших закладок.</string>
+    <string name="reader_page_current">Страница %1$d, текущая</string>
+    <string name="reader_search_needs_continuous">Поиск работает в режиме непрерывной прокрутки. Смените режим чтения в меню.</string>
+    <string name="reader_discard_title">Отменить ваши изменения?</string>
+    <string name="reader_discard_body">Всё, что вы ввели или отметили в форме, будет потеряно.</string>
+    <string name="reader_brightness">Яркость</string>
+    <string name="reader_brightness_percent">%1$d%%</string>
+    <string name="reader_info_unknown">Неизвестно</string>
+    <string name="sign_size_desc">Размер подписи</string>
+    <string name="sign_page_preview_desc">Просмотр страницы. Нажмите там, где должна быть подпись.</string>
+    <string name="scan_remove_title">Убрать эту страницу?</string>
+    <string name="scan_remove_body">Страница %1$d будет убрана из скана.</string>
+    <string name="images_picture_n">Картинка %1$d</string>
+    <string name="pdf_to_images_dpi_value">%1$d dpi</string>
+    <string name="pdf_to_images_quality_desc">Качество JPEG</string>
+    <string name="document_fallback_name">документ.pdf</string>
+
+    <!-- Progress labels, always paired with a spinner -->
+    <string name="progress_opening_document">Открываем документ…</string>
+    <string name="progress_loading_page">Загружаем страницу…</string>
+    <string name="progress_reading_pages">Читаем страницы…</string>
+    <string name="progress_reading_folder">Читаем папку…</string>
+    <string name="progress_preparing_photo">Готовим фото…</string>
+    <string name="progress_building_pdf">Собираем PDF…</string>
+
+    <!-- Language picker -->
+    <string name="settings_language">Язык</string>
+    <string name="settings_language_system">Как в системе</string>
+
+    <!-- Welcome tour -->
+    <string name="tour_skip">Пропустить</string>
+    <string name="tour_next">Далее</string>
+    <string name="tour_start">Начать</string>
+    <string name="tour_show_again">Показать вводный тур</string>
+    <string name="tour_show_again_summary">Короткое знакомство с приложением при первом запуске.</string>
+    <string name="tour_welcome_title">Plain PDF</string>
+    <string name="tour_welcome_body">Спасибо, что установили приложение. Читайте, подписывайте, сканируйте и редактируйте PDF, всё на вашем телефоне. Без рекламы, без аккаунта, без облака.</string>
+    <string name="tour_sign_title">Подписывайте документы</string>
+    <string name="tour_sign_body">Нарисуйте подпись один раз, поставьте её на страницу и поделитесь подписанной копией. Не нужно ни печатать, ни сканировать.</string>
+    <string name="tour_scan_title">Сканируйте и ищите</string>
+    <string name="tour_scan_body">Сфотографируйте страницу. Края находятся сами, текст распознаётся, а в PDF можно искать и копировать.</string>
+    <string name="tour_edit_title">Заполняйте, рисуйте, выделяйте</string>
+    <string name="tour_edit_body">Заполняйте формы, рисуйте и выделяйте на страницах, добавляйте или убирайте пароли. Все инструменты собраны за одной кнопкой «Инструменты» в открытом документе.</string>
+    <string name="tour_arrange_title">Упорядочивайте страницы</string>
+    <string name="tour_arrange_body">Объединяйте файлы, разделяйте их, переставляйте или поворачивайте страницы и сжимайте большие PDF. Ничего не меняется, пока вы не сохраните.</string>
+
+    <!-- Draw and highlight -->
+    <string name="reader_annotate">Рисовать и выделять</string>
+    <string name="reader_annotate_desc">Рисуйте ручкой или маркером на странице</string>
+    <string name="reader_annotate_active">Рисование и выделение</string>
+    <string name="reader_annotate_help">Используйте ручку или маркер на странице, затем сохраните копию.</string>
+    <string name="reader_save_annotated">Сохранить копию с пометками</string>
+    <string name="reader_annotated_saved">Копия с пометками сохранена</string>
+    <string name="reader_discard_annotations_body">Ваши рисунки и выделения будут потеряны.</string>
+
+    <!-- Text recognition -->
+    <string name="settings_group_ocr">Распознавание текста</string>
+    <string name="settings_ocr_enabled">Сканы с поиском по тексту</string>
+    <string name="settings_ocr_enabled_summary">Распознаёт текст на отсканированных страницах, чтобы его можно было искать и копировать. Занимает несколько секунд на страницу.</string>
+    <string name="settings_ocr_languages">Языки</string>
+    <string name="settings_ocr_bundled">Встроено в приложение</string>
+    <string name="settings_ocr_imported">Импортировано</string>
+    <string name="settings_ocr_import">Импортировать файл языка…</string>
+    <string name="settings_ocr_import_help">Для языка, которого нет в списке: скачайте его файл .traineddata из проекта tessdata_fast, затем выберите его здесь.</string>
+    <string name="settings_ocr_get_languages">Скачать файлы языков</string>
+    <string name="settings_ocr_imported_done">Язык импортирован</string>
+    <string name="settings_ocr_languages_help">На каких языках читаются отсканированные страницы и как добавить другие</string>
+    <string name="scan_copy_text">Копировать текст</string>
+    <string name="scan_text_copied">Текст скопирован</string>
+    <string name="scan_searchable">Поиск по тексту: %1$s</string>
+    <string name="scan_recognising">Распознаём текст, страница %1$d из %2$d</string>
+
+    <!-- Crash report, offered on the launch after a crash -->
+    <string name="crash_title">В прошлый раз Plain PDF неожиданно закрылся</string>
+    <string name="crash_body">Приносим извинения. Отправить отчёт разработчику? В нём только технические сведения: версия приложения, ваша версия Android и модель телефона, а также место, где произошла ошибка. Без документов, без имён, без файлов.</string>
+    <string name="crash_send">Отправить отчёт</string>
+    <string name="crash_not_now">Не сейчас</string>
+
+    <!-- Reader: print, read aloud, copy text -->
+    <string name="reader_print">Печать</string>
+    <string name="reader_print_desc">Отправьте документ на принтер</string>
+    <string name="reader_print_unavailable">Печать недоступна на этом устройстве.</string>
+    <string name="reader_read_aloud">Читать вслух</string>
+    <string name="reader_read_aloud_desc">Слушайте документ голосом телефона</string>
+    <string name="reader_reading_page">Чтение вслух, страница %1$d</string>
+    <string name="action_pause">Пауза</string>
+    <string name="action_resume">Продолжить</string>
+    <string name="action_stop">Остановить</string>
+    <string name="reader_tts_no_voice">На телефоне пока нет голоса для этого языка. Его можно добавить в настройках Android.</string>
+    <string name="reader_tts_settings">Настройки</string>
+    <string name="reader_tts_no_text">В этом документе нет текста для чтения. Отсканируйте его с включённым распознаванием текста.</string>
+    <string name="reader_copy_text">Копировать или поделиться текстом</string>
+    <string name="reader_copy_text_desc">Скопировать слова из документа как обычный текст</string>
+    <string name="reader_text_copied">Текст скопирован</string>
+    <string name="action_copy">Копировать</string>
+    <string name="action_share_text">Поделиться как текстом</string>
+
+    <!-- Page numbers -->
+    <string name="tool_page_numbers">Номера страниц</string>
+    <string name="tool_page_numbers_desc">Проставить номер на каждой странице</string>
+    <string name="page_numbers_position">Положение</string>
+    <string name="page_numbers_bottom_centre">Внизу по центру</string>
+    <string name="page_numbers_bottom_right">Внизу справа</string>
+    <string name="page_numbers_top_right">Вверху справа</string>
+    <string name="page_numbers_style">Нумерация</string>
+    <string name="page_numbers_start_at">Начать с</string>
+    <string name="page_numbers_show_total">Показывать как 1 / 12</string>
+    <string name="page_numbers_example">На первой странице будет: %1$s</string>
+
+    <!-- Make searchable -->
+    <string name="tool_make_searchable">Добавить поиск по тексту</string>
+    <string name="tool_make_searchable_desc">Распознайте текст в отсканированном PDF, чтобы его можно было искать и копировать</string>
+    <string name="searchable_note">Страницы, на которых уже есть текст, остаются как есть.</string>
+    <string name="searchable_languages">Языки: %1$s</string>
+    <string name="searchable_languages_hint">Измените их в Настройках, в разделе «Распознавание текста».</string>
+
+    <!-- Redact -->
+    <string name="tool_redact">Закрасить</string>
+    <string name="tool_redact_desc">Навсегда закрасьте чёрным части страницы</string>
+    <string name="redact_explain">Закрашенные страницы превращаются в картинки, поэтому ничего под ними восстановить нельзя. Их текст больше нельзя будет выделить.</string>
+    <string name="redact_help">Проведите пальцем по странице, чтобы нарисовать рамку. Нажмите на рамку, чтобы убрать её.</string>
+    <string name="redact_page_preview_desc">Предпросмотр страницы. Проведите пальцем, чтобы нарисовать рамку поверх того, что нужно скрыть. Нажмите на рамку, чтобы убрать её.</string>
+    <plurals name="redact_box_count">
+        <item quantity="one">%1$d рамка</item>
+        <item quantity="few">%1$d рамки</item>
+        <item quantity="many">%1$d рамок</item>
+        <item quantity="other">%1$d рамки</item>
+    </plurals>
+    <plurals name="redact_page_count">
+        <item quantity="one">на %1$d странице</item>
+        <item quantity="few">на %1$d страницах</item>
+        <item quantity="many">на %1$d страницах</item>
+        <item quantity="other">на %1$d страницах</item>
+    </plurals>
+
+    <!-- Launcher shortcuts and the home-screen widget -->
+    <string name="shortcut_scan_short">Сканировать</string>
+    <string name="shortcut_scan_long">Сканировать документ</string>
+    <string name="shortcut_open_short">Открыть PDF</string>
+    <string name="shortcut_open_long">Открыть PDF</string>
+    <string name="widget_label">Быстрые действия Plain PDF</string>
+    <string name="widget_description">Отсканируйте документ или откройте PDF одним нажатием.</string>
+    <string name="widget_scan">Сканировать документ</string>
+    <string name="widget_open">Открыть PDF</string>
+    <string name="widget_scan_short">Сканировать</string>
+    <string name="widget_library">Библиотека</string>
+
+    <!-- Continue reading, share a page, notes and share-sheet targets -->
+    <string name="library_continue_title">Продолжить чтение</string>
+    <string name="library_continue_page">Страница %1$d из %2$d</string>
+    <string name="library_continue_page_only">Страница %1$d</string>
+    <string name="action_continue_reading">Продолжить</string>
+    <string name="reader_share_page">Поделиться этой страницей</string>
+    <string name="reader_share_page_image">Как картинку</string>
+    <string name="reader_share_page_pdf">Как одностраничный PDF</string>
+    <string name="tool_note">Написать заметку</string>
+    <string name="tool_note_desc">Наберите текст и сохраните его как PDF</string>
+    <string name="note_title_hint">Заголовок (необязательно)</string>
+    <string name="note_body_hint">Напишите заметку здесь</string>
+    <string name="note_default_name">Заметка</string>
+    <string name="shortcut_continue_long">Продолжить: %1$s, страница %2$d</string>
+    <string name="shortcut_continue_gone">Этого документа больше нет в вашей библиотеке</string>
+    <string name="share_target_sign">Подписать в Plain PDF</string>
+    <string name="share_target_scan">Сканировать в Plain PDF</string>
+    <string name="tour_edit_note_unavailable">Для заполнения форм, рисования и выделения нужен Android 12 или новее с обновлением PDF от Google, которого на этом телефоне нет. Все остальные инструменты работают.</string>
+    <string name="tour_edit_note_no_drawing">Для рисования и выделения нужен более новый Android, чем на этом телефоне. Заполнение форм работает.</string>
+
+    <!-- Languages for scanned text -->
+    <string name="ocr_languages_title">Языки для сканированного текста</string>
+    <string name="ocr_languages_intro">Отсканированные страницы читаются на отмеченных языках. Отметьте только те языки, на которых вы сканируете; каждый лишний язык немного замедляет чтение.</string>
+    <string name="ocr_languages_on_phone">На этом телефоне</string>
+    <string name="ocr_languages_get_more">Добавить языки</string>
+    <string name="ocr_languages_get_more_play">Нажмите «Скачать», и Google Play скачает язык. Больше ничего делать не нужно.</string>
+    <string name="ocr_languages_get_more_foss">Эта версия не умеет скачивать. Возьмите файл языка по ссылке ниже и импортируйте его.</string>
+    <string name="ocr_languages_tier_common">Самые распространённые</string>
+    <string name="ocr_languages_tier_nearby">Соседние страны</string>
+    <string name="ocr_languages_tier_other">Другие</string>
+    <string name="ocr_languages_get">Скачать</string>
+    <string name="ocr_languages_downloading">Скачивание…</string>
+    <string name="ocr_languages_installing">Настройка…</string>
+    <string name="ocr_languages_failed">Не удалось скачать. Проверьте подключение к интернету и попробуйте снова.</string>
+    <string name="ocr_languages_try_again">Попробовать снова</string>
+    <string name="ocr_languages_downloaded">Скачано</string>
+    <string name="ocr_languages_remove_title">Убрать %1$s?</string>
+    <string name="ocr_languages_remove_body">Его можно скачать снова в любое время.</string>
+    <string name="ocr_languages_ready">Язык «%1$s» готов. Отсканированные страницы на этом языке теперь можно читать.</string>
+    <string name="ocr_languages_keep_one">Оставьте отмеченным хотя бы один язык.</string>
+    <string name="ocr_suggest_title">Язык вашего телефона: %1$s</string>
+    <string name="ocr_suggest_body">Скачайте язык «%1$s» (%2$s), чтобы отсканированные страницы на этом языке можно было читать.</string>
+    <string name="ocr_suggest_get">Скачать: %1$s</string>
+    <string name="ocr_suggest_later">Не сейчас</string>
+    <string name="ocr_garbled_title">Текст распознан плохо</string>
+    <string name="ocr_garbled_body">Возможно, страница на языке, которого ещё нет на этом телефоне. Языки можно добавить в настройках.</string>
+    <string name="ocr_garbled_action">Языки</string>
+</resources>

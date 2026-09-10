@@ -1,0 +1,6 @@
+Pierwsze wydanie.
+• Czytanie, wyszukiwanie, wypełnianie formularzy, rysowanie i zaznaczanie, czytanie na głos, drukowanie
+• Skanowanie stron z automatycznym wykrywaniem krawędzi i rozpoznawaniem tekstu na telefonie
+• Podpis, zmniejszanie, porządkowanie stron, łączenie, dzielenie, numery stron, zaczernianie, notatki
+• Biblioteka z ostatnimi dokumentami, folderami, ulubionymi i widżetem na ekranie głównym
+• 17 języków, bez reklam, bez konta, bez dostępu do sieci

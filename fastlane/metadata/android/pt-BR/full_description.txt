@@ -1,0 +1,45 @@
+O Plain PDF lê PDFs e os modifica sem enviar nada para lugar nenhum. Abre rápido, lembra onde você parou e não atrapalha. Botões grandes, sem gestos escondidos.
+
+Leitura
+• Rolagem contínua ou página por página
+• Pesquisa dentro dos documentos com os resultados realçados
+• Preencher formulários e salvar uma cópia
+• Desenhar e destacar nas páginas, salvo como anotações PDF de verdade (Android 12 ou mais recente)
+• Ler em voz alta com a voz do celular, imprimir, copiar ou compartilhar o texto, compartilhar uma única página
+• Um botão Ferramentas em todo documento aberto, sempre visível
+• Grade de páginas, marcadores, ir para a página e Continuar lendo a partir da tela inicial
+• Exibição noturna, sépia e em tons de cinza, lembrada para cada documento
+• Cinco temas para o aplicativo, incluindo preto puro para telas OLED
+• Manter a tela ligada, virar páginas com os botões de volume, brilho deslizando na borda (opcional)
+
+Digitalizar
+• Tire uma foto de uma página; as bordas são encontradas para você, arraste os cantos ou os lados para corrigir
+• Limpeza colorida, em tons de cinza ou em preto e branco nítido
+• Reconhecimento de texto no celular, sem internet: as digitalizações ficam pesquisáveis e o texto delas pode ser copiado. Oito idiomas já vêm incluídos (inglês, sérvio nos dois alfabetos, alemão, espanhol, francês, italiano, russo) e mais vinte chegam com um toque em Configurações
+• Adicione mais páginas e compartilhe o PDF na hora
+
+Ferramentas, todas neste aparelho
+• Assinar: desenhe sua assinatura uma vez e coloque em qualquer página
+• Tornar pesquisável: adicione o texto reconhecido a qualquer PDF digitalizado
+• Escrever uma nota: digite um texto e salve como PDF
+• Comprimir: deixe um PDF menor reduzindo as imagens que estão nele
+• Organizar páginas: girar, excluir, reordenar, extrair e duplicar em uma só grade, com desfazer
+• Juntar vários PDFs, com intervalos de páginas opcionais por documento
+• Dividir por intervalos de páginas ou a cada N páginas
+• Números de página em todas as páginas
+• Tarjar: cubra de preto partes de uma página para que sumam de verdade, não apenas fiquem escondidas
+• Imagens para PDF a partir de fotos, digitalizações ou da câmera
+• PDF para imagens em PNG ou JPEG
+• Adicionar, alterar ou remover uma senha (AES-256)
+
+Toda operação grava primeiro em um arquivo temporário e o verifica antes de mexer nos seus arquivos. Nada é excluído em silêncio.
+
+Biblioteca
+• Documentos recentes com miniaturas e posição de leitura
+• Pastas indexadas, favoritos, pesquisa e ordenação
+• Arquivos que foram movidos ou sumiram são sinalizados, não descartados, com a ação Localizar de novo
+• Widget na tela inicial e atalhos para Digitalizar, Abrir e Continuar lendo
+
+Disponível em 17 idiomas, incluindo inglês, sérvio, alemão, espanhol, francês, português, russo, árabe, hindi, chinês, japonês e coreano.
+
+Sem anúncios. Sem coleta de dados. Sem conta. Sem nenhum acesso à rede: o aplicativo nem sequer tem a permissão de internet. Todos os recursos de leitura e edição são gratuitos; a compra opcional de Apoiador libera apenas cores de destaque e ícones.

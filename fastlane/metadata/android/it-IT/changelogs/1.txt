@@ -1,0 +1,6 @@
+Prima versione.
+• Leggere, cercare, compilare moduli, disegnare ed evidenziare, leggere ad alta voce, stampare
+• Scansionare pagine con bordi automatici e riconoscimento del testo sul telefono
+• Firma, comprimi, organizza pagine, unisci, dividi, numeri di pagina, oscura, scrivi una nota
+• Libreria con documenti recenti, cartelle, preferiti e un widget nella schermata iniziale
+• 17 lingue, niente pubblicità, nessun account, nessun accesso alla rete

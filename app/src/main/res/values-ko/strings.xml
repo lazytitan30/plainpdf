@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plain PDF</string>
+
+    <!-- Navigation -->
+    <string name="nav_library">보관함</string>
+    <string name="nav_tools">도구</string>
+    <string name="action_back">뒤로</string>
+    <string name="action_cancel">취소</string>
+    <string name="action_done">완료</string>
+
+    <!-- Library -->
+    <string name="library_tab_recent">최근</string>
+    <string name="library_tab_folders">폴더</string>
+    <string name="library_tab_favourites">즐겨찾기</string>
+    <string name="library_open_pdf">PDF 열기</string>
+    <string name="library_add_folder">폴더 추가</string>
+    <string name="library_empty_recent">아직 문서가 없습니다. PDF를 열어 시작해 보세요.</string>
+    <string name="library_empty_folders">아직 폴더가 없습니다. 폴더를 추가하면 그 안의 PDF를 볼 수 있습니다.</string>
+    <string name="library_empty_favourites">아직 아무것도 없습니다. 문서의 메뉴(점 세 개)를 열고 즐겨찾기를 선택하세요.</string>
+    <string name="library_search">검색</string>
+    <string name="library_more">더보기</string>
+    <string name="library_sort">정렬</string>
+    <string name="library_view_grid">바둑판</string>
+    <string name="library_view_list">목록</string>
+
+    <!-- Tools -->
+    <string name="tools_title">도구</string>
+    <string name="tools_empty">합치기, 나누기, 페이지 정리 도구가 여기에 있습니다. 모든 작업은 이 기기 안에서만 이루어집니다.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">설정</string>
+    <string name="settings_group_appearance">화면 모양</string>
+    <string name="settings_group_reading">읽기</string>
+    <string name="settings_group_tools">도구</string>
+    <string name="settings_group_library">보관함</string>
+    <string name="settings_group_about">앱 정보</string>
+    <string name="settings_theme">테마</string>
+    <string name="settings_accent">강조 색상</string>
+    <string name="settings_dynamic_colour">시스템 색상 사용</string>
+    <string name="settings_dynamic_colour_summary">배경화면에서 가져온 색상</string>
+    <string name="settings_app_icon">앱 아이콘</string>
+    <string name="settings_reading_mode">기본 읽기 방식</string>
+    <string name="settings_page_display">기본 페이지 표시</string>
+    <string name="settings_keep_screen_on">읽는 동안 화면 켜 두기</string>
+    <string name="settings_edge_brightness">가장자리 밀어 밝기 조절</string>
+    <string name="settings_edge_brightness_summary">화면 왼쪽 가장자리를 위아래로 밀어 밝기를 조절합니다</string>
+    <string name="settings_double_tap_zoom">두 번 눌러 확대</string>
+    <string name="settings_volume_keys">음량 버튼으로 페이지 넘기기</string>
+    <string name="settings_save_location">새 파일이 저장되는 곳</string>
+    <string name="settings_save_location_ask">매번 묻기</string>
+    <string name="settings_save_location_choose">폴더 선택</string>
+    <string name="settings_output_naming">새 파일 이름을 짓는 방식</string>
+    <string name="settings_output_naming_help">{name}은 원본 파일 이름, {op}는 작업 이름입니다. 예: merged, pages_1-4.</string>
+    <string name="settings_language_summary">앱 메뉴와 버튼의 언어입니다.</string>
+    <string name="settings_theme_summary">앱 자체의 밝은 또는 어두운 모습입니다. 페이지는 원래 색을 유지합니다.</string>
+    <string name="settings_accent_summary">앱의 버튼과 기타 조작 요소의 색상입니다.</string>
+    <string name="settings_app_icon_summary">홈 화면에서 Plain PDF가 보이는 모습입니다.</string>
+    <string name="settings_highlight_summary">문서 안에서 검색할 때 일치하는 부분을 표시하는 색상입니다.</string>
+    <string name="settings_reading_mode_summary">페이지를 이어서 스크롤하거나 한 장씩 넘깁니다.</string>
+    <string name="settings_page_display_summary">페이지를 원본 그대로, 밤에 맞게 어둡게, 세피아 또는 회색으로 보여줍니다.</string>
+    <string name="settings_keep_screen_on_summary">문서가 열려 있는 동안 화면이 꺼지지 않습니다.</string>
+    <string name="settings_double_tap_zoom_summary">페이지를 두 번 탭하면 확대되고, 다시 두 번 탭하면 돌아옵니다.</string>
+    <string name="settings_volume_keys_summary">음량 버튼을 눌러 다음 또는 이전 페이지로 이동합니다.</string>
+    <string name="settings_save_location_summary">합치기, 나누기, 스캔 등으로 만든 새 파일이 여기에 저장됩니다. 원본은 원래 자리에 그대로 있습니다.</string>
+    <string name="settings_save_location_ask_summary">각 도구가 저장하기 전에 폴더를 묻습니다.</string>
+    <string name="settings_save_location_folder">항상 %1$s에 저장</string>
+    <string name="settings_save_location_choose_summary">이 휴대전화의 폴더를 선택합니다. 새 파일은 항상 그곳에 저장됩니다.</string>
+    <string name="settings_output_naming_summary">%1$s을(를) 합치면 %2$s이(가) 됩니다. 원본 이름은 그대로입니다.</string>
+    <string name="naming_sample_name">계약서</string>
+    <string name="naming_style_name_op">원래 이름, 그다음 한 작업</string>
+    <string name="naming_style_op_name">한 작업, 그다음 원래 이름</string>
+    <string name="naming_style_custom">직접 정하기</string>
+    <string name="naming_style_custom_summary">{name}과 {op}를 사용해 직접 작성합니다.</string>
+    <string name="settings_confirm_overwrite_summary">도구가 원본 파일을 바뀐 버전으로 덮어쓰기 전에 확인합니다.</string>
+    <string name="settings_default_sort_summary">보관함에서 문서가 정렬되는 순서입니다.</string>
+    <string name="settings_source_summary">Plain PDF는 오픈 소스입니다. 누구나 작동 방식을 읽고 그 위에 만들 수 있습니다.</string>
+    <string name="settings_licence_summary">자유롭게 쓰고, 나누고, 고칠 수 있습니다. 조건은 하나, 모두에게 계속 무료여야 합니다.</string>
+    <string name="settings_confirm_overwrite">원본을 덮어쓰기 전에 확인</string>
+    <string name="settings_default_sort">기본 정렬</string>
+    <string name="settings_clear_recents">최근 목록 지우기</string>
+    <string name="settings_clear_thumbnails">저장된 미리보기 지우기</string>
+    <string name="settings_version">버전</string>
+    <string name="settings_source">소스 코드</string>
+    <string name="settings_licence">라이선스</string>
+    <string name="settings_licence_value">GNU GPL v3</string>
+    <string name="settings_feedback">기능 제안 또는 문제 신고</string>
+    <string name="settings_feedback_summary">개발자에게 보내는 메시지가 담긴 이메일 앱을 엽니다. 모든 메시지를 읽습니다.</string>
+    <string name="feedback_subject">Plain PDF: 제안</string>
+    <string name="settings_supporter">후원자</string>
+    <string name="settings_supporter_summary">무료, 광고 없음. 앱이 도움이 되셨다면 여기에서 감사를 전하실 수 있습니다.</string>
+    <string name="settings_supporter_active">후원자이십니다. Plain PDF가 계속 무료로 남도록 도와주셔서 감사합니다.</string>
+    <string name="settings_supporter_active_gift">선물 감사합니다. 후원자 팩은 이제 귀하의 것입니다.</string>
+    <string name="settings_donate">후원하기</string>
+    <string name="settings_locked">후원자</string>
+
+    <string name="theme_system">시스템</string>
+    <string name="theme_light">밝게</string>
+    <string name="theme_dark">어둡게</string>
+    <string name="theme_black">검정</string>
+    <string name="theme_sepia">세피아</string>
+
+    <string name="accent_teal">청록</string>
+    <string name="accent_amber">호박색</string>
+    <string name="accent_crimson">진홍</string>
+    <string name="accent_indigo">남색</string>
+    <string name="accent_violet">보라</string>
+    <string name="accent_forest">숲 초록</string>
+    <string name="accent_slate">청회색</string>
+
+    <string name="reading_mode_continuous">이어서 보기</string>
+    <string name="reading_mode_paged">한 장씩 보기</string>
+
+    <string name="page_display_normal">기본</string>
+    <string name="page_display_night">야간</string>
+    <string name="page_display_sepia">세피아</string>
+    <string name="page_display_grayscale">회색조</string>
+
+    <string name="sort_recently_opened">최근에 연 순서</string>
+    <string name="sort_recently_added">최근에 추가한 순서</string>
+    <string name="sort_name">이름</string>
+    <string name="sort_size">크기</string>
+
+    <!-- Supporter -->
+    <string name="supporter_title">후원자</string>
+    <string name="supporter_intro">Plain PDF는 무료이고 광고가 없으며, 모든 기능을 결제 없이 쓸 수 있습니다. 도움이 되셨다면 여기가 감사를 전하는 자리입니다. 그 답례로 몇 가지 색상과 아이콘, 그리고 저희의 고마운 마음을 드립니다.</string>
+    <string name="supporter_grants_title">받으시는 것</string>
+    <string name="supporter_grant_accents">강조 색상 여섯 가지</string>
+    <string name="supporter_grant_icons">앱 아이콘 세 가지 추가</string>
+    <string name="supporter_grant_highlights">검색 강조 색상 추가</string>
+    <string name="supporter_grant_about">앱 정보에 후원자 표시</string>
+    <string name="supporter_unlock">후원자 되기</string>
+    <string name="supporter_tips_title">한 번 더 후원하기</string>
+    <string name="supporter_tips_summary">선택 사항입니다. 나중에 다시 후원하고 싶으시다면 여기에서 하실 수 있습니다. 새로 열리는 것은 없습니다. 그저 감사를 전할 뿐입니다.</string>
+    <string name="supporter_restore">구매 복원</string>
+    <string name="supporter_restore_found">구매가 돌아왔습니다. 감사합니다.</string>
+    <string name="supporter_restore_none">이 Google 계정에서 후원자 팩을 찾지 못했습니다. 선물은 기록이 남지 않아 복원할 수 없습니다.</string>
+    <string name="supporter_unavailable">지금 이 휴대전화에서는 Google Play가 결제를 받을 수 없습니다. 잃는 것은 없습니다. 앱은 계속 무료입니다.</string>
+    <string name="supporter_thanks">후원자이십니다. Plain PDF가 계속 무료로 남도록 도와주셔서 감사합니다.</string>
+    <string name="supporter_donate_intro">Plain PDF는 무료이고 광고가 없으며, 모든 기능을 결제 없이 쓸 수 있습니다. 도움이 되셨다면 이 앱을 만드는 일을 후원하실 수 있습니다.</string>
+    <string name="supporter_donate_button">후원 페이지 열기</string>
+    <string name="supporter_grant_future">나중에 추가되는 새 색상과 아이콘도 추가 비용 없이</string>
+    <string name="supporter_tips_title_first">또는 팁 남기기</string>
+    <string name="supporter_tips_summary_first">금액에 상관없이 감사의 마음이 전해집니다.</string>
+    <string name="supporter_tip_unlocks_note">후원자 팩도 함께 열립니다</string>
+    <string name="supporter_gift_title">선물 감사합니다</string>
+    <string name="supporter_gift_body">팁을 주셨으니 후원자 팩도 함께 드립니다. 모든 색상, 아이콘, 강조 색상이 열렸습니다. 팩을 따로 구매하실 필요가 없습니다.</string>
+    <string name="supporter_gift_note">선물은 Google Play에 기록이 남지 않으므로, 팩은 이 휴대전화에 기억됩니다.</string>
+    <string name="supporter_snack_gift">선물 감사합니다.</string>
+    <string name="supporter_snack_unlock">감사합니다. 이제 후원자이십니다.</string>
+    <string name="supporter_problem_connection">Google Play가 응답하지 않았습니다. Play 스토어 앱에 로그인되어 있는지 확인한 뒤 다시 와 주세요. 잃는 것은 없습니다. 앱은 계속 무료입니다.</string>
+    <string name="supporter_problem_listing">Google Play에 후원자 항목이 아직 등록되지 않았습니다. 나중에 다시 시도해 주세요. 잃는 것은 없습니다. 앱은 계속 무료입니다.</string>
+    <string name="supporter_problem_region">Google Play가 아직 이 항목을 귀하의 국가에서 제공하지 않습니다. 잃는 것은 없습니다. 앱은 계속 무료입니다.</string>
+
+    <!-- Reader -->
+    <string name="reader_page_of">%1$d / %2$d</string>
+    <string name="reader_error_open">이 파일을 열 수 없습니다. 옮겨졌거나 삭제되었을 수 있습니다.</string>
+    <string name="reader_locate_again">파일 다시 찾기</string>
+    <string name="reader_not_saved">저장되지 않음</string>
+
+    <!-- Library, M2 -->
+    <string name="library_search_hint">문서 검색</string>
+    <string name="library_no_matches">검색 결과가 없습니다.</string>
+    <string name="library_page_of">%2$d쪽 중 %1$d쪽</string>
+    <string name="library_file_unavailable">파일을 찾을 수 없음</string>
+    <string name="library_deleted">파일을 삭제했습니다</string>
+    <string name="library_delete_failed">이 파일을 삭제할 수 없습니다. 파일이 속한 앱이 허용하지 않았습니다.</string>
+    <string name="library_delete_title">파일을 삭제할까요?</string>
+    <string name="library_delete_body">%1$s을(를) 저장소에서 삭제합니다. 되돌릴 수 없습니다.</string>
+    <string name="library_rename_help">Plain PDF에 보이는 이름만 바뀝니다. 파일 이름은 그대로입니다.</string>
+    <string name="library_folder_failed">그 폴더를 추가할 수 없습니다. 다시 선택하고 접근을 허용해 주세요.</string>
+    <string name="library_folder_unavailable">이 폴더를 더 이상 읽을 수 없습니다. 옮겨졌거나 저장 장치가 분리되었을 수 있습니다.</string>
+    <string name="library_folder_empty">이 폴더에는 아직 PDF가 없습니다.</string>
+    <string name="library_remove_folder_body">이 폴더를 더 이상 살펴보지 않을까요? 열었거나 즐겨찾기한 파일은 보관함에 남습니다.</string>
+    <string name="action_favourite">즐겨찾기</string>
+    <string name="action_unfavourite">즐겨찾기에서 빼기</string>
+    <string name="action_rename_label">표시 이름 바꾸기</string>
+    <string name="action_share">공유</string>
+    <string name="action_organise_pages">페이지 정리</string>
+    <string name="action_remove_from_recents">최근 목록에서 빼기</string>
+    <string name="action_delete_file">파일 삭제</string>
+    <string name="action_remove_folder">폴더 빼기</string>
+    <string name="action_refresh">새로 고침</string>
+    <string name="action_clear">지우기</string>
+
+    <!-- Reader, M3 -->
+    <string name="reader_search">문서에서 검색</string>
+    <string name="reader_search_hint">문서에서 찾기</string>
+    <string name="reader_search_count">%2$d개 중 %1$d번째</string>
+    <string name="reader_search_none">일치하는 내용 없음</string>
+    <string name="reader_search_previous">이전 결과</string>
+    <string name="reader_search_next">다음 결과</string>
+    <string name="reader_outline">페이지</string>
+    <string name="reader_pages_title">%1$d쪽</string>
+    <string name="reader_jump_to_page">페이지로 이동</string>
+    <string name="reader_jump_hint">1부터 %1$d까지</string>
+    <string name="reader_go">이동</string>
+    <string name="reader_add_bookmark">책갈피 추가</string>
+    <string name="reader_add_bookmark_title">%1$d쪽에 책갈피</string>
+    <string name="reader_bookmark_label">책갈피 이름</string>
+    <string name="reader_bookmark_label_help">선택 사항입니다. 비워 두면 쪽 번호가 표시됩니다.</string>
+    <string name="reader_bookmark_added">책갈피를 추가했습니다</string>
+    <string name="reader_bookmarks">책갈피</string>
+    <string name="reader_bookmarks_empty">아직 책갈피가 없습니다. 메뉴에서 책갈피 추가를 선택해 페이지를 표시하세요.</string>
+    <string name="reader_page_n">%1$d쪽</string>
+    <string name="reader_page_display">페이지 표시</string>
+    <string name="reader_reading_mode">읽기 방식</string>
+    <string name="reader_keep_screen_on">화면 켜 두기</string>
+    <string name="reader_document_info">문서 정보</string>
+    <string name="reader_info_name">이름</string>
+    <string name="reader_info_pages">쪽수</string>
+    <string name="reader_info_size">크기</string>
+    <string name="reader_info_location">위치</string>
+    <string name="action_delete">삭제</string>
+
+    <!-- Tools, M4 -->
+    <string name="tools_recent_output">최근 결과</string>
+    <string name="tool_organise">페이지 정리</string>
+    <string name="tool_organise_desc">페이지 회전, 삭제, 순서 바꾸기, 추출, 복제</string>
+    <string name="tool_merge">합치기</string>
+    <string name="tool_merge_desc">여러 PDF를 원하는 순서로 하나로 합칩니다</string>
+    <string name="tool_split">나누기</string>
+    <string name="tool_split_desc">페이지 범위로, 또는 파일마다 같은 쪽수로 PDF 하나를 여러 개로 나눕니다</string>
+    <string name="tool_images_to_pdf">사진을 PDF로</string>
+    <string name="tool_images_to_pdf_desc">사진과 스캔을 PDF 하나로 만듭니다</string>
+    <string name="tool_pdf_to_images">PDF를 사진으로</string>
+    <string name="tool_pdf_to_images_desc">페이지를 PNG 또는 JPEG 파일로 내보냅니다</string>
+    <string name="tool_password">비밀번호</string>
+    <string name="tool_password_desc">비밀번호 추가, 변경, 해제</string>
+    <string name="action_open">열기</string>
+    <string name="action_continue">계속</string>
+    <string name="action_undo">실행 취소</string>
+    <string name="action_redo">다시 실행</string>
+    <string name="action_select_all">모두 선택</string>
+    <string name="organise_pages_count">%1$d쪽</string>
+    <string name="organise_changes">변경 %1$d건</string>
+    <string name="organise_selected">%1$d개 선택됨</string>
+    <string name="organise_rotate_left">왼쪽으로 회전</string>
+    <string name="organise_rotate_right">오른쪽으로 회전</string>
+    <string name="organise_restore">되살리기</string>
+    <string name="organise_extract">새 파일로 추출</string>
+    <string name="organise_duplicate">복제</string>
+    <string name="organise_page_desc">%1$d쪽</string>
+    <string name="organise_page_selected">%1$d쪽, 선택됨</string>
+    <string name="organise_page_deleted">%1$d쪽, 삭제 예정</string>
+    <string name="ops_save_as_new">새 파일로 저장</string>
+    <string name="ops_overwrite">원본 덮어쓰기</string>
+    <string name="ops_overwrite_title">원본을 덮어쓸까요?</string>
+    <string name="ops_overwrite_body">%1$s이(가) 정리된 내용으로 바뀝니다. 한번 저장하면 되돌릴 수 없습니다.</string>
+    <string name="ops_saved_one">%1$s 저장됨</string>
+    <string name="ops_saved_many">파일 %1$d개 저장됨</string>
+    <string name="ops_and_more">외 %1$d개</string>
+    <string name="ops_failed_title">잘 되지 않았습니다</string>
+    <string name="ops_try_other_location">다른 위치 시도</string>
+    <string name="ops_password_title">비밀번호 필요</string>
+    <string name="ops_password_body">%1$s은(는) 보호된 문서입니다. 계속하려면 비밀번호를 입력하세요. 한 번만 사용하고 저장하지 않습니다.</string>
+    <string name="ops_password_wrong">그 비밀번호로는 문서가 열리지 않았습니다.</string>
+    <string name="ops_password_needed">페이지를 보려면 이 문서의 비밀번호가 필요합니다.</string>
+    <string name="ops_error_password">이 문서는 비밀번호로 보호되어 있습니다. 비밀번호를 입력하고 다시 시도하세요.</string>
+    <string name="ops_error_assembly">이 문서의 소유자가 페이지 재구성을 허용하지 않습니다. Plain PDF는 이를 우회하지 않습니다.</string>
+    <string name="ops_error_corrupt">이 파일을 읽을 수 없습니다. 손상되었을 수 있습니다.</string>
+    <string name="ops_error_oom">이 문서는 휴대전화 메모리에 비해 너무 큽니다. 먼저 작은 부분으로 나누면 대개 잘 됩니다.</string>
+    <string name="ops_error_destination">그 위치에 파일을 쓸 수 없습니다. 삭제된 것은 없습니다. 다른 위치를 시도해 보세요.</string>
+    <string name="ops_error_cancelled">취소했습니다. 원본 파일은 그대로입니다.</string>
+    <string name="ops_error_unknown">문제가 생겼습니다. 원본 파일은 그대로입니다.</string>
+    <string name="ops_notification_working">문서를 처리하는 중</string>
+    <string name="ops_channel_name">문서 작업</string>
+    <plurals name="ops_pages">
+        <item quantity="other">%1$d쪽</item>
+    </plurals>
+
+    <!-- Tools, M5 -->
+    <string name="tool_input_document">문서</string>
+    <string name="tool_choose_pdf">PDF 선택</string>
+    <string name="action_change">변경</string>
+    <string name="action_remove">빼기</string>
+    <string name="action_move_up">위로 이동</string>
+    <string name="action_move_down">아래로 이동</string>
+    <string name="merge_documents">문서, 결과 순서대로</string>
+    <string name="merge_empty">PDF를 두 개 이상 추가하세요. 위에서 아래 순서로 합쳐집니다.</string>
+    <string name="merge_add_file">파일 추가</string>
+    <string name="merge_reading">읽는 중…</string>
+    <string name="merge_total">결과는 %1$d쪽입니다</string>
+    <string name="merge_selected_pages">%1$d쪽 선택됨</string>
+    <string name="merge_choose_pages">페이지 선택</string>
+    <string name="merge_pages_chosen">페이지: %1$s</string>
+    <string name="merge_range_label">포함할 페이지</string>
+    <string name="split_mode">나누는 방법</string>
+    <string name="split_by_ranges">페이지 범위로</string>
+    <string name="split_every_n">파일마다 같은 쪽수</string>
+    <string name="split_extract">선택한 페이지 추출</string>
+    <string name="split_extract_help">정리 화면에서 페이지를 눈으로 보며 고른 뒤 새 파일로 저장합니다.</string>
+    <string name="split_open_organiser">정리 화면 열기</string>
+    <string name="split_ranges_hint">1-4, 8, 12-20</string>
+    <string name="split_ranges_help">범위마다 파일 하나가 만들어집니다. 범위는 쉼표로 구분합니다.</string>
+    <string name="split_pages_per_file">파일당 쪽수</string>
+    <string name="split_preview">파일 %1$d개: %2$s</string>
+    <string name="split_save_to_folder">폴더에 파일 저장</string>
+    <string name="ranges_error_empty">페이지를 하나 이상 입력하세요.</string>
+    <string name="ranges_error_bad">%1$s은(는) 쪽 번호도 아니고 3-5 같은 범위도 아닙니다.</string>
+    <string name="ranges_error_out_of_range">%1$s은(는) 1부터 %2$d 사이를 벗어났습니다.</string>
+    <string name="ranges_error_reversed">%1$s은(는) 순서가 거꾸로입니다.</string>
+    <string name="images_count">사진 %1$d장</string>
+    <string name="images_add">사진 추가</string>
+    <string name="images_camera">사진 찍기</string>
+    <string name="images_empty">사진이나 스캔을 추가하세요. 사진에 있는 화살표로 순서를 바꿀 수 있습니다.</string>
+    <string name="images_page">페이지</string>
+    <string name="images_fit_image">사진에 맞춤</string>
+    <string name="images_a4">A4</string>
+    <string name="images_letter">Letter</string>
+    <string name="images_fit">맞추기</string>
+    <string name="images_fill">채우기</string>
+    <string name="images_margin_none">여백 없음</string>
+    <string name="images_margin_small">좁은 여백</string>
+    <string name="images_margin_medium">보통 여백</string>
+    <string name="pdf_to_images_pages">페이지</string>
+    <string name="pdf_to_images_all_pages">모든 페이지</string>
+    <string name="pdf_to_images_range_help">%1$d쪽을 내보냅니다.</string>
+    <string name="pdf_to_images_format">형식</string>
+    <string name="pdf_to_images_quality">JPEG 품질 %1$d</string>
+    <string name="pdf_to_images_dpi">해상도</string>
+    <string name="pdf_to_images_encrypted">이 문서는 비밀번호로 보호되어 있습니다. 먼저 비밀번호 도구로 비밀번호를 해제하세요.</string>
+    <string name="pdf_to_images_many_title">%1$d쪽을 내보낼까요?</string>
+    <string name="pdf_to_images_many_body">이미지 파일 %1$d개가 만들어집니다. 시간이 오래 걸리고 저장 공간을 많이 차지할 수 있습니다.</string>
+    <string name="password_what">할 작업</string>
+    <string name="password_explain">비밀번호를 걸면 비밀번호 없이는 아무도 문서를 열 수 없습니다. 안전한 곳에 보관하세요. 잊어버리면 되찾을 수 없습니다.</string>
+    <string name="password_add">비밀번호 추가</string>
+    <string name="password_change">비밀번호 변경</string>
+    <string name="password_remove">비밀번호 해제</string>
+    <string name="password_new">새 비밀번호</string>
+    <string name="password_confirm">비밀번호 확인</string>
+    <string name="password_mismatch">비밀번호가 서로 다릅니다.</string>
+
+    <!-- Supporter cosmetics, M6 -->
+    <string name="settings_highlight">검색 강조 색상</string>
+    <string name="highlight_accent">강조 색상</string>
+    <string name="highlight_amber">호박색</string>
+    <string name="highlight_rose">장미색</string>
+    <string name="highlight_sky">하늘색</string>
+    <string name="app_icon_default">기본</string>
+    <string name="app_icon_mono">단색</string>
+    <string name="app_icon_paper">종이</string>
+    <string name="app_icon_night">야간</string>
+
+    <!-- Reader tools entry -->
+    <string name="reader_tools_section">이 문서에 쓸 도구</string>
+    <string name="reader_tool_merge">다른 PDF와 합치기</string>
+
+    <!-- Reader tools button, form filling, sign -->
+    <string name="reader_tools_button">도구</string>
+    <string name="reader_fill_form">양식 작성</string>
+    <string name="reader_fill_active">양식 작성 중</string>
+    <string name="reader_fill_desc">페이지의 칸을 눌러 입력하거나, 체크하거나, 선택하세요. 그런 다음 사본을 저장하세요.</string>
+    <string name="reader_save_filled">작성한 양식 저장</string>
+    <string name="reader_fill_saved">작성한 양식을 저장했습니다</string>
+    <string name="tool_sign">서명</string>
+    <string name="tool_sign_desc">서명을 그려서 페이지에 넣습니다</string>
+    <string name="sign_draw_title">서명을 그려 주세요</string>
+    <string name="sign_draw_help">손가락이나 펜을 사용하세요. 서명은 그림으로 문서 안에 저장되며 어디에도 전송되지 않습니다.</string>
+    <string name="sign_clear">지우기</string>
+    <string name="sign_next">페이지에 넣기</string>
+    <string name="sign_back">다시 그리기</string>
+    <string name="sign_place_title">서명을 넣을 자리를 누르거나 끌어서 옮기세요. 아래에서 페이지를 고르세요.</string>
+    <string name="sign_size">크기</string>
+    <string name="sign_ink_black">검정 잉크</string>
+    <string name="sign_ink_blue">파랑 잉크</string>
+
+    <!-- Scan -->
+    <string name="library_scan">문서 스캔</string>
+    <string name="scan_title">스캔</string>
+    <string name="scan_share">PDF 공유</string>
+    <string name="scan_add_page">페이지 더 찍기</string>
+    <string name="scan_save_to_folder">폴더에 사본 저장</string>
+
+    <!-- Crop and cleanup -->
+    <string name="crop_title">스캔 다듬기</string>
+    <string name="crop_help">모서리를 종이 가장자리에 맞춰 끌어 주세요. 옆으로 누워 있으면 회전하세요.</string>
+    <string name="crop_rotate">회전</string>
+    <string name="crop_look_color">컬러</string>
+    <string name="crop_look_gray">회색조</string>
+    <string name="crop_look_bw">흑백</string>
+    <string name="crop_use">이대로 사용</string>
+    <string name="crop_working">처리 중…</string>
+    <string name="crop_adjust">다듬기</string>
+
+    <!-- Compress -->
+    <string name="tool_compress">용량 줄이기</string>
+    <string name="tool_compress_desc">안에 든 사진을 줄여 PDF 용량을 작게 만듭니다</string>
+    <string name="compress_current_size">현재 크기: %1$s</string>
+    <string name="compress_how_much">얼마나 줄일지</string>
+    <string name="compress_explain">사진만 바뀝니다. 글자와 그림 선은 그대로이므로 읽기에는 차이가 없습니다.</string>
+    <string name="compress_level_light">약하게. 사진의 세부가 거의 그대로 유지됩니다.</string>
+    <string name="compress_level_balanced">보통. 이메일로 보내기 좋습니다.</string>
+    <string name="compress_level_strong">강하게. 가장 작아지지만 사진이 조금 흐릿해집니다.</string>
+
+    <!-- Accessibility affordances: visible buttons for long-press and swipe actions -->
+    <string name="library_more_options_for">%1$s의 다른 옵션</string>
+    <string name="action_rename">이름 바꾸기</string>
+    <string name="action_discard">버리기</string>
+    <string name="action_keep_editing">계속 편집</string>
+    <string name="action_move_earlier">앞으로 이동</string>
+    <string name="action_move_later">뒤로 이동</string>
+    <string name="reader_bookmark_delete_title">이 책갈피를 삭제할까요?</string>
+    <string name="reader_bookmark_delete_body">%1$s이(가) 책갈피에서 삭제됩니다.</string>
+    <string name="reader_page_current">%1$d쪽, 현재 페이지</string>
+    <string name="reader_search_needs_continuous">검색은 이어서 보기 방식에서만 됩니다. 메뉴에서 읽기 방식을 바꿔 주세요.</string>
+    <string name="reader_discard_title">변경 내용을 버릴까요?</string>
+    <string name="reader_discard_body">양식에 입력하거나 체크한 내용이 모두 사라집니다.</string>
+    <string name="reader_brightness">밝기</string>
+    <string name="reader_brightness_percent">%1$d%%</string>
+    <string name="reader_info_unknown">알 수 없음</string>
+    <string name="sign_size_desc">서명 크기</string>
+    <string name="sign_page_preview_desc">페이지 미리보기. 서명을 넣을 자리를 누르세요.</string>
+    <string name="scan_remove_title">이 페이지를 뺄까요?</string>
+    <string name="scan_remove_body">%1$d쪽을 스캔에서 뺍니다.</string>
+    <string name="images_picture_n">사진 %1$d</string>
+    <string name="pdf_to_images_dpi_value">%1$d dpi</string>
+    <string name="pdf_to_images_quality_desc">JPEG 품질</string>
+    <string name="document_fallback_name">document.pdf</string>
+
+    <!-- Progress labels, always paired with a spinner -->
+    <string name="progress_opening_document">문서를 여는 중…</string>
+    <string name="progress_loading_page">페이지를 불러오는 중…</string>
+    <string name="progress_reading_pages">페이지를 읽는 중…</string>
+    <string name="progress_reading_folder">폴더를 읽는 중…</string>
+    <string name="progress_preparing_photo">사진을 준비하는 중…</string>
+    <string name="progress_building_pdf">PDF를 만드는 중…</string>
+
+    <!-- Language picker -->
+    <string name="settings_language">언어</string>
+    <string name="settings_language_system">시스템 기본값</string>
+
+    <!-- Welcome tour -->
+    <string name="tour_skip">건너뛰기</string>
+    <string name="tour_next">다음</string>
+    <string name="tour_start">시작</string>
+    <string name="tour_show_again">환영 안내 보기</string>
+    <string name="tour_show_again_summary">처음 실행할 때 나오는 짧은 소개입니다.</string>
+    <string name="tour_welcome_title">Plain PDF</string>
+    <string name="tour_welcome_body">설치해 주셔서 감사합니다. PDF를 읽고, 서명하고, 스캔하고, 편집하세요. 모두 휴대전화 안에서 이루어집니다. 광고도, 계정도, 클라우드도 없습니다.</string>
+    <string name="tour_sign_title">문서에 서명</string>
+    <string name="tour_sign_body">서명을 한 번만 그려 두면 페이지에 놓고 서명된 사본을 공유할 수 있습니다. 인쇄도 스캔도 필요 없습니다.</string>
+    <string name="tour_scan_title">스캔하고 검색</string>
+    <string name="tour_scan_body">페이지를 사진으로 찍으세요. 가장자리는 자동으로 찾아지고, 글자는 인식되며, PDF에서 검색하고 복사할 수 있습니다.</string>
+    <string name="tour_edit_title">작성, 그리기, 강조</string>
+    <string name="tour_edit_body">양식을 작성하고, 페이지에 그리거나 강조하고, 비밀번호를 추가하거나 해제하세요. 모든 도구는 열린 문서의 도구 버튼 하나에 모여 있습니다.</string>
+    <string name="tour_arrange_title">페이지 정리</string>
+    <string name="tour_arrange_body">파일을 합치고 나누고, 페이지 순서를 바꾸거나 회전하고, 큰 PDF의 용량을 줄이세요. 저장하기 전까지는 아무것도 바뀌지 않습니다.</string>
+
+    <!-- Draw and highlight -->
+    <string name="reader_annotate">그리기와 강조</string>
+    <string name="reader_annotate_desc">페이지에 펜이나 형광펜으로 그리세요</string>
+    <string name="reader_annotate_active">그리기와 강조 중</string>
+    <string name="reader_annotate_help">페이지에 펜이나 형광펜을 쓴 다음 사본을 저장하세요.</string>
+    <string name="reader_save_annotated">주석 넣은 사본 저장</string>
+    <string name="reader_annotated_saved">주석 넣은 사본 저장됨</string>
+    <string name="reader_discard_annotations_body">그린 내용과 강조 표시가 사라집니다.</string>
+
+    <!-- Text recognition -->
+    <string name="settings_group_ocr">글자 인식</string>
+    <string name="settings_ocr_enabled">스캔을 검색 가능하게 만들기</string>
+    <string name="settings_ocr_enabled_summary">스캔한 페이지의 글자를 인식해 검색하고 복사할 수 있게 합니다. 페이지당 몇 초 걸립니다.</string>
+    <string name="settings_ocr_languages">언어</string>
+    <string name="settings_ocr_bundled">앱에 포함됨</string>
+    <string name="settings_ocr_imported">가져옴</string>
+    <string name="settings_ocr_import">언어 파일 가져오기…</string>
+    <string name="settings_ocr_import_help">목록에 없는 언어라면: tessdata_fast 프로젝트에서 그 언어의 .traineddata 파일을 내려받은 뒤 여기서 선택하세요.</string>
+    <string name="settings_ocr_get_languages">언어 파일 받기</string>
+    <string name="settings_ocr_imported_done">언어를 가져왔습니다</string>
+    <string name="settings_ocr_languages_help">스캔한 페이지를 어떤 언어로 읽는지, 언어를 더 추가하는 방법</string>
+    <string name="scan_copy_text">글자 복사</string>
+    <string name="scan_text_copied">글자 복사됨</string>
+    <string name="scan_searchable">검색 가능: %1$s</string>
+    <string name="scan_recognising">글자 인식 중, %2$d쪽 중 %1$d쪽</string>
+
+    <!-- Crash report, offered on the launch after a crash -->
+    <string name="crash_title">지난번에 Plain PDF가 예기치 않게 종료되었습니다</string>
+    <string name="crash_body">죄송합니다. 개발자에게 보고서를 보내시겠어요? 기술 정보만 담깁니다. 앱 버전, 사용 중인 Android 버전과 휴대전화 모델, 그리고 오류가 발생한 위치입니다. 문서도, 이름도, 파일도 포함되지 않습니다.</string>
+    <string name="crash_send">보고서 보내기</string>
+    <string name="crash_not_now">나중에</string>
+
+    <!-- Reader: print, read aloud, copy text -->
+    <string name="reader_print">인쇄</string>
+    <string name="reader_print_desc">문서를 프린터로 보냅니다</string>
+    <string name="reader_print_unavailable">이 기기에서는 인쇄할 수 없습니다.</string>
+    <string name="reader_read_aloud">소리 내어 읽기</string>
+    <string name="reader_read_aloud_desc">휴대전화 음성으로 문서를 들으세요</string>
+    <string name="reader_reading_page">소리 내어 읽는 중, %1$d쪽</string>
+    <string name="action_pause">일시정지</string>
+    <string name="action_resume">재개</string>
+    <string name="action_stop">중지</string>
+    <string name="reader_tts_no_voice">이 언어의 음성이 아직 휴대전화에 없습니다. Android 설정에서 추가하실 수 있습니다.</string>
+    <string name="reader_tts_settings">설정</string>
+    <string name="reader_tts_no_text">이 문서에는 읽을 글자가 없습니다. 글자 인식을 켜고 스캔하세요.</string>
+    <string name="reader_copy_text">글자 복사 또는 공유</string>
+    <string name="reader_copy_text_desc">문서의 글자를 일반 텍스트로 복사합니다</string>
+    <string name="reader_text_copied">글자 복사됨</string>
+    <string name="action_copy">복사</string>
+    <string name="action_share_text">글자로 공유</string>
+
+    <!-- Page numbers -->
+    <string name="tool_page_numbers">쪽 번호</string>
+    <string name="tool_page_numbers_desc">모든 페이지에 번호를 넣습니다</string>
+    <string name="page_numbers_position">위치</string>
+    <string name="page_numbers_bottom_centre">아래 가운데</string>
+    <string name="page_numbers_bottom_right">아래 오른쪽</string>
+    <string name="page_numbers_top_right">위 오른쪽</string>
+    <string name="page_numbers_style">번호 방식</string>
+    <string name="page_numbers_start_at">시작 번호</string>
+    <string name="page_numbers_show_total">1 / 12 형식으로 표시</string>
+    <string name="page_numbers_example">첫 페이지에는 이렇게 표시됩니다: %1$s</string>
+
+    <!-- Make searchable -->
+    <string name="tool_make_searchable">검색 가능하게 만들기</string>
+    <string name="tool_make_searchable_desc">스캔한 PDF의 글자를 인식해 검색하고 복사할 수 있게 합니다</string>
+    <string name="searchable_note">이미 글자가 있는 페이지는 그대로 둡니다.</string>
+    <string name="searchable_languages">언어: %1$s</string>
+    <string name="searchable_languages_hint">설정의 글자 인식에서 바꿀 수 있습니다.</string>
+
+    <!-- Redact -->
+    <string name="tool_redact">검게 가리기</string>
+    <string name="tool_redact_desc">페이지의 일부를 영구히 검게 가립니다</string>
+    <string name="redact_explain">가린 페이지는 사진으로 바뀌므로 아래에 있던 내용을 되살릴 수 없습니다. 그 페이지의 글자는 더 이상 선택할 수 없습니다.</string>
+    <string name="redact_help">페이지 위를 드래그해 상자를 그리세요. 상자를 누르면 없어집니다.</string>
+    <string name="redact_page_preview_desc">페이지 미리보기. 가릴 부분 위를 드래그해 상자를 그리세요. 상자를 누르면 없어집니다.</string>
+    <plurals name="redact_box_count">
+        <item quantity="other">상자 %1$d개</item>
+    </plurals>
+    <plurals name="redact_page_count">
+        <item quantity="other">%1$d쪽에</item>
+    </plurals>
+
+    <!-- Launcher shortcuts and the home-screen widget -->
+    <string name="shortcut_scan_short">스캔</string>
+    <string name="shortcut_scan_long">문서 스캔</string>
+    <string name="shortcut_open_short">PDF 열기</string>
+    <string name="shortcut_open_long">PDF 열기</string>
+    <string name="widget_label">Plain PDF 빠른 작업</string>
+    <string name="widget_description">한 번의 터치로 문서를 스캔하거나 PDF를 엽니다.</string>
+    <string name="widget_scan">문서 스캔</string>
+    <string name="widget_open">PDF 열기</string>
+    <string name="widget_scan_short">스캔</string>
+    <string name="widget_library">보관함</string>
+
+    <!-- Continue reading, share a page, notes and share-sheet targets -->
+    <string name="library_continue_title">이어서 읽기</string>
+    <string name="library_continue_page">%2$d쪽 중 %1$d쪽</string>
+    <string name="library_continue_page_only">%1$d쪽</string>
+    <string name="action_continue_reading">계속</string>
+    <string name="reader_share_page">이 페이지 공유</string>
+    <string name="reader_share_page_image">사진으로</string>
+    <string name="reader_share_page_pdf">한 페이지짜리 PDF로</string>
+    <string name="tool_note">메모 쓰기</string>
+    <string name="tool_note_desc">글을 입력해 PDF로 저장합니다</string>
+    <string name="note_title_hint">제목 (선택)</string>
+    <string name="note_body_hint">여기에 메모를 쓰세요</string>
+    <string name="note_default_name">메모</string>
+    <string name="shortcut_continue_long">이어서 읽기: %1$s, %2$d쪽</string>
+    <string name="shortcut_continue_gone">이 문서는 더 이상 보관함에 없습니다</string>
+    <string name="share_target_sign">Plain PDF로 서명</string>
+    <string name="share_target_scan">Plain PDF로 스캔</string>
+    <string name="tour_edit_note_unavailable">양식 작성, 그리기, 강조는 Google의 PDF 업데이트가 있는 Android 12 이상이 필요한데, 이 휴대전화에는 없습니다. 다른 도구는 모두 쓸 수 있습니다.</string>
+    <string name="tour_edit_note_no_drawing">그리기와 강조는 이 휴대전화보다 새로운 Android가 필요합니다. 양식 작성은 쓸 수 있습니다.</string>
+
+    <!-- Languages for scanned text -->
+    <string name="ocr_languages_title">스캔 글자 언어</string>
+    <string name="ocr_languages_intro">스캔한 페이지는 체크한 언어로 읽습니다. 스캔하는 언어만 체크하세요. 언어가 늘수록 읽기가 조금 느려집니다.</string>
+    <string name="ocr_languages_on_phone">이 휴대전화에 있는 언어</string>
+    <string name="ocr_languages_get_more">언어 더 받기</string>
+    <string name="ocr_languages_get_more_play">받기를 누르면 Google Play가 언어를 내려받습니다. 더 할 일은 없습니다.</string>
+    <string name="ocr_languages_get_more_foss">이 버전은 내려받기를 할 수 없습니다. 아래 링크에서 언어 파일을 받아 가져오세요.</string>
+    <string name="ocr_languages_tier_common">많이 쓰는 언어</string>
+    <string name="ocr_languages_tier_nearby">이웃 나라 언어</string>
+    <string name="ocr_languages_tier_other">그 밖의 언어</string>
+    <string name="ocr_languages_get">받기</string>
+    <string name="ocr_languages_downloading">내려받는 중…</string>
+    <string name="ocr_languages_installing">준비하는 중…</string>
+    <string name="ocr_languages_failed">내려받지 못했습니다. 인터넷 연결을 확인하고 다시 시도하세요.</string>
+    <string name="ocr_languages_try_again">다시 시도</string>
+    <string name="ocr_languages_downloaded">내려받음</string>
+    <string name="ocr_languages_remove_title">%1$s을(를) 뺄까요?</string>
+    <string name="ocr_languages_remove_body">언제든지 다시 받을 수 있습니다.</string>
+    <string name="ocr_languages_ready">%1$s이(가) 준비되었습니다. 이제 그 언어로 스캔한 페이지를 읽을 수 있습니다.</string>
+    <string name="ocr_languages_keep_one">적어도 한 언어는 체크해 두세요.</string>
+    <string name="ocr_suggest_title">휴대전화 언어: %1$s</string>
+    <string name="ocr_suggest_body">%1$s(%2$s)을(를) 받으면 그 언어로 스캔한 페이지를 읽을 수 있습니다.</string>
+    <string name="ocr_suggest_get">%1$s 받기</string>
+    <string name="ocr_suggest_later">나중에</string>
+    <string name="ocr_garbled_title">글자가 잘 읽히지 않았습니다</string>
+    <string name="ocr_garbled_body">이 페이지는 이 휴대전화에 아직 없는 언어일 수 있습니다. 언어는 설정에서 추가할 수 있습니다.</string>
+    <string name="ocr_garbled_action">언어</string>
+</resources>

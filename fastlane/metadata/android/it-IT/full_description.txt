@@ -1,0 +1,45 @@
+Plain PDF legge i PDF e li modifica senza caricare nulla da nessuna parte. Si apre in fretta, ricorda dove era rimasto e non si mette in mezzo. Pulsanti grandi, nessun gesto nascosto.
+
+Lettura
+• Scorrimento continuo o pagina per pagina
+• Ricerca all'interno dei documenti con i risultati evidenziati
+• Compilazione di moduli con salvataggio di una copia
+• Disegnare ed evidenziare sulle pagine, salvato come vere annotazioni PDF (Android 12 o successivo)
+• Lettura ad alta voce con la voce del telefono, stampa, copia o condivisione del testo, condivisione di una singola pagina
+• Un pulsante Strumenti su ogni documento aperto, sempre visibile
+• Griglia delle pagine, segnalibri, vai alla pagina e Continua a leggere dalla schermata iniziale
+• Visualizzazione notte, seppia e scala di grigi, ricordata per ogni documento
+• Cinque temi per l'app, compreso il nero puro per gli schermi OLED
+• Schermo sempre acceso, cambio pagina con i tasti del volume, luminosità scorrendo sul bordo (facoltativa)
+
+Scansione
+• Fotografi una pagina; i bordi vengono trovati per lei, trascini gli angoli o i lati per correggerli
+• Pulizia a colori, in scala di grigi o in bianco e nero nitido
+• Riconoscimento del testo sul telefono, senza Internet: le scansioni diventano ricercabili e il loro testo può essere copiato. Otto lingue sono incluse (inglese, serbo in entrambi gli alfabeti, tedesco, spagnolo, francese, italiano, russo) e altre venti arrivano con un tocco nelle Impostazioni
+• Aggiunga altre pagine, poi condivida subito il PDF
+
+Strumenti, tutti su questo dispositivo
+• Firma: disegni la sua firma una volta e la posizioni su qualsiasi pagina
+• Rendi ricercabile: aggiunga il testo riconosciuto a qualsiasi PDF scansionato
+• Scrivi una nota: digiti un testo e lo salvi come PDF
+• Comprimi: renda un PDF più piccolo riducendo le immagini che contiene
+• Organizza pagine: ruota, elimina, riordina, estrai e duplica in un'unica griglia, con annulla
+• Unisci più PDF, con intervalli di pagine facoltativi per ogni documento
+• Dividi per intervalli di pagine o ogni N pagine
+• Numeri di pagina su ogni pagina
+• Oscura: annerisca parti di una pagina in modo che spariscano davvero, invece di restare solo coperte
+• Da immagini a PDF partendo da foto, scansioni o fotocamera
+• Da PDF a immagini in PNG o JPEG
+• Aggiungi, cambia o rimuovi una password (AES-256)
+
+Ogni operazione scrive prima in un file temporaneo e lo verifica prima di toccare i suoi file. Nulla viene mai eliminato in silenzio.
+
+Libreria
+• Documenti recenti con miniature e posizione di lettura
+• Cartelle indicizzate, preferiti, ricerca e ordinamento
+• I file spostati o scomparsi vengono segnalati, non scartati, con l'azione Ritrova il file
+• Widget nella schermata iniziale e scorciatoie per Scansione, Apri e Continua a leggere
+
+Disponibile in 17 lingue, tra cui inglese, serbo, tedesco, spagnolo, francese, portoghese, russo, arabo, hindi, cinese, giapponese e coreano.
+
+Niente pubblicità. Niente statistiche d'uso. Nessun account. Nessun accesso alla rete: l'app non ha nemmeno il permesso Internet. Tutte le funzioni di lettura e modifica sono gratuite; l'acquisto facoltativo Sostenitore sblocca solo colori in evidenza e icone.

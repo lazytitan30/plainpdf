@@ -1,0 +1,6 @@
+İlk sürüm.
+• Okuma, arama, form doldurma, çizme ve vurgulama, sesli okuma, yazdırma
+• Otomatik kenar bulma ve telefonda metin tanıma ile sayfa tarama
+• İmzalama, küçültme, sayfaları düzenleme, birleştirme, bölme, sayfa numaraları, karartma, not yazma
+• Son belgeler, klasörler, favoriler ve ana ekran widget'ı ile kitaplık
+• 17 dil, reklam yok, hesap yok, ağ erişimi yok

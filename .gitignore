@@ -1,0 +1,21 @@
+*.iml
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.keystore
+*.jks
+/keystore.properties
+/app/release/
+/.kotlin/
+
+# Agent worktrees
+.claude/worktrees/
+
+# Signed bundles built for upload; keep them out of the repository
+/releases/

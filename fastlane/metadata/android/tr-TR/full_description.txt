@@ -1,0 +1,45 @@
+Plain PDF, PDF'leri hiçbir şey yüklemeden okur ve değiştirir. Hızlı açılır, kaldığınız yeri hatırlar ve size engel olmaz. Büyük düğmeler, gizli hareketler yok.
+
+Okuma
+• Sürekli kaydırma veya sayfa sayfa
+• Belgelerin içinde arama, eşleşmeler vurgulanır
+• Formları doldurup bir kopya kaydetme
+• Sayfalara çizme ve vurgulama, gerçek PDF açıklamaları olarak kaydedilir (Android 12 veya üzeri)
+• Telefonun sesiyle sesli okuma, yazdırma, metni kopyalama veya paylaşma, tek bir sayfayı paylaşma
+• Her açık belgede her zaman görünen bir Araçlar düğmesi
+• Sayfa ızgarası, yer imleri, sayfaya gitme ve ana ekrandan Okumaya devam et
+• Gece, sepya ve gri tonlu sayfa görünümü, her belge için ayrı hatırlanır
+• OLED ekranlar için gerçek siyah dahil beş uygulama teması
+• Ekranı açık tutma, ses tuşlarıyla sayfa çevirme, isteğe bağlı kenardan kaydırarak parlaklık
+
+Tarama
+• Bir sayfanın fotoğrafını çekin; kenarlar sizin için bulunur, düzeltmek için köşeleri veya kenar çizgilerini sürükleyin
+• Renkli, gri tonlu veya net siyah beyaz temizleme
+• Telefonda metin tanıma, internet gerekmez: taramalar aranabilir hâle gelir ve metinleri kopyalanabilir. Sekiz dil uygulamayla birlikte gelir (İngilizce, iki alfabesiyle Sırpça, Almanca, İspanyolca, Fransızca, İtalyanca, Rusça), yirmi dil daha Ayarlar'da tek dokunuşla eklenir
+• Daha fazla sayfa ekleyin, ardından PDF'i hemen paylaşın
+
+Araçlar, hepsi bu cihazda
+• İmzala: imzanızı bir kez çizin ve istediğiniz sayfaya yerleştirin
+• Aranabilir yap: taranmış herhangi bir PDF'e tanınan metni ekleyin
+• Not yaz: metin yazın ve PDF olarak kaydedin
+• Küçült: içindeki resimleri küçülterek PDF'i daha küçük hâle getirin
+• Sayfaları düzenle: tek bir ızgarada döndürün, silin, yeniden sıralayın, ayırın ve çoğaltın, geri alma ile
+• Birden fazla PDF'i birleştirin, isteğe bağlı olarak her belge için sayfa aralıklarıyla
+• Sayfa aralıklarına göre veya her N sayfada bir bölün
+• Her sayfaya sayfa numaraları
+• Karart: sayfanın bazı bölümlerini karartın; yalnızca üstü örtülmez, gerçekten silinir
+• Fotoğraflardan, taramalardan veya kameradan resimlerden PDF
+• PNG veya JPEG olarak PDF'ten resim
+• Parola ekleyin, değiştirin veya kaldırın (AES-256)
+
+Her işlem önce geçici bir dosyaya yazar ve dosyalarınıza dokunmadan önce onu doğrular. Hiçbir şey sessizce silinmez.
+
+Kitaplık
+• Küçük resimler ve okuma konumuyla son belgeler
+• İzlenen klasörler, favoriler, arama ve sıralama
+• Taşınan veya kaybolan dosyalar silinmez, işaretlenir ve Yeniden bul seçeneği sunulur
+• Ana ekran widget'ı ve Tara, Aç ve Okumaya devam et kısayolları
+
+İngilizce, Sırpça, Almanca, İspanyolca, Fransızca, Portekizce, Rusça, Arapça, Hintçe, Çince, Japonca ve Korece dahil 17 dilde kullanılabilir.
+
+Reklam yok. Analitik yok. Hesap yok. Hiçbir ağ erişimi yok: uygulamanın internet izni bile yok. Tüm okuma ve düzenleme özellikleri ücretsizdir; isteğe bağlı Destekçi satın alımı yalnızca vurgu renklerini ve simgeleri açar.

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path name="darkroom" path="camera/" />
+    <cache-path name="outbox" path="work/share/" />
+    <files-path name="scans" path="scans/" />
+</paths>

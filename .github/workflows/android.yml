@@ -1,0 +1,42 @@
+name: Android
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Unit tests
+        run: ./gradlew :app:testFossDebugUnitTest --console=plain
+
+      - name: Lint
+        run: ./gradlew :app:lintFossDebug --console=plain
+
+      - name: Build both flavours
+        run: ./gradlew :app:assembleFossDebug :app:assemblePlayDebug --console=plain
+
+      - name: Release build (shrunk, debug-signed)
+        run: ./gradlew :app:assembleFossRelease --console=plain
+
+      - name: Keep the reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports
+          path: |
+            app/build/reports/
+            app/build/test-results/
+          if-no-files-found: ignore

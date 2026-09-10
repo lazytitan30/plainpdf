@@ -1,0 +1,45 @@
+Plain PDF lee PDF y los modifica sin subir nada a ningún sitio. Abre rápido, recuerda dónde se quedó y no se interpone en su camino. Botones grandes, sin gestos ocultos.
+
+Lectura
+• Desplazamiento continuo o página a página
+• Búsqueda dentro de los documentos con las coincidencias resaltadas
+• Rellenar formularios y guardar una copia
+• Dibujar y resaltar en las páginas, guardado como anotaciones PDF reales (Android 12 o posterior)
+• Leer en voz alta con la voz del teléfono, imprimir, copiar o compartir el texto, compartir una sola página
+• Un botón de Herramientas en cada documento abierto, siempre visible
+• Cuadrícula de páginas, marcadores, ir a una página y Continuar leyendo desde la pantalla de inicio
+• Vista de página nocturna, sepia y en escala de grises, recordada para cada documento
+• Cinco temas para la aplicación, incluido negro puro para pantallas OLED
+• Mantener la pantalla encendida, pasar página con las teclas de volumen, brillo opcional deslizando por el borde
+
+Escanear
+• Haga una foto de una página; los bordes se detectan solos, arrastre las esquinas o los lados para corregirlos
+• Limpieza en color, escala de grises o blanco y negro nítido
+• Reconocimiento de texto en el teléfono, sin internet: los escaneos se pueden buscar y su texto se puede copiar. Ocho idiomas vienen incluidos (inglés, serbio en ambos alfabetos, alemán, español, francés, italiano, ruso) y veinte más llegan con un toque en Ajustes
+• Añada más páginas y comparta el PDF al momento
+
+Herramientas, todas en este dispositivo
+• Firmar: dibuje su firma una vez y colóquela en cualquier página
+• Hacer que se pueda buscar: añada el texto reconocido a cualquier PDF escaneado
+• Escribir una nota: escriba texto y guárdelo como PDF
+• Comprimir: reduzca el tamaño de un PDF encogiendo las imágenes que contiene
+• Organizar páginas: girar, eliminar, reordenar, extraer y duplicar en una sola cuadrícula, con deshacer
+• Unir varios PDF, con rangos de páginas opcionales por documento
+• Dividir por rangos de páginas o cada N páginas
+• Números de página en todas las páginas
+• Tachar: cubra de negro partes de una página para que desaparezcan de verdad, no solo queden tapadas
+• Imágenes a PDF desde fotos, escaneos o la cámara
+• PDF a imágenes en PNG o JPEG
+• Añadir, cambiar o quitar una contraseña (AES-256)
+
+Cada operación escribe primero en un archivo temporal y lo comprueba antes de tocar sus archivos. Nunca se elimina nada en silencio.
+
+Biblioteca
+• Documentos recientes con miniaturas y posición de lectura
+• Carpetas indexadas, favoritos, búsqueda y ordenación
+• Los archivos que se mueven o desaparecen se marcan, no se descartan, con la acción Localizar de nuevo
+• Widget de pantalla de inicio y accesos directos para Escanear, Abrir y Continuar leyendo
+
+Disponible en 17 idiomas, entre ellos inglés, serbio, alemán, español, francés, portugués, ruso, árabe, hindi, chino, japonés y coreano.
+
+Sin anuncios. Sin analíticas. Sin cuenta. Sin ningún acceso a la red: la aplicación ni siquiera tiene el permiso de internet. Todas las funciones de lectura y edición son gratuitas; la compra opcional de Colaborador solo desbloquea colores de acento e iconos.

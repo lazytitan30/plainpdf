@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="220dp"
+    android:height="220dp"
+    android:viewportWidth="220"
+    android:viewportHeight="220">
+    <!-- Three pages fanned out, with page numbers -->
+    <path
+        android:fillColor="#FAFAF8"
+        android:strokeColor="#D6D6D0"
+        android:strokeWidth="2"
+        android:pathData="M92,44 h88 a6,6 0 0 1 6,6 v112 a6,6 0 0 1 -6,6 h-88 a6,6 0 0 1 -6,-6 v-112 a6,6 0 0 1 6,-6 z" />
+    <path
+        android:fillColor="#FAFAF8"
+        android:strokeColor="#D6D6D0"
+        android:strokeWidth="2"
+        android:pathData="M64,56 h88 a6,6 0 0 1 6,6 v112 a6,6 0 0 1 -6,6 h-88 a6,6 0 0 1 -6,-6 v-112 a6,6 0 0 1 6,-6 z" />
+    <path
+        android:fillColor="#FAFAF8"
+        android:strokeColor="#3A6E5F"
+        android:strokeWidth="3"
+        android:pathData="M36,68 h88 a6,6 0 0 1 6,6 v112 a6,6 0 0 1 -6,6 h-88 a6,6 0 0 1 -6,-6 v-112 a6,6 0 0 1 6,-6 z" />
+    <path
+        android:fillColor="#D6D6D0"
+        android:pathData="M50,92 h60 v6 h-60 z M50,108 h60 v6 h-60 z M50,124 h40 v6 h-40 z" />
+    <path
+        android:fillColor="#3A6E5F"
+        android:pathData="M80,150 m-12,0 a12,12 0 1 0 24,0 a12,12 0 1 0 -24,0" />
+    <path
+        android:fillColor="#FAFAF8"
+        android:pathData="M76,144 h4 v12 h-4 z M74,144 h8 v3 h-8 z" />
+</vector>

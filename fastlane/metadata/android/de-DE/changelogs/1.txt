@@ -1,0 +1,6 @@
+Erste Version.
+• Lesen, suchen, Formulare ausfüllen, zeichnen und markieren, vorlesen, drucken
+• Seiten scannen mit automatischer Randerkennung und Texterkennung auf dem Telefon
+• Unterschreiben, verkleinern, Seiten ordnen, zusammenfügen, teilen, Seitenzahlen, schwärzen, Notiz schreiben
+• Bibliothek mit zuletzt geöffneten Dokumenten, Ordnern, Favoriten und einem Startbildschirm-Widget
+• 17 Sprachen, keine Werbung, kein Konto, kein Netzwerkzugriff

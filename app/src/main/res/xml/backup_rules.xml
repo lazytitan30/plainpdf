@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Backup is disabled in the manifest. These rules are the belt to that braces: even if a
+     device ignores allowBackup, nothing that describes the user's documents leaves it. -->
+<full-backup-content>
+    <exclude domain="database" path="." />
+    <exclude domain="file" path="." />
+    <exclude domain="sharedpref" path="." />
+</full-backup-content>

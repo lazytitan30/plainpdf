@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plain PDF</title>
+<meta name="description" content="A free PDF reader and editor for Android with no ads, no account and no internet permission. Read, sign, scan and edit, all on your phone.">
+<style>
+  :root {
+    --paper: #f3eee4;
+    --paper-deep: #e9e2d4;
+    --ink: #1c1a17;
+    --ink-soft: #5a554c;
+    --rule: #cfc6b4;
+    --green: #2f6b5a;
+    --green-ink: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #17181a;
+      --paper-deep: #1f2124;
+      --ink: #ebe6db;
+      --ink-soft: #a49f94;
+      --rule: #35383c;
+      --green: #7fbfa6;
+      --green-ink: #10201a;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { color-scheme: light dark; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Charter, Georgia, serif;
+    font-size: 19px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: inherit; }
+  .page { max-width: 68rem; margin: 0 auto; padding: 0 1.5rem 5rem; }
+
+  /* Masthead */
+  header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 1.4rem 0 1.1rem;
+    border-bottom: 2px solid var(--ink);
+  }
+  .mark { display: flex; align-items: center; gap: .7rem; text-decoration: none; }
+  .mark svg { width: 34px; height: 34px; display: block; }
+  .mark span { font-size: 1.25rem; letter-spacing: .01em; }
+  nav { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: .82rem; letter-spacing: .12em; text-transform: uppercase; }
+  nav a { text-decoration: none; margin-left: 1.6rem; color: var(--ink-soft); }
+  nav a:hover { color: var(--ink); }
+
+  /* Hero */
+  .hero { display: grid; grid-template-columns: 7fr 5fr; gap: 3rem; padding: 4.5rem 0 3.5rem; border-bottom: 1px solid var(--rule); align-items: end; }
+  h1 { font-weight: 400; font-size: clamp(2.4rem, 5.2vw, 4.2rem); line-height: 1.05; letter-spacing: -.015em; margin: 0 0 1.4rem; }
+  h1 em { font-style: italic; color: var(--green); }
+  .lede { font-size: 1.22rem; color: var(--ink-soft); max-width: 34rem; margin: 0 0 2rem; }
+  .button {
+    display: inline-block; text-decoration: none;
+    background: var(--ink); color: var(--paper);
+    padding: .95rem 1.6rem; font-size: 1rem;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; letter-spacing: .02em;
+  }
+  .button:hover { background: var(--green); color: var(--green-ink); }
+  .fine { font-size: .9rem; color: var(--ink-soft); margin-top: .9rem; }
+
+  /* Fact sheet */
+  .facts { border-top: 2px solid var(--ink); font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: .95rem; }
+  .facts div { display: flex; justify-content: space-between; gap: 1rem; padding: .7rem 0; border-bottom: 1px solid var(--rule); }
+  .facts dt { color: var(--ink-soft); margin: 0; }
+  .facts dd { margin: 0; text-align: right; }
+  .facts .none { color: var(--green); font-weight: 600; }
+
+  /* Sections */
+  .label { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: .78rem; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 1rem; }
+  section { padding: 3.2rem 0; border-bottom: 1px solid var(--rule); }
+  h2 { font-weight: 400; font-size: 1.9rem; line-height: 1.15; margin: 0 0 1.2rem; letter-spacing: -.01em; }
+  .cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; }
+  .cols h3 { font-weight: 400; font-size: 1.35rem; margin: 0 0 .5rem; }
+  .cols h3 small { display: block; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: .78rem; letter-spacing: .16em; color: var(--green); margin-bottom: .6rem; }
+  .cols p { margin: 0; color: var(--ink-soft); font-size: 1.02rem; }
+  .cols ul { margin: .6rem 0 0; padding: 0; list-style: none; color: var(--ink-soft); font-size: 1.02rem; }
+  .cols li { padding: .3rem 0; border-top: 1px solid var(--rule); }
+
+  .why { display: grid; grid-template-columns: 5fr 7fr; gap: 3rem; }
+  .why p { margin: 0 0 1rem; font-size: 1.12rem; }
+  .why p:last-child { margin-bottom: 0; }
+
+  .languages { display: grid; grid-template-columns: 5fr 7fr; gap: 3rem; align-items: baseline; }
+  .languages p { margin: 0; color: var(--ink-soft); }
+
+  footer { padding: 2.2rem 0 0; display: flex; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; color: var(--ink-soft); font-size: .95rem; }
+  footer a { color: var(--ink-soft); }
+
+  @media (max-width: 780px) {
+    body { font-size: 18px; }
+    .page { padding: 0 1.15rem 4rem; }
+    nav a { margin-left: 1.1rem; }
+    .hero { grid-template-columns: 1fr; gap: 2.4rem; padding: 3rem 0 2.6rem; }
+    .cols, .why, .languages { grid-template-columns: 1fr; gap: 2rem; }
+    section { padding: 2.5rem 0; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <a class="mark" href="./" aria-label="Plain PDF home">
+      <svg viewBox="0 0 34 34" aria-hidden="true">
+        <path d="M7 2h14l6 6v24H7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M21 2v6h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        <rect x="3" y="17" width="28" height="9" fill="var(--green)"/>
+        <text x="17" y="24" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7.5" font-weight="700" fill="var(--green-ink)" letter-spacing=".5">PDF</text>
+      </svg>
+      <span>Plain PDF</span>
+    </a>
+    <nav>
+      <a href="privacy">Privacy</a>
+      <a href="support">Support</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div>
+      <h1>A PDF app that <em>minds its own business.</em></h1>
+      <p class="lede">Read, sign, scan and edit PDFs on your Android phone. Free, with no ads and no account. It cannot connect to the internet, so nothing you open can leave your phone.</p>
+      <a class="button" href="https://play.google.com/store/apps/details?id=com.plainpdf.app">Get it on Google Play</a>
+      <p class="fine">Android 9 and newer. Every feature is free.</p>
+    </div>
+    <dl class="facts" aria-label="Facts">
+      <div><dt>Price</dt><dd>Free</dd></div>
+      <div><dt>Ads</dt><dd class="none">None</dd></div>
+      <div><dt>Account</dt><dd class="none">None</dd></div>
+      <div><dt>Internet permission</dt><dd class="none">None</dd></div>
+      <div><dt>Works offline</dt><dd>Always</dd></div>
+      <div><dt>Languages</dt><dd>17</dd></div>
+      <div><dt>Source code</dt><dd>Public, GPL</dd></div>
+    </dl>
+  </div>
+
+  <section>
+    <p class="label">What it does</p>
+    <div class="cols">
+      <div>
+        <h3><small>01</small>Read</h3>
+        <p>Opens fast and remembers where you were.</p>
+        <ul>
+          <li>Search inside any document</li>
+          <li>Fill in forms, draw and highlight</li>
+          <li>Read aloud, print, share a page</li>
+          <li>Bookmarks, page grid, night display</li>
+        </ul>
+      </div>
+      <div>
+        <h3><small>02</small>Scan</h3>
+        <p>Point the camera at a page. The edges are found for you.</p>
+        <ul>
+          <li>Colour, grey or crisp black and white</li>
+          <li>Text recognised on the phone, offline</li>
+          <li>Latin and Cyrillic, both built in</li>
+          <li>Scans you can search and copy from</li>
+        </ul>
+      </div>
+      <div>
+        <h3><small>03</small>Fix</h3>
+        <p>Every tool works on your phone and never uploads a thing.</p>
+        <ul>
+          <li>Sign with your own signature</li>
+          <li>Merge, split, reorder, rotate</li>
+          <li>Compress, add page numbers, redact</li>
+          <li>Passwords, notes, images to PDF</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="why">
+      <div>
+        <p class="label">Why it exists</p>
+        <h2>Every free PDF app is full of ads. Every clean one wants a subscription.</h2>
+      </div>
+      <div>
+        <p>Plain PDF is the third option. It is free and stays free. It does not hold the permission to use the internet, so it cannot show ads, cannot track you and cannot send your documents anywhere. Not "we promise not to". It is not able to.</p>
+        <p>The source code is published under the GPL, which means anyone can check these claims, and anyone who copies the app must keep it just as open. That is deliberate: the app was made to be passed along, improved and shared, so that help given once keeps on helping. It is built for people who want big buttons and no hidden gestures.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="languages">
+      <div>
+        <p class="label">Languages</p>
+        <h2>Seventeen of them, chosen inside the app.</h2>
+      </div>
+      <p>English, Serbian, German, Spanish, French, Italian, Portuguese, Russian, Polish, Turkish, Indonesian, Vietnamese, Japanese, Korean, Chinese, Hindi and Arabic. Text recognition reads English and Serbian out of the box, in Latin and Cyrillic script; other languages can be added.</p>
+    </div>
+  </section>
+
+  <footer>
+    <span>Plain PDF is free software under the GNU GPL v3.</span>
+    <span><a href="privacy">Privacy policy</a> &nbsp;·&nbsp; <a href="support">Support</a> &nbsp;·&nbsp; <a href="mailto:support@plainpdf.app">support@plainpdf.app</a></span>
+  </footer>
+
+</div>
+</body>
+</html>

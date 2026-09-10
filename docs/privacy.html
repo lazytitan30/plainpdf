@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · Plain PDF</title>
+<style>
+  :root { --paper: #f3eee4; --ink: #1c1a17; --ink-soft: #5a554c; --rule: #cfc6b4; --green: #2f6b5a; --green-ink: #ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --paper: #17181a; --ink: #ebe6db; --ink-soft: #a49f94; --rule: #35383c; --green: #7fbfa6; --green-ink: #10201a; } }
+  * { box-sizing: border-box; }
+  html { color-scheme: light dark; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Charter, Georgia, serif; font-size: 18px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  a { color: inherit; }
+  .page { max-width: 46rem; margin: 0 auto; padding: 0 1.5rem 5rem; }
+  header { display: flex; align-items: center; justify-content: space-between; padding: 1.4rem 0 1.1rem; border-bottom: 2px solid var(--ink); }
+  .mark { display: flex; align-items: center; gap: .7rem; text-decoration: none; }
+  .mark svg { width: 34px; height: 34px; display: block; }
+  .mark span { font-size: 1.25rem; }
+  nav { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: .82rem; letter-spacing: .12em; text-transform: uppercase; }
+  nav a { text-decoration: none; margin-left: 1.6rem; color: var(--ink-soft); }
+  nav a:hover { color: var(--ink); }
+  .label { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: .78rem; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-soft); margin: 3rem 0 .6rem; }
+  h1 { font-weight: 400; font-size: clamp(2rem, 4.5vw, 2.8rem); line-height: 1.1; letter-spacing: -.015em; margin: 0 0 .5rem; }
+  .date { color: var(--ink-soft); margin: 0 0 2rem; }
+  h2 { font-weight: 400; font-size: 1.45rem; margin: 2.4rem 0 .6rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); }
+  ul { padding-left: 1.2rem; }
+  li { margin: .35rem 0; }
+  .wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: .92rem; border-top: 2px solid var(--ink); }
+  th, td { text-align: left; vertical-align: top; padding: .6rem .6rem .6rem 0; border-bottom: 1px solid var(--rule); }
+  th { color: var(--ink-soft); font-weight: 600; letter-spacing: .06em; text-transform: uppercase; font-size: .76rem; }
+  footer { margin-top: 3.5rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); color: var(--ink-soft); font-size: .95rem; }
+  footer a { color: var(--ink-soft); }
+  @media (max-width: 780px) { .page { padding: 0 1.15rem 4rem; } nav a { margin-left: 1.1rem; } }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <a class="mark" href="./" aria-label="Plain PDF home">
+      <svg viewBox="0 0 34 34" aria-hidden="true">
+        <path d="M7 2h14l6 6v24H7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M21 2v6h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        <rect x="3" y="17" width="28" height="9" fill="var(--green)"/>
+        <text x="17" y="24" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7.5" font-weight="700" fill="var(--green-ink)" letter-spacing=".5">PDF</text>
+      </svg>
+      <span>Plain PDF</span>
+    </a>
+    <nav>
+      <a href="privacy">Privacy</a>
+      <a href="support">Support</a>
+    </nav>
+  </header>
+
+  <p class="label">Privacy policy</p>
+  <h1>Plain PDF Reader &amp; Editor</h1>
+  <p class="date">Last updated: 5 September 2026</p>
+
+  <p>Plain PDF is a PDF reader and editor that works entirely on your device. This policy explains what the app stores, what it never does, and how to remove what it keeps.</p>
+
+  <h2>The short version</h2>
+  <ul>
+    <li>Plain PDF has no account, no ads and no analytics.</li>
+    <li>Plain PDF makes no network connections. The FOSS build does not even hold the permission to use the internet, and neither does the Google Play build.</li>
+    <li>Extra languages for reading scanned pages are delivered by Google Play when you tap Get in Settings. The Play Store app does that download with its own connection; Plain PDF only receives the file. Google learns that you requested that language pack, nothing about your documents.</li>
+    <li>Everything you open, scan or create stays on your device unless you choose to share or save it somewhere yourself.</li>
+    <li>We, the developers, receive nothing from the app. We cannot see your documents, your file names or how you use the app.</li>
+    <li>The source code is public, so anyone can check these statements.</li>
+  </ul>
+
+  <h2>What the app stores on your device</h2>
+  <p>Plain PDF keeps a small amount of data in its private app storage so that it can work as a library:</p>
+  <div class="wrap">
+  <table>
+    <tr><th>Data</th><th>Why</th><th>How long</th></tr>
+    <tr><td>Links to the documents you opened, their names, page counts, your reading position, favourites, labels and bookmarks</td><td>To show your library, resume where you left off and remember bookmarks</td><td>Until you remove the document from the library or uninstall the app</td></tr>
+    <tr><td>Links to folders you added</td><td>To list the PDFs inside them</td><td>Until you remove the folder</td></tr>
+    <tr><td>A record of the last 30 tool operations (type, document name, output name, success or error text)</td><td>To show recent outputs</td><td>Rolling, oldest entries are dropped</td></tr>
+    <tr><td>Your settings (theme, reading mode, default save folder and similar)</td><td>To keep your preferences</td><td>Until uninstall</td></tr>
+    <tr><td>PDFs created with Scan</td><td>So the scan is ready to share immediately</td><td>Until you delete them from the library</td></tr>
+    <tr><td>Small first-page thumbnails</td><td>For the library view</td><td>Removed with the document, and unused ones are cleaned up automatically</td></tr>
+    <tr><td>Temporary working copies while a tool runs</td><td>Tools work on a copy and only replace your file after the result is verified</td><td>Deleted when the tool finishes; leftovers are cleared within a day</td></tr>
+    <tr><td>Camera photos taken for Scan</td><td>To build the PDF</td><td>Deleted when the scan is finished or within a day</td></tr>
+    <tr><td>A crash report, if the app ever crashes</td><td>So you can send us what went wrong, if you choose to</td><td>Kept until you share or dismiss it; nothing is sent on its own</td></tr>
+  </table>
+  </div>
+  <p>The crash report contains the technical error and the app version. File names, folder paths and document contents are removed from it before it is written. It leaves your phone only if you tap Share and pick where it goes.</p>
+  <p>Passwords you type to open a protected PDF are kept in memory only while the tool runs and are never written to storage.</p>
+
+  <h2>What the app never does</h2>
+  <ul>
+    <li>It never uploads, syncs or transmits your documents or any information about them.</li>
+    <li>It never reads files you did not pick. Plain PDF uses the Android file picker, so it only sees documents and folders you choose.</li>
+    <li>It never backs up its data to Google or transfers it to a new phone. Backup is switched off for the whole app.</li>
+    <li>It never writes document names, paths or contents to the system log in release builds.</li>
+    <li>It never uses your location, contacts, camera roll or any other personal data. Scan uses the camera app you already have, and only receives the photo you take for it.</li>
+  </ul>
+
+  <h2>Permissions</h2>
+  <p>Plain PDF asks for notification permission only to show progress for long-running tools. It uses no storage permission; access to files goes through the Android file picker, one document or folder at a time, and you can revoke it by removing the item from the library.</p>
+  <p>The Google Play build additionally holds the Play Billing permission for the optional Supporter purchase. Purchases are handled by Google Play; Plain PDF only learns whether the purchase exists. See Google's own privacy policy for how Google handles payments.</p>
+
+  <h2>Removing your data</h2>
+  <ul>
+    <li>Remove a document or folder from the library to delete what Plain PDF knows about it. Deleting a scan deletes the PDF as well.</li>
+    <li>Clear the app's storage in Android settings, or uninstall the app, to remove everything at once.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Plain PDF collects no data from anyone, including children.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the new version ships with the app and is published at this address. The date at the top tells you when it last changed.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy: write to <a href="mailto:support@plainpdf.app">support@plainpdf.app</a>. The source code is published from <a href="source">plainpdf.app/source</a>.</p>
+
+  <footer>Plain PDF is free software under the GNU GPL v3. &nbsp;·&nbsp; <a href="./">Home</a> &nbsp;·&nbsp; <a href="support">Support</a></footer>
+</div>
+</body>
+</html>

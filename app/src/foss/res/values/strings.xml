@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Replace with the real donation page before the F-Droid submission. -->
+    <string name="foss_donate_url" translatable="false">https://plainpdf.app/support</string>
+</resources>

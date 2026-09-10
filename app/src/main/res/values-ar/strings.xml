@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plain PDF</string>
+
+    <!-- Navigation -->
+    <string name="nav_library">المكتبة</string>
+    <string name="nav_tools">الأدوات</string>
+    <string name="action_back">رجوع</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_done">تم</string>
+
+    <!-- Library -->
+    <string name="library_tab_recent">الأخيرة</string>
+    <string name="library_tab_folders">المجلدات</string>
+    <string name="library_tab_favourites">المفضلة</string>
+    <string name="library_open_pdf">فتح ملف PDF</string>
+    <string name="library_add_folder">إضافة مجلد</string>
+    <string name="library_empty_recent">لا توجد مستندات بعد. افتح ملف PDF للبدء.</string>
+    <string name="library_empty_folders">لا توجد مجلدات بعد. أضف مجلدًا لتصفح ملفات PDF الموجودة فيه.</string>
+    <string name="library_empty_favourites">لا يوجد شيء هنا بعد. افتح قائمة المستند، النقاط الثلاث، واختر «المفضلة».</string>
+    <string name="library_search">بحث</string>
+    <string name="library_more">المزيد</string>
+    <string name="library_sort">ترتيب</string>
+    <string name="library_view_grid">شبكة</string>
+    <string name="library_view_list">قائمة</string>
+
+    <!-- Tools -->
+    <string name="tools_title">الأدوات</string>
+    <string name="tools_empty">هنا تجد أدوات الدمج والتقسيم وترتيب الصفحات. كل شيء يعمل على هذا الجهاز.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_group_appearance">المظهر</string>
+    <string name="settings_group_reading">القراءة</string>
+    <string name="settings_group_tools">الأدوات</string>
+    <string name="settings_group_library">المكتبة</string>
+    <string name="settings_group_about">حول التطبيق</string>
+    <string name="settings_theme">السمة</string>
+    <string name="settings_accent">لون التمييز</string>
+    <string name="settings_dynamic_colour">استخدام ألوان النظام</string>
+    <string name="settings_dynamic_colour_summary">ألوان مأخوذة من خلفية الشاشة</string>
+    <string name="settings_app_icon">أيقونة التطبيق</string>
+    <string name="settings_reading_mode">وضع القراءة الافتراضي</string>
+    <string name="settings_page_display">عرض الصفحة الافتراضي</string>
+    <string name="settings_keep_screen_on">إبقاء الشاشة مضاءة أثناء القراءة</string>
+    <string name="settings_edge_brightness">تغيير السطوع بالسحب من الحافة</string>
+    <string name="settings_edge_brightness_summary">اسحب على الحافة اليسرى لتغيير السطوع</string>
+    <string name="settings_double_tap_zoom">النقر المزدوج للتكبير</string>
+    <string name="settings_volume_keys">أزرار الصوت تقلّب الصفحات</string>
+    <string name="settings_save_location">أين تُحفظ الملفات الجديدة</string>
+    <string name="settings_save_location_ask">اسألني في كل مرة</string>
+    <string name="settings_save_location_choose">اختيار مجلد</string>
+    <string name="settings_output_naming">كيف تُسمّى الملفات الجديدة</string>
+    <string name="settings_output_naming_help">{name} هو اسم الملف الأصلي، و{op} هو اسم العملية، مثل merged أو pages_1-4.</string>
+    <string name="settings_language_summary">لغة القوائم والأزرار في التطبيق.</string>
+    <string name="settings_theme_summary">مظهر فاتح أو داكن للتطبيق نفسه. تحتفظ الصفحات بألوانها.</string>
+    <string name="settings_accent_summary">لون الأزرار وعناصر التحكم الأخرى في التطبيق.</string>
+    <string name="settings_app_icon_summary">شكل Plain PDF على شاشتك الرئيسية.</string>
+    <string name="settings_highlight_summary">اللون الذي يميز النتائج عند البحث داخل مستند.</string>
+    <string name="settings_reading_mode_summary">تمرير الصفحات باستمرار، أو قلب صفحة واحدة في كل مرة.</string>
+    <string name="settings_page_display_summary">عرض الصفحات كما هي، أو معتمة لليل، أو بلون بني داكن، أو بالرمادي.</string>
+    <string name="settings_keep_screen_on_summary">تبقى الشاشة مضاءة ما دام هناك مستند مفتوح.</string>
+    <string name="settings_double_tap_zoom_summary">انقر على الصفحة مرتين للتكبير، ومرتين أخريين للعودة.</string>
+    <string name="settings_volume_keys_summary">اضغط على زري الصوت للانتقال إلى الصفحة التالية أو السابقة.</string>
+    <string name="settings_save_location_summary">الملفات المدمجة والمقسّمة والممسوحة وغيرها من الملفات الجديدة تُحفظ هنا. تبقى ملفاتك الأصلية في مكانها.</string>
+    <string name="settings_save_location_ask_summary">تسأل كل أداة عن مجلد قبل الحفظ.</string>
+    <string name="settings_save_location_folder">دائمًا في %1$s</string>
+    <string name="settings_save_location_choose_summary">اختر مجلدًا على هذا الهاتف. تُحفظ الملفات الجديدة هناك دائمًا.</string>
+    <string name="settings_output_naming_summary">دمج %1$s يُنتج %2$s. يحتفظ الملف الأصلي باسمه.</string>
+    <string name="naming_sample_name">عقد</string>
+    <string name="naming_style_name_op">الاسم الأصلي، ثم ما تم إجراؤه</string>
+    <string name="naming_style_op_name">ما تم إجراؤه، ثم الاسم الأصلي</string>
+    <string name="naming_style_custom">نمط مخصص</string>
+    <string name="naming_style_custom_summary">اكتب نمطك الخاص باستخدام {name} و{op}.</string>
+    <string name="settings_confirm_overwrite_summary">يسأل قبل أن تستبدل أداةٌ الملفَ الأصلي بالنسخة المعدّلة.</string>
+    <string name="settings_default_sort_summary">ترتيب المستندات في المكتبة.</string>
+    <string name="settings_source_summary">Plain PDF مفتوح المصدر: يمكن لأي شخص قراءة طريقة عمله والبناء عليه.</string>
+    <string name="settings_licence_summary">حر في الاستخدام والمشاركة والتحسين، بشرط واحد: أن يبقى مجانيًا للجميع.</string>
+    <string name="settings_confirm_overwrite">التأكيد قبل استبدال الملف الأصلي</string>
+    <string name="settings_default_sort">الترتيب الافتراضي</string>
+    <string name="settings_clear_recents">مسح قائمة الأخيرة</string>
+    <string name="settings_clear_thumbnails">مسح المعاينات المحفوظة</string>
+    <string name="settings_version">الإصدار</string>
+    <string name="settings_source">الشفرة المصدرية</string>
+    <string name="settings_licence">الترخيص</string>
+    <string name="settings_licence_value">GNU GPL v3</string>
+    <string name="settings_feedback">اقترح ميزة أو أبلغ عن مشكلة</string>
+    <string name="settings_feedback_summary">يفتح تطبيق البريد لديك برسالة موجّهة إلى المطوّر. كل رسالة تُقرأ.</string>
+    <string name="feedback_subject">Plain PDF: اقتراح</string>
+    <string name="settings_supporter">داعم</string>
+    <string name="settings_supporter_summary">مجاني، بلا إعلانات. إن كان التطبيق يساعدك، يمكنك أن تقول شكرًا هنا.</string>
+    <string name="settings_supporter_active">أنت داعم. شكرًا لك على مساعدتك في إبقاء Plain PDF مجانيًا.</string>
+    <string name="settings_supporter_active_gift">شكرًا لك على هديتك. حزمة الداعم لك.</string>
+    <string name="settings_donate">تبرّع</string>
+    <string name="settings_locked">للداعمين</string>
+
+    <string name="theme_system">النظام</string>
+    <string name="theme_light">فاتحة</string>
+    <string name="theme_dark">داكنة</string>
+    <string name="theme_black">سوداء</string>
+    <string name="theme_sepia">بنّية</string>
+
+    <string name="accent_teal">أزرق مخضرّ</string>
+    <string name="accent_amber">كهرماني</string>
+    <string name="accent_crimson">قرمزي</string>
+    <string name="accent_indigo">نيلي</string>
+    <string name="accent_violet">بنفسجي</string>
+    <string name="accent_forest">أخضر غابي</string>
+    <string name="accent_slate">رمادي أردوازي</string>
+
+    <string name="reading_mode_continuous">تمرير متواصل</string>
+    <string name="reading_mode_paged">صفحة صفحة</string>
+
+    <string name="page_display_normal">عادي</string>
+    <string name="page_display_night">ليلي</string>
+    <string name="page_display_sepia">بنّي</string>
+    <string name="page_display_grayscale">رمادي</string>
+
+    <string name="sort_recently_opened">الأحدث فتحًا</string>
+    <string name="sort_recently_added">الأحدث إضافة</string>
+    <string name="sort_name">الاسم</string>
+    <string name="sort_size">الحجم</string>
+
+    <!-- Supporter -->
+    <string name="supporter_title">داعم</string>
+    <string name="supporter_intro">Plain PDF مجاني وبلا إعلانات، وكل الميزات تعمل دون دفع. إن كان يساعدك، فهذا هو المكان لتقول شكرًا. في المقابل تحصل على بضعة ألوان وأيقونات، وعلى امتناننا.</string>
+    <string name="supporter_grants_title">ما تحصل عليه</string>
+    <string name="supporter_grant_accents">ستة ألوان تمييز</string>
+    <string name="supporter_grant_icons">ثلاث أيقونات بديلة للتطبيق</string>
+    <string name="supporter_grant_highlights">مجموعات ألوان إضافية لتمييز نتائج البحث</string>
+    <string name="supporter_grant_about">سطر «داعم» في صفحة حول التطبيق</string>
+    <string name="supporter_unlock">كن داعمًا</string>
+    <string name="supporter_tips_title">التبرع مجددًا</string>
+    <string name="supporter_tips_summary">اختياري. إن رغبت في العطاء مجددًا لاحقًا، فهذا هو المكان. لا يفتح شيئًا جديدًا؛ إنه ببساطة يقول شكرًا.</string>
+    <string name="supporter_restore">استعادة المشتريات</string>
+    <string name="supporter_restore_found">عادت عملية الشراء. شكرًا لك.</string>
+    <string name="supporter_restore_none">لم يُعثر على حزمة الداعم لحساب Google هذا. لا تترك الهدايا أي سجل، لذلك لا يمكن استعادتها.</string>
+    <string name="supporter_unavailable">لا يستطيع Google Play قبول المدفوعات على هذا الهاتف حاليًا. لم يُفقد شيء؛ يبقى التطبيق مجانيًا.</string>
+    <string name="supporter_thanks">أنت داعم. شكرًا لك على مساعدتك في إبقاء Plain PDF مجانيًا.</string>
+    <string name="supporter_donate_intro">Plain PDF مجاني وبلا إعلانات، وكل الميزات تعمل دون دفع. إن كان يساعدك، يمكنك دعم العمل الذي يقف وراءه.</string>
+    <string name="supporter_donate_button">فتح صفحة التبرع</string>
+    <string name="supporter_grant_future">الألوان والأيقونات الجديدة التي تُضاف لاحقًا، دون تكلفة إضافية</string>
+    <string name="supporter_tips_title_first">أو اترك إكرامية</string>
+    <string name="supporter_tips_summary_first">أي مبلغ يقول شكرًا.</string>
+    <string name="supporter_tip_unlocks_note">يفتح أيضًا حزمة الداعم</string>
+    <string name="supporter_gift_title">شكرًا لك على هديتك</string>
+    <string name="supporter_gift_body">تركت إكرامية، وحزمة الداعم أصبحت لك أيضًا: كل الألوان والأيقونات ومجموعات ألوان التمييز مفتوحة. لا حاجة لشراء الحزمة.</string>
+    <string name="supporter_gift_note">لا تترك الهدايا أي سجل في Google Play، لذلك تُحفظ الحزمة على هذا الهاتف.</string>
+    <string name="supporter_snack_gift">شكرًا لك على هديتك.</string>
+    <string name="supporter_snack_unlock">شكرًا لك. أنت الآن داعم.</string>
+    <string name="supporter_problem_connection">لم يستجب Google Play. تأكد من تسجيل الدخول في تطبيق متجر Play، ثم عد لاحقًا. لم يُفقد شيء؛ يبقى التطبيق مجانيًا.</string>
+    <string name="supporter_problem_listing">لم يدرج Google Play عناصر الداعم بعد. يرجى المحاولة لاحقًا. لم يُفقد شيء؛ يبقى التطبيق مجانيًا.</string>
+    <string name="supporter_problem_region">لا يقدم Google Play هذه العناصر في بلدك بعد. لم يُفقد شيء؛ يبقى التطبيق مجانيًا.</string>
+
+    <!-- Reader -->
+    <string name="reader_page_of">%1$d / %2$d</string>
+    <string name="reader_error_open">تعذّر فتح هذا الملف. ربما نُقل أو حُذف.</string>
+    <string name="reader_locate_again">البحث عن الملف مجددًا</string>
+    <string name="reader_not_saved">غير محفوظ</string>
+
+    <!-- Library, M2 -->
+    <string name="library_search_hint">البحث في المستندات</string>
+    <string name="library_no_matches">لا شيء يطابق هذا البحث.</string>
+    <string name="library_page_of">الصفحة %1$d من %2$d</string>
+    <string name="library_file_unavailable">الملف غير متاح</string>
+    <string name="library_deleted">حُذف الملف</string>
+    <string name="library_delete_failed">تعذّر حذف هذا الملف. التطبيق الذي يتبع له لم يسمح بذلك.</string>
+    <string name="library_delete_title">حذف الملف؟</string>
+    <string name="library_delete_body">سيُحذف %1$s من وحدة التخزين. لا يمكن التراجع عن ذلك.</string>
+    <string name="library_rename_help">يغيّر الاسم الظاهر في Plain PDF فقط. يحتفظ الملف باسمه.</string>
+    <string name="library_folder_failed">تعذّرت إضافة هذا المجلد. اختره مجددًا واسمح بالوصول إليه.</string>
+    <string name="library_folder_unavailable">لم يعد بالإمكان قراءة هذا المجلد. ربما نُقل أو أُزيلت وحدة تخزينه.</string>
+    <string name="library_folder_empty">لا توجد ملفات PDF في هذا المجلد بعد.</string>
+    <string name="library_remove_folder_body">إيقاف متابعة هذا المجلد؟ الملفات التي فتحتها أو أضفتها إلى المفضلة تبقى في المكتبة.</string>
+    <string name="action_favourite">إضافة إلى المفضلة</string>
+    <string name="action_unfavourite">إزالة من المفضلة</string>
+    <string name="action_rename_label">تغيير الاسم الظاهر</string>
+    <string name="action_share">مشاركة</string>
+    <string name="action_organise_pages">ترتيب الصفحات</string>
+    <string name="action_remove_from_recents">إزالة من الأخيرة</string>
+    <string name="action_delete_file">حذف الملف</string>
+    <string name="action_remove_folder">إزالة المجلد</string>
+    <string name="action_refresh">تحديث</string>
+    <string name="action_clear">مسح</string>
+
+    <!-- Reader, M3 -->
+    <string name="reader_search">البحث في المستند</string>
+    <string name="reader_search_hint">ابحث في المستند</string>
+    <string name="reader_search_count">%1$d من %2$d</string>
+    <string name="reader_search_none">لا توجد نتائج</string>
+    <string name="reader_search_previous">النتيجة السابقة</string>
+    <string name="reader_search_next">النتيجة التالية</string>
+    <string name="reader_outline">الصفحات</string>
+    <string name="reader_pages_title">%1$d صفحة</string>
+    <string name="reader_jump_to_page">الانتقال إلى صفحة</string>
+    <string name="reader_jump_hint">من 1 إلى %1$d</string>
+    <string name="reader_go">انتقال</string>
+    <string name="reader_add_bookmark">إضافة إشارة مرجعية</string>
+    <string name="reader_add_bookmark_title">إشارة مرجعية للصفحة %1$d</string>
+    <string name="reader_bookmark_label">اسم الإشارة المرجعية</string>
+    <string name="reader_bookmark_label_help">اختياري. اتركه فارغًا لعرض رقم الصفحة.</string>
+    <string name="reader_bookmark_added">أُضيفت الإشارة المرجعية</string>
+    <string name="reader_bookmarks">الإشارات المرجعية</string>
+    <string name="reader_bookmarks_empty">لا توجد إشارات مرجعية بعد. اختر «إضافة إشارة مرجعية» من القائمة لتعليم صفحة.</string>
+    <string name="reader_page_n">الصفحة %1$d</string>
+    <string name="reader_page_display">عرض الصفحة</string>
+    <string name="reader_reading_mode">وضع القراءة</string>
+    <string name="reader_keep_screen_on">إبقاء الشاشة مضاءة</string>
+    <string name="reader_document_info">معلومات المستند</string>
+    <string name="reader_info_name">الاسم</string>
+    <string name="reader_info_pages">الصفحات</string>
+    <string name="reader_info_size">الحجم</string>
+    <string name="reader_info_location">الموقع</string>
+    <string name="action_delete">حذف</string>
+
+    <!-- Tools, M4 -->
+    <string name="tools_recent_output">أحدث الملفات الناتجة</string>
+    <string name="tool_organise">ترتيب الصفحات</string>
+    <string name="tool_organise_desc">تدوير الصفحات أو حذفها أو إعادة ترتيبها أو استخراجها أو تكرارها</string>
+    <string name="tool_merge">دمج</string>
+    <string name="tool_merge_desc">جمع عدة ملفات PDF في ملف واحد بالترتيب الذي تختاره</string>
+    <string name="tool_split">تقسيم</string>
+    <string name="tool_split_desc">تقسيم ملف PDF واحد إلى عدة ملفات، حسب نطاقات الصفحات أو بعدد متساوٍ من الصفحات في كل ملف</string>
+    <string name="tool_images_to_pdf">صور إلى PDF</string>
+    <string name="tool_images_to_pdf_desc">تحويل الصور والمستندات الممسوحة إلى ملف PDF واحد</string>
+    <string name="tool_pdf_to_images">PDF إلى صور</string>
+    <string name="tool_pdf_to_images_desc">تصدير الصفحات كملفات PNG أو JPEG</string>
+    <string name="tool_password">كلمة المرور</string>
+    <string name="tool_password_desc">إضافة كلمة مرور أو تغييرها أو إزالتها</string>
+    <string name="action_open">فتح</string>
+    <string name="action_continue">متابعة</string>
+    <string name="action_undo">تراجع</string>
+    <string name="action_redo">إعادة</string>
+    <string name="action_select_all">تحديد الكل</string>
+    <string name="organise_pages_count">%1$d صفحة</string>
+    <string name="organise_changes">%1$d تغييرات</string>
+    <string name="organise_selected">%1$d محددة</string>
+    <string name="organise_rotate_left">تدوير لليسار</string>
+    <string name="organise_rotate_right">تدوير لليمين</string>
+    <string name="organise_restore">استعادة</string>
+    <string name="organise_extract">استخراج إلى ملف جديد</string>
+    <string name="organise_duplicate">تكرار</string>
+    <string name="organise_page_desc">الصفحة %1$d</string>
+    <string name="organise_page_selected">الصفحة %1$d، محددة</string>
+    <string name="organise_page_deleted">الصفحة %1$d، معلّمة للحذف</string>
+    <string name="ops_save_as_new">حفظ كملف جديد</string>
+    <string name="ops_overwrite">استبدال الملف الأصلي</string>
+    <string name="ops_overwrite_title">استبدال الملف الأصلي؟</string>
+    <string name="ops_overwrite_body">سيُستبدل %1$s بالنسخة المرتّبة. لا يمكن التراجع عن التغيير بعد كتابته.</string>
+    <string name="ops_saved_one">تم حفظ %1$s</string>
+    <string name="ops_saved_many">تم حفظ %1$d ملفات</string>
+    <string name="ops_and_more">و%1$d أخرى</string>
+    <string name="ops_failed_title">لم ينجح ذلك</string>
+    <string name="ops_try_other_location">جرّب مكانًا آخر</string>
+    <string name="ops_password_title">كلمة المرور مطلوبة</string>
+    <string name="ops_password_body">%1$s محمي. أدخل كلمة مروره للمتابعة. تُستخدم مرة واحدة ولا تُحفظ.</string>
+    <string name="ops_password_wrong">لم تفتح كلمة المرور هذه المستند.</string>
+    <string name="ops_password_needed">يحتاج هذا المستند إلى كلمة مروره قبل عرض الصفحات.</string>
+    <string name="ops_error_password">هذا المستند محمي بكلمة مرور. أدخل كلمة مروره وحاول مجددًا.</string>
+    <string name="ops_error_assembly">لا يسمح مالك هذا المستند بإعادة تجميع صفحاته. لن يتجاوز Plain PDF ذلك.</string>
+    <string name="ops_error_corrupt">تعذّرت قراءة هذا الملف. ربما يكون تالفًا.</string>
+    <string name="ops_error_oom">هذا المستند أكبر من أن تتسع له ذاكرة الهاتف. تقسيمه أولًا إلى أجزاء أصغر ينجح عادةً.</string>
+    <string name="ops_error_destination">تعذّرت كتابة الملف هناك. لم يُحذف شيء. جرّب مكانًا آخر.</string>
+    <string name="ops_error_cancelled">أُلغيت العملية. ملفك الأصلي لم يُمس.</string>
+    <string name="ops_error_unknown">حدث خطأ ما. ملفك الأصلي لم يُمس.</string>
+    <string name="ops_notification_working">جارٍ العمل على مستندك</string>
+    <string name="ops_channel_name">عمليات المستندات</string>
+    <plurals name="ops_pages">
+        <item quantity="zero">لا صفحات</item>
+        <item quantity="one">صفحة واحدة</item>
+        <item quantity="two">صفحتان</item>
+        <item quantity="few">%1$d صفحات</item>
+        <item quantity="many">%1$d صفحة</item>
+        <item quantity="other">%1$d صفحة</item>
+    </plurals>
+
+    <!-- Tools, M5 -->
+    <string name="tool_input_document">المستند</string>
+    <string name="tool_choose_pdf">اختر ملف PDF</string>
+    <string name="action_change">تغيير</string>
+    <string name="action_remove">إزالة</string>
+    <string name="action_move_up">نقل لأعلى</string>
+    <string name="action_move_down">نقل لأسفل</string>
+    <string name="merge_documents">المستندات، بترتيب الملف الناتج</string>
+    <string name="merge_empty">أضف ملفي PDF أو أكثر. تُدمج من الأعلى إلى الأسفل.</string>
+    <string name="merge_add_file">إضافة ملف</string>
+    <string name="merge_reading">جارٍ القراءة…</string>
+    <string name="merge_total">%1$d صفحة في الملف الناتج</string>
+    <string name="merge_selected_pages">%1$d صفحة محددة</string>
+    <string name="merge_choose_pages">اختيار الصفحات</string>
+    <string name="merge_pages_chosen">الصفحات: %1$s</string>
+    <string name="merge_range_label">الصفحات المطلوب تضمينها</string>
+    <string name="split_mode">طريقة التقسيم</string>
+    <string name="split_by_ranges">حسب نطاقات الصفحات</string>
+    <string name="split_every_n">عدد متساوٍ من الصفحات في كل ملف</string>
+    <string name="split_extract">استخراج صفحات محددة</string>
+    <string name="split_extract_help">اختر الصفحات بعينك في شاشة الترتيب واحفظها كملف جديد.</string>
+    <string name="split_open_organiser">فتح شاشة الترتيب</string>
+    <string name="split_ranges_hint">1-4, 8, 12-20</string>
+    <string name="split_ranges_help">ملف واحد لكل نطاق. تفصل الفواصل بين النطاقات.</string>
+    <string name="split_pages_per_file">عدد الصفحات في كل ملف</string>
+    <string name="split_preview">%1$d ملفات: %2$s</string>
+    <string name="split_save_to_folder">حفظ الملفات في مجلد</string>
+    <string name="ranges_error_empty">أدخل صفحة واحدة على الأقل.</string>
+    <string name="ranges_error_bad">%1$s ليس رقم صفحة ولا نطاقًا مثل 3-5.</string>
+    <string name="ranges_error_out_of_range">%1$s خارج النطاق من 1 إلى %2$d.</string>
+    <string name="ranges_error_reversed">%1$s مقلوب الترتيب.</string>
+    <string name="images_count">%1$d صور</string>
+    <string name="images_add">إضافة صور</string>
+    <string name="images_camera">التقاط صورة</string>
+    <string name="images_empty">أضف صورًا أو مستندات ممسوحة. استخدم الأسهم على الصورة لتغيير الترتيب.</string>
+    <string name="images_page">الصفحة</string>
+    <string name="images_fit_image">بحجم الصورة</string>
+    <string name="images_a4">A4</string>
+    <string name="images_letter">Letter</string>
+    <string name="images_fit">احتواء</string>
+    <string name="images_fill">ملء</string>
+    <string name="images_margin_none">بلا هامش</string>
+    <string name="images_margin_small">هامش صغير</string>
+    <string name="images_margin_medium">هامش متوسط</string>
+    <string name="pdf_to_images_pages">الصفحات</string>
+    <string name="pdf_to_images_all_pages">كل الصفحات</string>
+    <string name="pdf_to_images_range_help">سيتم تصدير %1$d صفحة.</string>
+    <string name="pdf_to_images_format">التنسيق</string>
+    <string name="pdf_to_images_quality">جودة JPEG %1$d</string>
+    <string name="pdf_to_images_dpi">الدقة</string>
+    <string name="pdf_to_images_encrypted">هذا المستند محمي بكلمة مرور. أزل كلمة المرور أولًا باستخدام أداة كلمة المرور.</string>
+    <string name="pdf_to_images_many_title">تصدير %1$d صفحة؟</string>
+    <string name="pdf_to_images_many_body">هذا يعني %1$d ملف صورة. قد يستغرق ذلك وقتًا ويشغل مساحة كبيرة.</string>
+    <string name="password_what">ما المطلوب</string>
+    <string name="password_explain">كلمة المرور تمنع أي شخص من فتح المستند من دونها. احتفظ بها في مكان آمن: لا يمكن استعادتها إن نُسيت.</string>
+    <string name="password_add">إضافة كلمة مرور</string>
+    <string name="password_change">تغيير كلمة المرور</string>
+    <string name="password_remove">إزالة كلمة المرور</string>
+    <string name="password_new">كلمة المرور الجديدة</string>
+    <string name="password_confirm">تأكيد كلمة المرور</string>
+    <string name="password_mismatch">كلمتا المرور غير متطابقتين.</string>
+
+    <!-- Supporter cosmetics, M6 -->
+    <string name="settings_highlight">لون تمييز نتائج البحث</string>
+    <string name="highlight_accent">لون التمييز</string>
+    <string name="highlight_amber">كهرماني</string>
+    <string name="highlight_rose">وردي</string>
+    <string name="highlight_sky">سماوي</string>
+    <string name="app_icon_default">الافتراضية</string>
+    <string name="app_icon_mono">أحادية اللون</string>
+    <string name="app_icon_paper">ورقية</string>
+    <string name="app_icon_night">ليلية</string>
+
+    <!-- Reader tools entry -->
+    <string name="reader_tools_section">أدوات لهذا المستند</string>
+    <string name="reader_tool_merge">الدمج مع ملفات PDF أخرى</string>
+
+    <!-- Reader tools button, form filling, sign -->
+    <string name="reader_tools_button">الأدوات</string>
+    <string name="reader_fill_form">تعبئة النموذج</string>
+    <string name="reader_fill_active">جارٍ تعبئة النموذج</string>
+    <string name="reader_fill_desc">انقر على الحقول في الصفحة للكتابة أو وضع علامة أو الاختيار. ثم احفظ نسخة.</string>
+    <string name="reader_save_filled">حفظ النموذج المعبّأ</string>
+    <string name="reader_fill_saved">تم حفظ النموذج المعبّأ</string>
+    <string name="tool_sign">توقيع</string>
+    <string name="tool_sign_desc">ارسم توقيعك وضعه على صفحة</string>
+    <string name="sign_draw_title">ارسم توقيعك</string>
+    <string name="sign_draw_help">استخدم إصبعك أو قلمًا. يُحفظ في المستند كصورة ولا يُرسل إلى أي مكان.</string>
+    <string name="sign_clear">مسح</string>
+    <string name="sign_next">وضعه على صفحة</string>
+    <string name="sign_back">إعادة الرسم</string>
+    <string name="sign_place_title">انقر حيث تريد وضع التوقيع، أو اسحبه. اختر صفحة من الأسفل.</string>
+    <string name="sign_size">الحجم</string>
+    <string name="sign_ink_black">حبر أسود</string>
+    <string name="sign_ink_blue">حبر أزرق</string>
+
+    <!-- Scan -->
+    <string name="library_scan">مسح مستند ضوئيًا</string>
+    <string name="scan_title">مسح ضوئي</string>
+    <string name="scan_share">مشاركة ملف PDF</string>
+    <string name="scan_add_page">إضافة صفحة أخرى</string>
+    <string name="scan_save_to_folder">حفظ نسخة في مجلد</string>
+
+    <!-- Crop and cleanup -->
+    <string name="crop_title">ضبط المسح</string>
+    <string name="crop_help">اسحب الزوايا إلى حواف الورقة. أدر الصفحة إن كانت مائلة جانبًا.</string>
+    <string name="crop_rotate">تدوير</string>
+    <string name="crop_look_color">ملوّن</string>
+    <string name="crop_look_gray">رمادي</string>
+    <string name="crop_look_bw">أبيض وأسود</string>
+    <string name="crop_use">استخدام هذا</string>
+    <string name="crop_working">جارٍ العمل…</string>
+    <string name="crop_adjust">ضبط</string>
+
+    <!-- Compress -->
+    <string name="tool_compress">ضغط</string>
+    <string name="tool_compress_desc">تصغير ملف PDF بتقليص الصور الموجودة فيه</string>
+    <string name="compress_current_size">الحجم الحالي: %1$s</string>
+    <string name="compress_how_much">مقدار الضغط</string>
+    <string name="compress_explain">تتغير الصور فقط. يبقى النص والرسومات كما هي تمامًا، فيُقرأ المستند كما كان.</string>
+    <string name="compress_level_light">خفيف. تحتفظ الصور بمعظم تفاصيلها.</string>
+    <string name="compress_level_balanced">متوازن. مناسب للإرسال بالبريد الإلكتروني.</string>
+    <string name="compress_level_strong">قوي. أصغر حجم، وتبدو الصور أقل حدة.</string>
+
+    <!-- Accessibility affordances: visible buttons for long-press and swipe actions -->
+    <string name="library_more_options_for">خيارات إضافية لـ %1$s</string>
+    <string name="action_rename">إعادة تسمية</string>
+    <string name="action_discard">تجاهل</string>
+    <string name="action_keep_editing">متابعة التحرير</string>
+    <string name="action_move_earlier">نقل إلى الأمام</string>
+    <string name="action_move_later">نقل إلى الخلف</string>
+    <string name="reader_bookmark_delete_title">حذف هذه الإشارة المرجعية؟</string>
+    <string name="reader_bookmark_delete_body">سيُزال %1$s من إشاراتك المرجعية.</string>
+    <string name="reader_page_current">الصفحة %1$d، الصفحة الحالية</string>
+    <string name="reader_search_needs_continuous">يعمل البحث في وضع التمرير المتواصل. غيّر وضع القراءة من القائمة.</string>
+    <string name="reader_discard_title">تجاهل تغييراتك؟</string>
+    <string name="reader_discard_body">سيضيع كل ما كتبته أو علّمته في النموذج.</string>
+    <string name="reader_brightness">السطوع</string>
+    <string name="reader_brightness_percent">%1$d%%</string>
+    <string name="reader_info_unknown">غير معروف</string>
+    <string name="sign_size_desc">حجم التوقيع</string>
+    <string name="sign_page_preview_desc">معاينة الصفحة. انقر حيث تريد وضع التوقيع.</string>
+    <string name="scan_remove_title">إزالة هذه الصفحة؟</string>
+    <string name="scan_remove_body">ستُزال الصفحة %1$d من المسح.</string>
+    <string name="images_picture_n">الصورة %1$d</string>
+    <string name="pdf_to_images_dpi_value">%1$d dpi</string>
+    <string name="pdf_to_images_quality_desc">جودة JPEG</string>
+    <string name="document_fallback_name">document.pdf</string>
+
+    <!-- Progress labels, always paired with a spinner -->
+    <string name="progress_opening_document">جارٍ فتح المستند…</string>
+    <string name="progress_loading_page">جارٍ تحميل الصفحة…</string>
+    <string name="progress_reading_pages">جارٍ قراءة الصفحات…</string>
+    <string name="progress_reading_folder">جارٍ قراءة المجلد…</string>
+    <string name="progress_preparing_photo">جارٍ تجهيز الصورة…</string>
+    <string name="progress_building_pdf">جارٍ إنشاء ملف PDF…</string>
+
+    <!-- Language picker -->
+    <string name="settings_language">اللغة</string>
+    <string name="settings_language_system">الافتراضي للنظام</string>
+
+    <!-- Welcome tour -->
+    <string name="tour_skip">تخطّي</string>
+    <string name="tour_next">التالي</string>
+    <string name="tour_start">ابدأ</string>
+    <string name="tour_show_again">عرض جولة الترحيب</string>
+    <string name="tour_show_again_summary">المقدمة القصيرة من أول تشغيل.</string>
+    <string name="tour_welcome_title">Plain PDF</string>
+    <string name="tour_welcome_body">شكرًا لك على التثبيت. اقرأ ملفات PDF ووقّعها وامسحها ضوئيًا وعدّلها، كل ذلك على هاتفك. بلا إعلانات، بلا حساب، بلا سحابة.</string>
+    <string name="tour_sign_title">توقيع المستندات</string>
+    <string name="tour_sign_body">ارسم توقيعك مرة واحدة، وضعه على الصفحة، وشارك النسخة الموقّعة. بلا طباعة، بلا مسح ضوئي.</string>
+    <string name="tour_scan_title">المسح الضوئي والبحث</string>
+    <string name="tour_scan_body">التقط صورة لصفحة. تُكتشف الحواف تلقائيًا، ويُتعرّف على النص، ويمكنك البحث في ملف PDF ونسخ نصه.</string>
+    <string name="tour_edit_title">التعبئة والرسم والتمييز</string>
+    <string name="tour_edit_body">عبّئ النماذج، وارسم وميّز على الصفحات، وأضف كلمات المرور أو أزلها. كل الأدوات خلف زر واحد اسمه الأدوات في المستند المفتوح.</string>
+    <string name="tour_arrange_title">ترتيب الصفحات</string>
+    <string name="tour_arrange_body">ادمج الملفات، وقسّمها، وأعد ترتيب الصفحات أو دوّرها، وصغّر ملفات PDF الكبيرة. لا يتغيّر شيء حتى تحفظ.</string>
+
+    <!-- Draw and highlight -->
+    <string name="reader_annotate">الرسم والتمييز</string>
+    <string name="reader_annotate_desc">ارسم بالقلم أو قلم التمييز على الصفحة</string>
+    <string name="reader_annotate_active">جارٍ الرسم والتمييز</string>
+    <string name="reader_annotate_help">استخدم القلم أو قلم التمييز على الصفحة، ثم احفظ نسخة.</string>
+    <string name="reader_save_annotated">حفظ نسخة مع التعليقات</string>
+    <string name="reader_annotated_saved">تم حفظ نسخة مع التعليقات</string>
+    <string name="reader_discard_annotations_body">ستضيع رسوماتك وتمييزاتك.</string>
+
+    <!-- Text recognition -->
+    <string name="settings_group_ocr">التعرّف على النص</string>
+    <string name="settings_ocr_enabled">جعل المسح الضوئي قابلًا للبحث</string>
+    <string name="settings_ocr_enabled_summary">يتعرّف على النص في الصفحات الممسوحة ضوئيًا لتتمكن من البحث فيه ونسخه. يستغرق بضع ثوانٍ لكل صفحة.</string>
+    <string name="settings_ocr_languages">اللغات</string>
+    <string name="settings_ocr_bundled">مضمّن مع التطبيق</string>
+    <string name="settings_ocr_imported">مستورد</string>
+    <string name="settings_ocr_import">استيراد ملف لغة…</string>
+    <string name="settings_ocr_import_help">للغة غير موجودة في القائمة: نزّل ملف .traineddata الخاص بها من مشروع tessdata_fast، ثم اختره هنا.</string>
+    <string name="settings_ocr_get_languages">الحصول على ملفات اللغات</string>
+    <string name="settings_ocr_imported_done">تم استيراد اللغة</string>
+    <string name="settings_ocr_languages_help">بأي لغات تُقرأ الصفحات الممسوحة ضوئيًا، وكيفية إضافة المزيد</string>
+    <string name="scan_copy_text">نسخ النص</string>
+    <string name="scan_text_copied">تم نسخ النص</string>
+    <string name="scan_searchable">قابل للبحث: %1$s</string>
+    <string name="scan_recognising">جارٍ التعرّف على النص، الصفحة %1$d من %2$d</string>
+
+    <!-- Crash report, offered on the launch after a crash -->
+    <string name="crash_title">توقّف Plain PDF بشكل غير متوقع في المرة السابقة</string>
+    <string name="crash_body">نأسف لذلك. هل تريد إرسال تقرير إلى المطوّر؟ لا يحتوي إلا على تفاصيل تقنية: إصدار التطبيق، وإصدار Android وطراز هاتفك، ومكان حدوث الخطأ. بلا مستندات، بلا أسماء، بلا ملفات.</string>
+    <string name="crash_send">إرسال التقرير</string>
+    <string name="crash_not_now">ليس الآن</string>
+
+    <!-- Reader: print, read aloud, copy text -->
+    <string name="reader_print">طباعة</string>
+    <string name="reader_print_desc">إرسال المستند إلى طابعة</string>
+    <string name="reader_print_unavailable">الطباعة غير متاحة على هذا الجهاز.</string>
+    <string name="reader_read_aloud">قراءة بصوت عالٍ</string>
+    <string name="reader_read_aloud_desc">استمع إلى المستند بصوت الهاتف</string>
+    <string name="reader_reading_page">جارٍ القراءة بصوت عالٍ، الصفحة %1$d</string>
+    <string name="action_pause">إيقاف مؤقت</string>
+    <string name="action_resume">متابعة</string>
+    <string name="action_stop">إيقاف</string>
+    <string name="reader_tts_no_voice">لا يوجد صوت لهذه اللغة على الهاتف بعد. يمكنك إضافة واحد من إعدادات Android.</string>
+    <string name="reader_tts_settings">الإعدادات</string>
+    <string name="reader_tts_no_text">لا يحتوي هذا المستند على نص لقراءته. امسحه ضوئيًا مع تشغيل التعرّف على النص.</string>
+    <string name="reader_copy_text">نسخ النص أو مشاركته</string>
+    <string name="reader_copy_text_desc">نسخ كلمات المستند كنص عادي</string>
+    <string name="reader_text_copied">تم نسخ النص</string>
+    <string name="action_copy">نسخ</string>
+    <string name="action_share_text">مشاركة كنص</string>
+
+    <!-- Page numbers -->
+    <string name="tool_page_numbers">أرقام الصفحات</string>
+    <string name="tool_page_numbers_desc">وضع رقم على كل صفحة</string>
+    <string name="page_numbers_position">الموضع</string>
+    <string name="page_numbers_bottom_centre">أسفل الوسط</string>
+    <string name="page_numbers_bottom_right">أسفل اليمين</string>
+    <string name="page_numbers_top_right">أعلى اليمين</string>
+    <string name="page_numbers_style">الترقيم</string>
+    <string name="page_numbers_start_at">البدء من</string>
+    <string name="page_numbers_show_total">العرض بصيغة 1 / 12</string>
+    <string name="page_numbers_example">الصفحة الأولى تظهر: %1$s</string>
+
+    <!-- Make searchable -->
+    <string name="tool_make_searchable">جعل المستند قابلًا للبحث</string>
+    <string name="tool_make_searchable_desc">التعرّف على النص في ملف PDF ممسوح ضوئيًا ليمكن البحث فيه ونسخه</string>
+    <string name="searchable_note">الصفحات التي تحتوي على نص بالفعل تُترك كما هي.</string>
+    <string name="searchable_languages">اللغات: %1$s</string>
+    <string name="searchable_languages_hint">غيّرها في الإعدادات، تحت التعرّف على النص.</string>
+
+    <!-- Redact -->
+    <string name="tool_redact">تسويد</string>
+    <string name="tool_redact_desc">تسويد أجزاء من الصفحة نهائيًا</string>
+    <string name="redact_explain">تُحوَّل الصفحات المسوَّدة إلى صور حتى لا يمكن استرجاع أي شيء تحتها. ولن يعود نصها قابلًا للتحديد.</string>
+    <string name="redact_help">اسحب فوق الصفحة لرسم مربع. انقر على مربع لإزالته.</string>
+    <string name="redact_page_preview_desc">معاينة الصفحة. اسحب لرسم مربع فوق ما يجب إخفاؤه. انقر على مربع لإزالته.</string>
+    <plurals name="redact_box_count">
+        <item quantity="zero">لا مربعات</item>
+        <item quantity="one">مربع واحد</item>
+        <item quantity="two">مربعان</item>
+        <item quantity="few">%1$d مربعات</item>
+        <item quantity="many">%1$d مربعًا</item>
+        <item quantity="other">%1$d مربع</item>
+    </plurals>
+    <plurals name="redact_page_count">
+        <item quantity="zero">في %1$d صفحة</item>
+        <item quantity="one">في صفحة واحدة</item>
+        <item quantity="two">في صفحتين</item>
+        <item quantity="few">في %1$d صفحات</item>
+        <item quantity="many">في %1$d صفحة</item>
+        <item quantity="other">في %1$d صفحة</item>
+    </plurals>
+
+    <!-- Launcher shortcuts and the home-screen widget -->
+    <string name="shortcut_scan_short">مسح ضوئي</string>
+    <string name="shortcut_scan_long">مسح مستند ضوئيًا</string>
+    <string name="shortcut_open_short">فتح PDF</string>
+    <string name="shortcut_open_long">فتح ملف PDF</string>
+    <string name="widget_label">إجراءات Plain PDF السريعة</string>
+    <string name="widget_description">امسح مستندًا ضوئيًا أو افتح ملف PDF بنقرة واحدة.</string>
+    <string name="widget_scan">مسح مستند ضوئيًا</string>
+    <string name="widget_open">فتح PDF</string>
+    <string name="widget_scan_short">مسح ضوئي</string>
+    <string name="widget_library">المكتبة</string>
+
+    <!-- Continue reading, share a page, notes and share-sheet targets -->
+    <string name="library_continue_title">متابعة القراءة</string>
+    <string name="library_continue_page">الصفحة %1$d من %2$d</string>
+    <string name="library_continue_page_only">الصفحة %1$d</string>
+    <string name="action_continue_reading">متابعة</string>
+    <string name="reader_share_page">مشاركة هذه الصفحة</string>
+    <string name="reader_share_page_image">كصورة</string>
+    <string name="reader_share_page_pdf">كملف PDF من صفحة واحدة</string>
+    <string name="tool_note">كتابة ملاحظة</string>
+    <string name="tool_note_desc">كتابة نص وحفظه كملف PDF</string>
+    <string name="note_title_hint">العنوان (اختياري)</string>
+    <string name="note_body_hint">اكتب ملاحظتك هنا</string>
+    <string name="note_default_name">ملاحظة</string>
+    <string name="shortcut_continue_long">متابعة: %1$s، الصفحة %2$d</string>
+    <string name="shortcut_continue_gone">لم يعد هذا المستند موجودًا في مكتبتك</string>
+    <string name="share_target_sign">توقيع باستخدام Plain PDF</string>
+    <string name="share_target_scan">مسح ضوئي باستخدام Plain PDF</string>
+    <string name="tour_edit_note_unavailable">تعبئة النماذج والرسم والتمييز تحتاج إلى Android 12 أو أحدث مع تحديث PDF من Google، وهذا الهاتف لا يملكه. كل الأدوات الأخرى تعمل.</string>
+    <string name="tour_edit_note_no_drawing">الرسم والتمييز يحتاجان إلى إصدار Android أحدث مما في هذا الهاتف. تعبئة النماذج تعمل.</string>
+
+    <!-- Languages for scanned text -->
+    <string name="ocr_languages_title">لغات النص الممسوح ضوئيًا</string>
+    <string name="ocr_languages_intro">تُقرأ الصفحات الممسوحة ضوئيًا باللغات المحددة. حدد فقط اللغات التي تمسحها؛ كل لغة إضافية تجعل القراءة أبطأ قليلًا.</string>
+    <string name="ocr_languages_on_phone">على هذا الهاتف</string>
+    <string name="ocr_languages_get_more">الحصول على المزيد من اللغات</string>
+    <string name="ocr_languages_get_more_play">انقر على «تنزيل» وسينزّل Google Play اللغة. لا حاجة إلى أي شيء آخر.</string>
+    <string name="ocr_languages_get_more_foss">هذه النسخة لا يمكنها التنزيل. احصل على ملف لغة من الرابط أدناه ثم استورده.</string>
+    <string name="ocr_languages_tier_common">الأكثر استخدامًا</string>
+    <string name="ocr_languages_tier_nearby">الدول المجاورة</string>
+    <string name="ocr_languages_tier_other">المزيد</string>
+    <string name="ocr_languages_get">تنزيل</string>
+    <string name="ocr_languages_downloading">جارٍ التنزيل…</string>
+    <string name="ocr_languages_installing">جارٍ الإعداد…</string>
+    <string name="ocr_languages_failed">تعذّر التنزيل. تحقق من الاتصال بالإنترنت وحاول مجددًا.</string>
+    <string name="ocr_languages_try_again">حاول مجددًا</string>
+    <string name="ocr_languages_downloaded">تم التنزيل</string>
+    <string name="ocr_languages_remove_title">إزالة %1$s؟</string>
+    <string name="ocr_languages_remove_body">يمكنك الحصول عليها مجددًا في أي وقت.</string>
+    <string name="ocr_languages_ready">%1$s جاهزة. يمكن الآن قراءة الصفحات الممسوحة ضوئيًا بهذه اللغة.</string>
+    <string name="ocr_languages_keep_one">أبقِ لغة واحدة على الأقل محددة.</string>
+    <string name="ocr_suggest_title">لغة هاتفك هي %1$s</string>
+    <string name="ocr_suggest_body">نزّل اللغة %1$s (%2$s) لتتمكن من قراءة الصفحات الممسوحة ضوئيًا بهذه اللغة.</string>
+    <string name="ocr_suggest_get">تنزيل %1$s</string>
+    <string name="ocr_suggest_later">ليس الآن</string>
+    <string name="ocr_garbled_title">لم يُقرأ النص جيدًا</string>
+    <string name="ocr_garbled_body">قد تكون الصفحة بلغة غير موجودة على هذا الهاتف بعد. يمكنك إضافة لغات من الإعدادات.</string>
+    <string name="ocr_garbled_action">اللغات</string>
+</resources>

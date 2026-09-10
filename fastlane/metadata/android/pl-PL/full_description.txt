@@ -1,0 +1,45 @@
+Plain PDF czyta pliki PDF i zmienia je bez wysyłania czegokolwiek. Otwiera się szybko, pamięta miejsce, w którym przerwano czytanie, i nie wchodzi w drogę. Duże przyciski, żadnych ukrytych gestów.
+
+Czytanie
+• Ciągłe przewijanie lub strona po stronie
+• Wyszukiwanie w dokumentach z podświetlonymi wynikami
+• Wypełnianie formularzy i zapisywanie kopii
+• Rysowanie i zaznaczanie na stronach, zapisywane jako prawdziwe adnotacje PDF (Android 12 lub nowszy)
+• Czytanie na głos głosem telefonu, drukowanie, kopiowanie lub udostępnianie tekstu, udostępnianie pojedynczej strony
+• Przycisk Narzędzia w każdym otwartym dokumencie, zawsze widoczny
+• Siatka stron, zakładki, przejście do strony oraz Czytaj dalej prosto z ekranu głównego
+• Nocny, sepia i szary wygląd strony, zapamiętywany dla każdego dokumentu
+• Pięć motywów aplikacji, w tym prawdziwa czerń dla ekranów OLED
+• Niewygaszanie ekranu, przewracanie stron przyciskami głośności, opcjonalna jasność przeciągnięciem przy krawędzi
+
+Skanowanie
+• Zrób zdjęcie strony; krawędzie są wykrywane automatycznie, a rogi i boki można poprawić przeciągnięciem
+• Oczyszczanie w kolorze, odcieniach szarości lub wyraźnej czerni i bieli
+• Rozpoznawanie tekstu na telefonie, bez internetu: skany można przeszukiwać, a ich tekst kopiować. Osiem języków jest wbudowanych (angielski, serbski w obu alfabetach, niemiecki, hiszpański, francuski, włoski, rosyjski), a dwadzieścia kolejnych pojawia się jednym dotknięciem w Ustawieniach
+• Dodaj kolejne strony i od razu udostępnij PDF
+
+Narzędzia, wszystko na tym urządzeniu
+• Podpis: narysuj swój podpis raz i umieszczaj go na dowolnej stronie
+• Dodaj wyszukiwanie: rozpoznany tekst trafia do dowolnego zeskanowanego pliku PDF
+• Napisz notatkę: wpisz tekst i zapisz go jako PDF
+• Zmniejszanie: zmniejsz plik PDF, pomniejszając zawarte w nim obrazy
+• Porządkowanie stron: obracanie, usuwanie, przestawianie, wyodrębnianie i powielanie na jednej siatce, z cofaniem
+• Łączenie kilku plików PDF, opcjonalnie z zakresami stron dla każdego dokumentu
+• Dzielenie według zakresów stron lub co N stron
+• Numery stron na każdej stronie
+• Zaczernianie: zaczernij fragmenty strony tak, aby naprawdę zniknęły, a nie były tylko zakryte
+• Obrazy do PDF ze zdjęć, skanów lub aparatu
+• PDF do obrazów jako PNG lub JPEG
+• Dodawanie, zmiana lub usuwanie hasła (AES-256)
+
+Każda operacja zapisuje najpierw do pliku tymczasowego i sprawdza go, zanim dotknie Twoich plików. Nic nigdy nie jest usuwane po cichu.
+
+Biblioteka
+• Ostatnie dokumenty z miniaturami i pozycją czytania
+• Śledzone foldery, ulubione, wyszukiwanie i sortowanie
+• Pliki, które zostały przeniesione lub zniknęły, są oznaczane, a nie usuwane, z opcją Znajdź ponownie
+• Widżet na ekranie głównym i skróty Skanuj, Otwórz i Czytaj dalej
+
+Dostępna w 17 językach, w tym angielskim, serbskim, niemieckim, hiszpańskim, francuskim, portugalskim, rosyjskim, arabskim, hindi, chińskim, japońskim i koreańskim.
+
+Bez reklam. Bez analityki. Bez konta. Bez żadnego dostępu do sieci: aplikacja nie ma nawet uprawnienia do internetu. Wszystkie funkcje czytania i edycji są darmowe; opcjonalny zakup Wsparcia odblokowuje tylko kolory akcentu i ikony.

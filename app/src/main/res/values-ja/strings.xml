@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plain PDF</string>
+
+    <!-- Navigation -->
+    <string name="nav_library">ライブラリ</string>
+    <string name="nav_tools">ツール</string>
+    <string name="action_back">戻る</string>
+    <string name="action_cancel">キャンセル</string>
+    <string name="action_done">完了</string>
+
+    <!-- Library -->
+    <string name="library_tab_recent">最近</string>
+    <string name="library_tab_folders">フォルダ</string>
+    <string name="library_tab_favourites">お気に入り</string>
+    <string name="library_open_pdf">PDFを開く</string>
+    <string name="library_add_folder">フォルダを追加</string>
+    <string name="library_empty_recent">まだ文書がありません。PDFを開いて始めましょう。</string>
+    <string name="library_empty_folders">まだフォルダがありません。フォルダを追加すると、その中のPDFを見られます。</string>
+    <string name="library_empty_favourites">まだ何もありません。文書のメニュー（3つの点）を開いて「お気に入り」を選んでください。</string>
+    <string name="library_search">検索</string>
+    <string name="library_more">その他</string>
+    <string name="library_sort">並べ替え</string>
+    <string name="library_view_grid">グリッド</string>
+    <string name="library_view_list">リスト</string>
+
+    <!-- Tools -->
+    <string name="tools_title">ツール</string>
+    <string name="tools_empty">結合、分割、ページの整理などのツールはここに並びます。すべてこの端末の中だけで動きます。</string>
+
+    <!-- Settings -->
+    <string name="settings_title">設定</string>
+    <string name="settings_group_appearance">外観</string>
+    <string name="settings_group_reading">読書</string>
+    <string name="settings_group_tools">ツール</string>
+    <string name="settings_group_library">ライブラリ</string>
+    <string name="settings_group_about">このアプリについて</string>
+    <string name="settings_theme">テーマ</string>
+    <string name="settings_accent">アクセントカラー</string>
+    <string name="settings_dynamic_colour">システムの色を使う</string>
+    <string name="settings_dynamic_colour_summary">壁紙から取った色</string>
+    <string name="settings_app_icon">アプリアイコン</string>
+    <string name="settings_reading_mode">標準の読書モード</string>
+    <string name="settings_page_display">標準のページ表示</string>
+    <string name="settings_keep_screen_on">読書中は画面を消さない</string>
+    <string name="settings_edge_brightness">端をなぞって明るさを調整</string>
+    <string name="settings_edge_brightness_summary">画面の左端を上下になぞると明るさを変えられます</string>
+    <string name="settings_double_tap_zoom">ダブルタップで拡大</string>
+    <string name="settings_volume_keys">音量ボタンでページをめくる</string>
+    <string name="settings_save_location">新しいファイルの保存先</string>
+    <string name="settings_save_location_ask">毎回たずねる</string>
+    <string name="settings_save_location_choose">フォルダを選ぶ</string>
+    <string name="settings_output_naming">新しいファイルの名前の付け方</string>
+    <string name="settings_output_naming_help">{name} は元のファイル名、{op} は操作の名前です（例: merged、pages_1-4）。</string>
+    <string name="settings_language_summary">アプリのメニューやボタンの言語。</string>
+    <string name="settings_theme_summary">アプリ自体の明るい・暗い見た目。ページの色はそのままです。</string>
+    <string name="settings_accent_summary">アプリのボタンや操作部分の色。</string>
+    <string name="settings_app_icon_summary">ホーム画面でのPlain PDFの見た目。</string>
+    <string name="settings_highlight_summary">文書内を検索したとき、一致した箇所に付く色。</string>
+    <string name="settings_reading_mode_summary">ページを続けてスクロールするか、1ページずつめくるか。</string>
+    <string name="settings_page_display_summary">ページをそのまま、夜向けに暗く、セピア、またはグレーで表示。</string>
+    <string name="settings_keep_screen_on_summary">文書を開いている間、画面が消えません。</string>
+    <string name="settings_double_tap_zoom_summary">ページを2回タップで拡大、もう2回で元に戻ります。</string>
+    <string name="settings_volume_keys_summary">音量ボタンで次のページ・前のページに移動します。</string>
+    <string name="settings_save_location_summary">結合、分割、スキャンなどでできた新しいファイルはここに保存されます。元のファイルはそのままです。</string>
+    <string name="settings_save_location_ask_summary">各ツールが保存の前にフォルダをたずねます。</string>
+    <string name="settings_save_location_folder">いつも %1$s に保存</string>
+    <string name="settings_save_location_choose_summary">この電話のフォルダを選びます。新しいファイルはいつもそこに保存されます。</string>
+    <string name="settings_output_naming_summary">%1$s を結合すると %2$s になります。元のファイルの名前はそのままです。</string>
+    <string name="naming_sample_name">契約書</string>
+    <string name="naming_style_name_op">元の名前、そのあとに何をしたか</string>
+    <string name="naming_style_op_name">何をしたか、そのあとに元の名前</string>
+    <string name="naming_style_custom">自分で決める</string>
+    <string name="naming_style_custom_summary">{name} と {op} を使って自分で書きます。</string>
+    <string name="settings_confirm_overwrite_summary">ツールが元のファイルを変更後のものに置き換える前に確認します。</string>
+    <string name="settings_default_sort_summary">ライブラリでの文書の並び順。</string>
+    <string name="settings_source_summary">Plain PDFはオープンソースです。誰でも仕組みを読み、その上に作ることができます。</string>
+    <string name="settings_licence_summary">自由に使い、分かち合い、改良できます。条件はひとつ、誰にとっても無料のままであること。</string>
+    <string name="settings_confirm_overwrite">元のファイルを上書きする前に確認する</string>
+    <string name="settings_default_sort">標準の並べ替え</string>
+    <string name="settings_clear_recents">最近の履歴を消去</string>
+    <string name="settings_clear_thumbnails">保存したプレビューを消去</string>
+    <string name="settings_version">バージョン</string>
+    <string name="settings_source">ソースコード</string>
+    <string name="settings_licence">ライセンス</string>
+    <string name="settings_licence_value">GNU GPL v3</string>
+    <string name="settings_feedback">機能の提案や問題の報告</string>
+    <string name="settings_feedback_summary">開発者宛てのメッセージを添えてメールアプリを開きます。すべてのメッセージに目を通しています。</string>
+    <string name="feedback_subject">Plain PDF: 提案</string>
+    <string name="settings_supporter">サポーター</string>
+    <string name="settings_supporter_summary">無料で広告なし。アプリがお役に立っていたら、ここで「ありがとう」を伝えられます。</string>
+    <string name="settings_supporter_active">あなたはサポーターです。Plain PDFを無料のままにするためにご協力いただき、ありがとうございます。</string>
+    <string name="settings_supporter_active_gift">ご支援ありがとうございます。サポーターパックはあなたのものです。</string>
+    <string name="settings_donate">寄付</string>
+    <string name="settings_locked">サポーター</string>
+
+    <string name="theme_system">システム</string>
+    <string name="theme_light">ライト</string>
+    <string name="theme_dark">ダーク</string>
+    <string name="theme_black">ブラック</string>
+    <string name="theme_sepia">セピア</string>
+
+    <string name="accent_teal">ティール</string>
+    <string name="accent_amber">アンバー</string>
+    <string name="accent_crimson">クリムゾン</string>
+    <string name="accent_indigo">インディゴ</string>
+    <string name="accent_violet">バイオレット</string>
+    <string name="accent_forest">フォレスト</string>
+    <string name="accent_slate">スレート</string>
+
+    <string name="reading_mode_continuous">連続スクロール</string>
+    <string name="reading_mode_paged">1ページずつ</string>
+
+    <string name="page_display_normal">標準</string>
+    <string name="page_display_night">夜間</string>
+    <string name="page_display_sepia">セピア</string>
+    <string name="page_display_grayscale">グレースケール</string>
+
+    <string name="sort_recently_opened">最近開いた順</string>
+    <string name="sort_recently_added">最近追加した順</string>
+    <string name="sort_name">名前</string>
+    <string name="sort_size">サイズ</string>
+
+    <!-- Supporter -->
+    <string name="supporter_title">サポーター</string>
+    <string name="supporter_intro">Plain PDFは無料で、広告もありません。すべての機能をお支払いなしで使えます。お役に立っていたら、ここで「ありがとう」を伝えられます。お返しにいくつかの色とアイコン、そして私たちの感謝をお届けします。</string>
+    <string name="supporter_grants_title">手に入るもの</string>
+    <string name="supporter_grant_accents">6色のアクセントカラー</string>
+    <string name="supporter_grant_icons">3種類のアプリアイコン</string>
+    <string name="supporter_grant_highlights">追加の検索ハイライト色</string>
+    <string name="supporter_grant_about">「このアプリについて」にサポーターの表示</string>
+    <string name="supporter_unlock">サポーターになる</string>
+    <string name="supporter_tips_title">もう一度支援する</string>
+    <string name="supporter_tips_summary">任意です。あとでもう一度支援したくなったら、ここからどうぞ。新しく開くものはありません。ただ「ありがとう」を伝えるだけです。</string>
+    <string name="supporter_restore">購入を復元</string>
+    <string name="supporter_restore_found">購入が戻りました。ありがとうございます。</string>
+    <string name="supporter_restore_none">このGoogleアカウントにサポーターパックは見つかりませんでした。チップは記録が残らないため、復元できません。</string>
+    <string name="supporter_unavailable">この電話では今、Google Playで支払いができません。失われるものはありません。アプリは無料のままです。</string>
+    <string name="supporter_thanks">あなたはサポーターです。Plain PDFを無料のままにするためにご協力いただき、ありがとうございます。</string>
+    <string name="supporter_donate_intro">Plain PDFは無料で、広告もありません。すべての機能をお支払いなしで使えます。お役に立っていたら、その裏側の作業を支援していただけます。</string>
+    <string name="supporter_donate_button">寄付ページを開く</string>
+    <string name="supporter_grant_future">あとから追加される新しい色やアイコンも、追加料金なし</string>
+    <string name="supporter_tips_title_first">またはチップを贈る</string>
+    <string name="supporter_tips_summary_first">金額にかかわらず、「ありがとう」が伝わります。</string>
+    <string name="supporter_tip_unlocks_note">サポーターパックも開きます</string>
+    <string name="supporter_gift_title">ご支援ありがとうございます</string>
+    <string name="supporter_gift_body">チップをいただきましたので、サポーターパックもあなたのものです。すべての色、アイコン、ハイライト色が開きました。パックを買う必要はありません。</string>
+    <string name="supporter_gift_note">チップはGoogle Playに記録が残らないため、パックはこの電話に記憶されます。</string>
+    <string name="supporter_snack_gift">ご支援ありがとうございます。</string>
+    <string name="supporter_snack_unlock">ありがとうございます。あなたはサポーターになりました。</string>
+    <string name="supporter_problem_connection">Google Playから応答がありませんでした。Play Storeアプリにログインしているか確認して、また戻ってきてください。失われるものはありません。アプリは無料のままです。</string>
+    <string name="supporter_problem_listing">Google Playにサポーター用の項目がまだ掲載されていません。しばらくしてからもう一度お試しください。失われるものはありません。アプリは無料のままです。</string>
+    <string name="supporter_problem_region">Google Playはお住まいの国でこれらの項目をまだ提供していません。失われるものはありません。アプリは無料のままです。</string>
+
+    <!-- Reader -->
+    <string name="reader_page_of">%1$d / %2$d</string>
+    <string name="reader_error_open">このファイルを開けませんでした。移動または削除された可能性があります。</string>
+    <string name="reader_locate_again">ファイルをもう一度探す</string>
+    <string name="reader_not_saved">未保存</string>
+
+    <!-- Library, M2 -->
+    <string name="library_search_hint">文書を検索</string>
+    <string name="library_no_matches">一致する文書はありません。</string>
+    <string name="library_page_of">%2$dページ中%1$dページ</string>
+    <string name="library_file_unavailable">ファイルが見つかりません</string>
+    <string name="library_deleted">ファイルを削除しました</string>
+    <string name="library_delete_failed">このファイルを削除できませんでした。ファイルの持ち主であるアプリが許可しませんでした。</string>
+    <string name="library_delete_title">ファイルを削除しますか？</string>
+    <string name="library_delete_body">%1$s をストレージから削除します。元に戻すことはできません。</string>
+    <string name="library_rename_help">Plain PDFに表示される名前だけが変わります。ファイル自体の名前はそのままです。</string>
+    <string name="library_folder_failed">そのフォルダを追加できませんでした。もう一度選んで、アクセスを許可してください。</string>
+    <string name="library_folder_unavailable">このフォルダを読めなくなりました。移動されたか、ストレージが取り外された可能性があります。</string>
+    <string name="library_folder_empty">このフォルダにはまだPDFがありません。</string>
+    <string name="library_remove_folder_body">このフォルダの登録をやめますか？開いたことのあるファイルやお気に入りはライブラリに残ります。</string>
+    <string name="action_favourite">お気に入り</string>
+    <string name="action_unfavourite">お気に入りから外す</string>
+    <string name="action_rename_label">表示名を変更</string>
+    <string name="action_share">共有</string>
+    <string name="action_organise_pages">ページを整理</string>
+    <string name="action_remove_from_recents">最近の一覧から外す</string>
+    <string name="action_delete_file">ファイルを削除</string>
+    <string name="action_remove_folder">フォルダを外す</string>
+    <string name="action_refresh">更新</string>
+    <string name="action_clear">消去</string>
+
+    <!-- Reader, M3 -->
+    <string name="reader_search">文書内を検索</string>
+    <string name="reader_search_hint">文書内を探す</string>
+    <string name="reader_search_count">%2$d件中%1$d件</string>
+    <string name="reader_search_none">見つかりません</string>
+    <string name="reader_search_previous">前の一致</string>
+    <string name="reader_search_next">次の一致</string>
+    <string name="reader_outline">ページ</string>
+    <string name="reader_pages_title">%1$dページ</string>
+    <string name="reader_jump_to_page">ページへ移動</string>
+    <string name="reader_jump_hint">1〜%1$d</string>
+    <string name="reader_go">移動</string>
+    <string name="reader_add_bookmark">しおりを追加</string>
+    <string name="reader_add_bookmark_title">%1$dページにしおりを付ける</string>
+    <string name="reader_bookmark_label">しおりの名前</string>
+    <string name="reader_bookmark_label_help">任意です。空欄にするとページ番号が表示されます。</string>
+    <string name="reader_bookmark_added">しおりを追加しました</string>
+    <string name="reader_bookmarks">しおり</string>
+    <string name="reader_bookmarks_empty">まだしおりがありません。メニューから「しおりを追加」を選ぶとページに印を付けられます。</string>
+    <string name="reader_page_n">%1$dページ</string>
+    <string name="reader_page_display">ページ表示</string>
+    <string name="reader_reading_mode">読書モード</string>
+    <string name="reader_keep_screen_on">画面を消さない</string>
+    <string name="reader_document_info">文書の情報</string>
+    <string name="reader_info_name">名前</string>
+    <string name="reader_info_pages">ページ数</string>
+    <string name="reader_info_size">サイズ</string>
+    <string name="reader_info_location">場所</string>
+    <string name="action_delete">削除</string>
+
+    <!-- Tools, M4 -->
+    <string name="tools_recent_output">最近の出力</string>
+    <string name="tool_organise">ページを整理</string>
+    <string name="tool_organise_desc">ページの回転、削除、並べ替え、取り出し、複製</string>
+    <string name="tool_merge">結合</string>
+    <string name="tool_merge_desc">複数のPDFを好きな順番で1つにまとめます</string>
+    <string name="tool_split">分割</string>
+    <string name="tool_split_desc">ページ範囲で、または各ファイルを同じページ数にして、1つのPDFを複数に分けます</string>
+    <string name="tool_images_to_pdf">画像からPDF</string>
+    <string name="tool_images_to_pdf_desc">写真やスキャンを1つのPDFにします</string>
+    <string name="tool_pdf_to_images">PDFから画像</string>
+    <string name="tool_pdf_to_images_desc">ページをPNGまたはJPEGファイルとして書き出します</string>
+    <string name="tool_password">パスワード</string>
+    <string name="tool_password_desc">パスワードの追加、変更、解除</string>
+    <string name="action_open">開く</string>
+    <string name="action_continue">続ける</string>
+    <string name="action_undo">元に戻す</string>
+    <string name="action_redo">やり直す</string>
+    <string name="action_select_all">すべて選択</string>
+    <string name="organise_pages_count">%1$dページ</string>
+    <string name="organise_changes">%1$d件の変更</string>
+    <string name="organise_selected">%1$d件選択中</string>
+    <string name="organise_rotate_left">左に回転</string>
+    <string name="organise_rotate_right">右に回転</string>
+    <string name="organise_restore">復元</string>
+    <string name="organise_extract">新しいファイルに取り出す</string>
+    <string name="organise_duplicate">複製</string>
+    <string name="organise_page_desc">%1$dページ</string>
+    <string name="organise_page_selected">%1$dページ、選択中</string>
+    <string name="organise_page_deleted">%1$dページ、削除予定</string>
+    <string name="ops_save_as_new">新しいファイルとして保存</string>
+    <string name="ops_overwrite">元のファイルを上書き</string>
+    <string name="ops_overwrite_title">元のファイルを上書きしますか？</string>
+    <string name="ops_overwrite_body">%1$s を整理後の内容で置き換えます。書き込んだ後は元に戻せません。</string>
+    <string name="ops_saved_one">%1$s を保存しました</string>
+    <string name="ops_saved_many">%1$d個のファイルを保存しました</string>
+    <string name="ops_and_more">他%1$d件</string>
+    <string name="ops_failed_title">うまくいきませんでした</string>
+    <string name="ops_try_other_location">別の場所を試す</string>
+    <string name="ops_password_title">パスワードが必要です</string>
+    <string name="ops_password_body">%1$s は保護されています。続けるにはパスワードを入力してください。パスワードは一度使うだけで、保存されません。</string>
+    <string name="ops_password_wrong">そのパスワードでは文書を開けませんでした。</string>
+    <string name="ops_password_needed">ページを表示するには、この文書のパスワードが必要です。</string>
+    <string name="ops_error_password">この文書はパスワードで保護されています。パスワードを入力してもう一度お試しください。</string>
+    <string name="ops_error_assembly">この文書の所有者はページの組み替えを許可していません。Plain PDFはそれを回避しません。</string>
+    <string name="ops_error_corrupt">このファイルを読めませんでした。壊れている可能性があります。</string>
+    <string name="ops_error_oom">この文書は電話のメモリには大きすぎます。先に小さく分割すると、たいていうまくいきます。</string>
+    <string name="ops_error_destination">その場所にファイルを書き込めませんでした。何も削除されていません。別の場所を試してください。</string>
+    <string name="ops_error_cancelled">キャンセルしました。元のファイルはそのままです。</string>
+    <string name="ops_error_unknown">問題が起きました。元のファイルはそのままです。</string>
+    <string name="ops_notification_working">文書を処理しています</string>
+    <string name="ops_channel_name">文書の処理</string>
+    <plurals name="ops_pages">
+        <item quantity="other">%1$dページ</item>
+    </plurals>
+
+    <!-- Tools, M5 -->
+    <string name="tool_input_document">文書</string>
+    <string name="tool_choose_pdf">PDFを選ぶ</string>
+    <string name="action_change">変更</string>
+    <string name="action_remove">外す</string>
+    <string name="action_move_up">上へ移動</string>
+    <string name="action_move_down">下へ移動</string>
+    <string name="merge_documents">文書（出力される順）</string>
+    <string name="merge_empty">PDFを2つ以上追加してください。上から順につながります。</string>
+    <string name="merge_add_file">ファイルを追加</string>
+    <string name="merge_reading">読み込み中…</string>
+    <string name="merge_total">出力は%1$dページ</string>
+    <string name="merge_selected_pages">%1$dページを選択中</string>
+    <string name="merge_choose_pages">ページを選ぶ</string>
+    <string name="merge_pages_chosen">ページ: %1$s</string>
+    <string name="merge_range_label">含めるページ</string>
+    <string name="split_mode">分け方</string>
+    <string name="split_by_ranges">ページ範囲で</string>
+    <string name="split_every_n">同じページ数ずつ</string>
+    <string name="split_extract">選んだページを取り出す</string>
+    <string name="split_extract_help">整理画面でページを目で見て選び、新しいファイルとして保存します。</string>
+    <string name="split_open_organiser">整理画面を開く</string>
+    <string name="split_ranges_hint">1-4, 8, 12-20</string>
+    <string name="split_ranges_help">範囲ごとに1ファイルになります。範囲はカンマで区切ります。</string>
+    <string name="split_pages_per_file">1ファイルあたりのページ数</string>
+    <string name="split_preview">%1$d個のファイル: %2$s</string>
+    <string name="split_save_to_folder">フォルダに保存</string>
+    <string name="ranges_error_empty">ページを1つ以上入力してください。</string>
+    <string name="ranges_error_bad">%1$s はページ番号でも、3-5のような範囲でもありません。</string>
+    <string name="ranges_error_out_of_range">%1$s は1〜%2$dの範囲外です。</string>
+    <string name="ranges_error_reversed">%1$s は逆順になっています。</string>
+    <string name="images_count">%1$d枚の画像</string>
+    <string name="images_add">画像を追加</string>
+    <string name="images_camera">写真を撮る</string>
+    <string name="images_empty">写真やスキャンを追加してください。画像の矢印で順番を入れ替えられます。</string>
+    <string name="images_page">ページ</string>
+    <string name="images_fit_image">画像に合わせる</string>
+    <string name="images_a4">A4</string>
+    <string name="images_letter">Letter</string>
+    <string name="images_fit">収める</string>
+    <string name="images_fill">埋める</string>
+    <string name="images_margin_none">余白なし</string>
+    <string name="images_margin_small">余白 小</string>
+    <string name="images_margin_medium">余白 中</string>
+    <string name="pdf_to_images_pages">ページ</string>
+    <string name="pdf_to_images_all_pages">すべてのページ</string>
+    <string name="pdf_to_images_range_help">%1$dページを書き出します。</string>
+    <string name="pdf_to_images_format">形式</string>
+    <string name="pdf_to_images_quality">JPEG画質 %1$d</string>
+    <string name="pdf_to_images_dpi">解像度</string>
+    <string name="pdf_to_images_encrypted">この文書はパスワードで保護されています。先に「パスワード」ツールでパスワードを解除してください。</string>
+    <string name="pdf_to_images_many_title">%1$dページを書き出しますか？</string>
+    <string name="pdf_to_images_many_body">画像ファイルが%1$d個できます。時間がかかり、容量も多く使うことがあります。</string>
+    <string name="password_what">何をしますか</string>
+    <string name="password_explain">パスワードを付けると、それを知らない人は文書を開けなくなります。安全な場所に控えておいてください。忘れた場合、取り戻す方法はありません。</string>
+    <string name="password_add">パスワードを付ける</string>
+    <string name="password_change">パスワードを変更する</string>
+    <string name="password_remove">パスワードを解除する</string>
+    <string name="password_new">新しいパスワード</string>
+    <string name="password_confirm">パスワードの確認</string>
+    <string name="password_mismatch">パスワードが一致しません。</string>
+
+    <!-- Supporter cosmetics, M6 -->
+    <string name="settings_highlight">検索のハイライト</string>
+    <string name="highlight_accent">アクセントカラー</string>
+    <string name="highlight_amber">アンバー</string>
+    <string name="highlight_rose">ローズ</string>
+    <string name="highlight_sky">スカイ</string>
+    <string name="app_icon_default">標準</string>
+    <string name="app_icon_mono">モノ</string>
+    <string name="app_icon_paper">ペーパー</string>
+    <string name="app_icon_night">ナイト</string>
+
+    <!-- Reader tools entry -->
+    <string name="reader_tools_section">この文書のツール</string>
+    <string name="reader_tool_merge">他のPDFと結合</string>
+
+    <!-- Reader tools button, form filling, sign -->
+    <string name="reader_tools_button">ツール</string>
+    <string name="reader_fill_form">フォームに記入</string>
+    <string name="reader_fill_active">フォームに記入中</string>
+    <string name="reader_fill_desc">ページの欄をタップして、入力、チェック、選択をします。終わったらコピーを保存してください。</string>
+    <string name="reader_save_filled">記入したフォームを保存</string>
+    <string name="reader_fill_saved">記入したフォームを保存しました</string>
+    <string name="tool_sign">署名</string>
+    <string name="tool_sign_desc">署名を手書きして、ページに置きます</string>
+    <string name="sign_draw_title">署名を書いてください</string>
+    <string name="sign_draw_help">指かスタイラスで書いてください。署名は画像として文書に保存され、どこにも送られません。</string>
+    <string name="sign_clear">消す</string>
+    <string name="sign_next">ページに置く</string>
+    <string name="sign_back">書き直す</string>
+    <string name="sign_place_title">署名を置く場所をタップするか、ドラッグして動かしてください。ページは下で選べます。</string>
+    <string name="sign_size">サイズ</string>
+    <string name="sign_ink_black">黒インク</string>
+    <string name="sign_ink_blue">青インク</string>
+
+    <!-- Scan -->
+    <string name="library_scan">文書をスキャン</string>
+    <string name="scan_title">スキャン</string>
+    <string name="scan_share">PDFを共有</string>
+    <string name="scan_add_page">ページを追加</string>
+    <string name="scan_save_to_folder">フォルダにコピーを保存</string>
+
+    <!-- Crop and cleanup -->
+    <string name="crop_title">スキャンを調整</string>
+    <string name="crop_help">角を紙の端に合わせてドラッグしてください。横向きなら回転させます。</string>
+    <string name="crop_rotate">回転</string>
+    <string name="crop_look_color">カラー</string>
+    <string name="crop_look_gray">グレースケール</string>
+    <string name="crop_look_bw">白黒</string>
+    <string name="crop_use">これを使う</string>
+    <string name="crop_working">処理中…</string>
+    <string name="crop_adjust">調整</string>
+
+    <!-- Compress -->
+    <string name="tool_compress">圧縮</string>
+    <string name="tool_compress_desc">中の画像を小さくしてPDFを軽くします</string>
+    <string name="compress_current_size">現在のサイズ: %1$s</string>
+    <string name="compress_how_much">圧縮の強さ</string>
+    <string name="compress_explain">変わるのは画像だけです。文字や線はそのまま残るので、読みやすさは変わりません。</string>
+    <string name="compress_level_light">弱め。画像の細かさはほぼそのままです。</string>
+    <string name="compress_level_balanced">ふつう。メールで送るのに向いています。</string>
+    <string name="compress_level_strong">強め。いちばん小さくなりますが、画像はややぼやけます。</string>
+
+    <!-- Accessibility affordances: visible buttons for long-press and swipe actions -->
+    <string name="library_more_options_for">%1$s のその他の操作</string>
+    <string name="action_rename">名前を変更</string>
+    <string name="action_discard">破棄</string>
+    <string name="action_keep_editing">編集を続ける</string>
+    <string name="action_move_earlier">前へ移動</string>
+    <string name="action_move_later">後ろへ移動</string>
+    <string name="reader_bookmark_delete_title">このしおりを削除しますか？</string>
+    <string name="reader_bookmark_delete_body">%1$s をしおりから削除します。</string>
+    <string name="reader_page_current">%1$dページ、現在のページ</string>
+    <string name="reader_search_needs_continuous">検索は連続スクロールモードで使えます。メニューから読書モードを変えてください。</string>
+    <string name="reader_discard_title">変更を破棄しますか？</string>
+    <string name="reader_discard_body">フォームに入力したりチェックしたりした内容は失われます。</string>
+    <string name="reader_brightness">明るさ</string>
+    <string name="reader_brightness_percent">%1$d%%</string>
+    <string name="reader_info_unknown">不明</string>
+    <string name="sign_size_desc">署名の大きさ</string>
+    <string name="sign_page_preview_desc">ページのプレビュー。署名を置く場所をタップしてください。</string>
+    <string name="scan_remove_title">このページを外しますか？</string>
+    <string name="scan_remove_body">%1$dページをスキャンから外します。</string>
+    <string name="images_picture_n">画像 %1$d</string>
+    <string name="pdf_to_images_dpi_value">%1$d dpi</string>
+    <string name="pdf_to_images_quality_desc">JPEG画質</string>
+    <string name="document_fallback_name">document.pdf</string>
+
+    <!-- Progress labels, always paired with a spinner -->
+    <string name="progress_opening_document">文書を開いています…</string>
+    <string name="progress_loading_page">ページを読み込んでいます…</string>
+    <string name="progress_reading_pages">ページを読み取っています…</string>
+    <string name="progress_reading_folder">フォルダを読み込んでいます…</string>
+    <string name="progress_preparing_photo">写真を準備しています…</string>
+    <string name="progress_building_pdf">PDFを作成しています…</string>
+
+    <!-- Language picker -->
+    <string name="settings_language">言語</string>
+    <string name="settings_language_system">システムのデフォルト</string>
+
+    <!-- Welcome tour -->
+    <string name="tour_skip">スキップ</string>
+    <string name="tour_next">次へ</string>
+    <string name="tour_start">はじめる</string>
+    <string name="tour_show_again">ようこそツアーを表示</string>
+    <string name="tour_show_again_summary">初回起動時の短い紹介。</string>
+    <string name="tour_welcome_title">Plain PDF</string>
+    <string name="tour_welcome_body">インストールしていただき、ありがとうございます。PDFを読む、署名する、スキャンする、編集する。すべてお使いの電話の中で行われます。広告なし、アカウントなし、クラウドなし。</string>
+    <string name="tour_sign_title">文書に署名</string>
+    <string name="tour_sign_body">署名を一度書けば、ページに置いて署名済みのコピーを共有できます。印刷もスキャンも要りません。</string>
+    <string name="tour_scan_title">スキャンして検索</string>
+    <string name="tour_scan_body">ページを撮影してください。端は自動で見つかり、文字は読み取られ、PDFの中を検索したりコピーしたりできます。</string>
+    <string name="tour_edit_title">記入、手書き、マーカー</string>
+    <string name="tour_edit_body">フォームに記入したり、ページに手書きやマーカーを入れたり、パスワードを付けたり解除したりできます。すべてのツールは、開いた文書の「ツール」ボタン1つにまとまっています。</string>
+    <string name="tour_arrange_title">ページを整理</string>
+    <string name="tour_arrange_body">ファイルの結合や分割、ページの並べ替えや回転、大きなPDFの圧縮ができます。保存するまで何も変わりません。</string>
+
+    <!-- Draw and highlight -->
+    <string name="reader_annotate">手書きとマーカー</string>
+    <string name="reader_annotate_desc">ページにペンやマーカーで書き込みます</string>
+    <string name="reader_annotate_active">手書きとマーカーを入力中</string>
+    <string name="reader_annotate_help">ページにペンやマーカーで書き込んでから、コピーを保存してください。</string>
+    <string name="reader_save_annotated">書き込み入りのコピーを保存</string>
+    <string name="reader_annotated_saved">書き込み入りのコピーを保存しました</string>
+    <string name="reader_discard_annotations_body">手書きとマーカーの内容は失われます。</string>
+
+    <!-- Text recognition -->
+    <string name="settings_group_ocr">文字認識</string>
+    <string name="settings_ocr_enabled">スキャンを検索できるようにする</string>
+    <string name="settings_ocr_enabled_summary">スキャンしたページの文字を読み取り、検索やコピーができるようにします。1ページあたり数秒かかります。</string>
+    <string name="settings_ocr_languages">言語</string>
+    <string name="settings_ocr_bundled">アプリに同梱</string>
+    <string name="settings_ocr_imported">インポート済み</string>
+    <string name="settings_ocr_import">言語ファイルをインポート…</string>
+    <string name="settings_ocr_import_help">一覧にない言語の場合：tessdata_fast プロジェクトからその言語の .traineddata ファイルをダウンロードし、ここで選択してください。</string>
+    <string name="settings_ocr_get_languages">言語ファイルを入手</string>
+    <string name="settings_ocr_imported_done">言語をインポートしました</string>
+    <string name="settings_ocr_languages_help">スキャンしたページをどの言語で読み取るか、言語を追加する方法</string>
+    <string name="scan_copy_text">文字をコピー</string>
+    <string name="scan_text_copied">文字をコピーしました</string>
+    <string name="scan_searchable">検索可能: %1$s</string>
+    <string name="scan_recognising">文字を読み取っています。%2$dページ中%1$dページ</string>
+
+    <!-- Crash report, offered on the launch after a crash -->
+    <string name="crash_title">前回、Plain PDFが予期せず終了しました</string>
+    <string name="crash_body">ご迷惑をおかけしました。開発者にレポートを送信しますか？含まれるのは技術的な情報だけです。アプリのバージョン、お使いのAndroidのバージョンと電話の機種、エラーが起きた場所です。文書も、名前も、ファイルも含まれません。</string>
+    <string name="crash_send">レポートを送信</string>
+    <string name="crash_not_now">今はしない</string>
+
+    <!-- Reader: print, read aloud, copy text -->
+    <string name="reader_print">印刷</string>
+    <string name="reader_print_desc">文書をプリンターに送ります</string>
+    <string name="reader_print_unavailable">この端末では印刷できません。</string>
+    <string name="reader_read_aloud">読み上げ</string>
+    <string name="reader_read_aloud_desc">電話の音声で文書を聞きます</string>
+    <string name="reader_reading_page">読み上げ中、%1$dページ</string>
+    <string name="action_pause">一時停止</string>
+    <string name="action_resume">再開</string>
+    <string name="action_stop">停止</string>
+    <string name="reader_tts_no_voice">この言語の音声はまだ電話に入っていません。Androidの設定から追加できます。</string>
+    <string name="reader_tts_settings">設定</string>
+    <string name="reader_tts_no_text">この文書には読み上げる文字がありません。文字認識をオンにしてスキャンしてください。</string>
+    <string name="reader_copy_text">文字をコピーまたは共有</string>
+    <string name="reader_copy_text_desc">文書の文字をプレーンテキストとしてコピーします</string>
+    <string name="reader_text_copied">文字をコピーしました</string>
+    <string name="action_copy">コピー</string>
+    <string name="action_share_text">文字として共有</string>
+
+    <!-- Page numbers -->
+    <string name="tool_page_numbers">ページ番号</string>
+    <string name="tool_page_numbers_desc">すべてのページに番号を入れます</string>
+    <string name="page_numbers_position">位置</string>
+    <string name="page_numbers_bottom_centre">下中央</string>
+    <string name="page_numbers_bottom_right">右下</string>
+    <string name="page_numbers_top_right">右上</string>
+    <string name="page_numbers_style">番号の形式</string>
+    <string name="page_numbers_start_at">開始番号</string>
+    <string name="page_numbers_show_total">1 / 12 の形式で表示</string>
+    <string name="page_numbers_example">最初のページの表示: %1$s</string>
+
+    <!-- Make searchable -->
+    <string name="tool_make_searchable">検索できるようにする</string>
+    <string name="tool_make_searchable_desc">スキャンしたPDFの文字を読み取り、検索やコピーができるようにします</string>
+    <string name="searchable_note">すでに文字が入っているページはそのままにします。</string>
+    <string name="searchable_languages">言語: %1$s</string>
+    <string name="searchable_languages_hint">設定の「文字認識」で変更できます。</string>
+
+    <!-- Redact -->
+    <string name="tool_redact">黒塗り</string>
+    <string name="tool_redact_desc">ページの一部を黒く塗りつぶして消します</string>
+    <string name="redact_explain">黒塗りしたページは画像に変換されるため、下にあったものを復元することはできません。そのページの文字は選択できなくなります。</string>
+    <string name="redact_help">ページ上でドラッグして枠を描きます。枠をタップすると取り消せます。</string>
+    <string name="redact_page_preview_desc">ページのプレビュー。隠したい部分にドラッグして枠を描きます。枠をタップすると取り消せます。</string>
+    <plurals name="redact_box_count">
+        <item quantity="other">%1$d個の枠</item>
+    </plurals>
+    <plurals name="redact_page_count">
+        <item quantity="other">%1$dページに</item>
+    </plurals>
+
+    <!-- Launcher shortcuts and the home-screen widget -->
+    <string name="shortcut_scan_short">スキャン</string>
+    <string name="shortcut_scan_long">文書をスキャン</string>
+    <string name="shortcut_open_short">PDFを開く</string>
+    <string name="shortcut_open_long">PDFを開く</string>
+    <string name="widget_label">Plain PDFのクイック操作</string>
+    <string name="widget_description">ワンタップで文書をスキャンしたりPDFを開いたりできます。</string>
+    <string name="widget_scan">文書をスキャン</string>
+    <string name="widget_open">PDFを開く</string>
+    <string name="widget_scan_short">スキャン</string>
+    <string name="widget_library">ライブラリ</string>
+
+    <!-- Continue reading, share a page, notes and share-sheet targets -->
+    <string name="library_continue_title">続きを読む</string>
+    <string name="library_continue_page">%2$dページ中%1$dページ</string>
+    <string name="library_continue_page_only">%1$dページ</string>
+    <string name="action_continue_reading">続ける</string>
+    <string name="reader_share_page">このページを共有</string>
+    <string name="reader_share_page_image">画像として</string>
+    <string name="reader_share_page_pdf">1ページのPDFとして</string>
+    <string name="tool_note">メモを書く</string>
+    <string name="tool_note_desc">文字を入力してPDFとして保存します</string>
+    <string name="note_title_hint">タイトル（任意）</string>
+    <string name="note_body_hint">ここにメモを入力</string>
+    <string name="note_default_name">メモ</string>
+    <string name="shortcut_continue_long">続き: %1$s、%2$dページ</string>
+    <string name="shortcut_continue_gone">この文書はもうライブラリにありません</string>
+    <string name="share_target_sign">Plain PDFで署名</string>
+    <string name="share_target_scan">Plain PDFでスキャン</string>
+    <string name="tour_edit_note_unavailable">フォームへの記入、手書き、マーカーには、GoogleのPDFアップデートを含むAndroid 12以降が必要ですが、この電話にはありません。ほかのツールはすべて使えます。</string>
+    <string name="tour_edit_note_no_drawing">手書きとマーカーには、この電話より新しいAndroidが必要です。フォームへの記入は使えます。</string>
+
+    <!-- Languages for scanned text -->
+    <string name="ocr_languages_title">スキャン文字の言語</string>
+    <string name="ocr_languages_intro">スキャンしたページは、チェックした言語で読み取ります。スキャンする言語だけにチェックを入れてください。言語を増やすと読み取りが少し遅くなります。</string>
+    <string name="ocr_languages_on_phone">この電話にある言語</string>
+    <string name="ocr_languages_get_more">言語を追加</string>
+    <string name="ocr_languages_get_more_play">「入手」を押すと、Google Playが言語をダウンロードします。ほかにすることはありません。</string>
+    <string name="ocr_languages_get_more_foss">このバージョンはダウンロードできません。下のリンクから言語ファイルを入手して、インポートしてください。</string>
+    <string name="ocr_languages_tier_common">よく使われる言語</string>
+    <string name="ocr_languages_tier_nearby">近隣の国の言語</string>
+    <string name="ocr_languages_tier_other">その他</string>
+    <string name="ocr_languages_get">入手</string>
+    <string name="ocr_languages_downloading">ダウンロード中…</string>
+    <string name="ocr_languages_installing">準備中…</string>
+    <string name="ocr_languages_failed">ダウンロードできませんでした。インターネット接続を確認して、もう一度お試しください。</string>
+    <string name="ocr_languages_try_again">もう一度試す</string>
+    <string name="ocr_languages_downloaded">ダウンロード済み</string>
+    <string name="ocr_languages_remove_title">%1$sを外しますか？</string>
+    <string name="ocr_languages_remove_body">いつでもまた入手できます。</string>
+    <string name="ocr_languages_ready">%1$sの準備ができました。この言語でスキャンしたページを読み取れます。</string>
+    <string name="ocr_languages_keep_one">少なくとも1つの言語にチェックを残してください。</string>
+    <string name="ocr_suggest_title">この電話の言語は%1$sです</string>
+    <string name="ocr_suggest_body">%1$s（%2$s）を入手すると、%1$sでスキャンしたページを読み取れます。</string>
+    <string name="ocr_suggest_get">%1$sを入手</string>
+    <string name="ocr_suggest_later">今はしない</string>
+    <string name="ocr_garbled_title">文字がうまく読み取れませんでした</string>
+    <string name="ocr_garbled_body">このページは、この電話にまだない言語かもしれません。言語は設定で追加できます。</string>
+    <string name="ocr_garbled_action">言語</string>
+</resources>

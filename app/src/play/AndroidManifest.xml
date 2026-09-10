@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Play Billing talks to the Play Store app over Binder; it does not need INTERNET.
+         Without the permission, the billing SDK's own diagnostics transport can never
+         upload anything, so the Play build makes no network requests either. -->
+    <uses-permission android:name="com.android.vending.BILLING" />
+</manifest>

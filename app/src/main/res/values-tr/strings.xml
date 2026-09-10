@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plain PDF</string>
+
+    <!-- Navigation -->
+    <string name="nav_library">Kitaplık</string>
+    <string name="nav_tools">Araçlar</string>
+    <string name="action_back">Geri</string>
+    <string name="action_cancel">İptal</string>
+    <string name="action_done">Bitti</string>
+
+    <!-- Library -->
+    <string name="library_tab_recent">Son açılanlar</string>
+    <string name="library_tab_folders">Klasörler</string>
+    <string name="library_tab_favourites">Favoriler</string>
+    <string name="library_open_pdf">PDF aç</string>
+    <string name="library_add_folder">Klasör ekle</string>
+    <string name="library_empty_recent">Henüz belge yok. Başlamak için bir PDF açın.</string>
+    <string name="library_empty_folders">Henüz klasör yok. İçindeki PDF dosyalarına göz atmak için bir klasör ekleyin.</string>
+    <string name="library_empty_favourites">Burada henüz bir şey yok. Bir belgenin menüsünü, yani üç noktayı açıp Favori\'yi seçin.</string>
+    <string name="library_search">Ara</string>
+    <string name="library_more">Daha fazla</string>
+    <string name="library_sort">Sırala</string>
+    <string name="library_view_grid">Izgara</string>
+    <string name="library_view_list">Liste</string>
+
+    <!-- Tools -->
+    <string name="tools_title">Araçlar</string>
+    <string name="tools_empty">Sayfaları birleştirme, bölme ve düzenleme araçları burada. Her şey bu cihazda çalışır.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Ayarlar</string>
+    <string name="settings_group_appearance">Görünüm</string>
+    <string name="settings_group_reading">Okuma</string>
+    <string name="settings_group_tools">Araçlar</string>
+    <string name="settings_group_library">Kitaplık</string>
+    <string name="settings_group_about">Hakkında</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_accent">Vurgu rengi</string>
+    <string name="settings_dynamic_colour">Sistem renklerini kullan</string>
+    <string name="settings_dynamic_colour_summary">Duvar kâğıdınızdan alınan renkler</string>
+    <string name="settings_app_icon">Uygulama simgesi</string>
+    <string name="settings_reading_mode">Varsayılan okuma modu</string>
+    <string name="settings_page_display">Varsayılan sayfa görünümü</string>
+    <string name="settings_keep_screen_on">Okurken ekran açık kalsın</string>
+    <string name="settings_edge_brightness">Kenardan kaydırarak parlaklık</string>
+    <string name="settings_edge_brightness_summary">Parlaklığı ayarlamak için sol kenarda parmağınızı kaydırın</string>
+    <string name="settings_double_tap_zoom">Yakınlaştırmak için iki kez dokun</string>
+    <string name="settings_volume_keys">Ses tuşları sayfa çevirsin</string>
+    <string name="settings_save_location">Yeni dosyaların kaydedildiği yer</string>
+    <string name="settings_save_location_ask">Her seferinde sor</string>
+    <string name="settings_save_location_choose">Klasör seç</string>
+    <string name="settings_output_naming">Yeni dosyalar nasıl adlandırılır</string>
+    <string name="settings_output_naming_help">{name} kaynak dosyanın adı, {op} yapılan işlemdir; örneğin merged veya pages_1-4.</string>
+    <string name="settings_language_summary">Uygulamanın menü ve düğmelerinin dili.</string>
+    <string name="settings_theme_summary">Uygulamanın kendisi için açık ya da koyu görünüm. Sayfalar kendi renklerini korur.</string>
+    <string name="settings_accent_summary">Uygulamadaki düğmelerin ve diğer denetimlerin rengi.</string>
+    <string name="settings_app_icon_summary">Plain PDF\'in ana ekranınızda nasıl göründüğü.</string>
+    <string name="settings_highlight_summary">Bir belgede arama yaptığınızda eşleşmeleri işaretleyen renk.</string>
+    <string name="settings_reading_mode_summary">Sayfaları kesintisiz kaydırın ya da tek tek çevirin.</string>
+    <string name="settings_page_display_summary">Sayfaları olduğu gibi, gece için kararmış, sepya ya da gri gösterin.</string>
+    <string name="settings_keep_screen_on_summary">Bir belge açıkken ekran açık kalır.</string>
+    <string name="settings_double_tap_zoom_summary">Yakınlaştırmak için sayfaya iki kez, geri dönmek için yine iki kez dokunun.</string>
+    <string name="settings_volume_keys_summary">Sonraki ya da önceki sayfaya geçmek için ses düğmelerine basın.</string>
+    <string name="settings_save_location_summary">Birleştirilen, bölünen, taranan ve diğer yeni dosyalar buraya gider. Orijinalleriniz olduğu yerde kalır.</string>
+    <string name="settings_save_location_ask_summary">Her araç kaydetmeden önce bir klasör sorar.</string>
+    <string name="settings_save_location_folder">Her zaman %1$s içinde</string>
+    <string name="settings_save_location_choose_summary">Bu telefonda bir klasör seçin. Yeni dosyalar her zaman oraya gider.</string>
+    <string name="settings_output_naming_summary">%1$s birleştirilince %2$s oluşur. Orijinal adını korur.</string>
+    <string name="naming_sample_name">Sözleşme</string>
+    <string name="naming_style_name_op">Önce orijinal ad, sonra ne yapıldığı</string>
+    <string name="naming_style_op_name">Önce ne yapıldığı, sonra orijinal ad</string>
+    <string name="naming_style_custom">Özel kalıp</string>
+    <string name="naming_style_custom_summary">{name} ve {op} kullanarak kendi kalıbınızı yazın.</string>
+    <string name="settings_confirm_overwrite_summary">Bir araç orijinal dosyayı değiştirilmiş sürümle değiştirmeden önce sorar.</string>
+    <string name="settings_default_sort_summary">Kitaplıktaki belgelerin sırası.</string>
+    <string name="settings_source_summary">Plain PDF açık kaynaklıdır: herkes nasıl çalıştığını okuyabilir ve üzerine geliştirebilir.</string>
+    <string name="settings_licence_summary">Kullanması, paylaşması ve geliştirmesi serbesttir, tek şartla: herkes için ücretsiz kalır.</string>
+    <string name="settings_confirm_overwrite">Orijinalin üzerine yazmadan önce sor</string>
+    <string name="settings_default_sort">Varsayılan sıralama</string>
+    <string name="settings_clear_recents">Son açılanları temizle</string>
+    <string name="settings_clear_thumbnails">Kaydedilen önizlemeleri temizle</string>
+    <string name="settings_version">Sürüm</string>
+    <string name="settings_source">Kaynak kodu</string>
+    <string name="settings_licence">Lisans</string>
+    <string name="settings_licence_value">GNU GPL v3</string>
+    <string name="settings_feedback">Özellik öner veya sorun bildir</string>
+    <string name="settings_feedback_summary">Geliştiriciye yazılmış bir mesajla e-posta uygulamanızı açar. Her mesaj okunur.</string>
+    <string name="feedback_subject">Plain PDF: bir öneri</string>
+    <string name="settings_supporter">Destekçi</string>
+    <string name="settings_supporter_summary">Ücretsiz, reklamsız. Uygulama işinize yarıyorsa burada teşekkür edebilirsiniz.</string>
+    <string name="settings_supporter_active">Siz bir Destekçisiniz. Plain PDF\'in ücretsiz kalmasına yardım ettiğiniz için teşekkür ederiz.</string>
+    <string name="settings_supporter_active_gift">Hediyeniz için teşekkürler. Destekçi paketi sizin.</string>
+    <string name="settings_donate">Bağış yap</string>
+    <string name="settings_locked">Destekçi</string>
+
+    <string name="theme_system">Sistem</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="theme_black">Siyah</string>
+    <string name="theme_sepia">Sepya</string>
+
+    <string name="accent_teal">Turkuaz</string>
+    <string name="accent_amber">Kehribar</string>
+    <string name="accent_crimson">Kızıl</string>
+    <string name="accent_indigo">Çivit</string>
+    <string name="accent_violet">Mor</string>
+    <string name="accent_forest">Orman yeşili</string>
+    <string name="accent_slate">Kurşuni</string>
+
+    <string name="reading_mode_continuous">Sürekli kaydırma</string>
+    <string name="reading_mode_paged">Sayfa sayfa</string>
+
+    <string name="page_display_normal">Normal</string>
+    <string name="page_display_night">Gece</string>
+    <string name="page_display_sepia">Sepya</string>
+    <string name="page_display_grayscale">Gri tonlu</string>
+
+    <string name="sort_recently_opened">Son açılma</string>
+    <string name="sort_recently_added">Son eklenme</string>
+    <string name="sort_name">Ad</string>
+    <string name="sort_size">Boyut</string>
+
+    <!-- Supporter -->
+    <string name="supporter_title">Destekçi</string>
+    <string name="supporter_intro">Plain PDF ücretsizdir ve reklam içermez, tüm özellikler ödeme yapmadan çalışır. İşinize yarıyorsa teşekkür etmenin yeri burasıdır. Karşılığında birkaç renk ve simge, bir de minnettarlığımızı alırsınız.</string>
+    <string name="supporter_grants_title">Ne alırsınız</string>
+    <string name="supporter_grant_accents">Altı vurgu rengi</string>
+    <string name="supporter_grant_icons">Üç farklı uygulama simgesi</string>
+    <string name="supporter_grant_highlights">Ek vurgulama renk takımları</string>
+    <string name="supporter_grant_about">Hakkında bölümünde bir Destekçi satırı</string>
+    <string name="supporter_unlock">Destekçi olun</string>
+    <string name="supporter_tips_title">Yeniden destek olun</string>
+    <string name="supporter_tips_summary">İsteğe bağlı. Daha sonra yeniden vermek isterseniz yeri burası. Yeni bir şey açmaz; yalnızca teşekkür eder.</string>
+    <string name="supporter_restore">Satın alımları geri yükle</string>
+    <string name="supporter_restore_found">Satın alımınız geri geldi. Teşekkür ederiz.</string>
+    <string name="supporter_restore_none">Bu Google hesabı için Destekçi paketi bulunamadı. Hediyeler kayıt bırakmaz, bu yüzden geri yüklenemez.</string>
+    <string name="supporter_unavailable">Google Play şu anda bu telefonda ödeme alamıyor. Hiçbir şey kaybolmadı; uygulama ücretsiz kalıyor.</string>
+    <string name="supporter_thanks">Siz bir Destekçisiniz. Plain PDF\'in ücretsiz kalmasına yardım ettiğiniz için teşekkür ederiz.</string>
+    <string name="supporter_donate_intro">Plain PDF ücretsizdir ve reklam içermez, tüm özellikler ödeme yapmadan çalışır. İşinize yarıyorsa arkasındaki emeğe destek olabilirsiniz.</string>
+    <string name="supporter_donate_button">Bağış sayfasını aç</string>
+    <string name="supporter_grant_future">Sonradan eklenen yeni renkler ve simgeler, ek ücret olmadan</string>
+    <string name="supporter_tips_title_first">Ya da bahşiş bırakın</string>
+    <string name="supporter_tips_summary_first">Her tutar teşekkür anlamına gelir.</string>
+    <string name="supporter_tip_unlocks_note">Destekçi paketini de açar</string>
+    <string name="supporter_gift_title">Hediyeniz için teşekkürler</string>
+    <string name="supporter_gift_body">Bahşiş bıraktınız, Destekçi paketi de sizin: tüm renkler, simgeler ve vurgu renk setleri açıldı. Paketi satın almanıza gerek yok.</string>
+    <string name="supporter_gift_note">Hediyeler Google Play\'de kayıt bırakmaz, bu yüzden paket bu telefonda hatırlanır.</string>
+    <string name="supporter_snack_gift">Hediyeniz için teşekkürler.</string>
+    <string name="supporter_snack_unlock">Teşekkürler. Artık bir Destekçisiniz.</string>
+    <string name="supporter_problem_connection">Google Play yanıt vermedi. Play Store uygulamasında oturum açtığınızdan emin olun, sonra geri gelin. Hiçbir şey kaybolmadı; uygulama ücretsiz kalıyor.</string>
+    <string name="supporter_problem_listing">Google Play Destekçi öğelerini henüz listelemedi. Lütfen daha sonra tekrar deneyin. Hiçbir şey kaybolmadı; uygulama ücretsiz kalıyor.</string>
+    <string name="supporter_problem_region">Google Play bu öğeleri ülkenizde henüz sunmuyor. Hiçbir şey kaybolmadı; uygulama ücretsiz kalıyor.</string>
+
+    <!-- Reader -->
+    <string name="reader_page_of">%1$d / %2$d</string>
+    <string name="reader_error_open">Bu dosya açılamadı. Taşınmış veya silinmiş olabilir.</string>
+    <string name="reader_locate_again">Dosyayı yeniden bul</string>
+    <string name="reader_not_saved">Kaydedilmedi</string>
+
+    <!-- Library, M2 -->
+    <string name="library_search_hint">Belgelerde ara</string>
+    <string name="library_no_matches">Bu aramayla eşleşen bir şey yok.</string>
+    <string name="library_page_of">Sayfa %1$d / %2$d</string>
+    <string name="library_file_unavailable">Dosyaya ulaşılamıyor</string>
+    <string name="library_deleted">Dosya silindi</string>
+    <string name="library_delete_failed">Bu dosya silinemedi. Ait olduğu uygulama buna izin vermedi.</string>
+    <string name="library_delete_title">Dosya silinsin mi?</string>
+    <string name="library_delete_body">%1$s depolamadan silinecek. Bu geri alınamaz.</string>
+    <string name="library_rename_help">Yalnızca Plain PDF\'te gösterilen adı değiştirir. Dosyanın adı aynı kalır.</string>
+    <string name="library_folder_failed">Bu klasör eklenemedi. Yeniden seçip erişime izin verin.</string>
+    <string name="library_folder_unavailable">Bu klasör artık okunamıyor. Taşınmış ya da depolama alanı çıkarılmış olabilir.</string>
+    <string name="library_folder_empty">Bu klasörde henüz PDF yok.</string>
+    <string name="library_remove_folder_body">Bu klasörün izlenmesi durdurulsun mu? Açtığınız veya favorilere eklediğiniz dosyalar kitaplıkta kalır.</string>
+    <string name="action_favourite">Favori</string>
+    <string name="action_unfavourite">Favorilerden çıkar</string>
+    <string name="action_rename_label">Etiketi yeniden adlandır</string>
+    <string name="action_share">Paylaş</string>
+    <string name="action_organise_pages">Sayfaları düzenle</string>
+    <string name="action_remove_from_recents">Son açılanlardan çıkar</string>
+    <string name="action_delete_file">Dosyayı sil</string>
+    <string name="action_remove_folder">Klasörü kaldır</string>
+    <string name="action_refresh">Yenile</string>
+    <string name="action_clear">Temizle</string>
+
+    <!-- Reader, M3 -->
+    <string name="reader_search">Belgede ara</string>
+    <string name="reader_search_hint">Belgede bul</string>
+    <string name="reader_search_count">%1$d / %2$d</string>
+    <string name="reader_search_none">Eşleşme yok</string>
+    <string name="reader_search_previous">Önceki eşleşme</string>
+    <string name="reader_search_next">Sonraki eşleşme</string>
+    <string name="reader_outline">Sayfalar</string>
+    <string name="reader_pages_title">%1$d sayfa</string>
+    <string name="reader_jump_to_page">Sayfaya git</string>
+    <string name="reader_jump_hint">1 ile %1$d arası</string>
+    <string name="reader_go">Git</string>
+    <string name="reader_add_bookmark">Yer imi ekle</string>
+    <string name="reader_add_bookmark_title">Sayfa %1$d için yer imi</string>
+    <string name="reader_bookmark_label">Yer imi adı</string>
+    <string name="reader_bookmark_label_help">İsteğe bağlı. Sayfa numarası gösterilsin diye boş bırakabilirsiniz.</string>
+    <string name="reader_bookmark_added">Yer imi eklendi</string>
+    <string name="reader_bookmarks">Yer imleri</string>
+    <string name="reader_bookmarks_empty">Henüz yer imi yok. Bir sayfayı işaretlemek için menüden Yer imi ekle\'yi seçin.</string>
+    <string name="reader_page_n">Sayfa %1$d</string>
+    <string name="reader_page_display">Sayfa görünümü</string>
+    <string name="reader_reading_mode">Okuma modu</string>
+    <string name="reader_keep_screen_on">Ekran açık kalsın</string>
+    <string name="reader_document_info">Belge bilgileri</string>
+    <string name="reader_info_name">Ad</string>
+    <string name="reader_info_pages">Sayfa sayısı</string>
+    <string name="reader_info_size">Boyut</string>
+    <string name="reader_info_location">Konum</string>
+    <string name="action_delete">Sil</string>
+
+    <!-- Tools, M4 -->
+    <string name="tools_recent_output">Son çıktılar</string>
+    <string name="tool_organise">Sayfaları düzenle</string>
+    <string name="tool_organise_desc">Sayfaları döndürün, silin, yeniden sıralayın, ayırın veya çoğaltın</string>
+    <string name="tool_merge">Birleştir</string>
+    <string name="tool_merge_desc">Birden fazla PDF\'i seçtiğiniz sırayla tek dosyada birleştirin</string>
+    <string name="tool_split">Böl</string>
+    <string name="tool_split_desc">Bir PDF\'i sayfa aralıklarına göre veya her birinde eşit sayıda sayfa olacak şekilde birkaç dosyaya bölün</string>
+    <string name="tool_images_to_pdf">Resimlerden PDF</string>
+    <string name="tool_images_to_pdf_desc">Fotoğrafları ve taramaları tek bir PDF\'e dönüştürün</string>
+    <string name="tool_pdf_to_images">PDF\'ten resim</string>
+    <string name="tool_pdf_to_images_desc">Sayfaları PNG veya JPEG dosyası olarak dışa aktarın</string>
+    <string name="tool_password">Parola</string>
+    <string name="tool_password_desc">Parola ekleyin, değiştirin veya kaldırın</string>
+    <string name="action_open">Aç</string>
+    <string name="action_continue">Devam</string>
+    <string name="action_undo">Geri al</string>
+    <string name="action_redo">Yinele</string>
+    <string name="action_select_all">Tümünü seç</string>
+    <string name="organise_pages_count">%1$d sayfa</string>
+    <string name="organise_changes">%1$d değişiklik</string>
+    <string name="organise_selected">%1$d seçili</string>
+    <string name="organise_rotate_left">Sola döndür</string>
+    <string name="organise_rotate_right">Sağa döndür</string>
+    <string name="organise_restore">Geri getir</string>
+    <string name="organise_extract">Yeni dosyaya ayır</string>
+    <string name="organise_duplicate">Çoğalt</string>
+    <string name="organise_page_desc">Sayfa %1$d</string>
+    <string name="organise_page_selected">Sayfa %1$d, seçili</string>
+    <string name="organise_page_deleted">Sayfa %1$d, silinmek üzere işaretlendi</string>
+    <string name="ops_save_as_new">Yeni dosya olarak kaydet</string>
+    <string name="ops_overwrite">Orijinalin üzerine yaz</string>
+    <string name="ops_overwrite_title">Orijinalin üzerine yazılsın mı?</string>
+    <string name="ops_overwrite_body">%1$s düzenlenmiş sürümle değiştirilecek. Yazıldıktan sonra bu değişiklik geri alınamaz.</string>
+    <string name="ops_saved_one">Kaydedildi: %1$s</string>
+    <string name="ops_saved_many">%1$d dosya kaydedildi</string>
+    <string name="ops_and_more">ve %1$d tane daha</string>
+    <string name="ops_failed_title">Bu işlem yapılamadı</string>
+    <string name="ops_try_other_location">Başka bir konum deneyin</string>
+    <string name="ops_password_title">Parola gerekli</string>
+    <string name="ops_password_body">%1$s parola korumalı. Devam etmek için parolasını girin. Parola bir kez kullanılır ve saklanmaz.</string>
+    <string name="ops_password_wrong">Bu parola belgeyi açmadı.</string>
+    <string name="ops_password_needed">Sayfaların gösterilebilmesi için bu belgenin parolası gerekiyor.</string>
+    <string name="ops_error_password">Bu belge parola korumalı. Parolasını girip yeniden deneyin.</string>
+    <string name="ops_error_assembly">Bu belgenin sahibi sayfalarının yeniden düzenlenmesine izin vermiyor. Plain PDF bunu aşmaz.</string>
+    <string name="ops_error_corrupt">Bu dosya okunamadı. Hasarlı olabilir.</string>
+    <string name="ops_error_oom">Bu belge telefonun belleği için fazla büyük. Önce daha küçük parçalara bölmek genellikle işe yarar.</string>
+    <string name="ops_error_destination">Dosya oraya yazılamadı. Hiçbir şey silinmedi. Başka bir konum deneyin.</string>
+    <string name="ops_error_cancelled">İptal edildi. Özgün dosyanıza dokunulmadı.</string>
+    <string name="ops_error_unknown">Bir sorun oluştu. Özgün dosyanıza dokunulmadı.</string>
+    <string name="ops_notification_working">Belgeniz işleniyor</string>
+    <string name="ops_channel_name">Belge işlemleri</string>
+    <plurals name="ops_pages">
+        <item quantity="one">%1$d sayfa</item>
+        <item quantity="other">%1$d sayfa</item>
+    </plurals>
+
+    <!-- Tools, M5 -->
+    <string name="tool_input_document">Belge</string>
+    <string name="tool_choose_pdf">Bir PDF seçin</string>
+    <string name="action_change">Değiştir</string>
+    <string name="action_remove">Kaldır</string>
+    <string name="action_move_up">Yukarı taşı</string>
+    <string name="action_move_down">Aşağı taşı</string>
+    <string name="merge_documents">Belgeler, çıktı sırasına göre</string>
+    <string name="merge_empty">İki veya daha fazla PDF ekleyin. Yukarıdan aşağıya birleştirilirler.</string>
+    <string name="merge_add_file">Dosya ekle</string>
+    <string name="merge_reading">Okunuyor…</string>
+    <string name="merge_total">Çıktıda %1$d sayfa</string>
+    <string name="merge_selected_pages">%1$d sayfa seçildi</string>
+    <string name="merge_choose_pages">Sayfaları seç</string>
+    <string name="merge_pages_chosen">Sayfalar: %1$s</string>
+    <string name="merge_range_label">Dahil edilecek sayfalar</string>
+    <string name="split_mode">Nasıl bölünsün</string>
+    <string name="split_by_ranges">Sayfa aralıklarına göre</string>
+    <string name="split_every_n">Her birinde eşit sayıda sayfa</string>
+    <string name="split_extract">Seçimi ayır</string>
+    <string name="split_extract_help">Sayfaları düzenleyicide görerek seçin ve yeni bir dosya olarak kaydedin.</string>
+    <string name="split_open_organiser">Düzenleyiciyi aç</string>
+    <string name="split_ranges_hint">1-4, 8, 12-20</string>
+    <string name="split_ranges_help">Her aralık için bir dosya. Aralıkları virgülle ayırın.</string>
+    <string name="split_pages_per_file">Dosya başına sayfa</string>
+    <string name="split_preview">%1$d dosya: %2$s</string>
+    <string name="split_save_to_folder">Dosyaları bir klasöre kaydet</string>
+    <string name="ranges_error_empty">En az bir sayfa girin.</string>
+    <string name="ranges_error_bad">%1$s bir sayfa ya da 3-5 gibi bir aralık değil.</string>
+    <string name="ranges_error_out_of_range">%1$s, 1 ile %2$d aralığının dışında.</string>
+    <string name="ranges_error_reversed">%1$s ters yönde.</string>
+    <string name="images_count">%1$d resim</string>
+    <string name="images_add">Resim ekle</string>
+    <string name="images_camera">Fotoğraf çek</string>
+    <string name="images_empty">Fotoğraf veya tarama ekleyin. Sırayı değiştirmek için resmin üzerindeki okları kullanın.</string>
+    <string name="images_page">Sayfa</string>
+    <string name="images_fit_image">Resme göre</string>
+    <string name="images_a4">A4</string>
+    <string name="images_letter">Letter</string>
+    <string name="images_fit">Sığdır</string>
+    <string name="images_fill">Doldur</string>
+    <string name="images_margin_none">Kenar boşluğu yok</string>
+    <string name="images_margin_small">Küçük kenar boşluğu</string>
+    <string name="images_margin_medium">Orta kenar boşluğu</string>
+    <string name="pdf_to_images_pages">Sayfalar</string>
+    <string name="pdf_to_images_all_pages">Tüm sayfalar</string>
+    <string name="pdf_to_images_range_help">%1$d sayfa dışa aktarılacak.</string>
+    <string name="pdf_to_images_format">Biçim</string>
+    <string name="pdf_to_images_quality">JPEG kalitesi %1$d</string>
+    <string name="pdf_to_images_dpi">Çözünürlük</string>
+    <string name="pdf_to_images_encrypted">Bu belge parola korumalı. Önce Parola aracıyla parolayı kaldırın.</string>
+    <string name="pdf_to_images_many_title">%1$d sayfa dışa aktarılsın mı?</string>
+    <string name="pdf_to_images_many_body">Bu, %1$d resim dosyası demek. Biraz zaman alabilir ve çok yer kaplayabilir.</string>
+    <string name="password_what">Ne yapılsın</string>
+    <string name="password_explain">Parola, belgenin parolasız açılmasını engeller. Parolayı güvenli bir yerde saklayın: unutulursa geri getirilemez.</string>
+    <string name="password_add">Parola ekle</string>
+    <string name="password_change">Parolayı değiştir</string>
+    <string name="password_remove">Parolayı kaldır</string>
+    <string name="password_new">Yeni parola</string>
+    <string name="password_confirm">Parolayı doğrula</string>
+    <string name="password_mismatch">Parolalar birbirini tutmuyor.</string>
+
+    <!-- Supporter cosmetics, M6 -->
+    <string name="settings_highlight">Arama vurgusu</string>
+    <string name="highlight_accent">Vurgu rengi</string>
+    <string name="highlight_amber">Kehribar</string>
+    <string name="highlight_rose">Gül</string>
+    <string name="highlight_sky">Gök mavisi</string>
+    <string name="app_icon_default">Varsayılan</string>
+    <string name="app_icon_mono">Tek renk</string>
+    <string name="app_icon_paper">Kâğıt</string>
+    <string name="app_icon_night">Gece</string>
+
+    <!-- Reader tools entry -->
+    <string name="reader_tools_section">Bu belge için araçlar</string>
+    <string name="reader_tool_merge">Başka PDF\'lerle birleştir</string>
+
+    <!-- Reader tools button, form filling, sign -->
+    <string name="reader_tools_button">Araçlar</string>
+    <string name="reader_fill_form">Formu doldur</string>
+    <string name="reader_fill_active">Form dolduruluyor</string>
+    <string name="reader_fill_desc">Yazmak, işaretlemek veya seçmek için sayfadaki alanlara dokunun. Sonra bir kopya kaydedin.</string>
+    <string name="reader_save_filled">Doldurulmuş formu kaydet</string>
+    <string name="reader_fill_saved">Doldurulmuş form kaydedildi</string>
+    <string name="tool_sign">İmzala</string>
+    <string name="tool_sign_desc">Bir imza çizin ve bir sayfaya yerleştirin</string>
+    <string name="sign_draw_title">İmzanızı çizin</string>
+    <string name="sign_draw_help">Parmağınızı veya kalemi kullanın. İmza belgeye resim olarak kaydedilir, hiçbir yere gönderilmez.</string>
+    <string name="sign_clear">Temizle</string>
+    <string name="sign_next">Bir sayfaya yerleştir</string>
+    <string name="sign_back">Yeniden çiz</string>
+    <string name="sign_place_title">İmzanın duracağı yere dokunun ya da imzayı sürükleyin. Aşağıdan bir sayfa seçin.</string>
+    <string name="sign_size">Boyut</string>
+    <string name="sign_ink_black">Siyah mürekkep</string>
+    <string name="sign_ink_blue">Mavi mürekkep</string>
+
+    <!-- Scan -->
+    <string name="library_scan">Belge tara</string>
+    <string name="scan_title">Tara</string>
+    <string name="scan_share">PDF\'i paylaş</string>
+    <string name="scan_add_page">Bir sayfa daha ekle</string>
+    <string name="scan_save_to_folder">Bir klasöre kopya kaydet</string>
+
+    <!-- Crop and cleanup -->
+    <string name="crop_title">Taramayı ayarla</string>
+    <string name="crop_help">Köşeleri sayfanın kenarlarına sürükleyin. Sayfa yan duruyorsa döndürün.</string>
+    <string name="crop_rotate">Döndür</string>
+    <string name="crop_look_color">Renkli</string>
+    <string name="crop_look_gray">Gri tonlu</string>
+    <string name="crop_look_bw">Siyah beyaz</string>
+    <string name="crop_use">Bunu kullan</string>
+    <string name="crop_working">İşleniyor…</string>
+    <string name="crop_adjust">Ayarla</string>
+
+    <!-- Compress -->
+    <string name="tool_compress">Küçült</string>
+    <string name="tool_compress_desc">İçindeki resimleri küçülterek PDF\'i daha küçük hâle getirin</string>
+    <string name="compress_current_size">Şu anki boyut: %1$s</string>
+    <string name="compress_how_much">Ne kadar</string>
+    <string name="compress_explain">Yalnızca resimler değişir. Metin ve çizimler tam olarak aynı kalır, böylece belge aynı şekilde okunur.</string>
+    <string name="compress_level_light">Hafif. Resimler ayrıntılarının çoğunu korur.</string>
+    <string name="compress_level_balanced">Dengeli. E-postayla göndermek için uygun.</string>
+    <string name="compress_level_strong">Güçlü. En küçük dosya, resimler daha yumuşak görünür.</string>
+
+    <!-- Accessibility affordances: visible buttons for long-press and swipe actions -->
+    <string name="library_more_options_for">%1$s için daha fazla seçenek</string>
+    <string name="action_rename">Yeniden adlandır</string>
+    <string name="action_discard">Vazgeç</string>
+    <string name="action_keep_editing">Düzenlemeye devam et</string>
+    <string name="action_move_earlier">Öne taşı</string>
+    <string name="action_move_later">Arkaya taşı</string>
+    <string name="reader_bookmark_delete_title">Bu yer imi silinsin mi?</string>
+    <string name="reader_bookmark_delete_body">%1$s yer imlerinizden kaldırılacak.</string>
+    <string name="reader_page_current">Sayfa %1$d, geçerli sayfa</string>
+    <string name="reader_search_needs_continuous">Arama, sürekli kaydırma modunda çalışır. Okuma modunu menüden değiştirin.</string>
+    <string name="reader_discard_title">Değişiklikleriniz silinsin mi?</string>
+    <string name="reader_discard_body">Formda yazdığınız veya işaretlediğiniz her şey kaybolacak.</string>
+    <string name="reader_brightness">Parlaklık</string>
+    <string name="reader_brightness_percent">%%%1$d</string>
+    <string name="reader_info_unknown">Bilinmiyor</string>
+    <string name="sign_size_desc">İmza boyutu</string>
+    <string name="sign_page_preview_desc">Sayfa ön izlemesi. İmzanın duracağı yere dokunun.</string>
+    <string name="scan_remove_title">Bu sayfa kaldırılsın mı?</string>
+    <string name="scan_remove_body">Sayfa %1$d taramadan çıkarılacak.</string>
+    <string name="images_picture_n">Resim %1$d</string>
+    <string name="pdf_to_images_dpi_value">%1$d dpi</string>
+    <string name="pdf_to_images_quality_desc">JPEG kalitesi</string>
+    <string name="document_fallback_name">belge.pdf</string>
+
+    <!-- Progress labels, always paired with a spinner -->
+    <string name="progress_opening_document">Belge açılıyor…</string>
+    <string name="progress_loading_page">Sayfa yükleniyor…</string>
+    <string name="progress_reading_pages">Sayfalar okunuyor…</string>
+    <string name="progress_reading_folder">Klasör okunuyor…</string>
+    <string name="progress_preparing_photo">Fotoğraf hazırlanıyor…</string>
+    <string name="progress_building_pdf">PDF oluşturuluyor…</string>
+
+    <!-- Language picker -->
+    <string name="settings_language">Dil</string>
+    <string name="settings_language_system">Sistem varsayılanı</string>
+
+    <!-- Welcome tour -->
+    <string name="tour_skip">Atla</string>
+    <string name="tour_next">İleri</string>
+    <string name="tour_start">Başla</string>
+    <string name="tour_show_again">Hoş geldiniz turunu göster</string>
+    <string name="tour_show_again_summary">İlk açılıştaki kısa tanıtım.</string>
+    <string name="tour_welcome_title">Plain PDF</string>
+    <string name="tour_welcome_body">Yüklediğiniz için teşekkür ederiz. PDF okuyun, imzalayın, tarayın ve düzenleyin, hepsi telefonunuzda. Reklam yok, hesap yok, bulut yok.</string>
+    <string name="tour_sign_title">Belgeleri imzalayın</string>
+    <string name="tour_sign_body">İmzanızı bir kez çizin, sayfaya yerleştirin ve imzalı kopyayı paylaşın. Yazdırmaya da taramaya da gerek yok.</string>
+    <string name="tour_scan_title">Tarayın ve arayın</string>
+    <string name="tour_scan_body">Bir sayfanın fotoğrafını çekin. Kenarlar sizin için bulunur, metin tanınır ve PDF içinde arama ve kopyalama yapabilirsiniz.</string>
+    <string name="tour_edit_title">Doldurun, çizin, vurgulayın</string>
+    <string name="tour_edit_body">Formları doldurun, sayfalara çizin ve vurgulayın, parola ekleyin veya kaldırın. Tüm araçlar, açık belgedeki tek bir Araçlar düğmesinin arkasındadır.</string>
+    <string name="tour_arrange_title">Sayfaları düzenleyin</string>
+    <string name="tour_arrange_body">Dosyaları birleştirin, bölün, sayfaları yeniden sıralayın veya döndürün ve büyük PDF\'leri küçültün. Kaydedene kadar hiçbir şey değişmez.</string>
+
+    <!-- Draw and highlight -->
+    <string name="reader_annotate">Çiz ve vurgula</string>
+    <string name="reader_annotate_desc">Sayfaya kalem veya fosforlu kalemle çizin</string>
+    <string name="reader_annotate_active">Çizim ve vurgulama</string>
+    <string name="reader_annotate_help">Sayfada kalemi veya fosforlu kalemi kullanın, sonra bir kopya kaydedin.</string>
+    <string name="reader_save_annotated">Açıklamalı kopyayı kaydet</string>
+    <string name="reader_annotated_saved">Açıklamalı kopya kaydedildi</string>
+    <string name="reader_discard_annotations_body">Çizimleriniz ve vurgularınız kaybolacak.</string>
+
+    <!-- Text recognition -->
+    <string name="settings_group_ocr">Metin tanıma</string>
+    <string name="settings_ocr_enabled">Taramaları aranabilir yap</string>
+    <string name="settings_ocr_enabled_summary">Taranan sayfalardaki metni tanır, böylece arayabilir ve kopyalayabilirsiniz. Sayfa başına birkaç saniye sürer.</string>
+    <string name="settings_ocr_languages">Diller</string>
+    <string name="settings_ocr_bundled">Uygulamayla birlikte gelir</string>
+    <string name="settings_ocr_imported">İçe aktarıldı</string>
+    <string name="settings_ocr_import">Dil dosyasını içe aktar…</string>
+    <string name="settings_ocr_import_help">Listede olmayan bir dil için: tessdata_fast projesinden o dilin .traineddata dosyasını indirin, sonra burada seçin.</string>
+    <string name="settings_ocr_get_languages">Dil dosyalarını indir</string>
+    <string name="settings_ocr_imported_done">Dil içe aktarıldı</string>
+    <string name="settings_ocr_languages_help">Taranan sayfaların hangi dillerde okunduğu ve nasıl dil ekleneceği</string>
+    <string name="scan_copy_text">Metni kopyala</string>
+    <string name="scan_text_copied">Metin kopyalandı</string>
+    <string name="scan_searchable">Aranabilir: %1$s</string>
+    <string name="scan_recognising">Metin tanınıyor, sayfa %1$d / %2$d</string>
+
+    <!-- Crash report, offered on the launch after a crash -->
+    <string name="crash_title">Plain PDF geçen sefer beklenmedik şekilde kapandı</string>
+    <string name="crash_body">Bunun için özür dileriz. Geliştiriciye bir rapor göndermek ister misiniz? Yalnızca teknik ayrıntılar içerir: uygulama sürümü, Android sürümünüz ve telefon modeliniz ile hatanın oluştuğu yer. Belge yok, isim yok, dosya yok.</string>
+    <string name="crash_send">Raporu gönder</string>
+    <string name="crash_not_now">Şimdi değil</string>
+
+    <!-- Reader: print, read aloud, copy text -->
+    <string name="reader_print">Yazdır</string>
+    <string name="reader_print_desc">Belgeyi yazıcıya gönderin</string>
+    <string name="reader_print_unavailable">Bu cihazda yazdırma kullanılamıyor.</string>
+    <string name="reader_read_aloud">Sesli oku</string>
+    <string name="reader_read_aloud_desc">Belgeyi telefonun sesiyle dinleyin</string>
+    <string name="reader_reading_page">Sesli okunuyor, sayfa %1$d</string>
+    <string name="action_pause">Duraklat</string>
+    <string name="action_resume">Devam et</string>
+    <string name="action_stop">Durdur</string>
+    <string name="reader_tts_no_voice">Telefonda bu dil için henüz bir ses yok. Android ayarlarından bir tane ekleyebilirsiniz.</string>
+    <string name="reader_tts_settings">Ayarlar</string>
+    <string name="reader_tts_no_text">Bu belgede okunacak metin yok. Metin tanıma açıkken tarayın.</string>
+    <string name="reader_copy_text">Metni kopyala veya paylaş</string>
+    <string name="reader_copy_text_desc">Belgedeki sözcükleri düz metin olarak kopyalayın</string>
+    <string name="reader_text_copied">Metin kopyalandı</string>
+    <string name="action_copy">Kopyala</string>
+    <string name="action_share_text">Metin olarak paylaş</string>
+
+    <!-- Page numbers -->
+    <string name="tool_page_numbers">Sayfa numaraları</string>
+    <string name="tool_page_numbers_desc">Her sayfaya bir numara koyun</string>
+    <string name="page_numbers_position">Konum</string>
+    <string name="page_numbers_bottom_centre">Alt orta</string>
+    <string name="page_numbers_bottom_right">Alt sağ</string>
+    <string name="page_numbers_top_right">Üst sağ</string>
+    <string name="page_numbers_style">Numaralandırma</string>
+    <string name="page_numbers_start_at">Başlangıç</string>
+    <string name="page_numbers_show_total">Şöyle göster: 1 / 12</string>
+    <string name="page_numbers_example">İlk sayfada şu yazar: %1$s</string>
+
+    <!-- Make searchable -->
+    <string name="tool_make_searchable">Aranabilir yap</string>
+    <string name="tool_make_searchable_desc">Taranmış bir PDF\'teki metni tanıyın, böylece aranabilir ve kopyalanabilir</string>
+    <string name="searchable_note">Zaten metin içeren sayfalar olduğu gibi bırakılır.</string>
+    <string name="searchable_languages">Diller: %1$s</string>
+    <string name="searchable_languages_hint">Bunları Ayarlar\'da, Metin tanıma altında değiştirin.</string>
+
+    <!-- Redact -->
+    <string name="tool_redact">Karart</string>
+    <string name="tool_redact_desc">Sayfanın bölümlerini kalıcı olarak karartın</string>
+    <string name="redact_explain">Karartılan sayfalar resme dönüştürülür, böylece altındaki hiçbir şey geri getirilemez. Metinleri artık seçilemez.</string>
+    <string name="redact_help">Kutu çizmek için sayfa üzerinde sürükleyin. Kaldırmak için kutuya dokunun.</string>
+    <string name="redact_page_preview_desc">Sayfa ön izlemesi. Gizlenecek yerin üzerine kutu çizmek için sürükleyin. Kaldırmak için kutuya dokunun.</string>
+    <plurals name="redact_box_count">
+        <item quantity="one">%1$d kutu</item>
+        <item quantity="other">%1$d kutu</item>
+    </plurals>
+    <plurals name="redact_page_count">
+        <item quantity="one">%1$d sayfada</item>
+        <item quantity="other">%1$d sayfada</item>
+    </plurals>
+
+    <!-- Launcher shortcuts and the home-screen widget -->
+    <string name="shortcut_scan_short">Tara</string>
+    <string name="shortcut_scan_long">Belge tara</string>
+    <string name="shortcut_open_short">PDF aç</string>
+    <string name="shortcut_open_long">Bir PDF aç</string>
+    <string name="widget_label">Plain PDF hızlı işlemleri</string>
+    <string name="widget_description">Tek dokunuşla belge tarayın veya PDF açın.</string>
+    <string name="widget_scan">Belge tara</string>
+    <string name="widget_open">PDF aç</string>
+    <string name="widget_scan_short">Tara</string>
+    <string name="widget_library">Kitaplık</string>
+
+    <!-- Continue reading, share a page, notes and share-sheet targets -->
+    <string name="library_continue_title">Okumaya devam et</string>
+    <string name="library_continue_page">Sayfa %1$d / %2$d</string>
+    <string name="library_continue_page_only">Sayfa %1$d</string>
+    <string name="action_continue_reading">Devam et</string>
+    <string name="reader_share_page">Bu sayfayı paylaş</string>
+    <string name="reader_share_page_image">Resim olarak</string>
+    <string name="reader_share_page_pdf">Tek sayfalık PDF olarak</string>
+    <string name="tool_note">Not yaz</string>
+    <string name="tool_note_desc">Metin yazın ve PDF olarak kaydedin</string>
+    <string name="note_title_hint">Başlık (isteğe bağlı)</string>
+    <string name="note_body_hint">Notunuzu buraya yazın</string>
+    <string name="note_default_name">Not</string>
+    <string name="shortcut_continue_long">Devam et: %1$s, sayfa %2$d</string>
+    <string name="shortcut_continue_gone">Bu belge artık kitaplığınızda değil</string>
+    <string name="share_target_sign">Plain PDF ile imzala</string>
+    <string name="share_target_scan">Plain PDF ile tara</string>
+    <string name="tour_edit_note_unavailable">Form doldurma, çizim ve vurgulama için Android 12 veya daha yenisi ve Google\'ın PDF güncellemesi gerekir. Bu telefonda bunlar yok. Diğer tüm araçlar çalışır.</string>
+    <string name="tour_edit_note_no_drawing">Çizim ve vurgulama için bu telefondakinden daha yeni bir Android gerekir. Form doldurma çalışır.</string>
+
+    <!-- Languages for scanned text -->
+    <string name="ocr_languages_title">Taranan metin için diller</string>
+    <string name="ocr_languages_intro">Taranan sayfalar işaretli dillerde okunur. Yalnızca taradığınız dilleri işaretleyin; her ek dil okumayı biraz yavaşlatır.</string>
+    <string name="ocr_languages_on_phone">Bu telefonda</string>
+    <string name="ocr_languages_get_more">Daha fazla dil ekleyin</string>
+    <string name="ocr_languages_get_more_play">İndir\'e dokunun, dili Google Play indirir. Başka bir şey yapmanız gerekmez.</string>
+    <string name="ocr_languages_get_more_foss">Bu sürüm indirme yapamaz. Aşağıdaki bağlantıdan bir dil dosyası alıp içe aktarın.</string>
+    <string name="ocr_languages_tier_common">En çok kullanılanlar</string>
+    <string name="ocr_languages_tier_nearby">Komşu ülkeler</string>
+    <string name="ocr_languages_tier_other">Diğerleri</string>
+    <string name="ocr_languages_get">İndir</string>
+    <string name="ocr_languages_downloading">İndiriliyor…</string>
+    <string name="ocr_languages_installing">Hazırlanıyor…</string>
+    <string name="ocr_languages_failed">İndirilemedi. İnternet bağlantısını kontrol edip yeniden deneyin.</string>
+    <string name="ocr_languages_try_again">Yeniden dene</string>
+    <string name="ocr_languages_downloaded">İndirildi</string>
+    <string name="ocr_languages_remove_title">%1$s kaldırılsın mı?</string>
+    <string name="ocr_languages_remove_body">İstediğiniz zaman yeniden indirebilirsiniz.</string>
+    <string name="ocr_languages_ready">%1$s hazır. Bu dildeki taranan sayfalar artık okunabilir.</string>
+    <string name="ocr_languages_keep_one">En az bir dil işaretli kalsın.</string>
+    <string name="ocr_suggest_title">Telefonunuzun dili: %1$s</string>
+    <string name="ocr_suggest_body">Bu dildeki taranan sayfaların okunabilmesi için %1$s dilini (%2$s) indirin.</string>
+    <string name="ocr_suggest_get">İndir: %1$s</string>
+    <string name="ocr_suggest_later">Şimdi değil</string>
+    <string name="ocr_garbled_title">Metin iyi tanınamadı</string>
+    <string name="ocr_garbled_body">Sayfa, bu telefonda henüz olmayan bir dilde olabilir. Ayarlar\'dan dil ekleyebilirsiniz.</string>
+    <string name="ocr_garbled_action">Diller</string>
+</resources>

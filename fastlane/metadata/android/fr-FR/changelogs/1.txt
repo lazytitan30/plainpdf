@@ -1,0 +1,6 @@
+Première version.
+• Lire, rechercher, remplir des formulaires, dessiner et surligner, lire à voix haute, imprimer
+• Numériser des pages avec détection automatique des bords et reconnaissance de texte sur le téléphone
+• Signer, compresser, organiser les pages, fusionner, diviser, numéros de page, caviarder, écrire une note
+• Bibliothèque avec documents récents, dossiers, favoris et un widget d'écran d'accueil
+• 17 langues, sans publicité, sans compte, sans accès au réseau

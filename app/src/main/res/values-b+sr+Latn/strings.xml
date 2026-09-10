@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plain PDF</string>
+
+    <!-- Navigation -->
+    <string name="nav_library">Biblioteka</string>
+    <string name="nav_tools">Alati</string>
+    <string name="action_back">Nazad</string>
+    <string name="action_cancel">Otkaži</string>
+    <string name="action_done">Gotovo</string>
+
+    <!-- Library -->
+    <string name="library_tab_recent">Nedavno</string>
+    <string name="library_tab_folders">Fascikle</string>
+    <string name="library_tab_favourites">Omiljeno</string>
+    <string name="library_open_pdf">Otvori PDF</string>
+    <string name="library_add_folder">Dodaj fasciklu</string>
+    <string name="library_empty_recent">Još nema dokumenata. Otvorite PDF da biste počeli.</string>
+    <string name="library_empty_folders">Još nema fascikli. Dodajte fasciklu da biste pregledali PDF fajlove u njoj.</string>
+    <string name="library_empty_favourites">Ovde još nema ničega. Otvorite meni dokumenta, tri tačkice, i izaberite Omiljeno.</string>
+    <string name="library_search">Pretraga</string>
+    <string name="library_more">Više</string>
+    <string name="library_sort">Sortiranje</string>
+    <string name="library_view_grid">Mreža</string>
+    <string name="library_view_list">Lista</string>
+
+    <!-- Tools -->
+    <string name="tools_title">Alati</string>
+    <string name="tools_empty">Ovde su alati za spajanje, deljenje i uređivanje stranica. Sve radi na ovom uređaju.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Podešavanja</string>
+    <string name="settings_group_appearance">Izgled</string>
+    <string name="settings_group_reading">Čitanje</string>
+    <string name="settings_group_tools">Alati</string>
+    <string name="settings_group_library">Biblioteka</string>
+    <string name="settings_group_about">O aplikaciji</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_accent">Boja naglaska</string>
+    <string name="settings_dynamic_colour">Koristi sistemske boje</string>
+    <string name="settings_dynamic_colour_summary">Boje preuzete sa vaše pozadine</string>
+    <string name="settings_app_icon">Ikona aplikacije</string>
+    <string name="settings_reading_mode">Podrazumevani režim čitanja</string>
+    <string name="settings_page_display">Podrazumevani prikaz stranice</string>
+    <string name="settings_keep_screen_on">Ekran ostaje uključen tokom čitanja</string>
+    <string name="settings_edge_brightness">Osvetljenje prevlačenjem po ivici</string>
+    <string name="settings_edge_brightness_summary">Prevucite po levoj ivici da biste podesili osvetljenje</string>
+    <string name="settings_double_tap_zoom">Dupli dodir za zumiranje</string>
+    <string name="settings_volume_keys">Tasteri za jačinu zvuka okreću stranice</string>
+    <string name="settings_save_location">Gde se čuvaju novi fajlovi</string>
+    <string name="settings_save_location_ask">Pitaj me svaki put</string>
+    <string name="settings_save_location_choose">Izaberite fasciklu</string>
+    <string name="settings_output_naming">Kako se zovu novi fajlovi</string>
+    <string name="settings_output_naming_help">{name} je ime izvornog fajla, {op} je operacija, na primer merged ili pages_1-4.</string>
+    <string name="settings_language_summary">Jezik menija i dugmadi u aplikaciji.</string>
+    <string name="settings_theme_summary">Svetao ili taman izgled same aplikacije. Stranice zadržavaju svoje boje.</string>
+    <string name="settings_accent_summary">Boja dugmadi i drugih kontrola u aplikaciji.</string>
+    <string name="settings_app_icon_summary">Kako Plain PDF izgleda na početnom ekranu.</string>
+    <string name="settings_highlight_summary">Boja kojom se označavaju pogoci kada pretražujete dokument.</string>
+    <string name="settings_reading_mode_summary">Listajte stranice neprekidno, ili okrećite jednu po jednu.</string>
+    <string name="settings_page_display_summary">Prikažite stranice kakve jesu, zatamnjene za noć, u sepiji ili u sivom.</string>
+    <string name="settings_keep_screen_on_summary">Ekran ostaje upaljen dok je dokument otvoren.</string>
+    <string name="settings_double_tap_zoom_summary">Dodirnite stranicu dvaput da uvećate, i još dvaput da vratite.</string>
+    <string name="settings_volume_keys_summary">Pritisnite dugmad za jačinu zvuka da pređete na sledeću ili prethodnu stranicu.</string>
+    <string name="settings_save_location_summary">Spojeni, podeljeni, skenirani i drugi novi fajlovi idu ovde. Vaši originali ostaju gde jesu.</string>
+    <string name="settings_save_location_ask_summary">Svaki alat pita za fasciklu pre nego što sačuva.</string>
+    <string name="settings_save_location_folder">Uvek u %1$s</string>
+    <string name="settings_save_location_choose_summary">Izaberite fasciklu na ovom telefonu. Novi fajlovi uvek idu tamo.</string>
+    <string name="settings_output_naming_summary">Spajanje fajla %1$s daje %2$s. Original zadržava svoje ime.</string>
+    <string name="naming_sample_name">Ugovor</string>
+    <string name="naming_style_name_op">Prvo originalno ime, pa šta je urađeno</string>
+    <string name="naming_style_op_name">Prvo šta je urađeno, pa originalno ime</string>
+    <string name="naming_style_custom">Sopstveni obrazac</string>
+    <string name="naming_style_custom_summary">Napišite svoj, koristeći {name} i {op}.</string>
+    <string name="settings_confirm_overwrite_summary">Pita pre nego što alat zameni originalni fajl izmenjenom verzijom.</string>
+    <string name="settings_default_sort_summary">Redosled dokumenata u Biblioteci.</string>
+    <string name="settings_source_summary">Plain PDF je otvorenog koda: svako može da pročita kako radi i da gradi na tome.</string>
+    <string name="settings_licence_summary">Slobodno za korišćenje, deljenje i poboljšanje, pod jednim uslovom: ostaje besplatno za sve.</string>
+    <string name="settings_confirm_overwrite">Potvrdi pre zamene originala</string>
+    <string name="settings_default_sort">Podrazumevano sortiranje</string>
+    <string name="settings_clear_recents">Obriši nedavne</string>
+    <string name="settings_clear_thumbnails">Obriši sačuvane preglede</string>
+    <string name="settings_version">Verzija</string>
+    <string name="settings_source">Izvorni kod</string>
+    <string name="settings_licence">Licenca</string>
+    <string name="settings_licence_value">GNU GPL v3</string>
+    <string name="settings_feedback">Predložite funkciju ili prijavite problem</string>
+    <string name="settings_feedback_summary">Otvara vašu aplikaciju za poštu sa porukom autoru. Svaka poruka se pročita.</string>
+    <string name="feedback_subject">Plain PDF: predlog</string>
+    <string name="settings_supporter">Podržavalac</string>
+    <string name="settings_supporter_summary">Besplatno, bez reklama. Ako vam aplikacija pomaže, ovde možete da kažete hvala.</string>
+    <string name="settings_supporter_active">Vi ste podržavalac. Hvala vam što pomažete da Plain PDF ostane besplatan.</string>
+    <string name="settings_supporter_active_gift">Hvala vam na poklonu. Paket za podržavaoce je vaš.</string>
+    <string name="settings_donate">Donirajte</string>
+    <string name="settings_locked">Podržavalac</string>
+
+    <string name="theme_system">Sistemska</string>
+    <string name="theme_light">Svetla</string>
+    <string name="theme_dark">Tamna</string>
+    <string name="theme_black">Crna</string>
+    <string name="theme_sepia">Sepija</string>
+
+    <string name="accent_teal">Tirkizna</string>
+    <string name="accent_amber">Ćilibar</string>
+    <string name="accent_crimson">Grimizna</string>
+    <string name="accent_indigo">Indigo</string>
+    <string name="accent_violet">Ljubičasta</string>
+    <string name="accent_forest">Šumska zelena</string>
+    <string name="accent_slate">Škriljac</string>
+
+    <string name="reading_mode_continuous">Neprekidno listanje</string>
+    <string name="reading_mode_paged">Stranica po stranica</string>
+
+    <string name="page_display_normal">Normalno</string>
+    <string name="page_display_night">Noćni</string>
+    <string name="page_display_sepia">Sepija</string>
+    <string name="page_display_grayscale">Sivi tonovi</string>
+
+    <string name="sort_recently_opened">Nedavno otvarano</string>
+    <string name="sort_recently_added">Nedavno dodato</string>
+    <string name="sort_name">Ime</string>
+    <string name="sort_size">Veličina</string>
+
+    <!-- Supporter -->
+    <string name="supporter_title">Podržavalac</string>
+    <string name="supporter_intro">Plain PDF je besplatan i nema reklama, a sve funkcije rade bez plaćanja. Ako vam pomaže, ovde možete da kažete hvala. Zauzvrat dobijate nekoliko boja i ikona, i našu zahvalnost.</string>
+    <string name="supporter_grants_title">Šta dobijate</string>
+    <string name="supporter_grant_accents">Šest boja naglaska</string>
+    <string name="supporter_grant_icons">Tri dodatne ikone aplikacije</string>
+    <string name="supporter_grant_highlights">Dodatni skupovi boja za označavanje</string>
+    <string name="supporter_grant_about">Red za podržavaoce u odeljku O aplikaciji</string>
+    <string name="supporter_unlock">Postanite podržavalac</string>
+    <string name="supporter_tips_title">Dajte ponovo</string>
+    <string name="supporter_tips_summary">Nije obavezno. Ako kasnije poželite da date ponovo, ovo je pravo mesto. Ne otključava ništa novo; jednostavno kaže hvala.</string>
+    <string name="supporter_restore">Vrati kupovine</string>
+    <string name="supporter_restore_found">Vaša kupovina je vraćena. Hvala vam.</string>
+    <string name="supporter_restore_none">Paket za podržavaoce nije pronađen za ovaj Google nalog. Pokloni ne ostavljaju trag, pa ne mogu da se vrate.</string>
+    <string name="supporter_unavailable">Google Play trenutno ne može da primi uplate na ovom telefonu. Ništa nije izgubljeno; aplikacija ostaje besplatna.</string>
+    <string name="supporter_thanks">Vi ste podržavalac. Hvala vam što pomažete da Plain PDF ostane besplatan.</string>
+    <string name="supporter_donate_intro">Plain PDF je besplatan i nema reklama, a sve funkcije rade bez plaćanja. Ako vam pomaže, možete da podržite rad na njemu.</string>
+    <string name="supporter_donate_button">Otvori stranicu za donacije</string>
+    <string name="supporter_grant_future">Nove boje i ikone koje kasnije dodamo, bez doplate</string>
+    <string name="supporter_tips_title_first">Ili ostavite napojnicu</string>
+    <string name="supporter_tips_summary_first">Bilo koji iznos znači hvala.</string>
+    <string name="supporter_tip_unlocks_note">Otključava i paket za podržavaoce</string>
+    <string name="supporter_gift_title">Hvala vam na poklonu</string>
+    <string name="supporter_gift_body">Ostavili ste napojnicu, a paket za podržavaoce je takođe vaš: sve boje, ikone i skupovi boja za označavanje su otključani. Nema potrebe da kupujete paket.</string>
+    <string name="supporter_gift_note">Pokloni ne ostavljaju trag u Google Play-u, pa se paket pamti na ovom telefonu.</string>
+    <string name="supporter_snack_gift">Hvala vam na poklonu.</string>
+    <string name="supporter_snack_unlock">Hvala vam. Sada ste podržavalac.</string>
+    <string name="supporter_problem_connection">Google Play nije odgovorio. Proverite da li ste prijavljeni u aplikaciju Play prodavnica, pa se vratite. Ništa nije izgubljeno; aplikacija ostaje besplatna.</string>
+    <string name="supporter_problem_listing">Google Play još nije objavio stavke za podržavaoce. Pokušajte ponovo kasnije. Ništa nije izgubljeno; aplikacija ostaje besplatna.</string>
+    <string name="supporter_problem_region">Google Play još ne nudi ove stavke u vašoj zemlji. Ništa nije izgubljeno; aplikacija ostaje besplatna.</string>
+
+    <!-- Reader -->
+    <string name="reader_page_of">%1$d / %2$d</string>
+    <string name="reader_error_open">Ovaj fajl nije mogao da se otvori. Možda je premešten ili obrisan.</string>
+    <string name="reader_locate_again">Pronađi fajl ponovo</string>
+    <string name="reader_not_saved">Nije sačuvano</string>
+
+    <!-- Library, M2 -->
+    <string name="library_search_hint">Pretražite dokumente</string>
+    <string name="library_no_matches">Ništa ne odgovara toj pretrazi.</string>
+    <string name="library_page_of">Stranica %1$d od %2$d</string>
+    <string name="library_file_unavailable">Fajl nije dostupan</string>
+    <string name="library_continue_title">Nastavite čitanje</string>
+    <string name="library_continue_page">Stranica %1$d od %2$d</string>
+    <string name="library_continue_page_only">Stranica %1$d</string>
+    <string name="action_continue_reading">Nastavi</string>
+    <string name="library_deleted">Fajl je obrisan</string>
+    <string name="library_delete_failed">Ovaj fajl nije mogao da se obriše. Aplikacija kojoj pripada to nije dozvolila.</string>
+    <string name="library_delete_title">Obrisati fajl?</string>
+    <string name="library_delete_body">%1$s će biti obrisan iz memorije. Ovo se ne može poništiti.</string>
+    <string name="library_rename_help">Menja samo ime prikazano u aplikaciji Plain PDF. Fajl zadržava svoje ime.</string>
+    <string name="library_folder_failed">Ta fascikla nije mogla da se doda. Izaberite je ponovo i dozvolite pristup.</string>
+    <string name="library_folder_unavailable">Ova fascikla više ne može da se čita. Možda je premeštena ili je njena memorija uklonjena.</string>
+    <string name="library_folder_empty">U ovoj fascikli još nema PDF fajlova.</string>
+    <string name="library_remove_folder_body">Prestati sa praćenjem ove fascikle? Fajlovi koje ste otvorili ili označili kao omiljene ostaju u biblioteci.</string>
+    <string name="action_favourite">Omiljeno</string>
+    <string name="action_unfavourite">Ukloni iz omiljenih</string>
+    <string name="action_rename_label">Preimenuj oznaku</string>
+    <string name="action_share">Podeli</string>
+    <string name="action_organise_pages">Uredi stranice</string>
+    <string name="action_remove_from_recents">Ukloni iz nedavnih</string>
+    <string name="action_delete_file">Obriši fajl</string>
+    <string name="action_remove_folder">Ukloni fasciklu</string>
+    <string name="action_refresh">Osveži</string>
+    <string name="action_clear">Obriši</string>
+
+    <!-- Reader, M3 -->
+    <string name="reader_search">Pretraži dokument</string>
+    <string name="reader_search_hint">Pronađi u dokumentu</string>
+    <string name="reader_search_count">%1$d od %2$d</string>
+    <string name="reader_search_none">Nema rezultata</string>
+    <string name="reader_search_previous">Prethodni rezultat</string>
+    <string name="reader_search_next">Sledeći rezultat</string>
+    <string name="reader_outline">Stranice</string>
+    <string name="reader_pages_title">%1$d stranica</string>
+    <string name="reader_jump_to_page">Idi na stranicu</string>
+    <string name="reader_jump_hint">1 do %1$d</string>
+    <string name="reader_go">Idi</string>
+    <string name="reader_add_bookmark">Dodaj obeleživač</string>
+    <string name="reader_add_bookmark_title">Obeleži stranicu %1$d</string>
+    <string name="reader_bookmark_label">Naziv obeleživača</string>
+    <string name="reader_bookmark_label_help">Opciono. Ostavite prazno da bi se prikazao broj stranice.</string>
+    <string name="reader_bookmark_added">Obeleživač je dodat</string>
+    <string name="reader_bookmarks">Obeleživači</string>
+    <string name="reader_bookmarks_empty">Još nema obeleživača. Izaberite Dodaj obeleživač iz menija da biste obeležili stranicu.</string>
+    <string name="reader_page_n">Stranica %1$d</string>
+    <string name="reader_page_display">Prikaz stranice</string>
+    <string name="reader_reading_mode">Režim čitanja</string>
+    <string name="reader_keep_screen_on">Ekran ostaje uključen</string>
+    <string name="reader_document_info">Podaci o dokumentu</string>
+    <string name="reader_share_page">Podeli ovu stranicu</string>
+    <string name="reader_share_page_image">Kao sliku</string>
+    <string name="reader_share_page_pdf">Kao PDF sa jednom stranicom</string>
+    <string name="reader_info_name">Ime</string>
+    <string name="reader_info_pages">Stranice</string>
+    <string name="reader_info_size">Veličina</string>
+    <string name="reader_info_location">Lokacija</string>
+    <string name="action_delete">Obriši</string>
+
+    <!-- Tools, M4 -->
+    <string name="tools_recent_output">Nedavni rezultati</string>
+    <string name="tool_organise">Uredi stranice</string>
+    <string name="tool_organise_desc">Rotirajte, obrišite, premestite, izdvojite ili duplirajte stranice</string>
+    <string name="tool_merge">Spoji</string>
+    <string name="tool_merge_desc">Spojite više PDF fajlova u jedan, redosledom koji izaberete</string>
+    <string name="tool_split">Podeli</string>
+    <string name="tool_split_desc">Podelite jedan PDF na više fajlova, po opsezima stranica ili na jednak broj stranica</string>
+    <string name="tool_images_to_pdf">Slike u PDF</string>
+    <string name="tool_images_to_pdf_desc">Pretvorite fotografije i skenove u jedan PDF</string>
+    <string name="tool_pdf_to_images">PDF u slike</string>
+    <string name="tool_pdf_to_images_desc">Izvezite stranice kao PNG ili JPEG fajlove</string>
+    <string name="tool_password">Lozinka</string>
+    <string name="tool_password_desc">Dodajte, promenite ili uklonite lozinku</string>
+    <string name="action_open">Otvori</string>
+    <string name="action_continue">Nastavi</string>
+    <string name="action_undo">Poništi</string>
+    <string name="action_redo">Ponovi</string>
+    <string name="action_select_all">Izaberi sve</string>
+    <string name="organise_pages_count">%1$d stranica</string>
+    <string name="organise_changes">%1$d izmena</string>
+    <string name="organise_selected">Izabrano: %1$d</string>
+    <string name="organise_rotate_left">Rotiraj ulevo</string>
+    <string name="organise_rotate_right">Rotiraj udesno</string>
+    <string name="organise_restore">Vrati</string>
+    <string name="organise_extract">Izdvoji u novi fajl</string>
+    <string name="organise_duplicate">Dupliraj</string>
+    <string name="organise_page_desc">Stranica %1$d</string>
+    <string name="organise_page_selected">Stranica %1$d, izabrana</string>
+    <string name="organise_page_deleted">Stranica %1$d, označena za brisanje</string>
+    <string name="ops_save_as_new">Sačuvaj kao novi fajl</string>
+    <string name="ops_overwrite">Zameni original</string>
+    <string name="ops_overwrite_title">Zameniti original?</string>
+    <string name="ops_overwrite_body">%1$s će biti zamenjen uređenom verzijom. Kada se upiše, izmena se ne može poništiti.</string>
+    <string name="ops_saved_one">Sačuvano: %1$s</string>
+    <string name="ops_saved_many">Sačuvano fajlova: %1$d</string>
+    <string name="ops_and_more">i još %1$d</string>
+    <string name="ops_failed_title">To nije uspelo</string>
+    <string name="ops_try_other_location">Probajte drugu lokaciju</string>
+    <string name="ops_password_title">Potrebna je lozinka</string>
+    <string name="ops_password_body">%1$s je zaštićen. Unesite njegovu lozinku da biste nastavili. Koristi se jednom i ne čuva se.</string>
+    <string name="ops_password_wrong">Ta lozinka nije otvorila dokument.</string>
+    <string name="ops_password_needed">Ovom dokumentu je potrebna lozinka pre nego što se stranice prikažu.</string>
+    <string name="ops_error_password">Ovaj dokument je zaštićen lozinkom. Unesite lozinku i pokušajte ponovo.</string>
+    <string name="ops_error_assembly">Vlasnik ovog dokumenta ne dozvoljava da se njegove stranice preuređuju. Plain PDF to neće zaobići.</string>
+    <string name="ops_error_corrupt">Ovaj fajl nije mogao da se pročita. Možda je oštećen.</string>
+    <string name="ops_error_oom">Ovaj dokument je prevelik za memoriju telefona. Obično pomaže da ga prvo podelite na manje delove.</string>
+    <string name="ops_error_destination">Fajl nije mogao da se upiše na to mesto. Ništa nije obrisano. Probajte drugu lokaciju.</string>
+    <string name="ops_error_cancelled">Otkazano. Vaš originalni fajl je netaknut.</string>
+    <string name="ops_error_unknown">Nešto je pošlo naopako. Vaš originalni fajl je netaknut.</string>
+    <string name="ops_notification_working">Obrada vašeg dokumenta</string>
+    <string name="ops_channel_name">Operacije nad dokumentima</string>
+    <plurals name="ops_pages">
+        <item quantity="one">%1$d stranica</item>
+        <item quantity="few">%1$d stranice</item>
+        <item quantity="other">%1$d stranica</item>
+    </plurals>
+
+    <!-- Tools, M5 -->
+    <string name="tool_input_document">Dokument</string>
+    <string name="tool_choose_pdf">Izaberite PDF</string>
+    <string name="action_change">Promeni</string>
+    <string name="action_remove">Ukloni</string>
+    <string name="action_move_up">Pomeri gore</string>
+    <string name="action_move_down">Pomeri dole</string>
+    <string name="merge_documents">Dokumenti, redosledom u rezultatu</string>
+    <string name="merge_empty">Dodajte dva ili više PDF fajlova. Spajaju se odozgo nadole.</string>
+    <string name="merge_add_file">Dodaj fajl</string>
+    <string name="merge_reading">Čitanje…</string>
+    <string name="merge_total">%1$d stranica u rezultatu</string>
+    <string name="merge_selected_pages">Izabrano stranica: %1$d</string>
+    <string name="merge_choose_pages">Izaberi stranice</string>
+    <string name="merge_pages_chosen">Stranice: %1$s</string>
+    <string name="merge_range_label">Stranice za uključivanje</string>
+    <string name="split_mode">Kako podeliti</string>
+    <string name="split_by_ranges">Po opsezima stranica</string>
+    <string name="split_every_n">Jednak broj stranica</string>
+    <string name="split_extract">Izdvoji izbor</string>
+    <string name="split_extract_help">Izaberite stranice vizuelno u uređivaču i sačuvajte ih kao novi fajl.</string>
+    <string name="split_open_organiser">Otvori uređivač</string>
+    <string name="split_ranges_hint">1-4, 8, 12-20</string>
+    <string name="split_ranges_help">Jedan fajl po opsegu. Zarezi razdvajaju opsege.</string>
+    <string name="split_pages_per_file">Stranica po fajlu</string>
+    <string name="split_preview">Fajlova: %1$d: %2$s</string>
+    <string name="split_save_to_folder">Sačuvaj fajlove u fasciklu</string>
+    <string name="ranges_error_empty">Unesite bar jednu stranicu.</string>
+    <string name="ranges_error_bad">%1$s nije broj stranice, a nije ni opseg poput 3-5.</string>
+    <string name="ranges_error_out_of_range">%1$s je izvan opsega 1 do %2$d.</string>
+    <string name="ranges_error_reversed">%1$s ide unazad.</string>
+    <string name="images_count">Slika: %1$d</string>
+    <string name="images_add">Dodaj slike</string>
+    <string name="images_camera">Fotografiši</string>
+    <string name="images_empty">Dodajte fotografije ili skenove. Strelicama na slici menjate redosled.</string>
+    <string name="images_page">Stranica</string>
+    <string name="images_fit_image">Prilagodi slici</string>
+    <string name="images_a4">A4</string>
+    <string name="images_letter">Letter</string>
+    <string name="images_fit">Uklopi</string>
+    <string name="images_fill">Popuni</string>
+    <string name="images_margin_none">Bez margine</string>
+    <string name="images_margin_small">Mala margina</string>
+    <string name="images_margin_medium">Srednja margina</string>
+    <string name="pdf_to_images_pages">Stranice</string>
+    <string name="pdf_to_images_all_pages">Sve stranice</string>
+    <string name="pdf_to_images_range_help">Biće izvezeno stranica: %1$d.</string>
+    <string name="pdf_to_images_format">Format</string>
+    <string name="pdf_to_images_quality">JPEG kvalitet %1$d</string>
+    <string name="pdf_to_images_dpi">Rezolucija</string>
+    <string name="pdf_to_images_encrypted">Ovaj dokument je zaštićen lozinkom. Prvo uklonite lozinku alatom Lozinka.</string>
+    <string name="pdf_to_images_many_title">Izvesti %1$d stranica?</string>
+    <string name="pdf_to_images_many_body">To je %1$d fajlova sa slikama. Može potrajati i zauzeti dosta prostora.</string>
+    <string name="password_what">Šta uraditi</string>
+    <string name="password_explain">Lozinka sprečava da bilo ko otvori dokument bez nje. Čuvajte je na sigurnom: ako se zaboravi, ne može da se povrati.</string>
+    <string name="password_add">Dodaj lozinku</string>
+    <string name="password_change">Promeni lozinku</string>
+    <string name="password_remove">Ukloni lozinku</string>
+    <string name="password_new">Nova lozinka</string>
+    <string name="password_confirm">Potvrdite lozinku</string>
+    <string name="password_mismatch">Lozinke se ne poklapaju.</string>
+
+    <!-- Supporter cosmetics, M6 -->
+    <string name="settings_highlight">Označavanje u pretrazi</string>
+    <string name="highlight_accent">Boja naglaska</string>
+    <string name="highlight_amber">Ćilibar</string>
+    <string name="highlight_rose">Ruža</string>
+    <string name="highlight_sky">Nebo</string>
+    <string name="app_icon_default">Podrazumevana</string>
+    <string name="app_icon_mono">Jednobojna</string>
+    <string name="app_icon_paper">Papir</string>
+    <string name="app_icon_night">Noć</string>
+
+    <!-- Reader tools entry -->
+    <string name="reader_tools_section">Alati za ovaj dokument</string>
+    <string name="reader_tool_merge">Spoji sa drugim PDF fajlovima</string>
+
+    <!-- Reader tools button, form filling, sign -->
+    <string name="reader_tools_button">Alati</string>
+    <string name="reader_fill_form">Popuni obrazac</string>
+    <string name="reader_fill_active">Popunjavanje obrasca</string>
+    <string name="reader_fill_desc">Dodirnite polja na stranici da biste kucali, štiklirali ili birali. Zatim sačuvajte kopiju.</string>
+    <string name="reader_save_filled">Sačuvaj popunjeni obrazac</string>
+    <string name="reader_fill_saved">Popunjeni obrazac je sačuvan</string>
+    <string name="reader_annotate">Crtanje i označavanje</string>
+    <string name="reader_annotate_desc">Crtajte olovkom ili markerom po stranici</string>
+    <string name="reader_annotate_active">Crtanje i označavanje</string>
+    <string name="reader_annotate_help">Koristite olovku ili marker na stranici, zatim sačuvajte kopiju.</string>
+    <string name="reader_save_annotated">Sačuvaj kopiju sa oznakama</string>
+    <string name="reader_annotated_saved">Kopija sa oznakama je sačuvana</string>
+    <string name="reader_discard_annotations_body">Vaši crteži i oznake će biti izgubljeni.</string>
+
+    <!-- Reader: print, read aloud, copy text -->
+    <string name="reader_print">Štampaj</string>
+    <string name="reader_print_desc">Pošaljite dokument na štampač</string>
+    <string name="reader_print_unavailable">Štampanje nije dostupno na ovom uređaju.</string>
+    <string name="reader_read_aloud">Čitaj naglas</string>
+    <string name="reader_read_aloud_desc">Slušajte dokument glasom telefona</string>
+    <string name="reader_reading_page">Čitanje naglas, strana %1$d</string>
+    <string name="action_pause">Pauziraj</string>
+    <string name="action_resume">Nastavi</string>
+    <string name="action_stop">Zaustavi</string>
+    <string name="reader_tts_no_voice">Na telefonu još nema glasa za ovaj jezik. Možete ga dodati u podešavanjima Androida.</string>
+    <string name="reader_tts_settings">Podešavanja</string>
+    <string name="reader_tts_no_text">Ovaj dokument nema teksta za čitanje. Skenirajte ga sa uključenim prepoznavanjem teksta.</string>
+    <string name="reader_copy_text">Kopiraj ili podeli tekst</string>
+    <string name="reader_copy_text_desc">Kopirajte reči iz dokumenta kao običan tekst</string>
+    <string name="reader_text_copied">Tekst je kopiran</string>
+    <string name="action_copy">Kopiraj</string>
+    <string name="action_share_text">Podeli kao tekst</string>
+    <string name="tool_sign">Potpiši</string>
+    <string name="tool_sign_desc">Nacrtajte potpis i postavite ga na stranicu</string>
+    <string name="sign_draw_title">Nacrtajte svoj potpis</string>
+    <string name="sign_draw_help">Koristite prst ili olovku. Čuva se u dokumentu kao slika i nigde se ne šalje.</string>
+    <string name="sign_clear">Obriši</string>
+    <string name="sign_next">Postavi na stranicu</string>
+    <string name="sign_back">Nacrtaj ponovo</string>
+    <string name="sign_place_title">Dodirnite mesto gde potpis treba da stoji ili ga prevucite. Izaberite stranicu ispod.</string>
+    <string name="sign_size">Veličina</string>
+    <string name="sign_ink_black">Crno mastilo</string>
+    <string name="sign_ink_blue">Plavo mastilo</string>
+
+    <!-- Scan -->
+    <string name="library_scan">Skeniraj dokument</string>
+    <string name="scan_title">Skeniranje</string>
+    <string name="scan_share">Podeli PDF</string>
+    <string name="scan_add_page">Dodaj još jednu stranicu</string>
+    <string name="scan_save_to_folder">Sačuvaj kopiju u fasciklu</string>
+
+    <!-- Crop and cleanup -->
+    <string name="crop_title">Podesi sken</string>
+    <string name="crop_help">Prevucite uglove na ivice stranice. Rotirajte ako je stranica postrance.</string>
+    <string name="crop_rotate">Rotiraj</string>
+    <string name="crop_look_color">U boji</string>
+    <string name="crop_look_gray">Sivi tonovi</string>
+    <string name="crop_look_bw">Crno-belo</string>
+    <string name="crop_use">Upotrebi ovo</string>
+    <string name="crop_working">Obrada…</string>
+    <string name="crop_adjust">Podesi</string>
+
+    <!-- Compress -->
+    <string name="tool_compress">Smanji</string>
+    <string name="tool_compress_desc">Smanjite PDF tako što se smanje slike u njemu</string>
+    <string name="compress_current_size">Trenutna veličina: %1$s</string>
+    <string name="compress_how_much">Koliko</string>
+    <string name="compress_explain">Menjaju se samo slike. Tekst i crteži ostaju potpuno isti, pa se dokument čita isto.</string>
+    <string name="compress_level_light">Blago. Slike zadržavaju većinu detalja.</string>
+    <string name="compress_level_balanced">Uravnoteženo. Dobro za slanje mejlom.</string>
+    <string name="compress_level_strong">Jako. Najmanji fajl, slike izgledaju mekše.</string>
+
+    <!-- Write a note -->
+    <string name="tool_note">Napiši belešku</string>
+    <string name="tool_note_desc">Ukucajte tekst i sačuvajte ga kao PDF</string>
+    <string name="note_title_hint">Naslov (nije obavezan)</string>
+    <string name="note_body_hint">Ovde napišite belešku</string>
+    <string name="note_default_name">Beleška</string>
+
+    <!-- Page numbers -->
+    <string name="tool_page_numbers">Brojevi stranica</string>
+    <string name="tool_page_numbers_desc">Upišite broj na svaku stranicu</string>
+    <string name="page_numbers_position">Položaj</string>
+    <string name="page_numbers_bottom_centre">Dole, na sredini</string>
+    <string name="page_numbers_bottom_right">Dole desno</string>
+    <string name="page_numbers_top_right">Gore desno</string>
+    <string name="page_numbers_style">Numerisanje</string>
+    <string name="page_numbers_start_at">Počni od</string>
+    <string name="page_numbers_show_total">Prikaži kao 1 / 12</string>
+    <string name="page_numbers_example">Na prvoj stranici piše: %1$s</string>
+
+    <!-- Make searchable -->
+    <string name="tool_make_searchable">Učini pretraživim</string>
+    <string name="tool_make_searchable_desc">Prepoznajte tekst u skeniranom PDF-u da bi mogao da se pretražuje i kopira</string>
+    <string name="searchable_note">Stranice koje već sadrže tekst ostaju kakve jesu.</string>
+    <string name="searchable_languages">Jezici: %1$s</string>
+    <string name="searchable_languages_hint">Promenite ih u Podešavanjima, pod Prepoznavanje teksta.</string>
+
+    <!-- Redact -->
+    <string name="tool_redact">Zacrni</string>
+    <string name="tool_redact_desc">Trajno zacrnite delove stranice</string>
+    <string name="redact_explain">Zacrnjene stranice se pretvaraju u slike, pa se ništa ispod ne može povratiti. Njihov tekst više neće moći da se označi.</string>
+    <string name="redact_help">Prevucite preko stranice da nacrtate okvir. Dodirnite okvir da ga uklonite.</string>
+    <string name="redact_page_preview_desc">Pregled stranice. Prevucite da nacrtate okvir preko onoga što treba sakriti. Dodirnite okvir da ga uklonite.</string>
+    <plurals name="redact_box_count">
+        <item quantity="one">%1$d okvir</item>
+        <item quantity="few">%1$d okvira</item>
+        <item quantity="other">%1$d okvira</item>
+    </plurals>
+    <plurals name="redact_page_count">
+        <item quantity="one">na %1$d stranici</item>
+        <item quantity="few">na %1$d stranice</item>
+        <item quantity="other">na %1$d stranica</item>
+    </plurals>
+    <string name="document_fallback_name">dokument.pdf</string>
+
+    <!-- Accessibility affordances -->
+    <string name="library_more_options_for">Više opcija za %1$s</string>
+    <string name="action_rename">Preimenuj</string>
+    <string name="action_discard">Odbaci</string>
+    <string name="action_keep_editing">Nastavi uređivanje</string>
+    <string name="action_move_earlier">Pomeri napred</string>
+    <string name="action_move_later">Pomeri nazad</string>
+    <string name="reader_bookmark_delete_title">Obrisati ovaj obeleživač?</string>
+    <string name="reader_bookmark_delete_body">%1$s će biti uklonjen iz vaših obeleživača.</string>
+    <string name="reader_page_current">Stranica %1$d, trenutna stranica</string>
+    <string name="reader_search_needs_continuous">Pretraga radi u režimu neprekidnog listanja. Promenite režim čitanja iz menija.</string>
+    <string name="reader_discard_title">Odbaciti izmene?</string>
+    <string name="reader_discard_body">Sve što ste ukucali ili štiklirali u obrascu biće izgubljeno.</string>
+    <string name="reader_brightness">Osvetljenje</string>
+    <string name="reader_brightness_percent">%1$d%%</string>
+    <string name="reader_info_unknown">Nepoznato</string>
+    <string name="sign_size_desc">Veličina potpisa</string>
+    <string name="sign_page_preview_desc">Pregled stranice. Dodirnite mesto gde potpis treba da stoji.</string>
+    <string name="scan_remove_title">Ukloniti ovu stranicu?</string>
+    <string name="scan_remove_body">Stranica %1$d će biti izbačena iz skena.</string>
+    <string name="images_picture_n">Slika %1$d</string>
+    <string name="pdf_to_images_dpi_value">%1$d dpi</string>
+    <string name="pdf_to_images_quality_desc">JPEG kvalitet</string>
+
+    <!-- Progress labels -->
+    <string name="progress_opening_document">Otvaranje dokumenta…</string>
+    <string name="progress_loading_page">Učitavanje stranice…</string>
+    <string name="progress_reading_pages">Čitanje stranica…</string>
+    <string name="progress_reading_folder">Čitanje fascikle…</string>
+    <string name="progress_preparing_photo">Priprema fotografije…</string>
+    <string name="progress_building_pdf">Pravljenje PDF-a…</string>
+
+    <!-- Language picker -->
+    <string name="settings_language">Jezik</string>
+    <string name="settings_language_system">Kao na sistemu</string>
+
+    <!-- Text recognition (OCR) -->
+    <string name="settings_group_ocr">Prepoznavanje teksta</string>
+    <string name="settings_ocr_enabled">Skenovi sa pretraživim tekstom</string>
+    <string name="settings_ocr_enabled_summary">Prepoznaje tekst na skeniranim stranicama da biste mogli da ga pretražujete i kopirate. Traje nekoliko sekundi po stranici.</string>
+    <string name="settings_ocr_languages">Jezici</string>
+    <string name="settings_ocr_bundled">Ugrađeno u aplikaciju</string>
+    <string name="settings_ocr_imported">Uvezeno</string>
+    <string name="settings_ocr_import">Uvezi jezičku datoteku…</string>
+    <string name="settings_ocr_import_help">Za jezik kojeg nema na listi: preuzmite njegovu .traineddata datoteku iz projekta tessdata_fast, pa je izaberite ovde.</string>
+    <string name="settings_ocr_get_languages">Preuzmi jezičke datoteke</string>
+    <string name="settings_ocr_imported_done">Jezik je uvezen</string>
+    <string name="settings_ocr_languages_help">Na kojim jezicima se čitaju skenirane stranice i kako dodati još jezika</string>
+
+    <!-- Jezici za skenirani tekst: ekran, lista za preuzimanje i dva predloga -->
+    <string name="ocr_languages_title">Jezici za skenirani tekst</string>
+    <string name="ocr_languages_intro">Skenirane stranice se čitaju na štikliranim jezicima. Štiklirajte samo one koje skenirate; svaki dodatni jezik malo usporava čitanje.</string>
+    <string name="ocr_languages_on_phone">Na ovom telefonu</string>
+    <string name="ocr_languages_get_more">Dodajte još jezika</string>
+    <string name="ocr_languages_get_more_play">Dodirnite Preuzmi i Google Play preuzima jezik. Ništa više nije potrebno.</string>
+    <string name="ocr_languages_get_more_foss">Ova verzija ne može da preuzima. Preuzmite jezičku datoteku preko veze ispod i uvezite je.</string>
+    <string name="ocr_languages_tier_common">Najkorišćeniji</string>
+    <string name="ocr_languages_tier_nearby">U okruženju</string>
+    <string name="ocr_languages_tier_other">Ostali</string>
+    <string name="ocr_languages_get">Preuzmi</string>
+    <string name="ocr_languages_downloading">Preuzimanje…</string>
+    <string name="ocr_languages_installing">Podešavanje…</string>
+    <string name="ocr_languages_failed">Preuzimanje nije uspelo. Proverite internet vezu i pokušajte ponovo.</string>
+    <string name="ocr_languages_try_again">Pokušaj ponovo</string>
+    <string name="ocr_languages_downloaded">Preuzeto</string>
+    <string name="ocr_languages_remove_title">Ukloniti %1$s?</string>
+    <string name="ocr_languages_remove_body">Možete ga ponovo preuzeti kad god želite.</string>
+    <string name="ocr_languages_ready">%1$s je spreman. Skenirane stranice na tom jeziku sada mogu da se čitaju.</string>
+    <string name="ocr_languages_keep_one">Ostavite bar jedan jezik štikliran.</string>
+    <string name="ocr_suggest_title">Vaš telefon je podešen na jezik: %1$s</string>
+    <string name="ocr_suggest_body">Preuzmite jezik %1$s (%2$s) da bi skenirane stranice na tom jeziku mogle da se čitaju.</string>
+    <string name="ocr_suggest_get">Preuzmi: %1$s</string>
+    <string name="ocr_suggest_later">Ne sada</string>
+    <string name="ocr_garbled_title">Tekst nije dobro prepoznat</string>
+    <string name="ocr_garbled_body">Stranica je možda na jeziku koji još nije na ovom telefonu. Jezike možete dodati u Podešavanjima.</string>
+    <string name="ocr_garbled_action">Jezici</string>
+    <string name="scan_copy_text">Kopiraj tekst</string>
+    <string name="scan_text_copied">Tekst je kopiran</string>
+    <string name="scan_searchable">Pretraživo: %1$s</string>
+    <string name="scan_recognising">Prepoznavanje teksta, stranica %1$d od %2$d</string>
+
+    <!-- Welcome tour -->
+    <string name="tour_skip">Preskoči</string>
+    <string name="tour_next">Dalje</string>
+    <string name="tour_start">Počni</string>
+    <string name="tour_show_again">Prikaži uvodni vodič</string>
+    <string name="tour_show_again_summary">Kratak uvod sa prvog pokretanja.</string>
+    <string name="tour_welcome_title">Plain PDF</string>
+    <string name="tour_welcome_body">Hvala što ste instalirali aplikaciju. Čitajte, potpisujte, skenirajte i uređujte PDF-ove, sve na svom telefonu. Bez reklama, bez naloga, bez oblaka.</string>
+    <string name="tour_sign_title">Potpišite dokumente</string>
+    <string name="tour_sign_body">Nacrtajte potpis jednom, postavite ga na stranicu i podelite potpisanu kopiju. Bez štampanja, bez skeniranja.</string>
+    <string name="tour_scan_title">Skenirajte i pretražujte</string>
+    <string name="tour_scan_body">Fotografišite stranicu. Ivice se pronalaze same, tekst se prepoznaje, a PDF može da se pretražuje i kopira.</string>
+    <string name="tour_edit_title">Popunite, crtajte, označite</string>
+    <string name="tour_edit_body">Popunjavajte obrasce, crtajte i označavajte po stranicama, dodajte ili uklonite lozinke. Svaki alat je iza jednog dugmeta Alati u otvorenom dokumentu.</string>
+    <string name="tour_arrange_title">Uredite stranice</string>
+    <string name="tour_arrange_body">Spojite fajlove, podelite ih, premestite ili rotirajte stranice i smanjite velike PDF fajlove. Ništa se ne menja dok ne sačuvate.</string>
+    <string name="tour_edit_note_unavailable">Popunjavanje obrazaca, crtanje i isticanje zahtevaju Android 12 ili noviji sa Google-ovim PDF dodatkom, koji ovaj telefon nema. Svi ostali alati rade.</string>
+    <string name="tour_edit_note_no_drawing">Crtanje i isticanje zahtevaju noviji Android nego što ovaj telefon ima. Popunjavanje obrazaca radi.</string>
+
+    <!-- Crash report, offered on the launch after a crash -->
+    <string name="crash_title">Plain PDF se prošli put neočekivano zatvorio</string>
+    <string name="crash_body">Žao nam je zbog toga. Želite li da pošaljete izveštaj autoru? Sadrži samo tehničke podatke: verziju aplikacije, verziju Androida i model telefona, i mesto gde se greška dogodila. Bez dokumenata, bez imena, bez fajlova.</string>
+    <string name="crash_send">Pošalji izveštaj</string>
+    <string name="crash_not_now">Ne sada</string>
+
+    <!-- Launcher shortcuts and the home-screen widget -->
+    <string name="shortcut_scan_short">Skeniraj</string>
+    <string name="shortcut_scan_long">Skeniraj dokument</string>
+    <string name="shortcut_open_short">Otvori PDF</string>
+    <string name="shortcut_open_long">Otvori PDF</string>
+    <string name="shortcut_continue_long">Nastavi: %1$s, stranica %2$d</string>
+    <string name="shortcut_continue_gone">Ovaj dokument više nije u vašoj biblioteci</string>
+    <string name="share_target_sign">Potpiši sa Plain PDF</string>
+    <string name="share_target_scan">Skeniraj sa Plain PDF</string>
+    <string name="widget_label">Plain PDF brze radnje</string>
+    <string name="widget_description">Skenirajte dokument ili otvorite PDF jednim dodirom.</string>
+    <string name="widget_scan">Skeniraj dokument</string>
+    <string name="widget_scan_short">Skeniraj</string>
+    <string name="widget_library">Biblioteka</string>
+    <string name="widget_open">Otvori PDF</string>
+</resources>

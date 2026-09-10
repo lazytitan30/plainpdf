@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_background"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="6dp">
+
+    <ImageView
+        android:id="@+id/widget_scan"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/widget_button_primary"
+        android:contentDescription="@string/widget_scan"
+        android:scaleType="center"
+        android:src="@drawable/ic_widget_scan_large" />
+
+    <ImageView
+        android:id="@+id/widget_open"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/widget_button_secondary"
+        android:contentDescription="@string/widget_open"
+        android:scaleType="center"
+        android:src="@drawable/ic_widget_open_large" />
+
+    <ImageView
+        android:id="@+id/widget_library"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:background="@drawable/widget_button_secondary"
+        android:contentDescription="@string/widget_library"
+        android:scaleType="center"
+        android:src="@drawable/ic_widget_library_large" />
+</LinearLayout>

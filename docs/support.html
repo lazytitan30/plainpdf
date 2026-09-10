@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support · Plain PDF</title>
+<style>
+  :root { --paper: #f3eee4; --ink: #1c1a17; --ink-soft: #5a554c; --rule: #cfc6b4; --green: #2f6b5a; --green-ink: #ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --paper: #17181a; --ink: #ebe6db; --ink-soft: #a49f94; --rule: #35383c; --green: #7fbfa6; --green-ink: #10201a; } }
+  * { box-sizing: border-box; }
+  html { color-scheme: light dark; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Charter, Georgia, serif; font-size: 18px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  a { color: inherit; }
+  .page { max-width: 46rem; margin: 0 auto; padding: 0 1.5rem 5rem; }
+  header { display: flex; align-items: center; justify-content: space-between; padding: 1.4rem 0 1.1rem; border-bottom: 2px solid var(--ink); }
+  .mark { display: flex; align-items: center; gap: .7rem; text-decoration: none; }
+  .mark svg { width: 34px; height: 34px; display: block; }
+  .mark span { font-size: 1.25rem; }
+  nav { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: .82rem; letter-spacing: .12em; text-transform: uppercase; }
+  nav a { text-decoration: none; margin-left: 1.6rem; color: var(--ink-soft); }
+  nav a:hover { color: var(--ink); }
+  .label { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size: .78rem; letter-spacing: .16em; text-transform: uppercase; color: var(--ink-soft); margin: 3rem 0 .6rem; }
+  h1 { font-weight: 400; font-size: clamp(2rem, 4.5vw, 2.8rem); line-height: 1.1; letter-spacing: -.015em; margin: 0 0 1.2rem; }
+  h2 { font-weight: 400; font-size: 1.45rem; margin: 2.4rem 0 .6rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); }
+  ol { padding-left: 1.3rem; }
+  li { margin: .6rem 0; }
+  li strong { font-weight: 600; }
+  .muted { color: var(--ink-soft); }
+  footer { margin-top: 3.5rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); color: var(--ink-soft); font-size: .95rem; }
+  footer a { color: var(--ink-soft); }
+  @media (max-width: 780px) { .page { padding: 0 1.15rem 4rem; } nav a { margin-left: 1.1rem; } }
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <a class="mark" href="./" aria-label="Plain PDF home">
+      <svg viewBox="0 0 34 34" aria-hidden="true">
+        <path d="M7 2h14l6 6v24H7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M21 2v6h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+        <rect x="3" y="17" width="28" height="9" fill="var(--green)"/>
+        <text x="17" y="24" text-anchor="middle" font-family="system-ui, sans-serif" font-size="7.5" font-weight="700" fill="var(--green-ink)" letter-spacing=".5">PDF</text>
+      </svg>
+      <span>Plain PDF</span>
+    </a>
+    <nav>
+      <a href="privacy">Privacy</a>
+      <a href="support">Support</a>
+    </nav>
+  </header>
+
+  <p class="label">Support</p>
+  <h1>Free for everyone.</h1>
+  <p>Plain PDF is free and stays free. If it helps you, three things help back:</p>
+  <ol>
+    <li><strong>Tell someone.</strong> A parent, a colleague, anyone tired of ads in PDF apps. That is how the app travels: one person helping the next, the same way it reached you.</li>
+    <li><strong>Rate it on Google Play.</strong> A short review from a real person counts more than any advert.</li>
+    <li><strong>Become a Supporter.</strong> In the Google Play version, Settings has an optional Supporter purchase that unlocks extra accent colours and icons, and a way to give again later. Every reading and editing feature is free regardless.</li>
+  </ol>
+  <p>Each of these costs nothing, and each one reaches someone you will never meet. That is the whole idea.</p>
+
+  <h2>Need help?</h2>
+  <p>Write to <a href="mailto:support@plainpdf.app">support@plainpdf.app</a> and say which phone you have and what you were trying to do.</p>
+  <p class="muted">If the app ever crashes, it offers a report on the next start. Sharing that report to the same address helps a lot; it contains the technical error and nothing about your documents.</p>
+
+  <footer>Plain PDF is free software under the GNU GPL v3. &nbsp;·&nbsp; <a href="./">Home</a> &nbsp;·&nbsp; <a href="privacy">Privacy policy</a></footer>
+</div>
+</body>
+</html>

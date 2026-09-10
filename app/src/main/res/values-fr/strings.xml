@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plain PDF</string>
+
+    <!-- Navigation -->
+    <string name="nav_library">Bibliothèque</string>
+    <string name="nav_tools">Outils</string>
+    <string name="action_back">Retour</string>
+    <string name="action_cancel">Annuler</string>
+    <string name="action_done">Terminé</string>
+
+    <!-- Library -->
+    <string name="library_tab_recent">Récents</string>
+    <string name="library_tab_folders">Dossiers</string>
+    <string name="library_tab_favourites">Favoris</string>
+    <string name="library_open_pdf">Ouvrir un PDF</string>
+    <string name="library_add_folder">Ajouter un dossier</string>
+    <string name="library_empty_recent">Aucun document pour le moment. Ouvrez un PDF pour commencer.</string>
+    <string name="library_empty_folders">Aucun dossier pour le moment. Ajoutez un dossier pour parcourir les PDF qu\'il contient.</string>
+    <string name="library_empty_favourites">Rien ici pour le moment. Ouvrez le menu d\'un document, les trois points, et choisissez Favori.</string>
+    <string name="library_search">Rechercher</string>
+    <string name="library_more">Plus</string>
+    <string name="library_sort">Trier</string>
+    <string name="library_view_grid">Grille</string>
+    <string name="library_view_list">Liste</string>
+
+    <!-- Tools -->
+    <string name="tools_title">Outils</string>
+    <string name="tools_empty">Les outils pour fusionner, diviser et organiser les pages se trouvent ici. Tout fonctionne sur cet appareil.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Paramètres</string>
+    <string name="settings_group_appearance">Apparence</string>
+    <string name="settings_group_reading">Lecture</string>
+    <string name="settings_group_tools">Outils</string>
+    <string name="settings_group_library">Bibliothèque</string>
+    <string name="settings_group_about">À propos</string>
+    <string name="settings_theme">Thème</string>
+    <string name="settings_accent">Couleur d\'accentuation</string>
+    <string name="settings_dynamic_colour">Utiliser les couleurs du système</string>
+    <string name="settings_dynamic_colour_summary">Couleurs tirées de votre fond d\'écran</string>
+    <string name="settings_app_icon">Icône de l\'application</string>
+    <string name="settings_reading_mode">Mode de lecture par défaut</string>
+    <string name="settings_page_display">Affichage de page par défaut</string>
+    <string name="settings_keep_screen_on">Garder l\'écran allumé pendant la lecture</string>
+    <string name="settings_edge_brightness">Luminosité en glissant sur le bord</string>
+    <string name="settings_edge_brightness_summary">Glissez le doigt sur le bord gauche pour régler la luminosité</string>
+    <string name="settings_double_tap_zoom">Double appui pour zoomer</string>
+    <string name="settings_volume_keys">Les touches de volume tournent les pages</string>
+    <string name="settings_save_location">Où les nouveaux fichiers sont enregistrés</string>
+    <string name="settings_save_location_ask">Me demander à chaque fois</string>
+    <string name="settings_save_location_choose">Choisir un dossier</string>
+    <string name="settings_output_naming">Comment les nouveaux fichiers sont nommés</string>
+    <string name="settings_output_naming_help">{name} est le nom du fichier d\'origine, {op} est l\'opération, par exemple merged ou pages_1-4.</string>
+    <string name="settings_language_summary">La langue des menus et des boutons de l\'application.</string>
+    <string name="settings_theme_summary">Aspect clair ou sombre de l\'application elle-même. Les pages gardent leurs propres couleurs.</string>
+    <string name="settings_accent_summary">La couleur des boutons et des autres commandes de l\'application.</string>
+    <string name="settings_app_icon_summary">L\'apparence de Plain PDF sur votre écran d\'accueil.</string>
+    <string name="settings_highlight_summary">La couleur qui marque les résultats quand vous cherchez dans un document.</string>
+    <string name="settings_reading_mode_summary">Faire défiler les pages en continu, ou les tourner une par une.</string>
+    <string name="settings_page_display_summary">Afficher les pages telles quelles, assombries pour la nuit, en sépia ou en gris.</string>
+    <string name="settings_keep_screen_on_summary">L\'écran reste allumé tant qu\'un document est ouvert.</string>
+    <string name="settings_double_tap_zoom_summary">Touchez une page deux fois pour agrandir, et deux fois encore pour revenir.</string>
+    <string name="settings_volume_keys_summary">Appuyez sur les boutons de volume pour passer à la page suivante ou précédente.</string>
+    <string name="settings_save_location_summary">Les fichiers fusionnés, divisés, numérisés et les autres nouveaux fichiers vont ici. Vos originaux restent où ils sont.</string>
+    <string name="settings_save_location_ask_summary">Chaque outil demande un dossier avant d\'enregistrer.</string>
+    <string name="settings_save_location_folder">Toujours dans %1$s</string>
+    <string name="settings_save_location_choose_summary">Choisissez un dossier sur ce téléphone. Les nouveaux fichiers iront toujours là.</string>
+    <string name="settings_output_naming_summary">Fusionner %1$s donne %2$s. L\'original garde son nom.</string>
+    <string name="naming_sample_name">Contrat</string>
+    <string name="naming_style_name_op">Le nom d\'origine, puis ce qui a été fait</string>
+    <string name="naming_style_op_name">Ce qui a été fait, puis le nom d\'origine</string>
+    <string name="naming_style_custom">Modèle personnalisé</string>
+    <string name="naming_style_custom_summary">Écrivez le vôtre, avec {name} et {op}.</string>
+    <string name="settings_confirm_overwrite_summary">Demande avant qu\'un outil remplace un fichier d\'origine par la version modifiée.</string>
+    <string name="settings_default_sort_summary">L\'ordre des documents dans la Bibliothèque.</string>
+    <string name="settings_source_summary">Plain PDF est open source : chacun peut lire comment il fonctionne et le faire évoluer.</string>
+    <string name="settings_licence_summary">Libre d\'utiliser, de partager et d\'améliorer, à une condition : il reste gratuit pour tous.</string>
+    <string name="settings_confirm_overwrite">Demander confirmation avant d\'écraser un original</string>
+    <string name="settings_default_sort">Tri par défaut</string>
+    <string name="settings_clear_recents">Vider les récents</string>
+    <string name="settings_clear_thumbnails">Effacer les aperçus enregistrés</string>
+    <string name="settings_version">Version</string>
+    <string name="settings_source">Code source</string>
+    <string name="settings_licence">Licence</string>
+    <string name="settings_licence_value">GNU GPL v3</string>
+    <string name="settings_feedback">Suggérer une fonction ou signaler un problème</string>
+    <string name="settings_feedback_summary">Ouvre votre application d\'e-mail avec un message pour le développeur. Chaque message est lu.</string>
+    <string name="feedback_subject">Plain PDF : une suggestion</string>
+    <string name="settings_supporter">Soutien</string>
+    <string name="settings_supporter_summary">Gratuit, sans publicité. Si l\'application vous aide, vous pouvez dire merci ici.</string>
+    <string name="settings_supporter_active">Vous êtes un Soutien. Merci d\'aider à garder Plain PDF gratuit.</string>
+    <string name="settings_supporter_active_gift">Merci pour votre cadeau. Le pack Soutien est à vous.</string>
+    <string name="settings_donate">Faire un don</string>
+    <string name="settings_locked">Soutien</string>
+
+    <string name="theme_system">Système</string>
+    <string name="theme_light">Clair</string>
+    <string name="theme_dark">Sombre</string>
+    <string name="theme_black">Noir</string>
+    <string name="theme_sepia">Sépia</string>
+
+    <string name="accent_teal">Bleu canard</string>
+    <string name="accent_amber">Ambre</string>
+    <string name="accent_crimson">Cramoisi</string>
+    <string name="accent_indigo">Indigo</string>
+    <string name="accent_violet">Violet</string>
+    <string name="accent_forest">Vert forêt</string>
+    <string name="accent_slate">Ardoise</string>
+
+    <string name="reading_mode_continuous">Défilement continu</string>
+    <string name="reading_mode_paged">Page par page</string>
+
+    <string name="page_display_normal">Normal</string>
+    <string name="page_display_night">Nuit</string>
+    <string name="page_display_sepia">Sépia</string>
+    <string name="page_display_grayscale">Niveaux de gris</string>
+
+    <string name="sort_recently_opened">Ouverts récemment</string>
+    <string name="sort_recently_added">Ajoutés récemment</string>
+    <string name="sort_name">Nom</string>
+    <string name="sort_size">Taille</string>
+
+    <!-- Supporter -->
+    <string name="supporter_title">Soutien</string>
+    <string name="supporter_intro">Plain PDF est gratuite et sans publicité, et toutes les fonctions marchent sans payer. Si elle vous aide, c\'est ici que vous pouvez dire merci. En échange, vous recevez quelques couleurs et icônes, et notre gratitude.</string>
+    <string name="supporter_grants_title">Ce que vous recevez</string>
+    <string name="supporter_grant_accents">Six couleurs d\'accentuation</string>
+    <string name="supporter_grant_icons">Trois icônes d\'application alternatives</string>
+    <string name="supporter_grant_highlights">Des couleurs de surlignage supplémentaires</string>
+    <string name="supporter_grant_about">Une ligne Soutien dans À propos</string>
+    <string name="supporter_unlock">Devenir un Soutien</string>
+    <string name="supporter_tips_title">Donner à nouveau</string>
+    <string name="supporter_tips_summary">Facultatif. Si vous souhaitez donner à nouveau plus tard, c\'est ici. Cela ne débloque rien de nouveau ; cela dit simplement merci.</string>
+    <string name="supporter_restore">Restaurer les achats</string>
+    <string name="supporter_restore_found">Votre achat est de retour. Merci.</string>
+    <string name="supporter_restore_none">Aucun pack Soutien n\'a été trouvé pour ce compte Google. Les cadeaux ne laissent aucune trace, ils ne peuvent donc pas être restaurés.</string>
+    <string name="supporter_unavailable">Google Play ne peut pas accepter de paiement sur ce téléphone pour le moment. Rien n\'est perdu ; l\'application reste gratuite.</string>
+    <string name="supporter_thanks">Vous êtes un Soutien. Merci d\'aider à garder Plain PDF gratuit.</string>
+    <string name="supporter_donate_intro">Plain PDF est gratuite et sans publicité, et toutes les fonctions marchent sans payer. Si elle vous aide, vous pouvez soutenir le travail qui se cache derrière.</string>
+    <string name="supporter_donate_button">Ouvrir la page de dons</string>
+    <string name="supporter_grant_future">Les couleurs et icônes ajoutées plus tard, sans supplément</string>
+    <string name="supporter_tips_title_first">Ou laisser un pourboire</string>
+    <string name="supporter_tips_summary_first">Tout montant dit merci.</string>
+    <string name="supporter_tip_unlocks_note">Débloque aussi le pack Soutien</string>
+    <string name="supporter_gift_title">Merci pour votre cadeau</string>
+    <string name="supporter_gift_body">Vous avez laissé un pourboire, et le pack Soutien est aussi à vous : toutes les couleurs, icônes et couleurs de surlignage sont débloquées. Inutile d\'acheter le pack.</string>
+    <string name="supporter_gift_note">Les cadeaux ne laissent aucune trace dans Google Play, le pack est donc mémorisé sur ce téléphone.</string>
+    <string name="supporter_snack_gift">Merci pour votre cadeau.</string>
+    <string name="supporter_snack_unlock">Merci. Vous êtes maintenant un Soutien.</string>
+    <string name="supporter_problem_connection">Google Play n\'a pas répondu. Vérifiez que vous êtes connecté dans l\'application Play Store, puis revenez. Rien n\'est perdu ; l\'application reste gratuite.</string>
+    <string name="supporter_problem_listing">Google Play n\'a pas encore publié les articles Soutien. Réessayez plus tard. Rien n\'est perdu ; l\'application reste gratuite.</string>
+    <string name="supporter_problem_region">Google Play ne propose pas encore ces articles dans votre pays. Rien n\'est perdu ; l\'application reste gratuite.</string>
+
+    <!-- Reader -->
+    <string name="reader_page_of">%1$d / %2$d</string>
+    <string name="reader_error_open">Ce fichier n\'a pas pu être ouvert. Il a peut-être été déplacé ou supprimé.</string>
+    <string name="reader_locate_again">Retrouver le fichier</string>
+    <string name="reader_not_saved">Non enregistré</string>
+
+    <!-- Library, M2 -->
+    <string name="library_search_hint">Rechercher des documents</string>
+    <string name="library_no_matches">Rien ne correspond à cette recherche.</string>
+    <string name="library_page_of">Page %1$d sur %2$d</string>
+    <string name="library_file_unavailable">Fichier indisponible</string>
+    <string name="library_deleted">Fichier supprimé</string>
+    <string name="library_delete_failed">Ce fichier n\'a pas pu être supprimé. L\'application à laquelle il appartient ne l\'a pas permis.</string>
+    <string name="library_delete_title">Supprimer le fichier ?</string>
+    <string name="library_delete_body">%1$s sera supprimé du stockage. Cette action est irréversible.</string>
+    <string name="library_rename_help">Change seulement le nom affiché dans Plain PDF. Le fichier garde son nom.</string>
+    <string name="library_folder_failed">Ce dossier n\'a pas pu être ajouté. Choisissez-le à nouveau et autorisez l\'accès.</string>
+    <string name="library_folder_unavailable">Ce dossier ne peut plus être lu. Il a peut-être été déplacé, ou son stockage a été retiré.</string>
+    <string name="library_folder_empty">Aucun PDF dans ce dossier pour le moment.</string>
+    <string name="library_remove_folder_body">Ne plus suivre ce dossier ? Les fichiers que vous avez ouverts ou mis en favoris restent dans la bibliothèque.</string>
+    <string name="action_favourite">Favori</string>
+    <string name="action_unfavourite">Retirer des favoris</string>
+    <string name="action_rename_label">Renommer l\'étiquette</string>
+    <string name="action_share">Partager</string>
+    <string name="action_organise_pages">Organiser les pages</string>
+    <string name="action_remove_from_recents">Retirer des récents</string>
+    <string name="action_delete_file">Supprimer le fichier</string>
+    <string name="action_remove_folder">Retirer le dossier</string>
+    <string name="action_refresh">Actualiser</string>
+    <string name="action_clear">Vider</string>
+
+    <!-- Reader, M3 -->
+    <string name="reader_search">Rechercher dans le document</string>
+    <string name="reader_search_hint">Rechercher dans le document</string>
+    <string name="reader_search_count">%1$d sur %2$d</string>
+    <string name="reader_search_none">Aucun résultat</string>
+    <string name="reader_search_previous">Résultat précédent</string>
+    <string name="reader_search_next">Résultat suivant</string>
+    <string name="reader_outline">Pages</string>
+    <string name="reader_pages_title">%1$d pages</string>
+    <string name="reader_jump_to_page">Aller à la page</string>
+    <string name="reader_jump_hint">1 à %1$d</string>
+    <string name="reader_go">Aller</string>
+    <string name="reader_add_bookmark">Ajouter un signet</string>
+    <string name="reader_add_bookmark_title">Signet sur la page %1$d</string>
+    <string name="reader_bookmark_label">Étiquette du signet</string>
+    <string name="reader_bookmark_label_help">Facultatif. Laissez vide pour afficher le numéro de page.</string>
+    <string name="reader_bookmark_added">Signet ajouté</string>
+    <string name="reader_bookmarks">Signets</string>
+    <string name="reader_bookmarks_empty">Aucun signet pour le moment. Choisissez Ajouter un signet dans le menu pour marquer une page.</string>
+    <string name="reader_page_n">Page %1$d</string>
+    <string name="reader_page_display">Affichage de la page</string>
+    <string name="reader_reading_mode">Mode de lecture</string>
+    <string name="reader_keep_screen_on">Garder l\'écran allumé</string>
+    <string name="reader_document_info">Informations sur le document</string>
+    <string name="reader_info_name">Nom</string>
+    <string name="reader_info_pages">Pages</string>
+    <string name="reader_info_size">Taille</string>
+    <string name="reader_info_location">Emplacement</string>
+    <string name="action_delete">Supprimer</string>
+
+    <!-- Tools, M4 -->
+    <string name="tools_recent_output">Créés récemment</string>
+    <string name="tool_organise">Organiser les pages</string>
+    <string name="tool_organise_desc">Tourner, supprimer, réordonner, extraire ou dupliquer des pages</string>
+    <string name="tool_merge">Fusionner</string>
+    <string name="tool_merge_desc">Réunir plusieurs PDF en un seul, dans l\'ordre de votre choix</string>
+    <string name="tool_split">Diviser</string>
+    <string name="tool_split_desc">Découper un PDF en plusieurs, par plages de pages ou avec le même nombre de pages chacun</string>
+    <string name="tool_images_to_pdf">Images en PDF</string>
+    <string name="tool_images_to_pdf_desc">Transformer des photos et des scans en un seul PDF</string>
+    <string name="tool_pdf_to_images">PDF en images</string>
+    <string name="tool_pdf_to_images_desc">Exporter les pages en fichiers PNG ou JPEG</string>
+    <string name="tool_password">Mot de passe</string>
+    <string name="tool_password_desc">Ajouter, changer ou retirer un mot de passe</string>
+    <string name="action_open">Ouvrir</string>
+    <string name="action_continue">Continuer</string>
+    <string name="action_undo">Annuler</string>
+    <string name="action_redo">Rétablir</string>
+    <string name="action_select_all">Tout sélectionner</string>
+    <string name="organise_pages_count">%1$d pages</string>
+    <string name="organise_changes">%1$d modifications</string>
+    <string name="organise_selected">%1$d sélectionnées</string>
+    <string name="organise_rotate_left">Tourner à gauche</string>
+    <string name="organise_rotate_right">Tourner à droite</string>
+    <string name="organise_restore">Restaurer</string>
+    <string name="organise_extract">Extraire dans un nouveau fichier</string>
+    <string name="organise_duplicate">Dupliquer</string>
+    <string name="organise_page_desc">Page %1$d</string>
+    <string name="organise_page_selected">Page %1$d, sélectionnée</string>
+    <string name="organise_page_deleted">Page %1$d, marquée pour suppression</string>
+    <string name="ops_save_as_new">Enregistrer comme nouveau fichier</string>
+    <string name="ops_overwrite">Écraser l\'original</string>
+    <string name="ops_overwrite_title">Écraser l\'original ?</string>
+    <string name="ops_overwrite_body">%1$s sera remplacé par la version organisée. Une fois écrite, la modification ne peut pas être annulée.</string>
+    <string name="ops_saved_one">%1$s enregistré</string>
+    <string name="ops_saved_many">%1$d fichiers enregistrés</string>
+    <string name="ops_and_more">et %1$d de plus</string>
+    <string name="ops_failed_title">Cela n\'a pas fonctionné</string>
+    <string name="ops_try_other_location">Essayer un autre emplacement</string>
+    <string name="ops_password_title">Mot de passe requis</string>
+    <string name="ops_password_body">%1$s est protégé. Saisissez son mot de passe pour continuer. Il est utilisé une seule fois et n\'est pas conservé.</string>
+    <string name="ops_password_wrong">Ce mot de passe n\'a pas ouvert le document.</string>
+    <string name="ops_password_needed">Ce document a besoin de son mot de passe avant que les pages puissent être affichées.</string>
+    <string name="ops_error_password">Ce document est protégé par un mot de passe. Saisissez son mot de passe et réessayez.</string>
+    <string name="ops_error_assembly">Le propriétaire de ce document n\'autorise pas la réorganisation de ses pages. Plain PDF ne contournera pas cette restriction.</string>
+    <string name="ops_error_corrupt">Ce fichier n\'a pas pu être lu. Il est peut-être endommagé.</string>
+    <string name="ops_error_oom">Ce document est trop volumineux pour la mémoire du téléphone. Le diviser d\'abord en parties plus petites fonctionne généralement.</string>
+    <string name="ops_error_destination">Le fichier n\'a pas pu être écrit à cet endroit. Rien n\'a été supprimé. Essayez un autre emplacement.</string>
+    <string name="ops_error_cancelled">Annulé. Votre fichier d\'origine est intact.</string>
+    <string name="ops_error_unknown">Quelque chose s\'est mal passé. Votre fichier d\'origine est intact.</string>
+    <string name="ops_notification_working">Traitement de votre document</string>
+    <string name="ops_channel_name">Opérations sur les documents</string>
+    <plurals name="ops_pages">
+        <item quantity="one">%1$d page</item>
+        <item quantity="other">%1$d pages</item>
+    </plurals>
+
+    <!-- Tools, M5 -->
+    <string name="tool_input_document">Document</string>
+    <string name="tool_choose_pdf">Choisir un PDF</string>
+    <string name="action_change">Changer</string>
+    <string name="action_remove">Retirer</string>
+    <string name="action_move_up">Monter</string>
+    <string name="action_move_down">Descendre</string>
+    <string name="merge_documents">Documents, dans l\'ordre du résultat</string>
+    <string name="merge_empty">Ajoutez deux PDF ou plus. Ils sont réunis de haut en bas.</string>
+    <string name="merge_add_file">Ajouter un fichier</string>
+    <string name="merge_reading">Lecture…</string>
+    <string name="merge_total">%1$d pages dans le résultat</string>
+    <string name="merge_selected_pages">%1$d pages sélectionnées</string>
+    <string name="merge_choose_pages">Choisir les pages</string>
+    <string name="merge_pages_chosen">Pages : %1$s</string>
+    <string name="merge_range_label">Pages à inclure</string>
+    <string name="split_mode">Comment diviser</string>
+    <string name="split_by_ranges">Par plages de pages</string>
+    <string name="split_every_n">Même nombre de pages chacun</string>
+    <string name="split_extract">Extraire une sélection</string>
+    <string name="split_extract_help">Choisissez les pages visuellement dans l\'organiseur et enregistrez-les comme nouveau fichier.</string>
+    <string name="split_open_organiser">Ouvrir l\'organiseur</string>
+    <string name="split_ranges_hint">1-4, 8, 12-20</string>
+    <string name="split_ranges_help">Un fichier par plage. Les virgules séparent les plages.</string>
+    <string name="split_pages_per_file">Pages par fichier</string>
+    <string name="split_preview">%1$d fichiers : %2$s</string>
+    <string name="split_save_to_folder">Enregistrer les fichiers dans un dossier</string>
+    <string name="ranges_error_empty">Saisissez au moins une page.</string>
+    <string name="ranges_error_bad">%1$s n\'est ni une page ni une plage comme 3-5.</string>
+    <string name="ranges_error_out_of_range">%1$s est en dehors de 1 à %2$d.</string>
+    <string name="ranges_error_reversed">%1$s est à l\'envers.</string>
+    <string name="images_count">%1$d images</string>
+    <string name="images_add">Ajouter des images</string>
+    <string name="images_camera">Prendre une photo</string>
+    <string name="images_empty">Ajoutez des photos ou des scans. Utilisez les flèches sur une image pour changer l\'ordre.</string>
+    <string name="images_page">Page</string>
+    <string name="images_fit_image">Adapter à l\'image</string>
+    <string name="images_a4">A4</string>
+    <string name="images_letter">Letter</string>
+    <string name="images_fit">Ajuster</string>
+    <string name="images_fill">Remplir</string>
+    <string name="images_margin_none">Sans marge</string>
+    <string name="images_margin_small">Petite marge</string>
+    <string name="images_margin_medium">Marge moyenne</string>
+    <string name="pdf_to_images_pages">Pages</string>
+    <string name="pdf_to_images_all_pages">Toutes les pages</string>
+    <string name="pdf_to_images_range_help">%1$d pages seront exportées.</string>
+    <string name="pdf_to_images_format">Format</string>
+    <string name="pdf_to_images_quality">Qualité JPEG %1$d</string>
+    <string name="pdf_to_images_dpi">Résolution</string>
+    <string name="pdf_to_images_encrypted">Ce document est protégé par un mot de passe. Retirez d\'abord le mot de passe avec l\'outil Mot de passe.</string>
+    <string name="pdf_to_images_many_title">Exporter %1$d pages ?</string>
+    <string name="pdf_to_images_many_body">Cela fait %1$d fichiers image. Cela peut prendre du temps et occuper beaucoup d\'espace.</string>
+    <string name="password_what">Que faire</string>
+    <string name="password_explain">Un mot de passe empêche quiconque d\'ouvrir le document sans lui. Gardez-le en lieu sûr : il ne peut pas être récupéré en cas d\'oubli.</string>
+    <string name="password_add">Ajouter un mot de passe</string>
+    <string name="password_change">Changer le mot de passe</string>
+    <string name="password_remove">Retirer le mot de passe</string>
+    <string name="password_new">Nouveau mot de passe</string>
+    <string name="password_confirm">Confirmer le mot de passe</string>
+    <string name="password_mismatch">Les mots de passe ne correspondent pas.</string>
+
+    <!-- Supporter cosmetics, M6 -->
+    <string name="settings_highlight">Surlignage des résultats</string>
+    <string name="highlight_accent">Couleur d\'accentuation</string>
+    <string name="highlight_amber">Ambre</string>
+    <string name="highlight_rose">Rose</string>
+    <string name="highlight_sky">Ciel</string>
+    <string name="app_icon_default">Par défaut</string>
+    <string name="app_icon_mono">Mono</string>
+    <string name="app_icon_paper">Papier</string>
+    <string name="app_icon_night">Nuit</string>
+
+    <!-- Reader tools entry -->
+    <string name="reader_tools_section">Outils pour ce document</string>
+    <string name="reader_tool_merge">Fusionner avec d\'autres PDF</string>
+
+    <!-- Reader tools button, form filling, sign -->
+    <string name="reader_tools_button">Outils</string>
+    <string name="reader_fill_form">Remplir le formulaire</string>
+    <string name="reader_fill_active">Remplissage du formulaire</string>
+    <string name="reader_fill_desc">Touchez les champs de la page pour écrire, cocher ou choisir. Enregistrez ensuite une copie.</string>
+    <string name="reader_save_filled">Enregistrer le formulaire rempli</string>
+    <string name="reader_fill_saved">Formulaire rempli enregistré</string>
+    <string name="tool_sign">Signer</string>
+    <string name="tool_sign_desc">Dessiner une signature et la placer sur une page</string>
+    <string name="sign_draw_title">Dessinez votre signature</string>
+    <string name="sign_draw_help">Utilisez votre doigt ou un stylet. Elle est enregistrée dans le document sous forme d\'image et n\'est envoyée nulle part.</string>
+    <string name="sign_clear">Effacer</string>
+    <string name="sign_next">La placer sur une page</string>
+    <string name="sign_back">Redessiner</string>
+    <string name="sign_place_title">Touchez l\'endroit où placer la signature, ou faites-la glisser. Choisissez une page ci-dessous.</string>
+    <string name="sign_size">Taille</string>
+    <string name="sign_ink_black">Encre noire</string>
+    <string name="sign_ink_blue">Encre bleue</string>
+
+    <!-- Scan -->
+    <string name="library_scan">Numériser un document</string>
+    <string name="scan_title">Numériser</string>
+    <string name="scan_share">Partager le PDF</string>
+    <string name="scan_add_page">Ajouter une autre page</string>
+    <string name="scan_save_to_folder">Enregistrer une copie dans un dossier</string>
+
+    <!-- Crop and cleanup -->
+    <string name="crop_title">Ajuster le scan</string>
+    <string name="crop_help">Faites glisser les coins sur les bords de la page. Tournez si la page est de travers.</string>
+    <string name="crop_rotate">Tourner</string>
+    <string name="crop_look_color">Couleur</string>
+    <string name="crop_look_gray">Niveaux de gris</string>
+    <string name="crop_look_bw">Noir &amp; blanc</string>
+    <string name="crop_use">Utiliser celle-ci</string>
+    <string name="crop_working">Traitement…</string>
+    <string name="crop_adjust">Ajuster</string>
+
+    <!-- Compress -->
+    <string name="tool_compress">Compresser</string>
+    <string name="tool_compress_desc">Réduire la taille d\'un PDF en rétrécissant les images qu\'il contient</string>
+    <string name="compress_current_size">Taille actuelle : %1$s</string>
+    <string name="compress_how_much">À quel point</string>
+    <string name="compress_explain">Seules les images sont modifiées. Le texte et les dessins restent exactement tels quels, le document se lit donc de la même façon.</string>
+    <string name="compress_level_light">Légère. Les images gardent presque tous leurs détails.</string>
+    <string name="compress_level_balanced">Équilibrée. Bien pour envoyer par e-mail.</string>
+    <string name="compress_level_strong">Forte. Fichier le plus petit, les images paraissent plus floues.</string>
+
+    <!-- Accessibility affordances: visible buttons for long-press and swipe actions -->
+    <string name="library_more_options_for">Plus d\'options pour %1$s</string>
+    <string name="action_rename">Renommer</string>
+    <string name="action_discard">Abandonner</string>
+    <string name="action_keep_editing">Continuer la modification</string>
+    <string name="action_move_earlier">Avancer</string>
+    <string name="action_move_later">Reculer</string>
+    <string name="reader_bookmark_delete_title">Supprimer ce signet ?</string>
+    <string name="reader_bookmark_delete_body">%1$s sera retiré de vos signets.</string>
+    <string name="reader_page_current">Page %1$d, page actuelle</string>
+    <string name="reader_search_needs_continuous">La recherche fonctionne en mode défilement continu. Changez le mode de lecture depuis le menu.</string>
+    <string name="reader_discard_title">Abandonner vos modifications ?</string>
+    <string name="reader_discard_body">Tout ce que vous avez écrit ou coché dans le formulaire sera perdu.</string>
+    <string name="reader_brightness">Luminosité</string>
+    <string name="reader_brightness_percent">%1$d%%</string>
+    <string name="reader_info_unknown">Inconnu</string>
+    <string name="sign_size_desc">Taille de la signature</string>
+    <string name="sign_page_preview_desc">Aperçu de la page. Touchez l\'endroit où placer la signature.</string>
+    <string name="scan_remove_title">Retirer cette page ?</string>
+    <string name="scan_remove_body">La page %1$d sera retirée du scan.</string>
+    <string name="images_picture_n">Image %1$d</string>
+    <string name="pdf_to_images_dpi_value">%1$d dpi</string>
+    <string name="pdf_to_images_quality_desc">Qualité JPEG</string>
+    <string name="document_fallback_name">document.pdf</string>
+
+    <!-- Progress labels, always paired with a spinner -->
+    <string name="progress_opening_document">Ouverture du document…</string>
+    <string name="progress_loading_page">Chargement de la page…</string>
+    <string name="progress_reading_pages">Lecture des pages…</string>
+    <string name="progress_reading_folder">Lecture du dossier…</string>
+    <string name="progress_preparing_photo">Préparation de la photo…</string>
+    <string name="progress_building_pdf">Création du PDF…</string>
+
+    <!-- Language picker -->
+    <string name="settings_language">Langue</string>
+    <string name="settings_language_system">Par défaut du système</string>
+
+    <!-- Welcome tour -->
+    <string name="tour_skip">Passer</string>
+    <string name="tour_next">Suivant</string>
+    <string name="tour_start">Commencer</string>
+    <string name="tour_show_again">Afficher la visite de bienvenue</string>
+    <string name="tour_show_again_summary">La courte présentation du premier démarrage.</string>
+    <string name="tour_welcome_title">Plain PDF</string>
+    <string name="tour_welcome_body">Merci d\'avoir installé l\'application. Lisez, signez, numérisez et modifiez des PDF, tout cela sur votre téléphone. Pas de publicité, pas de compte, pas de cloud.</string>
+    <string name="tour_sign_title">Signer des documents</string>
+    <string name="tour_sign_body">Dessinez votre signature une seule fois, placez-la sur la page et partagez la copie signée. Ni impression, ni numérisation.</string>
+    <string name="tour_scan_title">Numériser et rechercher</string>
+    <string name="tour_scan_body">Photographiez une page. Les bords sont détectés pour vous, le texte est reconnu, et vous pouvez rechercher et copier dans le PDF.</string>
+    <string name="tour_edit_title">Remplir, dessiner, surligner</string>
+    <string name="tour_edit_body">Remplissez des formulaires, dessinez et surlignez sur les pages, ajoutez ou retirez des mots de passe. Tous les outils se trouvent derrière un seul bouton Outils dans le document ouvert.</string>
+    <string name="tour_arrange_title">Organiser les pages</string>
+    <string name="tour_arrange_body">Fusionnez des fichiers, divisez-les, réordonnez ou tournez des pages et réduisez les gros PDF. Rien ne change tant que vous n\'enregistrez pas.</string>
+
+    <!-- Draw and highlight -->
+    <string name="reader_annotate">Dessiner et surligner</string>
+    <string name="reader_annotate_desc">Dessinez au stylo ou au surligneur sur la page</string>
+    <string name="reader_annotate_active">Dessin et surlignage</string>
+    <string name="reader_annotate_help">Utilisez le stylo ou le surligneur sur la page, puis enregistrez une copie.</string>
+    <string name="reader_save_annotated">Enregistrer la copie annotée</string>
+    <string name="reader_annotated_saved">Copie annotée enregistrée</string>
+    <string name="reader_discard_annotations_body">Vos dessins et surlignages seront perdus.</string>
+
+    <!-- Text recognition -->
+    <string name="settings_group_ocr">Reconnaissance de texte</string>
+    <string name="settings_ocr_enabled">Rendre les numérisations consultables</string>
+    <string name="settings_ocr_enabled_summary">Reconnaît le texte des pages numérisées pour que vous puissiez le rechercher et le copier. Prend quelques secondes par page.</string>
+    <string name="settings_ocr_languages">Langues</string>
+    <string name="settings_ocr_bundled">Inclus dans l\'application</string>
+    <string name="settings_ocr_imported">Importé</string>
+    <string name="settings_ocr_import">Importer un fichier de langue…</string>
+    <string name="settings_ocr_import_help">Pour une langue absente de la liste : téléchargez son fichier .traineddata depuis le projet tessdata_fast, puis choisissez-le ici.</string>
+    <string name="settings_ocr_get_languages">Obtenir des fichiers de langue</string>
+    <string name="settings_ocr_imported_done">Langue importée</string>
+    <string name="settings_ocr_languages_help">Dans quelles langues les pages numérisées sont lues, et comment en ajouter</string>
+    <string name="scan_copy_text">Copier le texte</string>
+    <string name="scan_text_copied">Texte copié</string>
+    <string name="scan_searchable">Recherche possible : %1$s</string>
+    <string name="scan_recognising">Reconnaissance du texte, page %1$d sur %2$d</string>
+
+    <!-- Crash report, offered on the launch after a crash -->
+    <string name="crash_title">Plain PDF s\'est arrêtée de façon inattendue la dernière fois</string>
+    <string name="crash_body">Nous en sommes désolés. Voulez-vous envoyer un rapport au développeur ? Il ne contient que des détails techniques : la version de l\'application, votre version d\'Android et le modèle de votre téléphone, et l\'endroit où l\'erreur s\'est produite. Aucun document, aucun nom, aucun fichier.</string>
+    <string name="crash_send">Envoyer le rapport</string>
+    <string name="crash_not_now">Pas maintenant</string>
+
+    <!-- Reader: print, read aloud, copy text -->
+    <string name="reader_print">Imprimer</string>
+    <string name="reader_print_desc">Envoyer le document à une imprimante</string>
+    <string name="reader_print_unavailable">L\'impression n\'est pas disponible sur cet appareil.</string>
+    <string name="reader_read_aloud">Lire à voix haute</string>
+    <string name="reader_read_aloud_desc">Écoutez le document avec la voix du téléphone</string>
+    <string name="reader_reading_page">Lecture à voix haute, page %1$d</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_resume">Reprendre</string>
+    <string name="action_stop">Arrêter</string>
+    <string name="reader_tts_no_voice">Il n\'y a pas encore de voix pour cette langue sur le téléphone. Vous pouvez en ajouter une dans les paramètres Android.</string>
+    <string name="reader_tts_settings">Paramètres</string>
+    <string name="reader_tts_no_text">Ce document ne contient aucun texte à lire. Numérisez-le avec la reconnaissance de texte activée.</string>
+    <string name="reader_copy_text">Copier ou partager le texte</string>
+    <string name="reader_copy_text_desc">Copier les mots du document sous forme de texte brut</string>
+    <string name="reader_text_copied">Texte copié</string>
+    <string name="action_copy">Copier</string>
+    <string name="action_share_text">Partager comme texte</string>
+
+    <!-- Page numbers -->
+    <string name="tool_page_numbers">Numéros de page</string>
+    <string name="tool_page_numbers_desc">Inscrire un numéro sur chaque page</string>
+    <string name="page_numbers_position">Position</string>
+    <string name="page_numbers_bottom_centre">En bas au centre</string>
+    <string name="page_numbers_bottom_right">En bas à droite</string>
+    <string name="page_numbers_top_right">En haut à droite</string>
+    <string name="page_numbers_style">Numérotation</string>
+    <string name="page_numbers_start_at">Commencer à</string>
+    <string name="page_numbers_show_total">Afficher sous la forme 1 / 12</string>
+    <string name="page_numbers_example">La première page indique : %1$s</string>
+
+    <!-- Make searchable -->
+    <string name="tool_make_searchable">Rendre consultable</string>
+    <string name="tool_make_searchable_desc">Reconnaître le texte d\'un PDF numérisé pour pouvoir le rechercher et le copier</string>
+    <string name="searchable_note">Les pages qui contiennent déjà du texte sont laissées telles quelles.</string>
+    <string name="searchable_languages">Langues : %1$s</string>
+    <string name="searchable_languages_hint">Modifiez-les dans Paramètres, sous Reconnaissance de texte.</string>
+
+    <!-- Redact -->
+    <string name="tool_redact">Caviarder</string>
+    <string name="tool_redact_desc">Masquer en noir des parties d\'une page, définitivement</string>
+    <string name="redact_explain">Les pages caviardées sont transformées en images, si bien que rien en dessous ne peut être récupéré. Leur texte ne pourra plus être sélectionné.</string>
+    <string name="redact_help">Faites glisser sur la page pour tracer un cadre. Touchez un cadre pour le retirer.</string>
+    <string name="redact_page_preview_desc">Aperçu de la page. Faites glisser pour tracer un cadre sur ce qui doit être masqué. Touchez un cadre pour le retirer.</string>
+    <plurals name="redact_box_count">
+        <item quantity="one">%1$d cadre</item>
+        <item quantity="other">%1$d cadres</item>
+    </plurals>
+    <plurals name="redact_page_count">
+        <item quantity="one">sur %1$d page</item>
+        <item quantity="other">sur %1$d pages</item>
+    </plurals>
+
+    <!-- Launcher shortcuts and the home-screen widget -->
+    <string name="shortcut_scan_short">Numériser</string>
+    <string name="shortcut_scan_long">Numériser un document</string>
+    <string name="shortcut_open_short">Ouvrir un PDF</string>
+    <string name="shortcut_open_long">Ouvrir un PDF</string>
+    <string name="widget_label">Actions rapides Plain PDF</string>
+    <string name="widget_description">Numérisez un document ou ouvrez un PDF d\'un seul geste.</string>
+    <string name="widget_scan">Numériser un document</string>
+    <string name="widget_open">Ouvrir un PDF</string>
+    <string name="widget_scan_short">Numériser</string>
+    <string name="widget_library">Bibliothèque</string>
+
+    <!-- Continue reading, share a page, notes and share-sheet targets -->
+    <string name="library_continue_title">Reprendre la lecture</string>
+    <string name="library_continue_page">Page %1$d sur %2$d</string>
+    <string name="library_continue_page_only">Page %1$d</string>
+    <string name="action_continue_reading">Reprendre</string>
+    <string name="reader_share_page">Partager cette page</string>
+    <string name="reader_share_page_image">En image</string>
+    <string name="reader_share_page_pdf">En PDF d\'une page</string>
+    <string name="tool_note">Écrire une note</string>
+    <string name="tool_note_desc">Saisir du texte et l\'enregistrer en PDF</string>
+    <string name="note_title_hint">Titre (facultatif)</string>
+    <string name="note_body_hint">Écrivez votre note ici</string>
+    <string name="note_default_name">Note</string>
+    <string name="shortcut_continue_long">Reprendre : %1$s, page %2$d</string>
+    <string name="shortcut_continue_gone">Ce document n\'est plus dans votre bibliothèque</string>
+    <string name="share_target_sign">Signer avec Plain PDF</string>
+    <string name="share_target_scan">Numériser avec Plain PDF</string>
+    <string name="tour_edit_note_unavailable">Remplir des formulaires, dessiner et surligner demandent Android 12 ou plus récent avec la mise à jour PDF de Google, que ce téléphone n\'a pas. Tous les autres outils fonctionnent.</string>
+    <string name="tour_edit_note_no_drawing">Dessiner et surligner demandent un Android plus récent que celui de ce téléphone. Remplir des formulaires fonctionne.</string>
+
+    <!-- Languages for scanned text -->
+    <string name="ocr_languages_title">Langues du texte numérisé</string>
+    <string name="ocr_languages_intro">Les pages numérisées sont lues dans les langues cochées. Cochez seulement les langues que vous numérisez ; chaque langue en plus ralentit un peu la lecture.</string>
+    <string name="ocr_languages_on_phone">Sur ce téléphone</string>
+    <string name="ocr_languages_get_more">Obtenir d\'autres langues</string>
+    <string name="ocr_languages_get_more_play">Touchez Obtenir et Google Play télécharge la langue. Rien d\'autre à faire.</string>
+    <string name="ocr_languages_get_more_foss">Cette version ne peut pas télécharger. Obtenez un fichier de langue avec le lien ci-dessous et importez-le.</string>
+    <string name="ocr_languages_tier_common">Les plus utilisées</string>
+    <string name="ocr_languages_tier_nearby">Pays voisins</string>
+    <string name="ocr_languages_tier_other">Autres</string>
+    <string name="ocr_languages_get">Obtenir</string>
+    <string name="ocr_languages_downloading">Téléchargement…</string>
+    <string name="ocr_languages_installing">Préparation…</string>
+    <string name="ocr_languages_failed">Le téléchargement a échoué. Vérifiez la connexion internet et réessayez.</string>
+    <string name="ocr_languages_try_again">Réessayer</string>
+    <string name="ocr_languages_downloaded">Téléchargé</string>
+    <string name="ocr_languages_remove_title">Retirer %1$s ?</string>
+    <string name="ocr_languages_remove_body">Vous pourrez l\'obtenir à nouveau à tout moment.</string>
+    <string name="ocr_languages_ready">La langue %1$s est prête. Les pages numérisées dans cette langue peuvent maintenant être lues.</string>
+    <string name="ocr_languages_keep_one">Laissez au moins une langue cochée.</string>
+    <string name="ocr_suggest_title">Votre téléphone est réglé en %1$s</string>
+    <string name="ocr_suggest_body">Obtenez la langue %1$s (%2$s) pour que les pages numérisées dans cette langue puissent être lues.</string>
+    <string name="ocr_suggest_get">Obtenir : %1$s</string>
+    <string name="ocr_suggest_later">Pas maintenant</string>
+    <string name="ocr_garbled_title">Le texte n\'a pas été bien reconnu</string>
+    <string name="ocr_garbled_body">La page est peut-être dans une langue qui n\'est pas encore sur ce téléphone. Vous pouvez ajouter des langues dans les Paramètres.</string>
+    <string name="ocr_garbled_action">Langues</string>
+</resources>

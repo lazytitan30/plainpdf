@@ -1,0 +1,45 @@
+Plain PDF radi bez interneta. Aplikacija nema ni dozvolu za pristup mreži, pa vaši dokumenti nikada ne napuštaju telefon. Prepoznavanje teksta na skeniranim stranicama, ćirilica i latinica, takođe radi na samom telefonu. Velika dugmad, bez skrivenih pokreta.
+
+Čitanje
+• Neprekidno listanje ili stranica po stranica
+• Pretraga unutar dokumenta sa označenim pogocima
+• Popunjavanje obrazaca i čuvanje kopije
+• Crtanje i isticanje na stranicama, sačuvano kao prave PDF beleške (Android 12 ili noviji)
+• Čitanje naglas glasom telefona, štampanje, kopiranje ili deljenje teksta, deljenje jedne stranice
+• Dugme Alati na svakom otvorenom dokumentu, uvek vidljivo
+• Mreža stranica, obeleživači, skok na stranicu i Nastavite čitanje sa početnog ekrana
+• Noćni, sepija i sivi prikaz stranica, zapamćen za svaki dokument
+• Pet tema aplikacije, uključujući potpuno crnu za OLED ekrane
+• Ekran stalno uključen, listanje tasterima za jačinu zvuka, osvetljenje prevlačenjem uz ivicu po želji
+
+Skeniranje
+• Slikajte stranicu; ivice se pronalaze same, a uglove ili stranice okvira možete pomeriti
+• Čišćenje u boji, sivim tonovima ili oštro crno-belo
+• Prepoznavanje teksta na telefonu, bez interneta: skenovi postaju pretraživi, a tekst može da se kopira. Osam jezika je ugrađeno (srpski na oba pisma, engleski, nemački, španski, francuski, italijanski, ruski), a još dvadeset stiže jednim dodirom u Podešavanjima
+• Dodajte još stranica, pa odmah podelite PDF
+
+Alati, svi na ovom uređaju
+• Potpiši: nacrtajte potpis jednom i postavite ga na bilo koju stranicu
+• Učini pretraživim: dodajte prepoznati tekst bilo kom skeniranom PDF-u
+• Napiši belešku: ukucajte tekst i sačuvajte ga kao PDF
+• Smanji: PDF postaje manji tako što se smanje slike u njemu
+• Uredi stranice: rotiranje, brisanje, premeštanje, izdvajanje i dupliranje na jednoj mreži, sa poništavanjem
+• Spoji više PDF fajlova, uz opseg stranica za svaki dokument po želji
+• Podeli po opsezima stranica ili na svakih N stranica
+• Brojevi stranica na svakoj stranici
+• Zacrni: delovi stranice se zaista uklanjaju, ne samo prekrivaju
+• Slike u PDF, sa fotografija, skenova ili kamere
+• PDF u slike, kao PNG ili JPEG
+• Dodavanje, promena ili uklanjanje lozinke (AES-256)
+
+Svaka operacija prvo piše u privremeni fajl i proverava ga pre nego što dotakne vaše fajlove. Ništa se nikada ne briše u tišini.
+
+Biblioteka
+• Nedavni dokumenti sa sličicama i pozicijom čitanja
+• Indeksirane fascikle, omiljeno, pretraga i sortiranje
+• Fajlovi koji su premešteni ili nestali se označavaju, ne odbacuju, uz opciju Pronađi ponovo
+• Vidžet i prečice na početnom ekranu za Skeniraj, Otvori i Nastavite čitanje
+
+Dostupno na 17 jezika, uključujući srpski, engleski, nemački, španski, francuski, ruski, arapski, kineski, japanski i korejski.
+
+Bez reklama. Bez analitike. Bez naloga. Bez pristupa mreži: aplikacija uopšte nema dozvolu za internet. Sve funkcije čitanja i uređivanja su besplatne; opciona kupovina Podrška otključava samo boje i ikone.

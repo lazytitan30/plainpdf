@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="20dp"
+    android:height="20dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24"
+    android:tint="#1B1B1B">
+    <!-- Three books on a shelf -->
+    <path
+        android:fillColor="#1B1B1B"
+        android:pathData="M4,4 h3 v16 H4 z M9,4 h3 v16 H9 z M14.2,4.6 l2.9,-0.8 l4.2,15.5 l-2.9,0.8 z" />
+</vector>

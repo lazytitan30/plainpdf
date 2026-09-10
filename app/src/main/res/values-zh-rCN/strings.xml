@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plain PDF</string>
+
+    <!-- Navigation -->
+    <string name="nav_library">文库</string>
+    <string name="nav_tools">工具</string>
+    <string name="action_back">返回</string>
+    <string name="action_cancel">取消</string>
+    <string name="action_done">完成</string>
+
+    <!-- Library -->
+    <string name="library_tab_recent">最近</string>
+    <string name="library_tab_folders">文件夹</string>
+    <string name="library_tab_favourites">收藏</string>
+    <string name="library_open_pdf">打开 PDF</string>
+    <string name="library_add_folder">添加文件夹</string>
+    <string name="library_empty_recent">还没有文档。打开一个 PDF 开始吧。</string>
+    <string name="library_empty_folders">还没有文件夹。添加一个文件夹，即可浏览其中的 PDF。</string>
+    <string name="library_empty_favourites">这里还没有内容。打开文档的菜单（三个点），然后选择“收藏”。</string>
+    <string name="library_search">搜索</string>
+    <string name="library_more">更多</string>
+    <string name="library_sort">排序</string>
+    <string name="library_view_grid">网格</string>
+    <string name="library_view_list">列表</string>
+
+    <!-- Tools -->
+    <string name="tools_title">工具</string>
+    <string name="tools_empty">合并、拆分和整理页面的工具都在这里。所有操作都在本机完成。</string>
+
+    <!-- Settings -->
+    <string name="settings_title">设置</string>
+    <string name="settings_group_appearance">外观</string>
+    <string name="settings_group_reading">阅读</string>
+    <string name="settings_group_tools">工具</string>
+    <string name="settings_group_library">文库</string>
+    <string name="settings_group_about">关于</string>
+    <string name="settings_theme">主题</string>
+    <string name="settings_accent">强调色</string>
+    <string name="settings_dynamic_colour">使用系统颜色</string>
+    <string name="settings_dynamic_colour_summary">颜色取自您的壁纸</string>
+    <string name="settings_app_icon">应用图标</string>
+    <string name="settings_reading_mode">默认阅读方式</string>
+    <string name="settings_page_display">默认页面显示</string>
+    <string name="settings_keep_screen_on">阅读时保持屏幕常亮</string>
+    <string name="settings_edge_brightness">边缘滑动调节亮度</string>
+    <string name="settings_edge_brightness_summary">在屏幕左边缘上下滑动可调节亮度</string>
+    <string name="settings_double_tap_zoom">双击缩放</string>
+    <string name="settings_volume_keys">用音量键翻页</string>
+    <string name="settings_save_location">新文件保存到哪里</string>
+    <string name="settings_save_location_ask">每次都问我</string>
+    <string name="settings_save_location_choose">选择文件夹</string>
+    <string name="settings_output_naming">新文件如何命名</string>
+    <string name="settings_output_naming_help">{name} 是原文件名，{op} 是操作名称，例如 merged 或 pages_1-4。</string>
+    <string name="settings_language_summary">应用菜单和按钮所用的语言。</string>
+    <string name="settings_theme_summary">应用本身的浅色或深色外观。页面保持自己的颜色。</string>
+    <string name="settings_accent_summary">应用中按钮和其他控件的颜色。</string>
+    <string name="settings_app_icon_summary">Plain PDF 在主屏幕上的样子。</string>
+    <string name="settings_highlight_summary">在文档内搜索时，用来标记匹配结果的颜色。</string>
+    <string name="settings_reading_mode_summary">连续滚动浏览页面，或者一次翻一页。</string>
+    <string name="settings_page_display_summary">按原样显示页面，或为夜间调暗、棕褐色、灰色显示。</string>
+    <string name="settings_keep_screen_on_summary">打开文档期间，屏幕保持常亮。</string>
+    <string name="settings_double_tap_zoom_summary">双击页面放大，再双击恢复。</string>
+    <string name="settings_volume_keys_summary">按音量键翻到下一页或上一页。</string>
+    <string name="settings_save_location_summary">合并、拆分、扫描等产生的新文件保存在这里。您的原文件留在原处。</string>
+    <string name="settings_save_location_ask_summary">每个工具在保存前都会询问文件夹。</string>
+    <string name="settings_save_location_folder">总是保存到 %1$s</string>
+    <string name="settings_save_location_choose_summary">选择这部手机上的一个文件夹。新文件总是保存到那里。</string>
+    <string name="settings_output_naming_summary">合并 %1$s 会生成 %2$s。原文件保留原名。</string>
+    <string name="naming_sample_name">合同</string>
+    <string name="naming_style_name_op">先原文件名，再操作名</string>
+    <string name="naming_style_op_name">先操作名，再原文件名</string>
+    <string name="naming_style_custom">自定义格式</string>
+    <string name="naming_style_custom_summary">用 {name} 和 {op} 自己编写。</string>
+    <string name="settings_confirm_overwrite_summary">在工具用修改后的版本替换原文件之前先询问。</string>
+    <string name="settings_default_sort_summary">文库中文档的排列顺序。</string>
+    <string name="settings_source_summary">Plain PDF 是开源的：任何人都可以查看它的工作方式，并在此基础上继续开发。</string>
+    <string name="settings_licence_summary">可以自由使用、分享和改进，只有一个条件：对所有人保持免费。</string>
+    <string name="settings_confirm_overwrite">覆盖原文件前先确认</string>
+    <string name="settings_default_sort">默认排序</string>
+    <string name="settings_clear_recents">清除最近记录</string>
+    <string name="settings_clear_thumbnails">清除已保存的预览</string>
+    <string name="settings_version">版本</string>
+    <string name="settings_source">源代码</string>
+    <string name="settings_licence">许可证</string>
+    <string name="settings_licence_value">GNU GPL v3</string>
+    <string name="settings_feedback">建议功能或报告问题</string>
+    <string name="settings_feedback_summary">打开您的邮件应用，并附上一封写给开发者的邮件。每一封都会被读到。</string>
+    <string name="feedback_subject">Plain PDF：一条建议</string>
+    <string name="settings_supporter">支持者</string>
+    <string name="settings_supporter_summary">免费，没有广告。如果这个应用帮到了您，可以在这里说声谢谢。</string>
+    <string name="settings_supporter_active">您已是支持者。感谢您帮助 Plain PDF 保持免费。</string>
+    <string name="settings_supporter_active_gift">感谢您的心意。支持者礼包已归您。</string>
+    <string name="settings_donate">捐助</string>
+    <string name="settings_locked">支持者</string>
+
+    <string name="theme_system">跟随系统</string>
+    <string name="theme_light">浅色</string>
+    <string name="theme_dark">深色</string>
+    <string name="theme_black">纯黑</string>
+    <string name="theme_sepia">棕褐</string>
+
+    <string name="accent_teal">青绿</string>
+    <string name="accent_amber">琥珀</string>
+    <string name="accent_crimson">深红</string>
+    <string name="accent_indigo">靛蓝</string>
+    <string name="accent_violet">紫罗兰</string>
+    <string name="accent_forest">森林绿</string>
+    <string name="accent_slate">石板灰</string>
+
+    <string name="reading_mode_continuous">连续滚动</string>
+    <string name="reading_mode_paged">逐页翻看</string>
+
+    <string name="page_display_normal">普通</string>
+    <string name="page_display_night">夜间</string>
+    <string name="page_display_sepia">棕褐</string>
+    <string name="page_display_grayscale">灰度</string>
+
+    <string name="sort_recently_opened">最近打开</string>
+    <string name="sort_recently_added">最近添加</string>
+    <string name="sort_name">名称</string>
+    <string name="sort_size">大小</string>
+
+    <!-- Supporter -->
+    <string name="supporter_title">支持者</string>
+    <string name="supporter_intro">Plain PDF 免费且没有广告，所有功能都无需付费。如果它帮到了您，这里就是说声谢谢的地方。作为回礼，您会得到几种颜色和图标，以及我们的谢意。</string>
+    <string name="supporter_grants_title">您将得到</string>
+    <string name="supporter_grant_accents">六种强调色</string>
+    <string name="supporter_grant_icons">三款备选应用图标</string>
+    <string name="supporter_grant_highlights">更多搜索高亮配色</string>
+    <string name="supporter_grant_about">“关于”页面中的支持者标识</string>
+    <string name="supporter_unlock">成为支持者</string>
+    <string name="supporter_tips_title">再次支持</string>
+    <string name="supporter_tips_summary">可选。如果您以后还想再支持一次，就在这里。它不会解锁任何新内容，只是一句谢谢。</string>
+    <string name="supporter_restore">恢复购买</string>
+    <string name="supporter_restore_found">您的购买已恢复。谢谢您。</string>
+    <string name="supporter_restore_none">未找到此 Google 账号的支持者礼包。打赏不留记录，因此无法恢复。</string>
+    <string name="supporter_unavailable">Google Play 目前无法在这部手机上收款。您没有任何损失，应用仍然免费。</string>
+    <string name="supporter_thanks">您已是支持者。感谢您帮助 Plain PDF 保持免费。</string>
+    <string name="supporter_donate_intro">Plain PDF 免费且没有广告，所有功能都无需付费。如果它帮到了您，您可以支持它背后的工作。</string>
+    <string name="supporter_donate_button">打开捐助页面</string>
+    <string name="supporter_grant_future">以后新增的颜色和图标，无需额外付费</string>
+    <string name="supporter_tips_title_first">或者打赏一下</string>
+    <string name="supporter_tips_summary_first">无论多少，都是一句谢谢。</string>
+    <string name="supporter_tip_unlocks_note">同时解锁支持者礼包</string>
+    <string name="supporter_gift_title">感谢您的心意</string>
+    <string name="supporter_gift_body">您打赏了，支持者礼包也归您了：所有颜色、图标和高亮配色都已解锁。无需再购买礼包。</string>
+    <string name="supporter_gift_note">打赏在 Google Play 中不留记录，所以礼包记在这部手机上。</string>
+    <string name="supporter_snack_gift">感谢您的心意。</string>
+    <string name="supporter_snack_unlock">谢谢您。您现在是支持者了。</string>
+    <string name="supporter_problem_connection">Google Play 没有回应。请确认 Play 商店应用已登录，然后再回来。您没有任何损失，应用仍然免费。</string>
+    <string name="supporter_problem_listing">Google Play 尚未上架支持者项目。请稍后再试。您没有任何损失，应用仍然免费。</string>
+    <string name="supporter_problem_region">Google Play 尚未在您所在的国家或地区提供这些项目。您没有任何损失，应用仍然免费。</string>
+
+    <!-- Reader -->
+    <string name="reader_page_of">%1$d / %2$d</string>
+    <string name="reader_error_open">无法打开此文件。它可能已被移动或删除。</string>
+    <string name="reader_locate_again">重新查找文件</string>
+    <string name="reader_not_saved">未保存</string>
+
+    <!-- Library, M2 -->
+    <string name="library_search_hint">搜索文档</string>
+    <string name="library_no_matches">没有符合的结果。</string>
+    <string name="library_page_of">第 %1$d 页，共 %2$d 页</string>
+    <string name="library_file_unavailable">文件不可用</string>
+    <string name="library_deleted">文件已删除</string>
+    <string name="library_delete_failed">无法删除此文件。它所属的应用不允许删除。</string>
+    <string name="library_delete_title">删除文件？</string>
+    <string name="library_delete_body">%1$s 将从存储空间中删除。此操作无法撤销。</string>
+    <string name="library_rename_help">只更改在 Plain PDF 中显示的名称。文件本身的名称不变。</string>
+    <string name="library_folder_failed">无法添加该文件夹。请重新选择并允许访问。</string>
+    <string name="library_folder_unavailable">此文件夹已无法读取。它可能已被移动，或者存储设备已被移除。</string>
+    <string name="library_folder_empty">此文件夹中还没有 PDF。</string>
+    <string name="library_remove_folder_body">不再关注此文件夹？您打开过或收藏过的文件会保留在文库中。</string>
+    <string name="action_favourite">收藏</string>
+    <string name="action_unfavourite">取消收藏</string>
+    <string name="action_rename_label">重命名显示名</string>
+    <string name="action_share">分享</string>
+    <string name="action_organise_pages">整理页面</string>
+    <string name="action_remove_from_recents">从最近记录中移除</string>
+    <string name="action_delete_file">删除文件</string>
+    <string name="action_remove_folder">移除文件夹</string>
+    <string name="action_refresh">刷新</string>
+    <string name="action_clear">清除</string>
+
+    <!-- Reader, M3 -->
+    <string name="reader_search">在文档中搜索</string>
+    <string name="reader_search_hint">在文档中查找</string>
+    <string name="reader_search_count">第 %1$d 项，共 %2$d 项</string>
+    <string name="reader_search_none">没有匹配项</string>
+    <string name="reader_search_previous">上一个</string>
+    <string name="reader_search_next">下一个</string>
+    <string name="reader_outline">页面</string>
+    <string name="reader_pages_title">%1$d 页</string>
+    <string name="reader_jump_to_page">跳转到页面</string>
+    <string name="reader_jump_hint">1 到 %1$d</string>
+    <string name="reader_go">前往</string>
+    <string name="reader_add_bookmark">添加书签</string>
+    <string name="reader_add_bookmark_title">为第 %1$d 页添加书签</string>
+    <string name="reader_bookmark_label">书签名称</string>
+    <string name="reader_bookmark_label_help">可选。留空则显示页码。</string>
+    <string name="reader_bookmark_added">书签已添加</string>
+    <string name="reader_bookmarks">书签</string>
+    <string name="reader_bookmarks_empty">还没有书签。在菜单中选择“添加书签”来标记页面。</string>
+    <string name="reader_page_n">第 %1$d 页</string>
+    <string name="reader_page_display">页面显示</string>
+    <string name="reader_reading_mode">阅读方式</string>
+    <string name="reader_keep_screen_on">保持屏幕常亮</string>
+    <string name="reader_document_info">文档信息</string>
+    <string name="reader_info_name">名称</string>
+    <string name="reader_info_pages">页数</string>
+    <string name="reader_info_size">大小</string>
+    <string name="reader_info_location">位置</string>
+    <string name="action_delete">删除</string>
+
+    <!-- Tools, M4 -->
+    <string name="tools_recent_output">最近输出</string>
+    <string name="tool_organise">整理页面</string>
+    <string name="tool_organise_desc">旋转、删除、重排、提取或复制页面</string>
+    <string name="tool_merge">合并</string>
+    <string name="tool_merge_desc">按您选择的顺序把多个 PDF 合成一个</string>
+    <string name="tool_split">拆分</string>
+    <string name="tool_split_desc">把一个 PDF 拆成多个，按页码范围或每个文件相同的页数</string>
+    <string name="tool_images_to_pdf">图片转 PDF</string>
+    <string name="tool_images_to_pdf_desc">把照片和扫描件做成一个 PDF</string>
+    <string name="tool_pdf_to_images">PDF 转图片</string>
+    <string name="tool_pdf_to_images_desc">把页面导出为 PNG 或 JPEG 文件</string>
+    <string name="tool_password">密码</string>
+    <string name="tool_password_desc">添加、更改或移除密码</string>
+    <string name="action_open">打开</string>
+    <string name="action_continue">继续</string>
+    <string name="action_undo">撤销</string>
+    <string name="action_redo">重做</string>
+    <string name="action_select_all">全选</string>
+    <string name="organise_pages_count">%1$d 页</string>
+    <string name="organise_changes">%1$d 处更改</string>
+    <string name="organise_selected">已选 %1$d 项</string>
+    <string name="organise_rotate_left">向左旋转</string>
+    <string name="organise_rotate_right">向右旋转</string>
+    <string name="organise_restore">恢复</string>
+    <string name="organise_extract">提取到新文件</string>
+    <string name="organise_duplicate">复制</string>
+    <string name="organise_page_desc">第 %1$d 页</string>
+    <string name="organise_page_selected">第 %1$d 页，已选中</string>
+    <string name="organise_page_deleted">第 %1$d 页，待删除</string>
+    <string name="ops_save_as_new">另存为新文件</string>
+    <string name="ops_overwrite">覆盖原文件</string>
+    <string name="ops_overwrite_title">覆盖原文件？</string>
+    <string name="ops_overwrite_body">%1$s 将被整理后的版本替换。写入后无法撤销。</string>
+    <string name="ops_saved_one">已保存 %1$s</string>
+    <string name="ops_saved_many">已保存 %1$d 个文件</string>
+    <string name="ops_and_more">及另外 %1$d 个</string>
+    <string name="ops_failed_title">操作没有成功</string>
+    <string name="ops_try_other_location">换个位置试试</string>
+    <string name="ops_password_title">需要密码</string>
+    <string name="ops_password_body">%1$s 受密码保护。请输入密码以继续。密码只使用一次，不会保存。</string>
+    <string name="ops_password_wrong">这个密码无法打开文档。</string>
+    <string name="ops_password_needed">需要输入此文档的密码才能显示页面。</string>
+    <string name="ops_error_password">此文档受密码保护。请输入密码后重试。</string>
+    <string name="ops_error_assembly">此文档的所有者不允许重新组合页面。Plain PDF 不会绕过这一限制。</string>
+    <string name="ops_error_corrupt">无法读取此文件。它可能已损坏。</string>
+    <string name="ops_error_oom">这个文档太大，手机内存装不下。通常先把它拆成更小的部分就可以了。</string>
+    <string name="ops_error_destination">无法把文件写入该位置。没有删除任何内容。请换个位置试试。</string>
+    <string name="ops_error_cancelled">已取消。您的原始文件没有被改动。</string>
+    <string name="ops_error_unknown">出了点问题。您的原始文件没有被改动。</string>
+    <string name="ops_notification_working">正在处理您的文档</string>
+    <string name="ops_channel_name">文档操作</string>
+    <plurals name="ops_pages">
+        <item quantity="other">%1$d 页</item>
+    </plurals>
+
+    <!-- Tools, M5 -->
+    <string name="tool_input_document">文档</string>
+    <string name="tool_choose_pdf">选择一个 PDF</string>
+    <string name="action_change">更换</string>
+    <string name="action_remove">移除</string>
+    <string name="action_move_up">上移</string>
+    <string name="action_move_down">下移</string>
+    <string name="merge_documents">文档，按输出顺序排列</string>
+    <string name="merge_empty">添加两个或更多 PDF。它们会从上到下依次合并。</string>
+    <string name="merge_add_file">添加文件</string>
+    <string name="merge_reading">正在读取…</string>
+    <string name="merge_total">输出共 %1$d 页</string>
+    <string name="merge_selected_pages">已选 %1$d 页</string>
+    <string name="merge_choose_pages">选择页面</string>
+    <string name="merge_pages_chosen">页面：%1$s</string>
+    <string name="merge_range_label">要包含的页面</string>
+    <string name="split_mode">拆分方式</string>
+    <string name="split_by_ranges">按页码范围</string>
+    <string name="split_every_n">每个文件相同页数</string>
+    <string name="split_extract">提取所选页面</string>
+    <string name="split_extract_help">在整理页面中直观地挑选页面，然后保存为新文件。</string>
+    <string name="split_open_organiser">打开整理页面</string>
+    <string name="split_ranges_hint">1-4, 8, 12-20</string>
+    <string name="split_ranges_help">每个范围生成一个文件。范围之间用逗号分隔。</string>
+    <string name="split_pages_per_file">每个文件的页数</string>
+    <string name="split_preview">%1$d 个文件：%2$s</string>
+    <string name="split_save_to_folder">把文件保存到文件夹</string>
+    <string name="ranges_error_empty">请至少输入一页。</string>
+    <string name="ranges_error_bad">%1$s 不是页码，也不是像 3-5 这样的范围。</string>
+    <string name="ranges_error_out_of_range">%1$s 超出了 1 到 %2$d 的范围。</string>
+    <string name="ranges_error_reversed">%1$s 的顺序反了。</string>
+    <string name="images_count">%1$d 张图片</string>
+    <string name="images_add">添加图片</string>
+    <string name="images_camera">拍照</string>
+    <string name="images_empty">添加照片或扫描件。用图片上的箭头调整顺序。</string>
+    <string name="images_page">页面</string>
+    <string name="images_fit_image">适应图片</string>
+    <string name="images_a4">A4</string>
+    <string name="images_letter">Letter</string>
+    <string name="images_fit">适应</string>
+    <string name="images_fill">填满</string>
+    <string name="images_margin_none">无边距</string>
+    <string name="images_margin_small">小边距</string>
+    <string name="images_margin_medium">中等边距</string>
+    <string name="pdf_to_images_pages">页面</string>
+    <string name="pdf_to_images_all_pages">全部页面</string>
+    <string name="pdf_to_images_range_help">将导出 %1$d 页。</string>
+    <string name="pdf_to_images_format">格式</string>
+    <string name="pdf_to_images_quality">JPEG 质量 %1$d</string>
+    <string name="pdf_to_images_dpi">分辨率</string>
+    <string name="pdf_to_images_encrypted">此文档受密码保护。请先用“密码”工具移除密码。</string>
+    <string name="pdf_to_images_many_title">导出 %1$d 页？</string>
+    <string name="pdf_to_images_many_body">这会生成 %1$d 个图片文件，可能需要一些时间，并占用较多空间。</string>
+    <string name="password_what">要做什么</string>
+    <string name="password_explain">设置密码后，没有密码谁也打不开这个文档。请把密码保存在安全的地方：一旦忘记就无法找回。</string>
+    <string name="password_add">添加密码</string>
+    <string name="password_change">更改密码</string>
+    <string name="password_remove">移除密码</string>
+    <string name="password_new">新密码</string>
+    <string name="password_confirm">确认密码</string>
+    <string name="password_mismatch">两次输入的密码不一致。</string>
+
+    <!-- Supporter cosmetics, M6 -->
+    <string name="settings_highlight">搜索高亮</string>
+    <string name="highlight_accent">强调色</string>
+    <string name="highlight_amber">琥珀</string>
+    <string name="highlight_rose">玫瑰</string>
+    <string name="highlight_sky">天蓝</string>
+    <string name="app_icon_default">默认</string>
+    <string name="app_icon_mono">单色</string>
+    <string name="app_icon_paper">纸张</string>
+    <string name="app_icon_night">夜间</string>
+
+    <!-- Reader tools entry -->
+    <string name="reader_tools_section">此文档的工具</string>
+    <string name="reader_tool_merge">与其他 PDF 合并</string>
+
+    <!-- Reader tools button, form filling, sign -->
+    <string name="reader_tools_button">工具</string>
+    <string name="reader_fill_form">填写表单</string>
+    <string name="reader_fill_active">正在填写表单</string>
+    <string name="reader_fill_desc">点按页面上的字段来输入、勾选或选择，然后保存一份副本。</string>
+    <string name="reader_save_filled">保存填写的表单</string>
+    <string name="reader_fill_saved">填写的表单已保存</string>
+    <string name="tool_sign">签名</string>
+    <string name="tool_sign_desc">手写签名并放到页面上</string>
+    <string name="sign_draw_title">写下您的签名</string>
+    <string name="sign_draw_help">用手指或触控笔书写。签名会作为图片保存在文档中，不会发送到任何地方。</string>
+    <string name="sign_clear">清除</string>
+    <string name="sign_next">放到页面上</string>
+    <string name="sign_back">重写</string>
+    <string name="sign_place_title">点按签名应放的位置，或拖动它。在下方选择页面。</string>
+    <string name="sign_size">大小</string>
+    <string name="sign_ink_black">黑色墨水</string>
+    <string name="sign_ink_blue">蓝色墨水</string>
+
+    <!-- Scan -->
+    <string name="library_scan">扫描文档</string>
+    <string name="scan_title">扫描</string>
+    <string name="scan_share">分享 PDF</string>
+    <string name="scan_add_page">再加一页</string>
+    <string name="scan_save_to_folder">把副本保存到文件夹</string>
+
+    <!-- Crop and cleanup -->
+    <string name="crop_title">调整扫描</string>
+    <string name="crop_help">把四个角拖到纸张边缘。如果页面是横着的，请旋转。</string>
+    <string name="crop_rotate">旋转</string>
+    <string name="crop_look_color">彩色</string>
+    <string name="crop_look_gray">灰度</string>
+    <string name="crop_look_bw">黑白</string>
+    <string name="crop_use">就用这个</string>
+    <string name="crop_working">正在处理…</string>
+    <string name="crop_adjust">调整</string>
+
+    <!-- Compress -->
+    <string name="tool_compress">压缩</string>
+    <string name="tool_compress_desc">缩小其中的图片，让 PDF 变小</string>
+    <string name="compress_current_size">当前大小：%1$s</string>
+    <string name="compress_how_much">压缩程度</string>
+    <string name="compress_explain">只会改动图片。文字和线条保持原样，阅读起来没有区别。</string>
+    <string name="compress_level_light">轻度。图片保留大部分细节。</string>
+    <string name="compress_level_balanced">适中。适合用电子邮件发送。</string>
+    <string name="compress_level_strong">强力。文件最小，图片会显得柔和一些。</string>
+
+    <!-- Accessibility affordances: visible buttons for long-press and swipe actions -->
+    <string name="library_more_options_for">%1$s 的更多选项</string>
+    <string name="action_rename">重命名</string>
+    <string name="action_discard">放弃</string>
+    <string name="action_keep_editing">继续编辑</string>
+    <string name="action_move_earlier">往前移</string>
+    <string name="action_move_later">往后移</string>
+    <string name="reader_bookmark_delete_title">删除此书签？</string>
+    <string name="reader_bookmark_delete_body">%1$s 将从您的书签中移除。</string>
+    <string name="reader_page_current">第 %1$d 页，当前页</string>
+    <string name="reader_search_needs_continuous">搜索需要在连续滚动方式下使用。请在菜单中更改阅读方式。</string>
+    <string name="reader_discard_title">放弃更改？</string>
+    <string name="reader_discard_body">您在表单中输入或勾选的内容都会丢失。</string>
+    <string name="reader_brightness">亮度</string>
+    <string name="reader_brightness_percent">%1$d%%</string>
+    <string name="reader_info_unknown">未知</string>
+    <string name="sign_size_desc">签名大小</string>
+    <string name="sign_page_preview_desc">页面预览。点按签名应放的位置。</string>
+    <string name="scan_remove_title">移除此页？</string>
+    <string name="scan_remove_body">第 %1$d 页将从扫描中移除。</string>
+    <string name="images_picture_n">图片 %1$d</string>
+    <string name="pdf_to_images_dpi_value">%1$d dpi</string>
+    <string name="pdf_to_images_quality_desc">JPEG 质量</string>
+    <string name="document_fallback_name">document.pdf</string>
+
+    <!-- Progress labels, always paired with a spinner -->
+    <string name="progress_opening_document">正在打开文档…</string>
+    <string name="progress_loading_page">正在加载页面…</string>
+    <string name="progress_reading_pages">正在读取页面…</string>
+    <string name="progress_reading_folder">正在读取文件夹…</string>
+    <string name="progress_preparing_photo">正在准备照片…</string>
+    <string name="progress_building_pdf">正在生成 PDF…</string>
+
+    <!-- Language picker -->
+    <string name="settings_language">语言</string>
+    <string name="settings_language_system">跟随系统</string>
+
+    <!-- Welcome tour -->
+    <string name="tour_skip">跳过</string>
+    <string name="tour_next">下一步</string>
+    <string name="tour_start">开始</string>
+    <string name="tour_show_again">显示欢迎导览</string>
+    <string name="tour_show_again_summary">首次启动时的简短介绍。</string>
+    <string name="tour_welcome_title">Plain PDF</string>
+    <string name="tour_welcome_body">感谢您安装。阅读、签名、扫描和编辑 PDF，一切都在您的手机上完成。没有广告，没有账号，没有云端。</string>
+    <string name="tour_sign_title">签署文档</string>
+    <string name="tour_sign_body">只需写一次签名，放到页面上，再分享已签名的副本。不用打印，不用扫描。</string>
+    <string name="tour_scan_title">扫描与搜索</string>
+    <string name="tour_scan_body">拍一张页面的照片。边缘会自动找到，文字会被识别出来，PDF 就可以搜索和复制了。</string>
+    <string name="tour_edit_title">填写、涂画、高亮</string>
+    <string name="tour_edit_body">填写表单，在页面上涂画和高亮，添加或移除密码。所有工具都在打开的文档中同一个“工具”按钮里。</string>
+    <string name="tour_arrange_title">整理页面</string>
+    <string name="tour_arrange_body">合并文件、拆分文件、重排或旋转页面，并压缩大的 PDF。保存之前不会有任何改动。</string>
+
+    <!-- Draw and highlight -->
+    <string name="reader_annotate">涂画和高亮</string>
+    <string name="reader_annotate_desc">用画笔或荧光笔在页面上涂画</string>
+    <string name="reader_annotate_active">正在涂画和高亮</string>
+    <string name="reader_annotate_help">在页面上使用画笔或荧光笔，然后保存副本。</string>
+    <string name="reader_save_annotated">保存带标注的副本</string>
+    <string name="reader_annotated_saved">已保存带标注的副本</string>
+    <string name="reader_discard_annotations_body">您的涂画和高亮都会丢失。</string>
+
+    <!-- Text recognition -->
+    <string name="settings_group_ocr">文字识别</string>
+    <string name="settings_ocr_enabled">让扫描件可搜索</string>
+    <string name="settings_ocr_enabled_summary">识别扫描页面中的文字，以便您搜索和复制。每页需要几秒钟。</string>
+    <string name="settings_ocr_languages">语言</string>
+    <string name="settings_ocr_bundled">应用自带</string>
+    <string name="settings_ocr_imported">已导入</string>
+    <string name="settings_ocr_import">导入语言文件…</string>
+    <string name="settings_ocr_import_help">如果列表里没有您要的语言：从 tessdata_fast 项目下载该语言的 .traineddata 文件，然后在这里选择它。</string>
+    <string name="settings_ocr_get_languages">获取语言文件</string>
+    <string name="settings_ocr_imported_done">已导入语言</string>
+    <string name="settings_ocr_languages_help">扫描页面用哪些语言识别，以及如何添加更多语言</string>
+    <string name="scan_copy_text">复制文字</string>
+    <string name="scan_text_copied">已复制文字</string>
+    <string name="scan_searchable">可搜索：%1$s</string>
+    <string name="scan_recognising">正在识别文字，第 %1$d 页，共 %2$d 页</string>
+
+    <!-- Crash report, offered on the launch after a crash -->
+    <string name="crash_title">Plain PDF 上次意外退出了</string>
+    <string name="crash_body">很抱歉。要向开发者发送一份报告吗？报告只包含技术信息：应用版本、您的 Android 版本和手机型号，以及出错的位置。不含文档，不含姓名，不含文件。</string>
+    <string name="crash_send">发送报告</string>
+    <string name="crash_not_now">暂不</string>
+
+    <!-- Reader: print, read aloud, copy text -->
+    <string name="reader_print">打印</string>
+    <string name="reader_print_desc">把文档发送到打印机</string>
+    <string name="reader_print_unavailable">此设备无法打印。</string>
+    <string name="reader_read_aloud">朗读</string>
+    <string name="reader_read_aloud_desc">用手机的语音听文档</string>
+    <string name="reader_reading_page">正在朗读，第 %1$d 页</string>
+    <string name="action_pause">暂停</string>
+    <string name="action_resume">继续</string>
+    <string name="action_stop">停止</string>
+    <string name="reader_tts_no_voice">手机上还没有这种语言的语音。您可以在 Android 设置中添加。</string>
+    <string name="reader_tts_settings">设置</string>
+    <string name="reader_tts_no_text">此文档没有可朗读的文字。请开启文字识别后重新扫描。</string>
+    <string name="reader_copy_text">复制或分享文字</string>
+    <string name="reader_copy_text_desc">把文档里的文字复制为纯文本</string>
+    <string name="reader_text_copied">已复制文字</string>
+    <string name="action_copy">复制</string>
+    <string name="action_share_text">以文字分享</string>
+
+    <!-- Page numbers -->
+    <string name="tool_page_numbers">页码</string>
+    <string name="tool_page_numbers_desc">在每一页上加上页码</string>
+    <string name="page_numbers_position">位置</string>
+    <string name="page_numbers_bottom_centre">底部居中</string>
+    <string name="page_numbers_bottom_right">底部右侧</string>
+    <string name="page_numbers_top_right">顶部右侧</string>
+    <string name="page_numbers_style">编号方式</string>
+    <string name="page_numbers_start_at">起始页码</string>
+    <string name="page_numbers_show_total">显示为 1 / 12</string>
+    <string name="page_numbers_example">第一页显示：%1$s</string>
+
+    <!-- Make searchable -->
+    <string name="tool_make_searchable">让文档可搜索</string>
+    <string name="tool_make_searchable_desc">识别扫描版 PDF 中的文字，以便搜索和复制</string>
+    <string name="searchable_note">已经含有文字的页面保持不变。</string>
+    <string name="searchable_languages">语言：%1$s</string>
+    <string name="searchable_languages_hint">可在设置的“文字识别”中更改。</string>
+
+    <!-- Redact -->
+    <string name="tool_redact">涂黑</string>
+    <string name="tool_redact_desc">永久涂黑页面的某些部分</string>
+    <string name="redact_explain">涂黑的页面会转为图片，底下的内容无法恢复。这些页面的文字将不能再选中。</string>
+    <string name="redact_help">在页面上拖动以画出方框。点按方框可将其移除。</string>
+    <string name="redact_page_preview_desc">页面预览。拖动以在需要遮盖的地方画出方框。点按方框可将其移除。</string>
+    <plurals name="redact_box_count">
+        <item quantity="other">%1$d 个方框</item>
+    </plurals>
+    <plurals name="redact_page_count">
+        <item quantity="other">在 %1$d 页上</item>
+    </plurals>
+
+    <!-- Launcher shortcuts and the home-screen widget -->
+    <string name="shortcut_scan_short">扫描</string>
+    <string name="shortcut_scan_long">扫描文档</string>
+    <string name="shortcut_open_short">打开 PDF</string>
+    <string name="shortcut_open_long">打开 PDF</string>
+    <string name="widget_label">Plain PDF 快捷操作</string>
+    <string name="widget_description">一键扫描文档或打开 PDF。</string>
+    <string name="widget_scan">扫描文档</string>
+    <string name="widget_open">打开 PDF</string>
+    <string name="widget_scan_short">扫描</string>
+    <string name="widget_library">文库</string>
+
+    <!-- Continue reading, share a page, notes and share-sheet targets -->
+    <string name="library_continue_title">继续阅读</string>
+    <string name="library_continue_page">第 %1$d 页，共 %2$d 页</string>
+    <string name="library_continue_page_only">第 %1$d 页</string>
+    <string name="action_continue_reading">继续</string>
+    <string name="reader_share_page">分享此页</string>
+    <string name="reader_share_page_image">以图片分享</string>
+    <string name="reader_share_page_pdf">以单页 PDF 分享</string>
+    <string name="tool_note">写笔记</string>
+    <string name="tool_note_desc">输入文字并保存为 PDF</string>
+    <string name="note_title_hint">标题（可选）</string>
+    <string name="note_body_hint">在这里写笔记</string>
+    <string name="note_default_name">笔记</string>
+    <string name="shortcut_continue_long">继续：%1$s，第 %2$d 页</string>
+    <string name="shortcut_continue_gone">此文档已不在文库中</string>
+    <string name="share_target_sign">用 Plain PDF 签名</string>
+    <string name="share_target_scan">用 Plain PDF 扫描</string>
+    <string name="tour_edit_note_unavailable">填写表单、涂画和高亮需要 Android 12 或更新版本，并带有 Google 的 PDF 更新，而这部手机没有。其他所有工具都能用。</string>
+    <string name="tour_edit_note_no_drawing">涂画和高亮需要比这部手机更新的 Android。填写表单可以用。</string>
+
+    <!-- Languages for scanned text -->
+    <string name="ocr_languages_title">扫描文字的语言</string>
+    <string name="ocr_languages_intro">扫描页面会按勾选的语言识别。只勾选您会扫描的语言；每多一种语言，识别就会慢一点。</string>
+    <string name="ocr_languages_on_phone">这部手机上已有</string>
+    <string name="ocr_languages_get_more">获取更多语言</string>
+    <string name="ocr_languages_get_more_play">点按“获取”，Google Play 就会下载该语言。无需再做其他操作。</string>
+    <string name="ocr_languages_get_more_foss">此版本无法下载。请通过下方链接获取语言文件，然后导入。</string>
+    <string name="ocr_languages_tier_common">最常用</string>
+    <string name="ocr_languages_tier_nearby">周边国家</string>
+    <string name="ocr_languages_tier_other">更多</string>
+    <string name="ocr_languages_get">获取</string>
+    <string name="ocr_languages_downloading">正在下载…</string>
+    <string name="ocr_languages_installing">正在设置…</string>
+    <string name="ocr_languages_failed">无法下载。请检查网络连接后重试。</string>
+    <string name="ocr_languages_try_again">重试</string>
+    <string name="ocr_languages_downloaded">已下载</string>
+    <string name="ocr_languages_remove_title">移除%1$s？</string>
+    <string name="ocr_languages_remove_body">您随时可以再次获取。</string>
+    <string name="ocr_languages_ready">%1$s已准备好。现在可以识别该语言的扫描页面了。</string>
+    <string name="ocr_languages_keep_one">请至少保留一种勾选的语言。</string>
+    <string name="ocr_suggest_title">您的手机语言是%1$s</string>
+    <string name="ocr_suggest_body">获取%1$s语言包（%2$s），就能识别%1$s的扫描页面。</string>
+    <string name="ocr_suggest_get">获取%1$s</string>
+    <string name="ocr_suggest_later">暂不</string>
+    <string name="ocr_garbled_title">文字识别得不太好</string>
+    <string name="ocr_garbled_body">这一页的语言可能还没有安装到这部手机上。您可以在“设置”中添加语言。</string>
+    <string name="ocr_garbled_action">语言</string>
+</resources>

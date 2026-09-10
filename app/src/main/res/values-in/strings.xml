@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plain PDF</string>
+
+    <!-- Navigation -->
+    <string name="nav_library">Perpustakaan</string>
+    <string name="nav_tools">Alat</string>
+    <string name="action_back">Kembali</string>
+    <string name="action_cancel">Batal</string>
+    <string name="action_done">Selesai</string>
+
+    <!-- Library -->
+    <string name="library_tab_recent">Terbaru</string>
+    <string name="library_tab_folders">Folder</string>
+    <string name="library_tab_favourites">Favorit</string>
+    <string name="library_open_pdf">Buka PDF</string>
+    <string name="library_add_folder">Tambah folder</string>
+    <string name="library_empty_recent">Belum ada dokumen. Buka sebuah PDF untuk memulai.</string>
+    <string name="library_empty_folders">Belum ada folder. Tambahkan folder untuk melihat PDF di dalamnya.</string>
+    <string name="library_empty_favourites">Belum ada apa-apa di sini. Buka menu dokumen, tiga titik, lalu pilih Favorit.</string>
+    <string name="library_search">Cari</string>
+    <string name="library_more">Lainnya</string>
+    <string name="library_sort">Urutkan</string>
+    <string name="library_view_grid">Kisi</string>
+    <string name="library_view_list">Daftar</string>
+
+    <!-- Tools -->
+    <string name="tools_title">Alat</string>
+    <string name="tools_empty">Alat untuk menggabungkan, memisahkan, dan mengatur halaman ada di sini. Semuanya berjalan di perangkat ini.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Pengaturan</string>
+    <string name="settings_group_appearance">Tampilan</string>
+    <string name="settings_group_reading">Membaca</string>
+    <string name="settings_group_tools">Alat</string>
+    <string name="settings_group_library">Perpustakaan</string>
+    <string name="settings_group_about">Tentang</string>
+    <string name="settings_theme">Tema</string>
+    <string name="settings_accent">Warna aksen</string>
+    <string name="settings_dynamic_colour">Gunakan warna sistem</string>
+    <string name="settings_dynamic_colour_summary">Warna diambil dari wallpaper Anda</string>
+    <string name="settings_app_icon">Ikon aplikasi</string>
+    <string name="settings_reading_mode">Mode membaca bawaan</string>
+    <string name="settings_page_display">Tampilan halaman bawaan</string>
+    <string name="settings_keep_screen_on">Layar tetap menyala saat membaca</string>
+    <string name="settings_edge_brightness">Kecerahan dengan geser di tepi</string>
+    <string name="settings_edge_brightness_summary">Geser jari di tepi kiri untuk mengatur kecerahan</string>
+    <string name="settings_double_tap_zoom">Ketuk dua kali untuk memperbesar</string>
+    <string name="settings_volume_keys">Tombol volume membalik halaman</string>
+    <string name="settings_save_location">Tempat file baru disimpan</string>
+    <string name="settings_save_location_ask">Tanya setiap kali</string>
+    <string name="settings_save_location_choose">Pilih folder</string>
+    <string name="settings_output_naming">Cara file baru diberi nama</string>
+    <string name="settings_output_naming_help">{name} adalah nama file asal, {op} adalah jenis pekerjaannya, misalnya merged atau pages_1-4.</string>
+    <string name="settings_language_summary">Bahasa menu dan tombol aplikasi.</string>
+    <string name="settings_theme_summary">Tampilan terang atau gelap untuk aplikasinya sendiri. Halaman tetap dengan warnanya.</string>
+    <string name="settings_accent_summary">Warna tombol dan kontrol lain di aplikasi.</string>
+    <string name="settings_app_icon_summary">Tampilan Plain PDF di layar utama Anda.</string>
+    <string name="settings_highlight_summary">Warna penanda hasil saat Anda mencari di dalam dokumen.</string>
+    <string name="settings_reading_mode_summary">Gulir halaman secara terus-menerus, atau balik satu halaman setiap kali.</string>
+    <string name="settings_page_display_summary">Tampilkan halaman apa adanya, diredupkan untuk malam, sepia, atau abu-abu.</string>
+    <string name="settings_keep_screen_on_summary">Layar tetap menyala selama dokumen terbuka.</string>
+    <string name="settings_double_tap_zoom_summary">Ketuk halaman dua kali untuk memperbesar, dan dua kali lagi untuk kembali.</string>
+    <string name="settings_volume_keys_summary">Tekan tombol volume untuk ke halaman berikutnya atau sebelumnya.</string>
+    <string name="settings_save_location_summary">File gabungan, pisahan, pindaian, dan file baru lainnya disimpan di sini. File asli Anda tetap di tempatnya.</string>
+    <string name="settings_save_location_ask_summary">Setiap alat menanyakan folder sebelum menyimpan.</string>
+    <string name="settings_save_location_folder">Selalu di %1$s</string>
+    <string name="settings_save_location_choose_summary">Pilih folder di ponsel ini. File baru selalu disimpan di sana.</string>
+    <string name="settings_output_naming_summary">Menggabungkan %1$s menghasilkan %2$s. File asli tetap dengan namanya.</string>
+    <string name="naming_sample_name">Kontrak</string>
+    <string name="naming_style_name_op">Nama asli, lalu apa yang dilakukan</string>
+    <string name="naming_style_op_name">Apa yang dilakukan, lalu nama asli</string>
+    <string name="naming_style_custom">Pola sendiri</string>
+    <string name="naming_style_custom_summary">Tulis sendiri, dengan {name} dan {op}.</string>
+    <string name="settings_confirm_overwrite_summary">Bertanya sebelum alat mengganti file asli dengan versi yang diubah.</string>
+    <string name="settings_default_sort_summary">Urutan dokumen di Perpustakaan.</string>
+    <string name="settings_source_summary">Plain PDF bersumber terbuka: siapa pun bisa membaca cara kerjanya dan mengembangkannya.</string>
+    <string name="settings_licence_summary">Bebas dipakai, dibagikan, dan diperbaiki, dengan satu syarat: tetap gratis untuk semua.</string>
+    <string name="settings_confirm_overwrite">Tanya dulu sebelum menimpa file asli</string>
+    <string name="settings_default_sort">Urutan bawaan</string>
+    <string name="settings_clear_recents">Hapus daftar terbaru</string>
+    <string name="settings_clear_thumbnails">Hapus pratinjau yang tersimpan</string>
+    <string name="settings_version">Versi</string>
+    <string name="settings_source">Kode sumber</string>
+    <string name="settings_licence">Lisensi</string>
+    <string name="settings_licence_value">GNU GPL v3</string>
+    <string name="settings_feedback">Sarankan fitur atau laporkan masalah</string>
+    <string name="settings_feedback_summary">Membuka aplikasi email Anda dengan pesan untuk pengembang. Setiap pesan dibaca.</string>
+    <string name="feedback_subject">Plain PDF: sebuah saran</string>
+    <string name="settings_supporter">Pendukung</string>
+    <string name="settings_supporter_summary">Gratis, tanpa iklan. Jika aplikasi ini membantu Anda, di sini Anda bisa mengucapkan terima kasih.</string>
+    <string name="settings_supporter_active">Anda seorang Pendukung. Terima kasih telah membantu menjaga Plain PDF tetap gratis.</string>
+    <string name="settings_supporter_active_gift">Terima kasih atas hadiah Anda. Paket Pendukung milik Anda.</string>
+    <string name="settings_donate">Donasi</string>
+    <string name="settings_locked">Pendukung</string>
+
+    <string name="theme_system">Sistem</string>
+    <string name="theme_light">Terang</string>
+    <string name="theme_dark">Gelap</string>
+    <string name="theme_black">Hitam</string>
+    <string name="theme_sepia">Sepia</string>
+
+    <string name="accent_teal">Toska</string>
+    <string name="accent_amber">Kuning amber</string>
+    <string name="accent_crimson">Merah tua</string>
+    <string name="accent_indigo">Nila</string>
+    <string name="accent_violet">Ungu</string>
+    <string name="accent_forest">Hijau hutan</string>
+    <string name="accent_slate">Abu-abu kebiruan</string>
+
+    <string name="reading_mode_continuous">Gulir terus-menerus</string>
+    <string name="reading_mode_paged">Halaman per halaman</string>
+
+    <string name="page_display_normal">Normal</string>
+    <string name="page_display_night">Malam</string>
+    <string name="page_display_sepia">Sepia</string>
+    <string name="page_display_grayscale">Abu-abu</string>
+
+    <string name="sort_recently_opened">Terakhir dibuka</string>
+    <string name="sort_recently_added">Terakhir ditambahkan</string>
+    <string name="sort_name">Nama</string>
+    <string name="sort_size">Ukuran</string>
+
+    <!-- Supporter -->
+    <string name="supporter_title">Pendukung</string>
+    <string name="supporter_intro">Plain PDF gratis dan tanpa iklan, dan semua fitur berfungsi tanpa membayar. Jika aplikasi ini membantu Anda, di sinilah tempat untuk mengucapkan terima kasih. Sebagai balasannya Anda mendapat beberapa warna dan ikon, serta rasa terima kasih kami.</string>
+    <string name="supporter_grants_title">Yang Anda dapatkan</string>
+    <string name="supporter_grant_accents">Enam warna aksen</string>
+    <string name="supporter_grant_icons">Tiga ikon aplikasi tambahan</string>
+    <string name="supporter_grant_highlights">Pilihan warna sorotan tambahan</string>
+    <string name="supporter_grant_about">Baris Pendukung di halaman Tentang</string>
+    <string name="supporter_unlock">Jadi Pendukung</string>
+    <string name="supporter_tips_title">Beri lagi</string>
+    <string name="supporter_tips_summary">Tidak wajib. Jika nanti Anda ingin memberi lagi, di sinilah tempatnya. Tidak membuka apa pun yang baru; hanya mengucapkan terima kasih.</string>
+    <string name="supporter_restore">Pulihkan pembelian</string>
+    <string name="supporter_restore_found">Pembelian Anda sudah kembali. Terima kasih.</string>
+    <string name="supporter_restore_none">Tidak ditemukan paket Pendukung untuk akun Google ini. Hadiah tidak meninggalkan catatan, jadi tidak bisa dipulihkan.</string>
+    <string name="supporter_unavailable">Google Play saat ini tidak bisa menerima pembayaran di ponsel ini. Tidak ada yang hilang; aplikasi tetap gratis.</string>
+    <string name="supporter_thanks">Anda seorang Pendukung. Terima kasih telah membantu menjaga Plain PDF tetap gratis.</string>
+    <string name="supporter_donate_intro">Plain PDF gratis dan tanpa iklan, dan semua fitur berfungsi tanpa membayar. Jika aplikasi ini membantu Anda, Anda bisa mendukung kerja di baliknya.</string>
+    <string name="supporter_donate_button">Buka halaman donasi</string>
+    <string name="supporter_grant_future">Warna dan ikon baru yang ditambahkan nanti, tanpa biaya tambahan</string>
+    <string name="supporter_tips_title_first">Atau beri tip</string>
+    <string name="supporter_tips_summary_first">Berapa pun jumlahnya berarti terima kasih.</string>
+    <string name="supporter_tip_unlocks_note">Juga membuka paket Pendukung</string>
+    <string name="supporter_gift_title">Terima kasih atas hadiah Anda</string>
+    <string name="supporter_gift_body">Anda memberi tip, dan paket Pendukung juga menjadi milik Anda: semua warna, ikon, dan set warna sorotan sudah terbuka. Tidak perlu membeli paketnya.</string>
+    <string name="supporter_gift_note">Hadiah tidak meninggalkan catatan di Google Play, jadi paket ini diingat di ponsel ini.</string>
+    <string name="supporter_snack_gift">Terima kasih atas hadiah Anda.</string>
+    <string name="supporter_snack_unlock">Terima kasih. Anda sekarang seorang Pendukung.</string>
+    <string name="supporter_problem_connection">Google Play tidak menjawab. Pastikan Anda sudah masuk di aplikasi Play Store, lalu kembali lagi. Tidak ada yang hilang; aplikasi tetap gratis.</string>
+    <string name="supporter_problem_listing">Google Play belum mencantumkan item Pendukung. Coba lagi nanti. Tidak ada yang hilang; aplikasi tetap gratis.</string>
+    <string name="supporter_problem_region">Google Play belum menawarkan item ini di negara Anda. Tidak ada yang hilang; aplikasi tetap gratis.</string>
+
+    <!-- Reader -->
+    <string name="reader_page_of">%1$d / %2$d</string>
+    <string name="reader_error_open">File ini tidak bisa dibuka. Mungkin sudah dipindahkan atau dihapus.</string>
+    <string name="reader_locate_again">Cari file lagi</string>
+    <string name="reader_not_saved">Belum disimpan</string>
+
+    <!-- Library, M2 -->
+    <string name="library_search_hint">Cari dokumen</string>
+    <string name="library_no_matches">Tidak ada yang cocok dengan pencarian itu.</string>
+    <string name="library_page_of">Halaman %1$d dari %2$d</string>
+    <string name="library_file_unavailable">File tidak tersedia</string>
+    <string name="library_deleted">File dihapus</string>
+    <string name="library_delete_failed">File ini tidak bisa dihapus. Aplikasi pemiliknya tidak mengizinkan.</string>
+    <string name="library_delete_title">Hapus file?</string>
+    <string name="library_delete_body">%1$s akan dihapus dari penyimpanan. Ini tidak bisa dibatalkan.</string>
+    <string name="library_rename_help">Hanya mengubah nama yang ditampilkan di Plain PDF. Nama file tidak berubah.</string>
+    <string name="library_folder_failed">Folder itu tidak bisa ditambahkan. Pilih lagi dan izinkan aksesnya.</string>
+    <string name="library_folder_unavailable">Folder ini tidak bisa dibaca lagi. Mungkin sudah dipindahkan, atau penyimpanannya dilepas.</string>
+    <string name="library_folder_empty">Belum ada PDF di folder ini.</string>
+    <string name="library_remove_folder_body">Berhenti memantau folder ini? File yang pernah Anda buka atau jadikan favorit tetap ada di perpustakaan.</string>
+    <string name="action_favourite">Favorit</string>
+    <string name="action_unfavourite">Hapus dari favorit</string>
+    <string name="action_rename_label">Ubah nama label</string>
+    <string name="action_share">Bagikan</string>
+    <string name="action_organise_pages">Atur halaman</string>
+    <string name="action_remove_from_recents">Hapus dari daftar terbaru</string>
+    <string name="action_delete_file">Hapus file</string>
+    <string name="action_remove_folder">Hapus folder</string>
+    <string name="action_refresh">Segarkan</string>
+    <string name="action_clear">Bersihkan</string>
+
+    <!-- Reader, M3 -->
+    <string name="reader_search">Cari di dokumen</string>
+    <string name="reader_search_hint">Cari di dokumen</string>
+    <string name="reader_search_count">%1$d dari %2$d</string>
+    <string name="reader_search_none">Tidak ada yang cocok</string>
+    <string name="reader_search_previous">Hasil sebelumnya</string>
+    <string name="reader_search_next">Hasil berikutnya</string>
+    <string name="reader_outline">Halaman</string>
+    <string name="reader_pages_title">%1$d halaman</string>
+    <string name="reader_jump_to_page">Lompat ke halaman</string>
+    <string name="reader_jump_hint">1 sampai %1$d</string>
+    <string name="reader_go">Buka</string>
+    <string name="reader_add_bookmark">Tambah penanda</string>
+    <string name="reader_add_bookmark_title">Tandai halaman %1$d</string>
+    <string name="reader_bookmark_label">Nama penanda</string>
+    <string name="reader_bookmark_label_help">Tidak wajib. Biarkan kosong untuk menampilkan nomor halaman.</string>
+    <string name="reader_bookmark_added">Penanda ditambahkan</string>
+    <string name="reader_bookmarks">Penanda</string>
+    <string name="reader_bookmarks_empty">Belum ada penanda. Pilih Tambah penanda dari menu untuk menandai halaman.</string>
+    <string name="reader_page_n">Halaman %1$d</string>
+    <string name="reader_page_display">Tampilan halaman</string>
+    <string name="reader_reading_mode">Mode membaca</string>
+    <string name="reader_keep_screen_on">Layar tetap menyala</string>
+    <string name="reader_document_info">Info dokumen</string>
+    <string name="reader_info_name">Nama</string>
+    <string name="reader_info_pages">Halaman</string>
+    <string name="reader_info_size">Ukuran</string>
+    <string name="reader_info_location">Lokasi</string>
+    <string name="action_delete">Hapus</string>
+
+    <!-- Tools, M4 -->
+    <string name="tools_recent_output">Hasil terbaru</string>
+    <string name="tool_organise">Atur halaman</string>
+    <string name="tool_organise_desc">Putar, hapus, susun ulang, ambil, atau gandakan halaman</string>
+    <string name="tool_merge">Gabungkan</string>
+    <string name="tool_merge_desc">Satukan beberapa PDF menjadi satu, dengan urutan pilihan Anda</string>
+    <string name="tool_split">Pisahkan</string>
+    <string name="tool_split_desc">Pecah satu PDF menjadi beberapa, berdasarkan rentang halaman atau dengan jumlah halaman yang sama untuk masing-masing</string>
+    <string name="tool_images_to_pdf">Gambar ke PDF</string>
+    <string name="tool_images_to_pdf_desc">Ubah foto dan hasil pindaian menjadi satu PDF</string>
+    <string name="tool_pdf_to_images">PDF ke gambar</string>
+    <string name="tool_pdf_to_images_desc">Simpan halaman sebagai file PNG atau JPEG</string>
+    <string name="tool_password">Kata sandi</string>
+    <string name="tool_password_desc">Tambah, ubah, atau hapus kata sandi</string>
+    <string name="action_open">Buka</string>
+    <string name="action_continue">Lanjutkan</string>
+    <string name="action_undo">Urungkan</string>
+    <string name="action_redo">Ulangi</string>
+    <string name="action_select_all">Pilih semua</string>
+    <string name="organise_pages_count">%1$d halaman</string>
+    <string name="organise_changes">%1$d perubahan</string>
+    <string name="organise_selected">%1$d dipilih</string>
+    <string name="organise_rotate_left">Putar ke kiri</string>
+    <string name="organise_rotate_right">Putar ke kanan</string>
+    <string name="organise_restore">Kembalikan</string>
+    <string name="organise_extract">Ambil ke file baru</string>
+    <string name="organise_duplicate">Gandakan</string>
+    <string name="organise_page_desc">Halaman %1$d</string>
+    <string name="organise_page_selected">Halaman %1$d, dipilih</string>
+    <string name="organise_page_deleted">Halaman %1$d, ditandai untuk dihapus</string>
+    <string name="ops_save_as_new">Simpan sebagai file baru</string>
+    <string name="ops_overwrite">Timpa file asli</string>
+    <string name="ops_overwrite_title">Timpa file asli?</string>
+    <string name="ops_overwrite_body">%1$s akan diganti dengan versi yang sudah diatur. Setelah ditulis, perubahan ini tidak bisa dibatalkan.</string>
+    <string name="ops_saved_one">Tersimpan: %1$s</string>
+    <string name="ops_saved_many">%1$d file tersimpan</string>
+    <string name="ops_and_more">dan %1$d lainnya</string>
+    <string name="ops_failed_title">Itu tidak berhasil</string>
+    <string name="ops_try_other_location">Coba lokasi lain</string>
+    <string name="ops_password_title">Perlu kata sandi</string>
+    <string name="ops_password_body">%1$s dilindungi. Masukkan kata sandinya untuk melanjutkan. Kata sandi dipakai sekali dan tidak disimpan.</string>
+    <string name="ops_password_wrong">Kata sandi itu tidak bisa membuka dokumen.</string>
+    <string name="ops_password_needed">Dokumen ini perlu kata sandinya sebelum halaman bisa ditampilkan.</string>
+    <string name="ops_error_password">Dokumen ini dilindungi kata sandi. Masukkan kata sandinya dan coba lagi.</string>
+    <string name="ops_error_assembly">Pemilik dokumen ini tidak mengizinkan halamannya disusun ulang. Plain PDF tidak akan melanggarnya.</string>
+    <string name="ops_error_corrupt">File ini tidak bisa dibaca. Mungkin rusak.</string>
+    <string name="ops_error_oom">Dokumen ini terlalu besar untuk memori ponsel. Biasanya berhasil jika dipisah dulu menjadi bagian yang lebih kecil.</string>
+    <string name="ops_error_destination">File tidak bisa ditulis di sana. Tidak ada yang dihapus. Coba lokasi lain.</string>
+    <string name="ops_error_cancelled">Dibatalkan. File asli Anda tidak tersentuh.</string>
+    <string name="ops_error_unknown">Terjadi kesalahan. File asli Anda tidak tersentuh.</string>
+    <string name="ops_notification_working">Sedang mengerjakan dokumen Anda</string>
+    <string name="ops_channel_name">Pekerjaan dokumen</string>
+    <plurals name="ops_pages">
+        <item quantity="one">%1$d halaman</item>
+        <item quantity="other">%1$d halaman</item>
+    </plurals>
+
+    <!-- Tools, M5 -->
+    <string name="tool_input_document">Dokumen</string>
+    <string name="tool_choose_pdf">Pilih PDF</string>
+    <string name="action_change">Ubah</string>
+    <string name="action_remove">Hapus</string>
+    <string name="action_move_up">Pindah ke atas</string>
+    <string name="action_move_down">Pindah ke bawah</string>
+    <string name="merge_documents">Dokumen, sesuai urutan hasil</string>
+    <string name="merge_empty">Tambahkan dua PDF atau lebih. Digabungkan dari atas ke bawah.</string>
+    <string name="merge_add_file">Tambah file</string>
+    <string name="merge_reading">Membaca…</string>
+    <string name="merge_total">%1$d halaman dalam hasil</string>
+    <string name="merge_selected_pages">%1$d halaman dipilih</string>
+    <string name="merge_choose_pages">Pilih halaman</string>
+    <string name="merge_pages_chosen">Halaman: %1$s</string>
+    <string name="merge_range_label">Halaman yang disertakan</string>
+    <string name="split_mode">Cara memisahkan</string>
+    <string name="split_by_ranges">Berdasarkan rentang halaman</string>
+    <string name="split_every_n">Jumlah halaman yang sama</string>
+    <string name="split_extract">Ambil pilihan</string>
+    <string name="split_extract_help">Pilih halaman secara visual di pengatur halaman lalu simpan sebagai file baru.</string>
+    <string name="split_open_organiser">Buka pengatur halaman</string>
+    <string name="split_ranges_hint">1-4, 8, 12-20</string>
+    <string name="split_ranges_help">Satu file per rentang. Pisahkan rentang dengan koma.</string>
+    <string name="split_pages_per_file">Halaman per file</string>
+    <string name="split_preview">%1$d file: %2$s</string>
+    <string name="split_save_to_folder">Simpan file ke folder</string>
+    <string name="ranges_error_empty">Masukkan setidaknya satu halaman.</string>
+    <string name="ranges_error_bad">%1$s bukan nomor halaman atau rentang seperti 3-5.</string>
+    <string name="ranges_error_out_of_range">%1$s di luar rentang 1 sampai %2$d.</string>
+    <string name="ranges_error_reversed">%1$s urutannya terbalik.</string>
+    <string name="images_count">%1$d gambar</string>
+    <string name="images_add">Tambah gambar</string>
+    <string name="images_camera">Ambil foto</string>
+    <string name="images_empty">Tambahkan foto atau hasil pindaian. Gunakan panah pada gambar untuk mengubah urutannya.</string>
+    <string name="images_page">Halaman</string>
+    <string name="images_fit_image">Sesuai ukuran gambar</string>
+    <string name="images_a4">A4</string>
+    <string name="images_letter">Letter</string>
+    <string name="images_fit">Pas</string>
+    <string name="images_fill">Penuh</string>
+    <string name="images_margin_none">Tanpa margin</string>
+    <string name="images_margin_small">Margin kecil</string>
+    <string name="images_margin_medium">Margin sedang</string>
+    <string name="pdf_to_images_pages">Halaman</string>
+    <string name="pdf_to_images_all_pages">Semua halaman</string>
+    <string name="pdf_to_images_range_help">%1$d halaman akan disimpan.</string>
+    <string name="pdf_to_images_format">Format</string>
+    <string name="pdf_to_images_quality">Kualitas JPEG %1$d</string>
+    <string name="pdf_to_images_dpi">Resolusi</string>
+    <string name="pdf_to_images_encrypted">Dokumen ini dilindungi kata sandi. Hapus dulu kata sandinya dengan alat Kata sandi.</string>
+    <string name="pdf_to_images_many_title">Simpan %1$d halaman?</string>
+    <string name="pdf_to_images_many_body">Itu berarti %1$d file gambar. Mungkin butuh waktu dan memakai banyak ruang penyimpanan.</string>
+    <string name="password_what">Apa yang dilakukan</string>
+    <string name="password_explain">Kata sandi mencegah siapa pun membuka dokumen tanpa kata sandi itu. Simpan di tempat yang aman: jika lupa, kata sandi tidak bisa dipulihkan.</string>
+    <string name="password_add">Tambah kata sandi</string>
+    <string name="password_change">Ubah kata sandi</string>
+    <string name="password_remove">Hapus kata sandi</string>
+    <string name="password_new">Kata sandi baru</string>
+    <string name="password_confirm">Ulangi kata sandi</string>
+    <string name="password_mismatch">Kata sandi tidak sama.</string>
+
+    <!-- Supporter cosmetics, M6 -->
+    <string name="settings_highlight">Sorotan pencarian</string>
+    <string name="highlight_accent">Warna aksen</string>
+    <string name="highlight_amber">Kuning amber</string>
+    <string name="highlight_rose">Merah muda</string>
+    <string name="highlight_sky">Biru langit</string>
+    <string name="app_icon_default">Bawaan</string>
+    <string name="app_icon_mono">Satu warna</string>
+    <string name="app_icon_paper">Kertas</string>
+    <string name="app_icon_night">Malam</string>
+
+    <!-- Reader tools entry -->
+    <string name="reader_tools_section">Alat untuk dokumen ini</string>
+    <string name="reader_tool_merge">Gabungkan dengan PDF lain</string>
+
+    <!-- Reader tools button, form filling, sign -->
+    <string name="reader_tools_button">Alat</string>
+    <string name="reader_fill_form">Isi formulir</string>
+    <string name="reader_fill_active">Mengisi formulir</string>
+    <string name="reader_fill_desc">Ketuk kolom di halaman untuk mengetik, mencentang, atau memilih. Lalu simpan salinannya.</string>
+    <string name="reader_save_filled">Simpan formulir yang sudah diisi</string>
+    <string name="reader_fill_saved">Formulir yang sudah diisi tersimpan</string>
+    <string name="tool_sign">Tanda tangan</string>
+    <string name="tool_sign_desc">Gambar tanda tangan dan letakkan di halaman</string>
+    <string name="sign_draw_title">Gambar tanda tangan Anda</string>
+    <string name="sign_draw_help">Gunakan jari atau stilus. Tanda tangan disimpan ke dalam dokumen sebagai gambar, tidak dikirim ke mana pun.</string>
+    <string name="sign_clear">Bersihkan</string>
+    <string name="sign_next">Letakkan di halaman</string>
+    <string name="sign_back">Gambar ulang</string>
+    <string name="sign_place_title">Ketuk tempat tanda tangan diletakkan, atau seret. Pilih halaman di bawah.</string>
+    <string name="sign_size">Ukuran</string>
+    <string name="sign_ink_black">Tinta hitam</string>
+    <string name="sign_ink_blue">Tinta biru</string>
+
+    <!-- Scan -->
+    <string name="library_scan">Pindai dokumen</string>
+    <string name="scan_title">Pindai</string>
+    <string name="scan_share">Bagikan PDF</string>
+    <string name="scan_add_page">Tambah halaman lagi</string>
+    <string name="scan_save_to_folder">Simpan salinan ke folder</string>
+
+    <!-- Crop and cleanup -->
+    <string name="crop_title">Sesuaikan pindaian</string>
+    <string name="crop_help">Seret sudut-sudutnya ke tepi halaman. Putar jika halaman miring.</string>
+    <string name="crop_rotate">Putar</string>
+    <string name="crop_look_color">Berwarna</string>
+    <string name="crop_look_gray">Abu-abu</string>
+    <string name="crop_look_bw">Hitam &amp; putih</string>
+    <string name="crop_use">Pakai ini</string>
+    <string name="crop_working">Memproses…</string>
+    <string name="crop_adjust">Sesuaikan</string>
+
+    <!-- Compress -->
+    <string name="tool_compress">Perkecil</string>
+    <string name="tool_compress_desc">Perkecil PDF dengan mengecilkan gambar di dalamnya</string>
+    <string name="compress_current_size">Ukuran saat ini: %1$s</string>
+    <string name="compress_how_much">Seberapa banyak</string>
+    <string name="compress_explain">Hanya gambar yang diubah. Teks dan garis tetap persis sama, jadi dokumen terbaca sama seperti sebelumnya.</string>
+    <string name="compress_level_light">Ringan. Gambar mempertahankan hampir semua detailnya.</string>
+    <string name="compress_level_balanced">Seimbang. Cocok untuk dikirim lewat email.</string>
+    <string name="compress_level_strong">Kuat. File paling kecil, gambar terlihat lebih lembut.</string>
+
+    <!-- Accessibility affordances: visible buttons for long-press and swipe actions -->
+    <string name="library_more_options_for">Pilihan lainnya untuk %1$s</string>
+    <string name="action_rename">Ubah nama</string>
+    <string name="action_discard">Buang</string>
+    <string name="action_keep_editing">Lanjut menyunting</string>
+    <string name="action_move_earlier">Pindah ke depan</string>
+    <string name="action_move_later">Pindah ke belakang</string>
+    <string name="reader_bookmark_delete_title">Hapus penanda ini?</string>
+    <string name="reader_bookmark_delete_body">%1$s akan dihapus dari penanda Anda.</string>
+    <string name="reader_page_current">Halaman %1$d, halaman saat ini</string>
+    <string name="reader_search_needs_continuous">Pencarian berfungsi dalam mode gulir terus-menerus. Ubah mode membaca dari menu.</string>
+    <string name="reader_discard_title">Buang perubahan Anda?</string>
+    <string name="reader_discard_body">Semua yang Anda ketik atau centang di formulir akan hilang.</string>
+    <string name="reader_brightness">Kecerahan</string>
+    <string name="reader_brightness_percent">%1$d%%</string>
+    <string name="reader_info_unknown">Tidak diketahui</string>
+    <string name="sign_size_desc">Ukuran tanda tangan</string>
+    <string name="sign_page_preview_desc">Pratinjau halaman. Ketuk tempat tanda tangan diletakkan.</string>
+    <string name="scan_remove_title">Hapus halaman ini?</string>
+    <string name="scan_remove_body">Halaman %1$d akan dikeluarkan dari pindaian.</string>
+    <string name="images_picture_n">Gambar %1$d</string>
+    <string name="pdf_to_images_dpi_value">%1$d dpi</string>
+    <string name="pdf_to_images_quality_desc">Kualitas JPEG</string>
+    <string name="document_fallback_name">dokumen.pdf</string>
+
+    <!-- Progress labels, always paired with a spinner -->
+    <string name="progress_opening_document">Membuka dokumen…</string>
+    <string name="progress_loading_page">Memuat halaman…</string>
+    <string name="progress_reading_pages">Membaca halaman…</string>
+    <string name="progress_reading_folder">Membaca folder…</string>
+    <string name="progress_preparing_photo">Menyiapkan foto…</string>
+    <string name="progress_building_pdf">Membuat PDF…</string>
+
+    <!-- Language picker -->
+    <string name="settings_language">Bahasa</string>
+    <string name="settings_language_system">Bawaan sistem</string>
+
+    <!-- Welcome tour -->
+    <string name="tour_skip">Lewati</string>
+    <string name="tour_next">Lanjut</string>
+    <string name="tour_start">Mulai</string>
+    <string name="tour_show_again">Tampilkan tur sambutan</string>
+    <string name="tour_show_again_summary">Pengenalan singkat dari pembukaan pertama.</string>
+    <string name="tour_welcome_title">Plain PDF</string>
+    <string name="tour_welcome_body">Terima kasih telah memasang aplikasi ini. Baca, tanda tangani, pindai, dan edit PDF, semuanya di ponsel Anda. Tanpa iklan, tanpa akun, tanpa cloud.</string>
+    <string name="tour_sign_title">Tanda tangani dokumen</string>
+    <string name="tour_sign_body">Gambar tanda tangan Anda sekali, letakkan di halaman, lalu bagikan salinan yang sudah ditandatangani. Tanpa mencetak, tanpa memindai.</string>
+    <string name="tour_scan_title">Pindai dan cari</string>
+    <string name="tour_scan_body">Potret sebuah halaman. Tepinya ditemukan untuk Anda, teksnya dikenali, dan PDF-nya bisa dicari dan disalin.</string>
+    <string name="tour_edit_title">Isi, gambar, tandai</string>
+    <string name="tour_edit_body">Isi formulir, gambar dan tandai di halaman, tambah atau hapus kata sandi. Semua alat ada di balik satu tombol Alat di dokumen yang terbuka.</string>
+    <string name="tour_arrange_title">Atur halaman</string>
+    <string name="tour_arrange_body">Gabungkan file, pisahkan, susun ulang atau putar halaman, dan perkecil PDF yang besar. Tidak ada yang berubah sampai Anda menyimpan.</string>
+
+    <!-- Draw and highlight -->
+    <string name="reader_annotate">Gambar dan tandai</string>
+    <string name="reader_annotate_desc">Gambar dengan pena atau stabilo di halaman</string>
+    <string name="reader_annotate_active">Menggambar dan menandai</string>
+    <string name="reader_annotate_help">Gunakan pena atau stabilo di halaman, lalu simpan salinannya.</string>
+    <string name="reader_save_annotated">Simpan salinan beranotasi</string>
+    <string name="reader_annotated_saved">Salinan beranotasi tersimpan</string>
+    <string name="reader_discard_annotations_body">Gambar dan tanda Anda akan hilang.</string>
+
+    <!-- Text recognition -->
+    <string name="settings_group_ocr">Pengenalan teks</string>
+    <string name="settings_ocr_enabled">Buat pindaian bisa dicari</string>
+    <string name="settings_ocr_enabled_summary">Mengenali teks di halaman pindaian agar bisa Anda cari dan salin. Butuh beberapa detik per halaman.</string>
+    <string name="settings_ocr_languages">Bahasa</string>
+    <string name="settings_ocr_bundled">Sudah ada di aplikasi</string>
+    <string name="settings_ocr_imported">Diimpor</string>
+    <string name="settings_ocr_import">Impor file bahasa…</string>
+    <string name="settings_ocr_import_help">Untuk bahasa yang tidak ada di daftar: unduh file .traineddata bahasa itu dari proyek tessdata_fast, lalu pilih di sini.</string>
+    <string name="settings_ocr_get_languages">Dapatkan file bahasa</string>
+    <string name="settings_ocr_imported_done">Bahasa diimpor</string>
+    <string name="settings_ocr_languages_help">Bahasa apa saja yang dipakai untuk membaca halaman pindaian, dan cara menambahnya</string>
+    <string name="scan_copy_text">Salin teks</string>
+    <string name="scan_text_copied">Teks disalin</string>
+    <string name="scan_searchable">Bisa dicari: %1$s</string>
+    <string name="scan_recognising">Mengenali teks, halaman %1$d dari %2$d</string>
+
+    <!-- Crash report, offered on the launch after a crash -->
+    <string name="crash_title">Plain PDF berhenti tiba-tiba terakhir kali</string>
+    <string name="crash_body">Maaf atas kejadian ini. Ingin mengirim laporan ke pengembang? Isinya hanya detail teknis: versi aplikasi, versi Android dan model ponsel Anda, serta di mana kesalahan terjadi. Tanpa dokumen, tanpa nama, tanpa file.</string>
+    <string name="crash_send">Kirim laporan</string>
+    <string name="crash_not_now">Nanti saja</string>
+
+    <!-- Reader: print, read aloud, copy text -->
+    <string name="reader_print">Cetak</string>
+    <string name="reader_print_desc">Kirim dokumen ke printer</string>
+    <string name="reader_print_unavailable">Pencetakan tidak tersedia di perangkat ini.</string>
+    <string name="reader_read_aloud">Bacakan</string>
+    <string name="reader_read_aloud_desc">Dengarkan dokumen dengan suara ponsel</string>
+    <string name="reader_reading_page">Sedang dibacakan, halaman %1$d</string>
+    <string name="action_pause">Jeda</string>
+    <string name="action_resume">Lanjutkan</string>
+    <string name="action_stop">Berhenti</string>
+    <string name="reader_tts_no_voice">Belum ada suara untuk bahasa ini di ponsel. Anda bisa menambahkannya di pengaturan Android.</string>
+    <string name="reader_tts_settings">Pengaturan</string>
+    <string name="reader_tts_no_text">Dokumen ini tidak punya teks untuk dibaca. Pindai dengan pengenalan teks yang aktif.</string>
+    <string name="reader_copy_text">Salin atau bagikan teks</string>
+    <string name="reader_copy_text_desc">Salin kata-kata dari dokumen sebagai teks biasa</string>
+    <string name="reader_text_copied">Teks disalin</string>
+    <string name="action_copy">Salin</string>
+    <string name="action_share_text">Bagikan sebagai teks</string>
+
+    <!-- Page numbers -->
+    <string name="tool_page_numbers">Nomor halaman</string>
+    <string name="tool_page_numbers_desc">Beri nomor di setiap halaman</string>
+    <string name="page_numbers_position">Posisi</string>
+    <string name="page_numbers_bottom_centre">Bawah tengah</string>
+    <string name="page_numbers_bottom_right">Bawah kanan</string>
+    <string name="page_numbers_top_right">Atas kanan</string>
+    <string name="page_numbers_style">Penomoran</string>
+    <string name="page_numbers_start_at">Mulai dari</string>
+    <string name="page_numbers_show_total">Tampilkan sebagai 1 / 12</string>
+    <string name="page_numbers_example">Halaman pertama berbunyi: %1$s</string>
+
+    <!-- Make searchable -->
+    <string name="tool_make_searchable">Buat bisa dicari</string>
+    <string name="tool_make_searchable_desc">Kenali teks di PDF hasil pindaian agar bisa dicari dan disalin</string>
+    <string name="searchable_note">Halaman yang sudah berisi teks dibiarkan apa adanya.</string>
+    <string name="searchable_languages">Bahasa: %1$s</string>
+    <string name="searchable_languages_hint">Ubah di Pengaturan, di bagian Pengenalan teks.</string>
+
+    <!-- Redact -->
+    <string name="tool_redact">Hitamkan</string>
+    <string name="tool_redact_desc">Hitamkan bagian halaman secara permanen</string>
+    <string name="redact_explain">Halaman yang dihitamkan diubah menjadi gambar sehingga tidak ada yang bisa dipulihkan dari baliknya. Teksnya tidak akan bisa dipilih lagi.</string>
+    <string name="redact_help">Seret di halaman untuk menggambar kotak. Ketuk kotak untuk menghapusnya.</string>
+    <string name="redact_page_preview_desc">Pratinjau halaman. Seret untuk menggambar kotak di atas bagian yang ingin disembunyikan. Ketuk kotak untuk menghapusnya.</string>
+    <plurals name="redact_box_count">
+        <item quantity="other">%1$d kotak</item>
+    </plurals>
+    <plurals name="redact_page_count">
+        <item quantity="other">di %1$d halaman</item>
+    </plurals>
+
+    <!-- Launcher shortcuts and the home-screen widget -->
+    <string name="shortcut_scan_short">Pindai</string>
+    <string name="shortcut_scan_long">Pindai dokumen</string>
+    <string name="shortcut_open_short">Buka PDF</string>
+    <string name="shortcut_open_long">Buka PDF</string>
+    <string name="widget_label">Aksi cepat Plain PDF</string>
+    <string name="widget_description">Pindai dokumen atau buka PDF dengan sekali ketuk.</string>
+    <string name="widget_scan">Pindai dokumen</string>
+    <string name="widget_open">Buka PDF</string>
+    <string name="widget_scan_short">Pindai</string>
+    <string name="widget_library">Perpustakaan</string>
+
+    <!-- Continue reading, share a page, notes and share-sheet targets -->
+    <string name="library_continue_title">Lanjutkan membaca</string>
+    <string name="library_continue_page">Halaman %1$d dari %2$d</string>
+    <string name="library_continue_page_only">Halaman %1$d</string>
+    <string name="action_continue_reading">Lanjutkan</string>
+    <string name="reader_share_page">Bagikan halaman ini</string>
+    <string name="reader_share_page_image">Sebagai gambar</string>
+    <string name="reader_share_page_pdf">Sebagai PDF satu halaman</string>
+    <string name="tool_note">Tulis catatan</string>
+    <string name="tool_note_desc">Ketik teks dan simpan sebagai PDF</string>
+    <string name="note_title_hint">Judul (opsional)</string>
+    <string name="note_body_hint">Tulis catatan Anda di sini</string>
+    <string name="note_default_name">Catatan</string>
+    <string name="shortcut_continue_long">Lanjutkan: %1$s, halaman %2$d</string>
+    <string name="shortcut_continue_gone">Dokumen ini sudah tidak ada di perpustakaan Anda</string>
+    <string name="share_target_sign">Tanda tangani dengan Plain PDF</string>
+    <string name="share_target_scan">Pindai dengan Plain PDF</string>
+    <string name="tour_edit_note_unavailable">Mengisi formulir, menggambar, dan menandai memerlukan Android 12 atau yang lebih baru dengan pembaruan PDF dari Google, yang tidak ada di ponsel ini. Semua alat lainnya berfungsi.</string>
+    <string name="tour_edit_note_no_drawing">Menggambar dan menandai memerlukan Android yang lebih baru daripada yang ada di ponsel ini. Mengisi formulir berfungsi.</string>
+
+    <!-- Languages for scanned text -->
+    <string name="ocr_languages_title">Bahasa untuk teks pindaian</string>
+    <string name="ocr_languages_intro">Halaman pindaian dibaca dalam bahasa yang dicentang. Centang hanya bahasa yang Anda pindai; setiap bahasa tambahan membuat pembacaan sedikit lebih lambat.</string>
+    <string name="ocr_languages_on_phone">Di ponsel ini</string>
+    <string name="ocr_languages_get_more">Dapatkan bahasa lain</string>
+    <string name="ocr_languages_get_more_play">Ketuk Dapatkan, lalu Google Play mengunduh bahasanya. Tidak ada lagi yang perlu dilakukan.</string>
+    <string name="ocr_languages_get_more_foss">Versi ini tidak bisa mengunduh. Dapatkan file bahasa lewat tautan di bawah, lalu impor.</string>
+    <string name="ocr_languages_tier_common">Paling sering dipakai</string>
+    <string name="ocr_languages_tier_nearby">Negara tetangga</string>
+    <string name="ocr_languages_tier_other">Lainnya</string>
+    <string name="ocr_languages_get">Dapatkan</string>
+    <string name="ocr_languages_downloading">Mengunduh…</string>
+    <string name="ocr_languages_installing">Menyiapkan…</string>
+    <string name="ocr_languages_failed">Tidak bisa mengunduh. Periksa koneksi internet dan coba lagi.</string>
+    <string name="ocr_languages_try_again">Coba lagi</string>
+    <string name="ocr_languages_downloaded">Sudah diunduh</string>
+    <string name="ocr_languages_remove_title">Hapus %1$s?</string>
+    <string name="ocr_languages_remove_body">Anda bisa mendapatkannya lagi kapan saja.</string>
+    <string name="ocr_languages_ready">Bahasa %1$s sudah siap. Halaman pindaian dalam bahasa itu sekarang bisa dibaca.</string>
+    <string name="ocr_languages_keep_one">Biarkan setidaknya satu bahasa tetap dicentang.</string>
+    <string name="ocr_suggest_title">Ponsel Anda diatur ke bahasa %1$s</string>
+    <string name="ocr_suggest_body">Dapatkan bahasa %1$s (%2$s) agar halaman pindaian dalam bahasa itu bisa dibaca.</string>
+    <string name="ocr_suggest_get">Dapatkan %1$s</string>
+    <string name="ocr_suggest_later">Nanti saja</string>
+    <string name="ocr_garbled_title">Teksnya tidak terbaca dengan baik</string>
+    <string name="ocr_garbled_body">Halaman ini mungkin dalam bahasa yang belum ada di ponsel ini. Anda bisa menambah bahasa di Pengaturan.</string>
+    <string name="ocr_garbled_action">Bahasa</string>
+</resources>

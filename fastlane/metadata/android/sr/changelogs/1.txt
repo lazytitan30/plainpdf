@@ -1,0 +1,6 @@
+Prvo izdanje.
+• Čitanje, pretraga, popunjavanje obrazaca, crtanje i isticanje, čitanje naglas, štampanje
+• Skeniranje stranica sa automatskim ivicama i prepoznavanjem teksta na telefonu
+• Potpis, smanjivanje, uređivanje stranica, spajanje, deljenje, brojevi stranica, zacrnjivanje, beleške
+• Biblioteka sa nedavnim dokumentima, fasciklama, omiljenim i vidžetom na početnom ekranu
+• 17 jezika, bez reklama, bez naloga, bez pristupa mreži

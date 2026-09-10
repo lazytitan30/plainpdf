@@ -1,0 +1,45 @@
+Plain PDF đọc và chỉnh sửa PDF mà không tải bất cứ thứ gì lên mạng. Mở nhanh, nhớ chỗ bạn đang đọc dở, và không làm phiền bạn. Nút bấm lớn, không có thao tác ẩn.
+
+Đọc
+• Cuộn liên tục hoặc từng trang
+• Tìm kiếm trong tài liệu, kết quả được tô sáng
+• Điền biểu mẫu và lưu một bản sao
+• Vẽ và tô sáng trên trang, lưu thành chú thích PDF thật (Android 12 trở lên)
+• Đọc to bằng giọng của điện thoại, in, sao chép hoặc chia sẻ chữ, chia sẻ riêng một trang
+• Nút Công cụ trên mọi tài liệu đang mở, luôn hiện rõ
+• Lưới trang, dấu trang, đi đến trang, và Đọc tiếp ngay từ màn hình chính
+• Kiểu hiển thị trang ban đêm, nâu đỏ và thang xám, được ghi nhớ cho từng tài liệu
+• Năm chủ đề ứng dụng, gồm cả màu đen tuyệt đối cho màn hình OLED
+• Giữ màn hình sáng, lật trang bằng phím âm lượng, tùy chọn chỉnh độ sáng bằng cách vuốt ở mép
+
+Quét
+• Chụp ảnh một trang; mép trang được tự động nhận diện, kéo các góc hoặc cạnh để chỉnh lại
+• Làm sạch theo kiểu màu, thang xám hoặc đen trắng sắc nét
+• Nhận dạng chữ ngay trên điện thoại, không cần internet: bản quét có thể tìm kiếm được và chữ trong đó có thể sao chép. Tám ngôn ngữ có sẵn (tiếng Anh, tiếng Serbia với cả hai hệ chữ, tiếng Đức, tiếng Tây Ban Nha, tiếng Pháp, tiếng Ý, tiếng Nga), thêm hai mươi ngôn ngữ nữa chỉ cần một lần chạm trong Cài đặt
+• Thêm trang, rồi chia sẻ PDF ngay lập tức
+
+Công cụ, tất cả đều trên thiết bị này
+• Ký tên: vẽ chữ ký một lần rồi đặt lên bất kỳ trang nào
+• Cho phép tìm kiếm: thêm chữ đã nhận dạng vào bất kỳ tệp PDF quét nào
+• Viết ghi chú: gõ chữ rồi lưu thành tệp PDF
+• Nén: làm tệp PDF nhỏ hơn bằng cách thu nhỏ các hình ảnh bên trong
+• Sắp xếp trang: xoay, xóa, đổi thứ tự, tách riêng và nhân đôi trên một lưới, có hoàn tác
+• Ghép nhiều tệp PDF, có thể chọn khoảng trang cho từng tài liệu
+• Tách theo khoảng trang hoặc cứ mỗi N trang
+• Số trang trên mọi trang
+• Bôi đen: bôi đen các phần của trang để chúng thực sự biến mất, chứ không chỉ bị che đi
+• Ảnh sang PDF từ ảnh chụp, ảnh quét hoặc máy ảnh
+• PDF sang ảnh dạng PNG hoặc JPEG
+• Thêm, đổi hoặc bỏ mật khẩu (AES-256)
+
+Mọi thao tác đều ghi vào tệp tạm trước và kiểm tra kỹ rồi mới chạm đến tệp của bạn. Không bao giờ có gì bị xóa âm thầm.
+
+Thư viện
+• Tài liệu gần đây kèm ảnh thu nhỏ và vị trí đang đọc
+• Thư mục được theo dõi, yêu thích, tìm kiếm và sắp xếp
+• Tệp bị chuyển đi hoặc biến mất sẽ được đánh dấu chứ không bị bỏ, kèm nút Tìm lại
+• Tiện ích màn hình chính và lối tắt cho Quét, Mở và Đọc tiếp
+
+Có sẵn 17 ngôn ngữ, bao gồm tiếng Anh, Serbia, Đức, Tây Ban Nha, Pháp, Bồ Đào Nha, Nga, Ả Rập, Hindi, Trung, Nhật và Hàn.
+
+Không quảng cáo. Không thu thập dữ liệu. Không tài khoản. Hoàn toàn không truy cập mạng: ứng dụng thậm chí không có quyền dùng internet. Mọi tính năng đọc và chỉnh sửa đều miễn phí; gói Người ủng hộ (không bắt buộc) chỉ mở khóa màu nhấn và biểu tượng.

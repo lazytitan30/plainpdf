@@ -1,0 +1,45 @@
+Plain PDF liest PDFs und verändert sie, ohne irgendetwas hochzuladen. Die App öffnet schnell, merkt sich, wo Sie waren, und hält sich sonst im Hintergrund. Große Schaltflächen, keine versteckten Gesten.
+
+Lesen
+• Fortlaufend scrollen oder Seite für Seite
+• In Dokumenten suchen, mit hervorgehobenen Treffern
+• Formulare ausfüllen und als Kopie speichern
+• Auf Seiten zeichnen und markieren, gespeichert als echte PDF-Anmerkungen (Android 12 oder neuer)
+• Vorlesen mit der Stimme des Telefons, drucken, den Text kopieren oder teilen, eine einzelne Seite teilen
+• Ein Werkzeuge-Knopf in jedem geöffneten Dokument, immer sichtbar
+• Seitenraster, Lesezeichen, zu Seite springen und Weiterlesen direkt vom Startbildschirm
+• Nacht-, Sepia- und Graustufen-Ansicht, pro Dokument gemerkt
+• Fünf App-Designs, darunter echtes Schwarz für OLED-Bildschirme
+• Bildschirm anlassen, Blättern mit den Lautstärketasten, optional Helligkeit am Rand ziehen
+
+Scannen
+• Fotografieren Sie eine Seite; die Ränder werden für Sie erkannt, ziehen Sie die Ecken oder Kanten zurecht
+• Bereinigung in Farbe, Graustufen oder klarem Schwarz-Weiß
+• Texterkennung auf dem Telefon, ohne Internet: Scans werden durchsuchbar und ihr Text lässt sich kopieren. Acht Sprachen sind enthalten (Englisch, Serbisch in beiden Schriften, Deutsch, Spanisch, Französisch, Italienisch, Russisch), zwanzig weitere kommen mit einem Fingertipp in den Einstellungen dazu
+• Weitere Seiten hinzufügen, dann die PDF sofort teilen
+
+Werkzeuge, alles auf diesem Gerät
+• Unterschreiben: Ihre Unterschrift einmal zeichnen und auf jede beliebige Seite setzen
+• Durchsuchbar machen: erkannten Text zu jeder gescannten PDF hinzufügen
+• Notiz schreiben: Text eingeben und als PDF speichern
+• Verkleinern: eine PDF kleiner machen, indem die Bilder darin geschrumpft werden
+• Seiten ordnen: drehen, löschen, umsortieren, herausziehen und duplizieren in einem Raster, mit Rückgängig
+• Mehrere PDFs zusammenfügen, mit optionalen Seitenbereichen pro Dokument
+• Teilen nach Seitenbereichen oder alle N Seiten
+• Seitenzahlen auf jeder Seite
+• Schwärzen: Teile einer Seite schwarz übermalen, sodass sie wirklich weg sind und nicht nur verdeckt
+• Bilder zu PDF aus Fotos, Scans oder der Kamera
+• PDF zu Bildern als PNG oder JPEG
+• Passwort hinzufügen, ändern oder entfernen (AES-256)
+
+Jeder Vorgang schreibt zuerst in eine temporäre Datei und prüft sie, bevor Ihre Dateien angerührt werden. Nichts wird jemals stillschweigend gelöscht.
+
+Bibliothek
+• Zuletzt geöffnete Dokumente mit Vorschaubildern und Leseposition
+• Erfasste Ordner, Favoriten, Suche und Sortierung
+• Verschobene oder verschwundene Dateien werden markiert, nicht verworfen, mit der Aktion „Erneut suchen“
+• Startbildschirm-Widget und Verknüpfungen für Scannen, Öffnen und Weiterlesen
+
+In 17 Sprachen verfügbar, darunter Englisch, Serbisch, Deutsch, Spanisch, Französisch, Portugiesisch, Russisch, Arabisch, Hindi, Chinesisch, Japanisch und Koreanisch.
+
+Keine Werbung. Keine Analyse. Kein Konto. Überhaupt kein Netzwerkzugriff: Die App hat nicht einmal die Internet-Berechtigung. Jede Lese- und Bearbeitungsfunktion ist kostenlos; der optionale Unterstützer-Kauf schaltet nur Akzentfarben und Symbole frei.

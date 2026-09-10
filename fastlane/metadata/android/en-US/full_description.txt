@@ -1,0 +1,45 @@
+Plain PDF reads PDFs and changes them without uploading anything. It opens fast, remembers where you were, and gets out of the way. Big buttons, no hidden gestures.
+
+Reading
+• Continuous scroll or page by page
+• Search inside documents with highlighted matches
+• Fill in forms and save a copy
+• Draw and highlight on pages, saved as real PDF annotations (Android 12 or newer)
+• Read aloud with the phone's voice, print, copy or share the text, share a single page
+• A Tools button on every open document, always visible
+• Page grid, bookmarks, jump to page, and Continue reading from the home screen
+• Night, sepia and grayscale page display, remembered per document
+• Five app themes, including true black for OLED screens
+• Keep screen on, volume-key paging, optional edge-drag brightness
+
+Scan
+• Take a photo of a page; the edges are found for you, drag the corners or sides to fix them
+• Colour, grayscale or crisp black and white cleanup
+• Text recognition on the phone, no internet needed: scans become searchable and their text can be copied. Eight languages are built in (English, Serbian in both scripts, German, Spanish, French, Italian, Russian) and twenty more arrive with one tap in Settings
+• Add more pages, then share the PDF right away
+
+Tools, all on this device
+• Sign: draw your signature once and place it on any page
+• Make searchable: add recognised text to any scanned PDF
+• Write a note: type text and save it as a PDF
+• Compress: make a PDF smaller by shrinking the pictures inside it
+• Organise pages: rotate, delete, reorder, extract and duplicate on one grid, with undo
+• Merge several PDFs, with optional page ranges per document
+• Split by page ranges or every N pages
+• Page numbers on every page
+• Redact: black out parts of a page so they are really gone, not just covered
+• Images to PDF from photos, scans or the camera
+• PDF to images as PNG or JPEG
+• Add, change or remove a password (AES-256)
+
+Every operation writes to a temporary file first and verifies it before touching your files. Nothing is ever deleted silently.
+
+Library
+• Recent documents with thumbnails and reading position
+• Indexed folders, favourites, search and sort
+• Files that move or vanish are flagged, not dropped, with a Locate again action
+• Home-screen widget and shortcuts for Scan, Open and Continue reading
+
+Available in 17 languages, including English, Serbian, German, Spanish, French, Portuguese, Russian, Arabic, Hindi, Chinese, Japanese and Korean.
+
+No ads. No analytics. No account. No network access at all: the app does not even hold the internet permission. Every reading and editing feature is free; the optional Supporter purchase only unlocks accent colours and icons.

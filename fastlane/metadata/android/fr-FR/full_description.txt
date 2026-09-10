@@ -1,0 +1,45 @@
+Plain PDF lit les PDF et les modifie sans rien envoyer nulle part. L'application s'ouvre vite, se souvient de l'endroit où vous étiez et sait se faire oublier. De gros boutons, pas de gestes cachés.
+
+Lecture
+• Défilement continu ou page par page
+• Recherche dans les documents avec les résultats surlignés
+• Remplir des formulaires et enregistrer une copie
+• Dessiner et surligner sur les pages, enregistré sous forme de vraies annotations PDF (Android 12 ou plus récent)
+• Lire à voix haute avec la voix du téléphone, imprimer, copier ou partager le texte, partager une seule page
+• Un bouton Outils sur chaque document ouvert, toujours visible
+• Grille des pages, signets, aller à une page, et Reprendre la lecture depuis l'écran d'accueil
+• Affichage nuit, sépia et niveaux de gris, mémorisé pour chaque document
+• Cinq thèmes d'application, dont un noir pur pour les écrans OLED
+• Garder l'écran allumé, tourner les pages avec les touches de volume, luminosité en glissant sur le bord (facultatif)
+
+Numériser
+• Prenez une page en photo ; les bords sont détectés pour vous, faites glisser les coins ou les côtés pour les corriger
+• Nettoyage en couleur, niveaux de gris ou noir et blanc net
+• Reconnaissance de texte sur le téléphone, sans Internet : les numérisations deviennent consultables et leur texte peut être copié. Huit langues sont incluses (anglais, serbe dans ses deux alphabets, allemand, espagnol, français, italien, russe) et vingt autres arrivent d'un simple appui dans Paramètres
+• Ajoutez d'autres pages, puis partagez le PDF aussitôt
+
+Outils, tous sur cet appareil
+• Signer : dessinez votre signature une fois et placez-la sur n'importe quelle page
+• Rendre consultable : ajoutez le texte reconnu à n'importe quel PDF numérisé
+• Écrire une note : saisissez du texte et enregistrez-le en PDF
+• Compresser : réduisez la taille d'un PDF en rétrécissant les images qu'il contient
+• Organiser les pages : tourner, supprimer, réordonner, extraire et dupliquer sur une seule grille, avec annulation
+• Fusionner plusieurs PDF, avec des plages de pages facultatives par document
+• Diviser par plages de pages ou toutes les N pages
+• Numéros de page sur chaque page
+• Caviarder : noircissez des parties d'une page pour qu'elles disparaissent vraiment, au lieu d'être simplement recouvertes
+• Images en PDF à partir de photos, de scans ou de l'appareil photo
+• PDF en images, en PNG ou JPEG
+• Ajouter, changer ou retirer un mot de passe (AES-256)
+
+Chaque opération écrit d'abord dans un fichier temporaire et le vérifie avant de toucher à vos fichiers. Rien n'est jamais supprimé en silence.
+
+Bibliothèque
+• Documents récents avec miniatures et position de lecture
+• Dossiers suivis, favoris, recherche et tri
+• Les fichiers déplacés ou disparus sont signalés, pas abandonnés, avec l'action Retrouver le fichier
+• Widget d'écran d'accueil et raccourcis pour Numériser, Ouvrir et Reprendre la lecture
+
+Disponible en 17 langues, dont l'anglais, le serbe, l'allemand, l'espagnol, le français, le portugais, le russe, l'arabe, l'hindi, le chinois, le japonais et le coréen.
+
+Sans publicité. Sans statistiques d'utilisation. Sans compte. Aucun accès au réseau : l'application n'a même pas l'autorisation Internet. Toutes les fonctions de lecture et de modification sont gratuites ; l'achat facultatif Soutien ne débloque que des couleurs d'accentuation et des icônes.

@@ -1,0 +1,45 @@
+Plain PDF membaca PDF dan mengubahnya tanpa mengunggah apa pun. Cepat dibuka, ingat sampai mana Anda membaca, dan tidak mengganggu. Tombol besar, tanpa gestur tersembunyi.
+
+Membaca
+• Gulir terus-menerus atau halaman per halaman
+• Cari di dalam dokumen dengan hasil yang disorot
+• Isi formulir dan simpan salinannya
+• Gambar dan tandai di halaman, disimpan sebagai anotasi PDF sungguhan (Android 12 atau lebih baru)
+• Bacakan dengan suara ponsel, cetak, salin atau bagikan teks, bagikan satu halaman saja
+• Tombol Alat di setiap dokumen yang terbuka, selalu terlihat
+• Kisi halaman, penanda, lompat ke halaman, dan Lanjutkan membaca langsung dari layar utama
+• Tampilan halaman malam, sepia, dan abu-abu, diingat untuk tiap dokumen
+• Lima tema aplikasi, termasuk hitam pekat untuk layar OLED
+• Layar tetap menyala, balik halaman dengan tombol volume, kecerahan dengan geser di tepi (opsional)
+
+Pindai
+• Foto sebuah halaman; tepinya ditemukan otomatis, seret sudut atau sisinya untuk memperbaiki
+• Pembersihan berwarna, abu-abu, atau hitam putih yang tajam
+• Pengenalan teks di ponsel, tanpa internet: hasil pindaian bisa dicari dan teksnya bisa disalin. Delapan bahasa sudah ada di aplikasi (Inggris, Serbia dalam kedua aksaranya, Jerman, Spanyol, Prancis, Italia, Rusia), dan dua puluh bahasa lagi tersedia dengan satu ketukan di Pengaturan
+• Tambah halaman lagi, lalu langsung bagikan PDF-nya
+
+Alat, semua di perangkat ini
+• Tanda tangan: gambar tanda tangan Anda sekali dan letakkan di halaman mana pun
+• Buat bisa dicari: tambahkan teks hasil pengenalan ke PDF pindaian mana pun
+• Tulis catatan: ketik teks dan simpan sebagai PDF
+• Perkecil: perkecil PDF dengan mengecilkan gambar di dalamnya
+• Atur halaman: putar, hapus, susun ulang, ambil, dan gandakan di satu kisi, bisa diurungkan
+• Gabungkan beberapa PDF, dengan pilihan rentang halaman per dokumen
+• Pisahkan berdasarkan rentang halaman atau setiap N halaman
+• Nomor halaman di setiap halaman
+• Hitamkan: hitamkan bagian halaman agar benar-benar hilang, bukan sekadar tertutup
+• Gambar ke PDF dari foto, hasil pindaian, atau kamera
+• PDF ke gambar sebagai PNG atau JPEG
+• Tambah, ubah, atau hapus kata sandi (AES-256)
+
+Setiap pekerjaan ditulis dulu ke file sementara dan diperiksa sebelum menyentuh file Anda. Tidak ada yang pernah dihapus diam-diam.
+
+Perpustakaan
+• Dokumen terbaru dengan gambar kecil dan posisi baca
+• Folder yang dipantau, favorit, pencarian, dan pengurutan
+• File yang dipindahkan atau hilang ditandai, bukan dibuang, dengan pilihan Cari lagi
+• Widget layar utama dan pintasan untuk Pindai, Buka, dan Lanjutkan membaca
+
+Tersedia dalam 17 bahasa, termasuk Inggris, Serbia, Jerman, Spanyol, Prancis, Portugis, Rusia, Arab, Hindi, Mandarin, Jepang, dan Korea.
+
+Tanpa iklan. Tanpa analitik. Tanpa akun. Tanpa akses jaringan sama sekali: aplikasi ini bahkan tidak punya izin internet. Semua fitur membaca dan menyunting gratis; pembelian Pendukung yang opsional hanya membuka warna aksen dan ikon.

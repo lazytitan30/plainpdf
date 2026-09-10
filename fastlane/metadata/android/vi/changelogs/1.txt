@@ -1,0 +1,6 @@
+Bản phát hành đầu tiên.
+• Đọc, tìm kiếm, điền biểu mẫu, vẽ và tô sáng, đọc to, in
+• Quét trang với mép tự động và nhận dạng chữ ngay trên điện thoại
+• Ký tên, nén, sắp xếp trang, ghép, tách, số trang, bôi đen, viết ghi chú
+• Thư viện với tài liệu gần đây, thư mục, yêu thích và tiện ích màn hình chính
+• 17 ngôn ngữ, không quảng cáo, không tài khoản, không truy cập mạng

@@ -1,0 +1,6 @@
+Primera versión.
+• Leer, buscar, rellenar formularios, dibujar y resaltar, leer en voz alta, imprimir
+• Escanear páginas con bordes automáticos y reconocimiento de texto en el teléfono
+• Firmar, comprimir, organizar páginas, unir, dividir, números de página, tachar, escribir una nota
+• Biblioteca con recientes, carpetas, favoritos y un widget de pantalla de inicio
+• 17 idiomas, sin anuncios, sin cuenta, sin acceso a la red

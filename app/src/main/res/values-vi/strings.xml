@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Plain PDF</string>
+
+    <!-- Navigation -->
+    <string name="nav_library">Thư viện</string>
+    <string name="nav_tools">Công cụ</string>
+    <string name="action_back">Quay lại</string>
+    <string name="action_cancel">Hủy</string>
+    <string name="action_done">Xong</string>
+
+    <!-- Library -->
+    <string name="library_tab_recent">Gần đây</string>
+    <string name="library_tab_folders">Thư mục</string>
+    <string name="library_tab_favourites">Yêu thích</string>
+    <string name="library_open_pdf">Mở PDF</string>
+    <string name="library_add_folder">Thêm thư mục</string>
+    <string name="library_empty_recent">Chưa có tài liệu nào. Hãy mở một tệp PDF để bắt đầu.</string>
+    <string name="library_empty_folders">Chưa có thư mục nào. Hãy thêm một thư mục để xem các tệp PDF bên trong.</string>
+    <string name="library_empty_favourites">Chưa có gì ở đây. Mở menu của tài liệu, dấu ba chấm, rồi chọn Yêu thích.</string>
+    <string name="library_search">Tìm kiếm</string>
+    <string name="library_more">Thêm</string>
+    <string name="library_sort">Sắp xếp</string>
+    <string name="library_view_grid">Lưới</string>
+    <string name="library_view_list">Danh sách</string>
+
+    <!-- Tools -->
+    <string name="tools_title">Công cụ</string>
+    <string name="tools_empty">Các công cụ ghép, tách và sắp xếp trang nằm ở đây. Mọi thứ đều chạy trên thiết bị này.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Cài đặt</string>
+    <string name="settings_group_appearance">Giao diện</string>
+    <string name="settings_group_reading">Đọc</string>
+    <string name="settings_group_tools">Công cụ</string>
+    <string name="settings_group_library">Thư viện</string>
+    <string name="settings_group_about">Giới thiệu</string>
+    <string name="settings_theme">Chủ đề</string>
+    <string name="settings_accent">Màu nhấn</string>
+    <string name="settings_dynamic_colour">Dùng màu của hệ thống</string>
+    <string name="settings_dynamic_colour_summary">Màu sắc lấy từ hình nền của bạn</string>
+    <string name="settings_app_icon">Biểu tượng ứng dụng</string>
+    <string name="settings_reading_mode">Chế độ đọc mặc định</string>
+    <string name="settings_page_display">Kiểu hiển thị trang mặc định</string>
+    <string name="settings_keep_screen_on">Giữ màn hình sáng khi đọc</string>
+    <string name="settings_edge_brightness">Chỉnh độ sáng bằng cách vuốt ở mép</string>
+    <string name="settings_edge_brightness_summary">Vuốt dọc mép trái để chỉnh độ sáng</string>
+    <string name="settings_double_tap_zoom">Nhấn đúp để phóng to</string>
+    <string name="settings_volume_keys">Phím âm lượng để lật trang</string>
+    <string name="settings_save_location">Nơi lưu tệp mới</string>
+    <string name="settings_save_location_ask">Hỏi tôi mỗi lần</string>
+    <string name="settings_save_location_choose">Chọn thư mục</string>
+    <string name="settings_output_naming">Cách đặt tên tệp mới</string>
+    <string name="settings_output_naming_help">{name} là tên tệp gốc, {op} là thao tác đã làm, ví dụ merged hoặc pages_1-4.</string>
+    <string name="settings_language_summary">Ngôn ngữ của các menu và nút trong ứng dụng.</string>
+    <string name="settings_theme_summary">Giao diện sáng hoặc tối cho chính ứng dụng. Các trang giữ nguyên màu của chúng.</string>
+    <string name="settings_accent_summary">Màu của các nút và điều khiển khác trong ứng dụng.</string>
+    <string name="settings_app_icon_summary">Cách Plain PDF hiển thị trên màn hình chính của bạn.</string>
+    <string name="settings_highlight_summary">Màu đánh dấu kết quả khi bạn tìm kiếm trong tài liệu.</string>
+    <string name="settings_reading_mode_summary">Cuộn liên tục qua các trang, hoặc lật từng trang một.</string>
+    <string name="settings_page_display_summary">Hiển thị trang như nguyên bản, làm tối cho ban đêm, màu nâu đỏ hoặc màu xám.</string>
+    <string name="settings_keep_screen_on_summary">Màn hình luôn sáng khi đang mở tài liệu.</string>
+    <string name="settings_double_tap_zoom_summary">Chạm hai lần vào trang để phóng to, và hai lần nữa để thu về.</string>
+    <string name="settings_volume_keys_summary">Bấm nút âm lượng để sang trang tiếp theo hoặc trang trước.</string>
+    <string name="settings_save_location_summary">Tệp đã gộp, tách, quét và các tệp mới khác được lưu ở đây. Tệp gốc của bạn vẫn ở nguyên chỗ cũ.</string>
+    <string name="settings_save_location_ask_summary">Mỗi công cụ sẽ hỏi thư mục trước khi lưu.</string>
+    <string name="settings_save_location_folder">Luôn lưu vào %1$s</string>
+    <string name="settings_save_location_choose_summary">Chọn một thư mục trên điện thoại này. Tệp mới sẽ luôn được lưu ở đó.</string>
+    <string name="settings_output_naming_summary">Gộp %1$s sẽ tạo ra %2$s. Tệp gốc giữ nguyên tên.</string>
+    <string name="naming_sample_name">Hợp đồng</string>
+    <string name="naming_style_name_op">Tên gốc, rồi đến việc đã làm</string>
+    <string name="naming_style_op_name">Việc đã làm, rồi đến tên gốc</string>
+    <string name="naming_style_custom">Mẫu tùy chỉnh</string>
+    <string name="naming_style_custom_summary">Tự viết mẫu của bạn, dùng {name} và {op}.</string>
+    <string name="settings_confirm_overwrite_summary">Hỏi trước khi công cụ thay tệp gốc bằng bản đã sửa.</string>
+    <string name="settings_default_sort_summary">Thứ tự tài liệu trong Thư viện.</string>
+    <string name="settings_source_summary">Plain PDF là mã nguồn mở: ai cũng có thể đọc cách nó hoạt động và phát triển thêm.</string>
+    <string name="settings_licence_summary">Tự do sử dụng, chia sẻ và cải tiến, với một điều kiện: luôn miễn phí cho mọi người.</string>
+    <string name="settings_confirm_overwrite">Hỏi trước khi ghi đè tệp gốc</string>
+    <string name="settings_default_sort">Cách sắp xếp mặc định</string>
+    <string name="settings_clear_recents">Xóa danh sách gần đây</string>
+    <string name="settings_clear_thumbnails">Xóa các bản xem trước đã lưu</string>
+    <string name="settings_version">Phiên bản</string>
+    <string name="settings_source">Mã nguồn</string>
+    <string name="settings_licence">Giấy phép</string>
+    <string name="settings_licence_value">GNU GPL v3</string>
+    <string name="settings_feedback">Đề xuất tính năng hoặc báo sự cố</string>
+    <string name="settings_feedback_summary">Mở ứng dụng email của bạn với một thư gửi cho nhà phát triển. Mọi thư đều được đọc.</string>
+    <string name="feedback_subject">Plain PDF: một đề xuất</string>
+    <string name="settings_supporter">Người ủng hộ</string>
+    <string name="settings_supporter_summary">Miễn phí, không quảng cáo. Nếu ứng dụng giúp ích cho bạn, bạn có thể nói lời cảm ơn tại đây.</string>
+    <string name="settings_supporter_active">Bạn là Người ủng hộ. Cảm ơn bạn đã giúp Plain PDF luôn miễn phí.</string>
+    <string name="settings_supporter_active_gift">Cảm ơn món quà của bạn. Gói Người ủng hộ là của bạn.</string>
+    <string name="settings_donate">Ủng hộ</string>
+    <string name="settings_locked">Người ủng hộ</string>
+
+    <string name="theme_system">Theo hệ thống</string>
+    <string name="theme_light">Sáng</string>
+    <string name="theme_dark">Tối</string>
+    <string name="theme_black">Đen</string>
+    <string name="theme_sepia">Nâu đỏ</string>
+
+    <string name="accent_teal">Xanh mòng két</string>
+    <string name="accent_amber">Hổ phách</string>
+    <string name="accent_crimson">Đỏ thẫm</string>
+    <string name="accent_indigo">Chàm</string>
+    <string name="accent_violet">Tím</string>
+    <string name="accent_forest">Xanh rừng</string>
+    <string name="accent_slate">Xám đá</string>
+
+    <string name="reading_mode_continuous">Cuộn liên tục</string>
+    <string name="reading_mode_paged">Từng trang</string>
+
+    <string name="page_display_normal">Bình thường</string>
+    <string name="page_display_night">Ban đêm</string>
+    <string name="page_display_sepia">Nâu đỏ</string>
+    <string name="page_display_grayscale">Thang xám</string>
+
+    <string name="sort_recently_opened">Mở gần đây</string>
+    <string name="sort_recently_added">Thêm gần đây</string>
+    <string name="sort_name">Tên</string>
+    <string name="sort_size">Kích thước</string>
+
+    <!-- Supporter -->
+    <string name="supporter_title">Người ủng hộ</string>
+    <string name="supporter_intro">Plain PDF miễn phí và không có quảng cáo, mọi tính năng đều dùng được mà không cần trả tiền. Nếu ứng dụng giúp ích cho bạn, đây là nơi để nói lời cảm ơn. Đổi lại bạn nhận được vài màu sắc và biểu tượng, cùng lòng biết ơn của chúng tôi.</string>
+    <string name="supporter_grants_title">Bạn nhận được gì</string>
+    <string name="supporter_grant_accents">Sáu màu nhấn</string>
+    <string name="supporter_grant_icons">Ba biểu tượng ứng dụng khác</string>
+    <string name="supporter_grant_highlights">Thêm các bộ màu tô sáng</string>
+    <string name="supporter_grant_about">Một dòng Người ủng hộ trong phần Giới thiệu</string>
+    <string name="supporter_unlock">Trở thành Người ủng hộ</string>
+    <string name="supporter_tips_title">Ủng hộ thêm</string>
+    <string name="supporter_tips_summary">Không bắt buộc. Nếu sau này bạn muốn ủng hộ thêm, đây là nơi dành cho việc đó. Không mở khóa gì mới; chỉ đơn giản là nói lời cảm ơn.</string>
+    <string name="supporter_restore">Khôi phục giao dịch mua</string>
+    <string name="supporter_restore_found">Giao dịch mua của bạn đã trở lại. Cảm ơn bạn.</string>
+    <string name="supporter_restore_none">Không tìm thấy gói Người ủng hộ cho tài khoản Google này. Quà tặng không để lại ghi nhận nào, nên không thể khôi phục.</string>
+    <string name="supporter_unavailable">Google Play hiện không thể nhận thanh toán trên điện thoại này. Không mất gì cả; ứng dụng vẫn miễn phí.</string>
+    <string name="supporter_thanks">Bạn là Người ủng hộ. Cảm ơn bạn đã giúp Plain PDF luôn miễn phí.</string>
+    <string name="supporter_donate_intro">Plain PDF miễn phí và không có quảng cáo, mọi tính năng đều dùng được mà không cần trả tiền. Nếu ứng dụng giúp ích cho bạn, bạn có thể ủng hộ công sức đằng sau nó.</string>
+    <string name="supporter_donate_button">Mở trang ủng hộ</string>
+    <string name="supporter_grant_future">Màu sắc và biểu tượng mới được thêm sau này, không tốn thêm phí</string>
+    <string name="supporter_tips_title_first">Hoặc gửi một khoản ủng hộ</string>
+    <string name="supporter_tips_summary_first">Số tiền nào cũng là một lời cảm ơn.</string>
+    <string name="supporter_tip_unlocks_note">Cũng mở khóa gói Người ủng hộ</string>
+    <string name="supporter_gift_title">Cảm ơn món quà của bạn</string>
+    <string name="supporter_gift_body">Bạn đã gửi một khoản ủng hộ, và gói Người ủng hộ cũng là của bạn: mọi màu sắc, biểu tượng và bộ màu đánh dấu đều đã mở khóa. Không cần mua gói này nữa.</string>
+    <string name="supporter_gift_note">Quà tặng không để lại ghi nhận nào trên Google Play, nên gói này được ghi nhớ trên điện thoại này.</string>
+    <string name="supporter_snack_gift">Cảm ơn món quà của bạn.</string>
+    <string name="supporter_snack_unlock">Cảm ơn bạn. Giờ bạn là Người ủng hộ.</string>
+    <string name="supporter_problem_connection">Google Play không phản hồi. Hãy kiểm tra xem ứng dụng Cửa hàng Play đã đăng nhập chưa, rồi quay lại. Không mất gì cả; ứng dụng vẫn miễn phí.</string>
+    <string name="supporter_problem_listing">Google Play chưa niêm yết các mục Người ủng hộ. Vui lòng thử lại sau. Không mất gì cả; ứng dụng vẫn miễn phí.</string>
+    <string name="supporter_problem_region">Google Play chưa cung cấp các mục này ở quốc gia của bạn. Không mất gì cả; ứng dụng vẫn miễn phí.</string>
+
+    <!-- Reader -->
+    <string name="reader_page_of">%1$d / %2$d</string>
+    <string name="reader_error_open">Không mở được tệp này. Có thể tệp đã bị chuyển đi hoặc bị xóa.</string>
+    <string name="reader_locate_again">Tìm lại tệp</string>
+    <string name="reader_not_saved">Chưa lưu</string>
+
+    <!-- Library, M2 -->
+    <string name="library_search_hint">Tìm tài liệu</string>
+    <string name="library_no_matches">Không có gì khớp với tìm kiếm đó.</string>
+    <string name="library_page_of">Trang %1$d / %2$d</string>
+    <string name="library_file_unavailable">Không tìm thấy tệp</string>
+    <string name="library_deleted">Đã xóa tệp</string>
+    <string name="library_delete_failed">Không xóa được tệp này. Ứng dụng chứa tệp đã không cho phép.</string>
+    <string name="library_delete_title">Xóa tệp?</string>
+    <string name="library_delete_body">%1$s sẽ bị xóa khỏi bộ nhớ. Không thể hoàn tác việc này.</string>
+    <string name="library_rename_help">Chỉ đổi tên hiển thị trong Plain PDF. Tệp vẫn giữ nguyên tên.</string>
+    <string name="library_folder_failed">Không thêm được thư mục đó. Hãy chọn lại và cho phép truy cập.</string>
+    <string name="library_folder_unavailable">Không đọc được thư mục này nữa. Có thể thư mục đã bị chuyển đi, hoặc thẻ nhớ đã bị tháo ra.</string>
+    <string name="library_folder_empty">Thư mục này chưa có tệp PDF nào.</string>
+    <string name="library_remove_folder_body">Ngừng theo dõi thư mục này? Các tệp bạn đã mở hoặc đã thêm vào yêu thích vẫn còn trong thư viện.</string>
+    <string name="action_favourite">Yêu thích</string>
+    <string name="action_unfavourite">Bỏ yêu thích</string>
+    <string name="action_rename_label">Đổi tên nhãn</string>
+    <string name="action_share">Chia sẻ</string>
+    <string name="action_organise_pages">Sắp xếp trang</string>
+    <string name="action_remove_from_recents">Xóa khỏi danh sách gần đây</string>
+    <string name="action_delete_file">Xóa tệp</string>
+    <string name="action_remove_folder">Bỏ thư mục</string>
+    <string name="action_refresh">Làm mới</string>
+    <string name="action_clear">Xóa</string>
+
+    <!-- Reader, M3 -->
+    <string name="reader_search">Tìm trong tài liệu</string>
+    <string name="reader_search_hint">Tìm trong tài liệu</string>
+    <string name="reader_search_count">%1$d / %2$d</string>
+    <string name="reader_search_none">Không có kết quả</string>
+    <string name="reader_search_previous">Kết quả trước</string>
+    <string name="reader_search_next">Kết quả sau</string>
+    <string name="reader_outline">Các trang</string>
+    <string name="reader_pages_title">%1$d trang</string>
+    <string name="reader_jump_to_page">Đi đến trang</string>
+    <string name="reader_jump_hint">Từ 1 đến %1$d</string>
+    <string name="reader_go">Đi</string>
+    <string name="reader_add_bookmark">Thêm dấu trang</string>
+    <string name="reader_add_bookmark_title">Đánh dấu trang %1$d</string>
+    <string name="reader_bookmark_label">Tên dấu trang</string>
+    <string name="reader_bookmark_label_help">Không bắt buộc. Để trống để hiển thị số trang.</string>
+    <string name="reader_bookmark_added">Đã thêm dấu trang</string>
+    <string name="reader_bookmarks">Dấu trang</string>
+    <string name="reader_bookmarks_empty">Chưa có dấu trang nào. Chọn Thêm dấu trang trong menu để đánh dấu một trang.</string>
+    <string name="reader_page_n">Trang %1$d</string>
+    <string name="reader_page_display">Kiểu hiển thị trang</string>
+    <string name="reader_reading_mode">Chế độ đọc</string>
+    <string name="reader_keep_screen_on">Giữ màn hình sáng</string>
+    <string name="reader_document_info">Thông tin tài liệu</string>
+    <string name="reader_info_name">Tên</string>
+    <string name="reader_info_pages">Số trang</string>
+    <string name="reader_info_size">Kích thước</string>
+    <string name="reader_info_location">Vị trí</string>
+    <string name="action_delete">Xóa</string>
+
+    <!-- Tools, M4 -->
+    <string name="tools_recent_output">Kết quả gần đây</string>
+    <string name="tool_organise">Sắp xếp trang</string>
+    <string name="tool_organise_desc">Xoay, xóa, đổi thứ tự, tách riêng hoặc nhân đôi trang</string>
+    <string name="tool_merge">Ghép</string>
+    <string name="tool_merge_desc">Ghép nhiều tệp PDF thành một, theo thứ tự bạn chọn</string>
+    <string name="tool_split">Tách</string>
+    <string name="tool_split_desc">Chia một tệp PDF thành nhiều tệp, theo khoảng trang hoặc với số trang bằng nhau cho mỗi tệp</string>
+    <string name="tool_images_to_pdf">Ảnh sang PDF</string>
+    <string name="tool_images_to_pdf_desc">Gộp ảnh chụp và ảnh quét thành một tệp PDF</string>
+    <string name="tool_pdf_to_images">PDF sang ảnh</string>
+    <string name="tool_pdf_to_images_desc">Xuất các trang thành tệp PNG hoặc JPEG</string>
+    <string name="tool_password">Mật khẩu</string>
+    <string name="tool_password_desc">Thêm, đổi hoặc bỏ mật khẩu</string>
+    <string name="action_open">Mở</string>
+    <string name="action_continue">Tiếp tục</string>
+    <string name="action_undo">Hoàn tác</string>
+    <string name="action_redo">Làm lại</string>
+    <string name="action_select_all">Chọn tất cả</string>
+    <string name="organise_pages_count">%1$d trang</string>
+    <string name="organise_changes">%1$d thay đổi</string>
+    <string name="organise_selected">Đã chọn %1$d</string>
+    <string name="organise_rotate_left">Xoay trái</string>
+    <string name="organise_rotate_right">Xoay phải</string>
+    <string name="organise_restore">Khôi phục</string>
+    <string name="organise_extract">Tách ra tệp mới</string>
+    <string name="organise_duplicate">Nhân đôi</string>
+    <string name="organise_page_desc">Trang %1$d</string>
+    <string name="organise_page_selected">Trang %1$d, đã chọn</string>
+    <string name="organise_page_deleted">Trang %1$d, được đánh dấu để xóa</string>
+    <string name="ops_save_as_new">Lưu thành tệp mới</string>
+    <string name="ops_overwrite">Ghi đè tệp gốc</string>
+    <string name="ops_overwrite_title">Ghi đè tệp gốc?</string>
+    <string name="ops_overwrite_body">%1$s sẽ được thay bằng bản đã sắp xếp. Sau khi ghi thì không thể hoàn tác.</string>
+    <string name="ops_saved_one">Đã lưu %1$s</string>
+    <string name="ops_saved_many">Đã lưu %1$d tệp</string>
+    <string name="ops_and_more">và %1$d tệp nữa</string>
+    <string name="ops_failed_title">Không thực hiện được</string>
+    <string name="ops_try_other_location">Thử một nơi khác</string>
+    <string name="ops_password_title">Cần mật khẩu</string>
+    <string name="ops_password_body">%1$s được bảo vệ bằng mật khẩu. Hãy nhập mật khẩu để tiếp tục. Mật khẩu chỉ dùng một lần và không được lưu lại.</string>
+    <string name="ops_password_wrong">Mật khẩu đó không mở được tài liệu.</string>
+    <string name="ops_password_needed">Tài liệu này cần mật khẩu thì mới hiển thị được các trang.</string>
+    <string name="ops_error_password">Tài liệu này được bảo vệ bằng mật khẩu. Hãy nhập mật khẩu rồi thử lại.</string>
+    <string name="ops_error_assembly">Chủ sở hữu tài liệu này không cho phép sắp xếp lại các trang. Plain PDF sẽ không vượt qua giới hạn đó.</string>
+    <string name="ops_error_corrupt">Không đọc được tệp này. Có thể tệp đã bị hỏng.</string>
+    <string name="ops_error_oom">Tài liệu này quá lớn so với bộ nhớ của điện thoại. Thường thì tách thành các phần nhỏ hơn trước sẽ được.</string>
+    <string name="ops_error_destination">Không ghi được tệp vào đó. Không có gì bị xóa. Hãy thử một nơi khác.</string>
+    <string name="ops_error_cancelled">Đã hủy. Tệp gốc của bạn vẫn nguyên vẹn.</string>
+    <string name="ops_error_unknown">Đã xảy ra lỗi. Tệp gốc của bạn vẫn nguyên vẹn.</string>
+    <string name="ops_notification_working">Đang xử lý tài liệu của bạn</string>
+    <string name="ops_channel_name">Thao tác với tài liệu</string>
+    <plurals name="ops_pages">
+        <item quantity="one">%1$d trang</item>
+        <item quantity="other">%1$d trang</item>
+    </plurals>
+
+    <!-- Tools, M5 -->
+    <string name="tool_input_document">Tài liệu</string>
+    <string name="tool_choose_pdf">Chọn một tệp PDF</string>
+    <string name="action_change">Đổi</string>
+    <string name="action_remove">Bỏ</string>
+    <string name="action_move_up">Chuyển lên</string>
+    <string name="action_move_down">Chuyển xuống</string>
+    <string name="merge_documents">Các tài liệu, theo thứ tự trong kết quả</string>
+    <string name="merge_empty">Thêm từ hai tệp PDF trở lên. Chúng được ghép từ trên xuống dưới.</string>
+    <string name="merge_add_file">Thêm tệp</string>
+    <string name="merge_reading">Đang đọc…</string>
+    <string name="merge_total">%1$d trang trong kết quả</string>
+    <string name="merge_selected_pages">Đã chọn %1$d trang</string>
+    <string name="merge_choose_pages">Chọn trang</string>
+    <string name="merge_pages_chosen">Trang: %1$s</string>
+    <string name="merge_range_label">Các trang cần đưa vào</string>
+    <string name="split_mode">Cách tách</string>
+    <string name="split_by_ranges">Theo khoảng trang</string>
+    <string name="split_every_n">Số trang bằng nhau cho mỗi tệp</string>
+    <string name="split_extract">Tách riêng phần đã chọn</string>
+    <string name="split_extract_help">Chọn trang bằng hình ảnh trong trình sắp xếp rồi lưu thành tệp mới.</string>
+    <string name="split_open_organiser">Mở trình sắp xếp</string>
+    <string name="split_ranges_hint">1-4, 8, 12-20</string>
+    <string name="split_ranges_help">Mỗi khoảng là một tệp. Các khoảng cách nhau bằng dấu phẩy.</string>
+    <string name="split_pages_per_file">Số trang mỗi tệp</string>
+    <string name="split_preview">%1$d tệp: %2$s</string>
+    <string name="split_save_to_folder">Lưu các tệp vào một thư mục</string>
+    <string name="ranges_error_empty">Hãy nhập ít nhất một trang.</string>
+    <string name="ranges_error_bad">%1$s không phải là số trang hay khoảng trang như 3-5.</string>
+    <string name="ranges_error_out_of_range">%1$s nằm ngoài khoảng từ 1 đến %2$d.</string>
+    <string name="ranges_error_reversed">%1$s bị ngược thứ tự.</string>
+    <string name="images_count">%1$d ảnh</string>
+    <string name="images_add">Thêm ảnh</string>
+    <string name="images_camera">Chụp ảnh</string>
+    <string name="images_empty">Thêm ảnh chụp hoặc ảnh quét. Dùng các mũi tên trên ảnh để đổi thứ tự.</string>
+    <string name="images_page">Trang</string>
+    <string name="images_fit_image">Theo kích thước ảnh</string>
+    <string name="images_a4">A4</string>
+    <string name="images_letter">Letter</string>
+    <string name="images_fit">Vừa khung</string>
+    <string name="images_fill">Phủ kín</string>
+    <string name="images_margin_none">Không lề</string>
+    <string name="images_margin_small">Lề nhỏ</string>
+    <string name="images_margin_medium">Lề vừa</string>
+    <string name="pdf_to_images_pages">Trang</string>
+    <string name="pdf_to_images_all_pages">Tất cả các trang</string>
+    <string name="pdf_to_images_range_help">%1$d trang sẽ được xuất.</string>
+    <string name="pdf_to_images_format">Định dạng</string>
+    <string name="pdf_to_images_quality">Chất lượng JPEG %1$d</string>
+    <string name="pdf_to_images_dpi">Độ phân giải</string>
+    <string name="pdf_to_images_encrypted">Tài liệu này được bảo vệ bằng mật khẩu. Hãy bỏ mật khẩu trước bằng công cụ Mật khẩu.</string>
+    <string name="pdf_to_images_many_title">Xuất %1$d trang?</string>
+    <string name="pdf_to_images_many_body">Tức là %1$d tệp ảnh. Việc này có thể mất một lúc và chiếm nhiều dung lượng.</string>
+    <string name="password_what">Bạn muốn làm gì</string>
+    <string name="password_explain">Mật khẩu ngăn bất kỳ ai mở tài liệu khi không có nó. Hãy cất mật khẩu ở nơi an toàn: nếu quên thì không thể lấy lại.</string>
+    <string name="password_add">Thêm mật khẩu</string>
+    <string name="password_change">Đổi mật khẩu</string>
+    <string name="password_remove">Bỏ mật khẩu</string>
+    <string name="password_new">Mật khẩu mới</string>
+    <string name="password_confirm">Nhập lại mật khẩu</string>
+    <string name="password_mismatch">Hai mật khẩu không khớp nhau.</string>
+
+    <!-- Supporter cosmetics, M6 -->
+    <string name="settings_highlight">Màu tô sáng khi tìm kiếm</string>
+    <string name="highlight_accent">Màu nhấn</string>
+    <string name="highlight_amber">Hổ phách</string>
+    <string name="highlight_rose">Hồng</string>
+    <string name="highlight_sky">Xanh da trời</string>
+    <string name="app_icon_default">Mặc định</string>
+    <string name="app_icon_mono">Đơn sắc</string>
+    <string name="app_icon_paper">Giấy</string>
+    <string name="app_icon_night">Ban đêm</string>
+
+    <!-- Reader tools entry -->
+    <string name="reader_tools_section">Công cụ cho tài liệu này</string>
+    <string name="reader_tool_merge">Ghép với tệp PDF khác</string>
+
+    <!-- Reader tools button, form filling, sign -->
+    <string name="reader_tools_button">Công cụ</string>
+    <string name="reader_fill_form">Điền biểu mẫu</string>
+    <string name="reader_fill_active">Đang điền biểu mẫu</string>
+    <string name="reader_fill_desc">Nhấn vào các ô trên trang để nhập chữ, đánh dấu hoặc chọn. Sau đó lưu một bản sao.</string>
+    <string name="reader_save_filled">Lưu biểu mẫu đã điền</string>
+    <string name="reader_fill_saved">Đã lưu biểu mẫu đã điền</string>
+    <string name="tool_sign">Ký tên</string>
+    <string name="tool_sign_desc">Vẽ chữ ký rồi đặt lên trang</string>
+    <string name="sign_draw_title">Vẽ chữ ký của bạn</string>
+    <string name="sign_draw_help">Dùng ngón tay hoặc bút cảm ứng. Chữ ký được lưu vào tài liệu dưới dạng hình ảnh, không gửi đi đâu cả.</string>
+    <string name="sign_clear">Xóa</string>
+    <string name="sign_next">Đặt lên trang</string>
+    <string name="sign_back">Vẽ lại</string>
+    <string name="sign_place_title">Nhấn vào chỗ cần đặt chữ ký, hoặc kéo chữ ký đến đó. Chọn trang ở bên dưới.</string>
+    <string name="sign_size">Kích thước</string>
+    <string name="sign_ink_black">Mực đen</string>
+    <string name="sign_ink_blue">Mực xanh</string>
+
+    <!-- Scan -->
+    <string name="library_scan">Quét tài liệu</string>
+    <string name="scan_title">Quét</string>
+    <string name="scan_share">Chia sẻ PDF</string>
+    <string name="scan_add_page">Thêm một trang nữa</string>
+    <string name="scan_save_to_folder">Lưu một bản sao vào thư mục</string>
+
+    <!-- Crop and cleanup -->
+    <string name="crop_title">Chỉnh bản quét</string>
+    <string name="crop_help">Kéo các góc vào đúng mép trang. Xoay nếu trang bị nằm ngang.</string>
+    <string name="crop_rotate">Xoay</string>
+    <string name="crop_look_color">Màu</string>
+    <string name="crop_look_gray">Thang xám</string>
+    <string name="crop_look_bw">Đen trắng</string>
+    <string name="crop_use">Dùng bản này</string>
+    <string name="crop_working">Đang xử lý…</string>
+    <string name="crop_adjust">Chỉnh</string>
+
+    <!-- Compress -->
+    <string name="tool_compress">Nén</string>
+    <string name="tool_compress_desc">Làm tệp PDF nhỏ hơn bằng cách thu nhỏ các hình ảnh bên trong</string>
+    <string name="compress_current_size">Kích thước hiện tại: %1$s</string>
+    <string name="compress_how_much">Mức độ</string>
+    <string name="compress_explain">Chỉ hình ảnh bị thay đổi. Chữ và hình vẽ giữ nguyên hoàn toàn, nên tài liệu đọc vẫn như cũ.</string>
+    <string name="compress_level_light">Nhẹ. Hình ảnh giữ được hầu hết chi tiết.</string>
+    <string name="compress_level_balanced">Vừa phải. Phù hợp để gửi email.</string>
+    <string name="compress_level_strong">Mạnh. Tệp nhỏ nhất, hình ảnh trông mờ hơn một chút.</string>
+
+    <!-- Accessibility affordances: visible buttons for long-press and swipe actions -->
+    <string name="library_more_options_for">Tùy chọn khác cho %1$s</string>
+    <string name="action_rename">Đổi tên</string>
+    <string name="action_discard">Bỏ</string>
+    <string name="action_keep_editing">Tiếp tục chỉnh sửa</string>
+    <string name="action_move_earlier">Chuyển lên trước</string>
+    <string name="action_move_later">Chuyển ra sau</string>
+    <string name="reader_bookmark_delete_title">Xóa dấu trang này?</string>
+    <string name="reader_bookmark_delete_body">%1$s sẽ bị xóa khỏi dấu trang của bạn.</string>
+    <string name="reader_page_current">Trang %1$d, trang hiện tại</string>
+    <string name="reader_search_needs_continuous">Tìm kiếm chỉ hoạt động ở chế độ cuộn liên tục. Hãy đổi chế độ đọc trong menu.</string>
+    <string name="reader_discard_title">Bỏ các thay đổi của bạn?</string>
+    <string name="reader_discard_body">Mọi thứ bạn đã nhập hoặc đánh dấu trong biểu mẫu sẽ mất.</string>
+    <string name="reader_brightness">Độ sáng</string>
+    <string name="reader_brightness_percent">%1$d%%</string>
+    <string name="reader_info_unknown">Không rõ</string>
+    <string name="sign_size_desc">Kích thước chữ ký</string>
+    <string name="sign_page_preview_desc">Xem trước trang. Nhấn vào chỗ cần đặt chữ ký.</string>
+    <string name="scan_remove_title">Bỏ trang này?</string>
+    <string name="scan_remove_body">Trang %1$d sẽ bị bỏ khỏi bản quét.</string>
+    <string name="images_picture_n">Ảnh %1$d</string>
+    <string name="pdf_to_images_dpi_value">%1$d dpi</string>
+    <string name="pdf_to_images_quality_desc">Chất lượng JPEG</string>
+    <string name="document_fallback_name">tailieu.pdf</string>
+
+    <!-- Progress labels, always paired with a spinner -->
+    <string name="progress_opening_document">Đang mở tài liệu…</string>
+    <string name="progress_loading_page">Đang tải trang…</string>
+    <string name="progress_reading_pages">Đang đọc các trang…</string>
+    <string name="progress_reading_folder">Đang đọc thư mục…</string>
+    <string name="progress_preparing_photo">Đang chuẩn bị ảnh…</string>
+    <string name="progress_building_pdf">Đang tạo PDF…</string>
+
+    <!-- Language picker -->
+    <string name="settings_language">Ngôn ngữ</string>
+    <string name="settings_language_system">Mặc định hệ thống</string>
+
+    <!-- Welcome tour -->
+    <string name="tour_skip">Bỏ qua</string>
+    <string name="tour_next">Tiếp</string>
+    <string name="tour_start">Bắt đầu</string>
+    <string name="tour_show_again">Hiện hướng dẫn chào mừng</string>
+    <string name="tour_show_again_summary">Phần giới thiệu ngắn ở lần mở đầu tiên.</string>
+    <string name="tour_welcome_title">Plain PDF</string>
+    <string name="tour_welcome_body">Cảm ơn bạn đã cài đặt. Đọc, ký, quét và chỉnh sửa PDF, tất cả ngay trên điện thoại của bạn. Không quảng cáo, không tài khoản, không đám mây.</string>
+    <string name="tour_sign_title">Ký tài liệu</string>
+    <string name="tour_sign_body">Vẽ chữ ký một lần, đặt lên trang và chia sẻ bản đã ký. Không cần in, không cần quét.</string>
+    <string name="tour_scan_title">Quét và tìm kiếm</string>
+    <string name="tour_scan_body">Chụp ảnh một trang. Mép trang được tìm tự động, chữ được nhận dạng, và bạn có thể tìm kiếm, sao chép trong PDF.</string>
+    <string name="tour_edit_title">Điền, vẽ, tô sáng</string>
+    <string name="tour_edit_body">Điền biểu mẫu, vẽ và tô sáng trên trang, thêm hoặc bỏ mật khẩu. Mọi công cụ nằm sau một nút Công cụ duy nhất trong tài liệu đang mở.</string>
+    <string name="tour_arrange_title">Sắp xếp trang</string>
+    <string name="tour_arrange_body">Ghép tệp, tách tệp, đổi thứ tự hoặc xoay trang, và thu nhỏ các PDF lớn. Không có gì thay đổi cho đến khi bạn lưu.</string>
+
+    <!-- Draw and highlight -->
+    <string name="reader_annotate">Vẽ và tô sáng</string>
+    <string name="reader_annotate_desc">Vẽ bằng bút hoặc bút tô sáng trên trang</string>
+    <string name="reader_annotate_active">Đang vẽ và tô sáng</string>
+    <string name="reader_annotate_help">Dùng bút hoặc bút tô sáng trên trang, rồi lưu một bản sao.</string>
+    <string name="reader_save_annotated">Lưu bản sao có chú thích</string>
+    <string name="reader_annotated_saved">Đã lưu bản sao có chú thích</string>
+    <string name="reader_discard_annotations_body">Các nét vẽ và phần tô sáng của bạn sẽ mất.</string>
+
+    <!-- Text recognition -->
+    <string name="settings_group_ocr">Nhận dạng chữ</string>
+    <string name="settings_ocr_enabled">Cho phép tìm kiếm trong bản quét</string>
+    <string name="settings_ocr_enabled_summary">Nhận dạng chữ trên các trang quét để bạn có thể tìm kiếm và sao chép. Mất vài giây mỗi trang.</string>
+    <string name="settings_ocr_languages">Ngôn ngữ</string>
+    <string name="settings_ocr_bundled">Có sẵn trong ứng dụng</string>
+    <string name="settings_ocr_imported">Đã nhập</string>
+    <string name="settings_ocr_import">Nhập tệp ngôn ngữ…</string>
+    <string name="settings_ocr_import_help">Với ngôn ngữ không có trong danh sách: tải tệp .traineddata của ngôn ngữ đó từ dự án tessdata_fast, rồi chọn tại đây.</string>
+    <string name="settings_ocr_get_languages">Tải tệp ngôn ngữ</string>
+    <string name="settings_ocr_imported_done">Đã nhập ngôn ngữ</string>
+    <string name="settings_ocr_languages_help">Trang quét được đọc bằng những ngôn ngữ nào, và cách thêm ngôn ngữ</string>
+    <string name="scan_copy_text">Sao chép chữ</string>
+    <string name="scan_text_copied">Đã sao chép chữ</string>
+    <string name="scan_searchable">Có thể tìm kiếm: %1$s</string>
+    <string name="scan_recognising">Đang nhận dạng chữ, trang %1$d trên %2$d</string>
+
+    <!-- Crash report, offered on the launch after a crash -->
+    <string name="crash_title">Lần trước Plain PDF đã dừng đột ngột</string>
+    <string name="crash_body">Rất tiếc về điều đó. Bạn có muốn gửi báo cáo cho nhà phát triển không? Báo cáo chỉ gồm thông tin kỹ thuật: phiên bản ứng dụng, phiên bản Android và mẫu điện thoại của bạn, và nơi xảy ra lỗi. Không có tài liệu, không có tên, không có tệp.</string>
+    <string name="crash_send">Gửi báo cáo</string>
+    <string name="crash_not_now">Để sau</string>
+
+    <!-- Reader: print, read aloud, copy text -->
+    <string name="reader_print">In</string>
+    <string name="reader_print_desc">Gửi tài liệu tới máy in</string>
+    <string name="reader_print_unavailable">Không thể in trên thiết bị này.</string>
+    <string name="reader_read_aloud">Đọc to</string>
+    <string name="reader_read_aloud_desc">Nghe tài liệu bằng giọng đọc của điện thoại</string>
+    <string name="reader_reading_page">Đang đọc to, trang %1$d</string>
+    <string name="action_pause">Tạm dừng</string>
+    <string name="action_resume">Tiếp tục</string>
+    <string name="action_stop">Dừng</string>
+    <string name="reader_tts_no_voice">Điện thoại chưa có giọng đọc cho ngôn ngữ này. Bạn có thể thêm trong cài đặt Android.</string>
+    <string name="reader_tts_settings">Cài đặt</string>
+    <string name="reader_tts_no_text">Tài liệu này không có chữ để đọc. Hãy quét lại với tính năng nhận dạng chữ đang bật.</string>
+    <string name="reader_copy_text">Sao chép hoặc chia sẻ chữ</string>
+    <string name="reader_copy_text_desc">Sao chép chữ trong tài liệu dưới dạng văn bản thuần</string>
+    <string name="reader_text_copied">Đã sao chép chữ</string>
+    <string name="action_copy">Sao chép</string>
+    <string name="action_share_text">Chia sẻ dưới dạng chữ</string>
+
+    <!-- Page numbers -->
+    <string name="tool_page_numbers">Số trang</string>
+    <string name="tool_page_numbers_desc">Đánh số cho mỗi trang</string>
+    <string name="page_numbers_position">Vị trí</string>
+    <string name="page_numbers_bottom_centre">Dưới, chính giữa</string>
+    <string name="page_numbers_bottom_right">Dưới, bên phải</string>
+    <string name="page_numbers_top_right">Trên, bên phải</string>
+    <string name="page_numbers_style">Cách đánh số</string>
+    <string name="page_numbers_start_at">Bắt đầu từ</string>
+    <string name="page_numbers_show_total">Hiện dạng 1 / 12</string>
+    <string name="page_numbers_example">Trang đầu sẽ ghi: %1$s</string>
+
+    <!-- Make searchable -->
+    <string name="tool_make_searchable">Cho phép tìm kiếm</string>
+    <string name="tool_make_searchable_desc">Nhận dạng chữ trong tệp PDF đã quét để có thể tìm kiếm và sao chép</string>
+    <string name="searchable_note">Các trang đã có chữ sẽ được giữ nguyên.</string>
+    <string name="searchable_languages">Ngôn ngữ: %1$s</string>
+    <string name="searchable_languages_hint">Thay đổi trong Cài đặt, mục Nhận dạng chữ.</string>
+
+    <!-- Redact -->
+    <string name="tool_redact">Bôi đen</string>
+    <string name="tool_redact_desc">Bôi đen vĩnh viễn một phần trang</string>
+    <string name="redact_explain">Các trang bị bôi đen sẽ được chuyển thành hình ảnh, nên không thể khôi phục bất cứ thứ gì bên dưới. Chữ trên các trang đó sẽ không còn chọn được.</string>
+    <string name="redact_help">Kéo trên trang để vẽ một khung. Chạm vào khung để bỏ.</string>
+    <string name="redact_page_preview_desc">Xem trước trang. Kéo để vẽ khung lên phần cần che. Chạm vào khung để bỏ.</string>
+    <plurals name="redact_box_count">
+        <item quantity="other">%1$d khung</item>
+    </plurals>
+    <plurals name="redact_page_count">
+        <item quantity="other">trên %1$d trang</item>
+    </plurals>
+
+    <!-- Launcher shortcuts and the home-screen widget -->
+    <string name="shortcut_scan_short">Quét</string>
+    <string name="shortcut_scan_long">Quét tài liệu</string>
+    <string name="shortcut_open_short">Mở PDF</string>
+    <string name="shortcut_open_long">Mở một tệp PDF</string>
+    <string name="widget_label">Thao tác nhanh Plain PDF</string>
+    <string name="widget_description">Quét tài liệu hoặc mở tệp PDF chỉ với một chạm.</string>
+    <string name="widget_scan">Quét tài liệu</string>
+    <string name="widget_open">Mở PDF</string>
+    <string name="widget_scan_short">Quét</string>
+    <string name="widget_library">Thư viện</string>
+
+    <!-- Continue reading, share a page, notes and share-sheet targets -->
+    <string name="library_continue_title">Đọc tiếp</string>
+    <string name="library_continue_page">Trang %1$d trên %2$d</string>
+    <string name="library_continue_page_only">Trang %1$d</string>
+    <string name="action_continue_reading">Tiếp tục</string>
+    <string name="reader_share_page">Chia sẻ trang này</string>
+    <string name="reader_share_page_image">Dưới dạng ảnh</string>
+    <string name="reader_share_page_pdf">Dưới dạng tệp PDF một trang</string>
+    <string name="tool_note">Viết ghi chú</string>
+    <string name="tool_note_desc">Gõ chữ rồi lưu thành tệp PDF</string>
+    <string name="note_title_hint">Tiêu đề (không bắt buộc)</string>
+    <string name="note_body_hint">Viết ghi chú của bạn ở đây</string>
+    <string name="note_default_name">Ghi chú</string>
+    <string name="shortcut_continue_long">Đọc tiếp: %1$s, trang %2$d</string>
+    <string name="shortcut_continue_gone">Tài liệu này không còn trong thư viện của bạn</string>
+    <string name="share_target_sign">Ký bằng Plain PDF</string>
+    <string name="share_target_scan">Quét bằng Plain PDF</string>
+    <string name="tour_edit_note_unavailable">Điền biểu mẫu, vẽ và tô sáng cần Android 12 trở lên kèm bản cập nhật PDF của Google, mà điện thoại này không có. Mọi công cụ khác vẫn dùng được.</string>
+    <string name="tour_edit_note_no_drawing">Vẽ và tô sáng cần phiên bản Android mới hơn điện thoại này. Điền biểu mẫu vẫn dùng được.</string>
+
+    <!-- Languages for scanned text -->
+    <string name="ocr_languages_title">Ngôn ngữ cho chữ trong bản quét</string>
+    <string name="ocr_languages_intro">Trang quét được đọc bằng các ngôn ngữ đã đánh dấu. Chỉ đánh dấu những ngôn ngữ bạn quét; mỗi ngôn ngữ thêm vào làm việc đọc chậm đi một chút.</string>
+    <string name="ocr_languages_on_phone">Trên điện thoại này</string>
+    <string name="ocr_languages_get_more">Thêm ngôn ngữ</string>
+    <string name="ocr_languages_get_more_play">Chạm Tải và Google Play sẽ tải ngôn ngữ về. Không cần làm gì thêm.</string>
+    <string name="ocr_languages_get_more_foss">Bản này không tải về được. Hãy lấy tệp ngôn ngữ qua liên kết bên dưới rồi nhập vào.</string>
+    <string name="ocr_languages_tier_common">Dùng nhiều nhất</string>
+    <string name="ocr_languages_tier_nearby">Các nước lân cận</string>
+    <string name="ocr_languages_tier_other">Khác</string>
+    <string name="ocr_languages_get">Tải</string>
+    <string name="ocr_languages_downloading">Đang tải…</string>
+    <string name="ocr_languages_installing">Đang chuẩn bị…</string>
+    <string name="ocr_languages_failed">Không tải được. Hãy kiểm tra kết nối internet rồi thử lại.</string>
+    <string name="ocr_languages_try_again">Thử lại</string>
+    <string name="ocr_languages_downloaded">Đã tải</string>
+    <string name="ocr_languages_remove_title">Bỏ %1$s?</string>
+    <string name="ocr_languages_remove_body">Bạn có thể tải lại bất cứ lúc nào.</string>
+    <string name="ocr_languages_ready">%1$s đã sẵn sàng. Giờ có thể đọc trang quét bằng ngôn ngữ đó.</string>
+    <string name="ocr_languages_keep_one">Hãy giữ ít nhất một ngôn ngữ được đánh dấu.</string>
+    <string name="ocr_suggest_title">Ngôn ngữ điện thoại của bạn: %1$s</string>
+    <string name="ocr_suggest_body">Tải ngôn ngữ %1$s (%2$s) để có thể đọc trang quét bằng ngôn ngữ đó.</string>
+    <string name="ocr_suggest_get">Tải %1$s</string>
+    <string name="ocr_suggest_later">Để sau</string>
+    <string name="ocr_garbled_title">Chữ đọc ra chưa tốt</string>
+    <string name="ocr_garbled_body">Trang này có thể ở một ngôn ngữ chưa có trên điện thoại. Bạn có thể thêm ngôn ngữ trong Cài đặt.</string>
+    <string name="ocr_garbled_action">Ngôn ngữ</string>
+</resources>

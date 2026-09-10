@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="220dp"
+    android:height="220dp"
+    android:viewportWidth="220"
+    android:viewportHeight="220">
+    <!-- The app icon page, large: a plain sheet with a folded corner and three lines -->
+    <path
+        android:fillColor="#FAFAF8"
+        android:strokeColor="#D6D6D0"
+        android:strokeWidth="2"
+        android:pathData="M62,34 h62 l36,36 v108 a8,8 0 0 1 -8,8 h-90 a8,8 0 0 1 -8,-8 v-136 a8,8 0 0 1 8,-8 z" />
+    <path
+        android:fillColor="#D6D6D0"
+        android:pathData="M124,34 v28 a8,8 0 0 0 8,8 h28 z" />
+    <path
+        android:fillColor="#3A6E5F"
+        android:pathData="M78,104 h64 v8 h-64 z M78,122 h64 v8 h-64 z M78,140 h40 v8 h-40 z" />
+</vector>
