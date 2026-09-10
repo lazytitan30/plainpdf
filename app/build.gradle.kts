@@ -21,7 +21,7 @@ android {
         applicationId = "com.plainpdf.app"
         minSdk = 28
         targetSdk = 36
-        versionCode = 6
+        versionCode = 7
         versionName = "1.0.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
