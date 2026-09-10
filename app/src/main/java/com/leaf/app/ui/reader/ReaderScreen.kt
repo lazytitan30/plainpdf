@@ -75,6 +75,11 @@ import androidx.compose.ui.graphics.asImageBitmap
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.layout.onSizeChanged
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.asPaddingValues
+import androidx.compose.foundation.layout.navigationBars
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.LocalView
@@ -361,11 +366,18 @@ fun ReaderScreen(
             }
         }
 
+        // The bars at the bottom grow with the font size, so the Tools button lifts by their
+        // measured height rather than a guessed one; a guess hid the page counter at big fonts.
+        var pageBarPx by remember { mutableIntStateOf(0) }
+        var bottomBarsPx by remember { mutableIntStateOf(0) }
+        val navBottom = WindowInsets.navigationBars.asPaddingValues().calculateBottomPadding()
         AnimatedVisibility(
             visible = state.chromeVisible && !state.search.active && !state.loadError && !state.annotating && state.pageCount > 0,
             enter = fadeIn(tween(CHROME_MOTION_MS)) + slideInVertically(tween(CHROME_MOTION_MS)) { it / 8 },
             exit = fadeOut(tween(CHROME_MOTION_MS)) + slideOutVertically(tween(CHROME_MOTION_MS)) { it / 8 },
-            modifier = Modifier.align(Alignment.BottomCenter),
+            modifier = Modifier
+                .align(Alignment.BottomCenter)
+                .onSizeChanged { pageBarPx = it.height },
         ) {
             PageBar(
                 currentPage = state.currentPage,
@@ -380,11 +392,9 @@ fun ReaderScreen(
         // Always visible: the one-tap way into every tool, independent of the auto-hiding chrome.
         // Except while drawing: the bottom of the screen belongs to the ink toolbar then.
         if (!state.loadError && state.ready && !state.annotating) {
-            val lift = when {
-                state.formFilling && state.readAloud != null -> 168.dp
-                state.formFilling || state.readAloud != null -> 96.dp
-                state.chromeVisible && state.pageCount > 0 -> 88.dp
-                else -> 24.dp
+            val lift = with(LocalDensity.current) {
+                val pageBar = if (state.chromeVisible && state.pageCount > 0) pageBarPx else 0
+                (maxOf(pageBar, bottomBarsPx).toDp() - navBottom).coerceAtLeast(8.dp) + 16.dp
             }
             androidx.compose.material3.SmallFloatingActionButton(
                 onClick = { chromeTouchNonce++; toolsSheet = true },
@@ -404,6 +414,7 @@ fun ReaderScreen(
         Column(
             Modifier
                 .align(Alignment.BottomCenter)
+                .onSizeChanged { bottomBarsPx = if (state.formFilling || state.readAloud != null) it.height else 0 }
                 .navigationBarsPadding()
                 .padding(horizontal = Spacing.screenHorizontal, vertical = 16.dp),
         ) {

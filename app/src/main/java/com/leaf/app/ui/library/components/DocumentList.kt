@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.leaf.app.data.db.entities.DocumentEntity
 import com.leaf.app.data.prefs.LibraryLayout
+import com.leaf.app.ui.common.fabClearance
 
 /** One list, two layouts. No entrance animations, no press scale. */
 @Composable
@@ -24,7 +25,7 @@ fun DocumentList(
     onLocate: (DocumentEntity) -> Unit,
     onVisible: (DocumentEntity) -> Unit,
     modifier: Modifier = Modifier,
-    bottomPadding: androidx.compose.ui.unit.Dp = 96.dp,
+    bottomPadding: androidx.compose.ui.unit.Dp = fabClearance(),
     /** Scrolls with the list; spans every column in the grid. */
     header: (@Composable () -> Unit)? = null,
 ) {

@@ -1,7 +1,12 @@
 package com.leaf.app.ui
 
+import android.Manifest
 import android.app.Activity
 import android.content.Intent
+import android.content.pm.PackageManager
+import android.os.Build
+import androidx.compose.ui.platform.LocalContext
+import androidx.core.content.ContextCompat
 import androidx.activity.compose.rememberLauncherForActivityResult
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.compose.foundation.layout.padding
@@ -174,6 +179,20 @@ fun QuireApp(container: AppContainer, openRequests: OpenRequests, volumeKeys: Vo
 
             // After a crash: offer to share the report, whatever screen comes next.
             CrashReportPrompt()
+
+            // Android 13 and newer only show the "Working on your document" notification with
+            // permission. Ask the first time a long job starts, when the reason is on screen;
+            // the job runs either way, and Android stops asking after two refusals.
+            val activeOperation by container.operationLauncher.active.collectAsStateWithLifecycle()
+            val askNotifications = rememberLauncherForActivityResult(ActivityResultContracts.RequestPermission()) { }
+            val appContext = LocalContext.current
+            LaunchedEffect(activeOperation != null) {
+                if (activeOperation != null && Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
+                    ContextCompat.checkSelfPermission(appContext, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED
+                ) {
+                    askNotifications.launch(Manifest.permission.POST_NOTIFICATIONS)
+                }
+            }
 
             // First launch: the tour, unless another app just handed us a document to open.
             val tourScope = rememberCoroutineScope()

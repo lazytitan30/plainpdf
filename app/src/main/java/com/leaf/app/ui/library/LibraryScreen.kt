@@ -22,6 +22,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.foundation.text.TextAutoSize
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.Add
@@ -66,11 +67,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalConfiguration
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.lifecycle.viewmodel.initializer
@@ -84,6 +87,7 @@ import com.leaf.app.ui.common.Choice
 import com.leaf.app.ui.common.ChoiceDialog
 import com.leaf.app.ui.common.EmptyState
 import com.leaf.app.ui.common.LocalAppContainer
+import com.leaf.app.ui.common.fabClearance
 import com.leaf.app.ui.common.QuireTextButton
 import com.leaf.app.ui.common.TextInputDialog
 import com.leaf.app.ui.library.components.ContinueReadingCard
@@ -255,7 +259,7 @@ fun LibraryScreen(
             }
         },
         floatingActionButton = {
-            Column(horizontalAlignment = androidx.compose.ui.Alignment.End) {
+            val scanButton: @Composable () -> Unit = {
                 ExtendedFloatingActionButton(
                     onClick = startScan,
                     icon = { Icon(painterResource(R.drawable.ic_camera), contentDescription = null) },
@@ -263,7 +267,8 @@ fun LibraryScreen(
                     containerColor = MaterialTheme.colorScheme.surfaceVariant,
                     contentColor = MaterialTheme.colorScheme.onSurface,
                 )
-                Spacer(Modifier.height(12.dp))
+            }
+            val openButton: @Composable () -> Unit = {
                 ExtendedFloatingActionButton(
                     onClick = onOpenPdf,
                     icon = { Icon(Icons.Filled.Add, contentDescription = null) },
@@ -271,6 +276,21 @@ fun LibraryScreen(
                     containerColor = MaterialTheme.colorScheme.primary,
                     contentColor = MaterialTheme.colorScheme.onPrimary,
                 )
+            }
+            // A phone on its side has little height to spare: the two buttons stacked would
+            // cover the tabs, so they sit side by side there.
+            if (LocalConfiguration.current.screenHeightDp < 500) {
+                Row(verticalAlignment = androidx.compose.ui.Alignment.CenterVertically) {
+                    scanButton()
+                    Spacer(Modifier.width(12.dp))
+                    openButton()
+                }
+            } else {
+                Column(horizontalAlignment = androidx.compose.ui.Alignment.End) {
+                    scanButton()
+                    Spacer(Modifier.height(12.dp))
+                    openButton()
+                }
             }
         },
         snackbarHost = { SnackbarHost(snackbar) },
@@ -291,7 +311,16 @@ fun LibraryScreen(
                         selected = state.tab == entry,
                         onClick = { viewModel.selectTab(entry) },
                         shape = SegmentedButtonDefaults.itemShape(index = index, count = LibraryTab.entries.size),
-                        label = { Text(entry.label()) },
+                        // At the largest font "Favourites" no longer fits its third of the row
+                        // and wrapped mid-word; shrink the label a little instead.
+                        label = {
+                            Text(
+                                entry.label(),
+                                maxLines = 1,
+                                softWrap = false,
+                                autoSize = TextAutoSize.StepBased(minFontSize = 10.sp, maxFontSize = MaterialTheme.typography.labelLarge.fontSize),
+                            )
+                        },
                     )
                 }
             }
@@ -310,6 +339,7 @@ fun LibraryScreen(
                         message = stringResource(if (state.query.isBlank()) R.string.library_empty_recent else R.string.library_no_matches),
                         actionLabel = if (state.query.isBlank()) stringResource(R.string.library_open_pdf) else null,
                         onAction = onOpenPdf,
+                        modifier = Modifier.padding(bottom = fabClearance()),
                     )
                 } else {
                     val continueDoc = state.continueReading
@@ -336,6 +366,7 @@ fun LibraryScreen(
                 LibraryTab.FAVOURITES -> if (state.favourites.isEmpty()) {
                     EmptyState(
                         message = stringResource(if (state.query.isBlank()) R.string.library_empty_favourites else R.string.library_no_matches),
+                        modifier = Modifier.padding(bottom = fabClearance()),
                     )
                 } else {
                     DocumentList(
@@ -541,10 +572,11 @@ private fun FoldersTab(
             message = stringResource(if (query.isBlank()) R.string.library_empty_folders else R.string.library_no_matches),
             actionLabel = if (query.isBlank()) stringResource(R.string.library_add_folder) else null,
             onAction = onAdd,
+            modifier = Modifier.padding(bottom = fabClearance()),
         )
         return
     }
-    LazyColumn(contentPadding = PaddingValues(bottom = 96.dp)) {
+    LazyColumn(contentPadding = PaddingValues(bottom = fabClearance())) {
         item {
             Row(
                 Modifier
