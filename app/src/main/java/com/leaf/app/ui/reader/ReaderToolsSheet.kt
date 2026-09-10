@@ -7,6 +7,8 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.HorizontalDivider
 import androidx.compose.material3.MaterialTheme
@@ -45,7 +47,13 @@ fun ReaderToolsSheet(
         shape = QuireShape.Sheet,
         containerColor = MaterialTheme.colorScheme.surface,
     ) {
-        Column(Modifier.navigationBarsPadding()) {
+        // Up to fifteen rows: taller than many screens, and taller still with a large font,
+        // so the list must scroll inside the sheet.
+        Column(
+            Modifier
+                .verticalScroll(rememberScrollState())
+                .navigationBarsPadding(),
+        ) {
             Text(
                 documentName,
                 style = MaterialTheme.typography.titleMedium,

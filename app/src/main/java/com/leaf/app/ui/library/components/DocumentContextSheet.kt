@@ -7,6 +7,8 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.ModalBottomSheet
@@ -38,7 +40,11 @@ fun DocumentContextSheet(
         shape = QuireShape.Sheet,
         containerColor = MaterialTheme.colorScheme.surface,
     ) {
-        Column(Modifier.navigationBarsPadding()) {
+        Column(
+            Modifier
+                .verticalScroll(rememberScrollState())
+                .navigationBarsPadding(),
+        ) {
             Text(
                 document.title,
                 style = MaterialTheme.typography.titleMedium,
