@@ -6,6 +6,7 @@ plugins {
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.ksp)
     alias(libs.plugins.room)
+    alias(libs.plugins.baselineprofile)
 }
 
 android {
@@ -111,6 +112,13 @@ room {
     schemaDirectory("$projectDir/schemas")
 }
 
+baselineProfile {
+    // One profile for both flavours, committed at src/main/generated/baselineProfiles/.
+    // A normal build just reads that file; only ./gradlew :app:generateBaselineProfile
+    // needs a device, and only when the startup path has changed.
+    mergeIntoMain = true
+}
+
 configurations.all {
     // androidx.pdf lists an OCR module that depends on ML Kit (Google Play services).
     // The app does its own OCR with Tesseract, and the FOSS build must not ship proprietary code.
@@ -149,6 +157,10 @@ dependencies {
     implementation(libs.tesseract4android)
     implementation(libs.work.runtime.ktx)
     implementation(libs.serialization.json)
+    // Hands the baseline profile to Android's runtime on first launch. Compose pulls it in
+    // anyway; naming it here pins the version and makes the dependency deliberate.
+    implementation(libs.profileinstaller)
+    baselineProfile(project(":baselineprofile"))
 
     "playImplementation"(libs.billing.ktx)
     "playImplementation"(libs.play.asset.delivery)

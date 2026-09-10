@@ -25,6 +25,8 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Leaf"
 include(":app")
+// Records the startup baseline profile; never part of a normal build.
+include(":baselineprofile")
 // On-demand language packs for text recognition (see packs/).
 include(":lang_por")
 project(":lang_por").projectDir = file("packs/lang_por")
