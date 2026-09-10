@@ -1,8 +1,10 @@
 # Plain PDF
 
 An ad-free Android PDF reader and offline toolkit. No account, no cloud, no tracking.
-Built from `pdf-reader-build-spec.md`; the spec is the design authority. What is done, what
-is verified and what is left lives in `STATUS.md`.
+
+**`HANDBOOK.md` is the manual: how to build it, release it, and keep it running, plus the
+traps worth knowing before you touch anything.** `STATUS.md` says what is done and what is
+left. `pdf-reader-build-spec.md` is the original design brief.
 
 ## What it does
 

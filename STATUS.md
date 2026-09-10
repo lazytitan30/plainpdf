@@ -2,8 +2,9 @@
 
 The single source of truth for where the app stands. Updated at the end of every working
 session; if something is not in here, it is not agreed. The build spec
-(`pdf-reader-build-spec.md`) is the original brief, the README says how to build, this file
-says what is done, what is verified, what is left and who owns it.
+(`pdf-reader-build-spec.md`) is the original brief, `HANDBOOK.md` is the manual for running
+and releasing the app, and this file says what is done, what is verified, what is left and
+who owns it.
 
 Last updated: 2026-09-10 (live on Google Play, source published).
 
